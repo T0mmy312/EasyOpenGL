@@ -10,7 +10,7 @@ namespace egl {
  * 
  * Sets up error callbacks and calls glfwInit.
  * 
- * @note egl::initGLFW is thread safe.
+ * @note egl::initGLFW is not thread safe and may only be called from the main thread.
  * 
  * @return true if GLFW has been successfully initialized.
  */
@@ -19,9 +19,16 @@ bool initGLFW();
 /**
  * @brief Terminates GLFW.
  * 
- * @note egl::terminateGLFW is thread safe.
+ * @note egl::terminateGLFW is not thread safe and may only be called from the main thread.
  */
 void terminateGLFW();
+
+/**
+ * @brief Polls GLFW events.
+ * 
+ * @note egl::pollEvents is not thread safe and may only be called from the main thread.
+ */
+void pollEvents();
 
 /**
  * @brief An abstract class to contain an window based application.
@@ -30,7 +37,7 @@ void terminateGLFW();
  * That window can be bound and used in the child class in the WindowContext::run method implementation containing the setup and rendering loop.
  * 
  * @note Calling useContext is recomended in run to ensure the local context is used.
- * @warning WindowContext may not be shared between threads, but multiple can be instantiated and used on diffrent threads as long as the GLFW Window is not shared. 
+ * @note egl::WindowContext is not thread safe and may only be used on the main thread.
  */
 class WindowContext {
 private:
@@ -62,13 +69,6 @@ protected:
      * @throws std::runtime_error If the GLFW Window is invalid.
      */
     void swapBuffers();
-
-    /**
-     * @brief Poll GLFW events.
-     * 
-     * @throws std::runtime_error If the GLFW window is invalid.
-     */
-    void pollEvents();
 
 public:
     /**

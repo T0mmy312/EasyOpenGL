@@ -39,7 +39,13 @@ egl::Buffer
 .RI "void \fBsetData\fP (int64_t \fBsize\fP, const void *data, \fBBufferUsage\fP usage)"
 .br
 .ti -1c
+.RI "template<typename T> void \fBsetData\fP (std::vector< T > data, \fBBufferUsage\fP usage)"
+.br
+.ti -1c
 .RI "void \fBsetStorage\fP (int64_t \fBsize\fP, const void *data, \fBBufferFlag\fP flags)"
+.br
+.ti -1c
+.RI "template<typename T> void \fBsetStorage\fP (std::vector< T > data, \fBBufferFlag\fP flags)"
 .br
 .ti -1c
 .RI "void \fBsetSubData\fP (int64_t offset, int64_t \fBsize\fP, const void *data)"
@@ -121,7 +127,11 @@ egl::Buffer
 
 .SS "void egl::Buffer::setData (int64_t size, const void * data, \fBBufferUsage\fP usage)"
 
+.SS "template<typename T> void egl::Buffer::setData (std::vector< T > data, \fBBufferUsage\fP usage)\fR [inline]\fP"
+
 .SS "void egl::Buffer::setStorage (int64_t size, const void * data, \fBBufferFlag\fP flags)"
+
+.SS "template<typename T> void egl::Buffer::setStorage (std::vector< T > data, \fBBufferFlag\fP flags)\fR [inline]\fP"
 
 .SS "void egl::Buffer::setSubData (int64_t offset, int64_t size, const void * data)"
 

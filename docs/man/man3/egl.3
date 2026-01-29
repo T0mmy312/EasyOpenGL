@@ -127,6 +127,10 @@ egl
 .RI "void \fBterminateGLFW\fP ()"
 .br
 .RI "Terminates GLFW\&. "
+.ti -1c
+.RI "void \fBpollEvents\fP ()"
+.br
+.RI "Polls GLFW events\&. "
 .in -1c
 .SH "Enumeration Type Documentation"
 .PP 
@@ -387,7 +391,7 @@ Initialize GLFW\&. Sets up error callbacks and calls glfwInit\&.
 .PP
 \fBNote\fP
 .RS 4
-\fBegl::initGLFW\fP is thread safe\&.
+\fBegl::initGLFW\fP is not thread safe and may only be called from the main thread\&.
 .RE
 .PP
 \fBReturns\fP
@@ -407,6 +411,17 @@ true if GLFW has been successfully initialized\&.
 .SS "\fBBufferFlag\fP & egl::operator|= (\fBBufferFlag\fP & a, \fBBufferFlag\fP b)\fR [inline]\fP"
 
 .SS "\fBMapUsage\fP & egl::operator|= (\fBMapUsage\fP & a, \fBMapUsage\fP b)\fR [inline]\fP"
+
+.SS "void egl::pollEvents ()"
+
+.PP
+Polls GLFW events\&. 
+.PP
+\fBNote\fP
+.RS 4
+\fBegl::pollEvents\fP is not thread safe and may only be called from the main thread\&. 
+.RE
+.PP
 
 .SS "std::string egl::shaderTypeToString (\fBShaderType\fP type)\fR [constexpr]\fP"
 
@@ -431,7 +446,7 @@ Terminates GLFW\&.
 .PP
 \fBNote\fP
 .RS 4
-\fBegl::terminateGLFW\fP is thread safe\&. 
+\fBegl::terminateGLFW\fP is not thread safe and may only be called from the main thread\&. 
 .RE
 .PP
 

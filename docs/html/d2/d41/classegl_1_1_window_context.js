@@ -6,7 +6,6 @@ var classegl_1_1_window_context =
     [ "~WindowContext", "d2/d41/classegl_1_1_window_context.html#a5dea65a212c0e0f56b7217a56939b162", null ],
     [ "operator=", "d2/d41/classegl_1_1_window_context.html#a619fe8e5cbff4497543fd39bd51930ad", null ],
     [ "operator=", "d2/d41/classegl_1_1_window_context.html#aa75e7b1012f462a36fd94f0b08b694e7", null ],
-    [ "pollEvents", "d2/d41/classegl_1_1_window_context.html#a4db2a2bdd2b080196a0175c688712f86", null ],
     [ "run", "d2/d41/classegl_1_1_window_context.html#acd76c03d3bdf79bcdd83e022cdfa1127", null ],
     [ "shouldClose", "d2/d41/classegl_1_1_window_context.html#afd150625e4956daa2f2787acace296e1", null ],
     [ "swapBuffers", "d2/d41/classegl_1_1_window_context.html#a7c3abb5729fba8187c54006521adf62d", null ],

@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
+#include <thread>
 
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
@@ -47,22 +48,20 @@ public:
 
         while (!shouldClose())
         {
-            /* Render here */
             GL_CALL(glClear(GL_COLOR_BUFFER_BIT));
 
             GL_CALL(glDrawArrays(GL_TRIANGLES, 0, (int)(positions.size() / 2)));
 
             swapBuffers();
 
-            /* Poll for and process events */
-            pollEvents();
+            egl::pollEvents();
         }
     }
 };
 
 int main(void)
 {
-    TestWindow window(640, 480, "Hello World");
+    TestWindow window(640, 480, "Test Window");
     window.run();
 
     return 0;

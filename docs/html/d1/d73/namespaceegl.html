@@ -213,6 +213,8 @@ Functions</h2></td></tr>
 <tr class="memdesc:a687cef4344f705088c0253a1013f5e9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize GLFW.  <br /></td></tr>
 <tr class="memitem:a563123e5c4200084c73d609e132346cc" id="r_a563123e5c4200084c73d609e132346cc"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a563123e5c4200084c73d609e132346cc">terminateGLFW</a> ()</td></tr>
 <tr class="memdesc:a563123e5c4200084c73d609e132346cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Terminates GLFW.  <br /></td></tr>
+<tr class="memitem:a06ae04f0a9cfd78ae442eadc5396e74d" id="r_a06ae04f0a9cfd78ae442eadc5396e74d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a06ae04f0a9cfd78ae442eadc5396e74d">pollEvents</a> ()</td></tr>
+<tr class="memdesc:a06ae04f0a9cfd78ae442eadc5396e74d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Polls GLFW events.  <br /></td></tr>
 </table>
 <a name="doc-enum-members" id="doc-enum-members"></a><h2 id="header-doc-enum-members" class="groupheader">Enumeration Type Documentation</h2>
 <a id="a26041025f1dffb8975174b439d5f0150" name="a26041025f1dffb8975174b439d5f0150"></a>
@@ -530,7 +532,7 @@ Mainly used in the GL_CALL macro in the backend of the Easy OpenGL abstraction.<
 
 <p>Initialize GLFW. </p>
 <p>Sets up error callbacks and calls glfwInit.</p>
-<dl class="section note"><dt>Note</dt><dd><a class="el" href="#a687cef4344f705088c0253a1013f5e9f" title="Initialize GLFW.">egl::initGLFW</a> is thread safe.</dd></dl>
+<dl class="section note"><dt>Note</dt><dd><a class="el" href="#a687cef4344f705088c0253a1013f5e9f" title="Initialize GLFW.">egl::initGLFW</a> is not thread safe and may only be called from the main thread.</dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>true if GLFW has been successfully initialized. </dd></dl>
 
 </div>
@@ -709,6 +711,26 @@ Mainly used in the GL_CALL macro in the backend of the Easy OpenGL abstraction.<
 
 </div>
 </div>
+<a id="a06ae04f0a9cfd78ae442eadc5396e74d" name="a06ae04f0a9cfd78ae442eadc5396e74d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06ae04f0a9cfd78ae442eadc5396e74d">&#9670;&#160;</a></span>pollEvents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void egl::pollEvents </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Polls GLFW events. </p>
+<dl class="section note"><dt>Note</dt><dd><a class="el" href="#a06ae04f0a9cfd78ae442eadc5396e74d" title="Polls GLFW events.">egl::pollEvents</a> is not thread safe and may only be called from the main thread. </dd></dl>
+
+</div>
+</div>
 <a id="a87f2578a6769933eb523e5a008d3f1fb" name="a87f2578a6769933eb523e5a008d3f1fb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a87f2578a6769933eb523e5a008d3f1fb">&#9670;&#160;</a></span>shaderTypeToString()</h2>
 
@@ -759,7 +781,7 @@ Mainly used in the GL_CALL macro in the backend of the Easy OpenGL abstraction.<
 </div><div class="memdoc">
 
 <p>Terminates GLFW. </p>
-<dl class="section note"><dt>Note</dt><dd><a class="el" href="#a563123e5c4200084c73d609e132346cc" title="Terminates GLFW.">egl::terminateGLFW</a> is thread safe. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd><a class="el" href="#a563123e5c4200084c73d609e132346cc" title="Terminates GLFW.">egl::terminateGLFW</a> is not thread safe and may only be called from the main thread. </dd></dl>
 
 </div>
 </div>

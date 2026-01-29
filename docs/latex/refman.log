@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.28)  28 JAN 2026 21:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.28)  29 JAN 2026 19:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -888,6 +888,15 @@ LaTeX Warning: Label `doc-variable-members' multiply defined.
 
 LaTeX Warning: Label `doc-constructors' multiply defined.
 
+
+LaTeX Warning: Label `doc-constructors' multiply defined.
+
+
+LaTeX Warning: Label `doc-func-members' multiply defined.
+
+
+LaTeX Warning: Label `doc-variable-members' multiply defined.
+
 )
 \openout1 = `refman.aux'.
 
@@ -1030,42 +1039,46 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 6.29996pt on input line 222.
 
-[1] [2] [3] [4]
-Package hyperref Info: Option `pageanchor' set `true' on input line 225.
+[1] [2] [3] [4] [5] [6
 
+]
+Package hyperref Info: Option `pageanchor' set `true' on input line 225.
+ (d4/d71/md_inc_2_e_g_l_2mainpage.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 18.66588pt on input line 227.
+(Font)              scaled to size 18.66588pt on input line 1.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 18.66588pt on input line 227.
+(Font)              scaled to size 18.66588pt on input line 1.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 22.39185pt on input line 227.
-(dirs.tex
+(Font)              scaled to size 22.39185pt on input line 1.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 12.9599pt on input line 1.
+(Font)              scaled to size 12.9599pt on input line 7.
 ) [1
-
 
 ] [2
 
 ]
 Chapter 2.
-(namespaces.tex) [3] [4
+(dirs.tex) [3] [4
 
 ]
 Chapter 3.
-(hierarchy.tex) [5] [6
+(namespaces.tex) [5] [6
 
 ]
 Chapter 4.
-(annotated.tex) [7] [8
+(hierarchy.tex) [7] [8
 
 ]
 Chapter 5.
-(files.tex) [9] [10
+(annotated.tex) [9] [10
 
 ]
 Chapter 6.
+(files.tex) [11] [12
+
+]
+Chapter 7.
 (dir_d0e58c9a32265e58c2e221b88a397c65.tex
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 6
 .
@@ -1076,10 +1089,10 @@ File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
 (Font)              scaled to size 8.99994pt on input line 6.
 )
-(dir_bfccd401955b95cf8c75461437045ac0.tex) [11] [12
+(dir_bfccd401955b95cf8c75461437045ac0.tex) [13] [14
 
 ]
-Chapter 7.
+Chapter 8.
 (d1/d73/namespaceegl.tex
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 8.09995pt on input line 9.
@@ -1091,190 +1104,179 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 13.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 (Font)              scaled to size 6.29996pt on input line 13.
- [13]
+ [15]
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 131.
- [14] [15] [16]
+(Font)              scaled to size 10.79993pt on input line 139.
+ [16] [17] [18]
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <8> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 505.
- [17]
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 513.
+ [19]
 LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
-(Font)              scaled to size 8.99994pt on input line 513.
+(Font)              scaled to size 8.99994pt on input line 521.
 
-Underfull \hbox (badness 10000) detected at line 513
+Underfull \hbox (badness 10000) detected at line 521
 [][][]
  []
 
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 524.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 532.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 8.99994pt on input line 524.
+(Font)              scaled to size 8.99994pt on input line 532.
 
-Underfull \hbox (badness 10000) detected at line 535
+Underfull \hbox (badness 10000) detected at line 543
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 545
+Underfull \hbox (badness 10000) detected at line 553
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 568
+[][][]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 571
 [][][]
  []
 
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 7.19995pt on input line 550.
-[18]
-Underfull \hbox (badness 10000) detected at line 599
+(Font)              scaled to size 7.19995pt on input line 576.
+[20]
+Underfull \hbox (badness 10000) detected at line 620
 [][][]
  []
 
-[19]
-Underfull \hbox (badness 10000) detected at line 646
+[21]
+Underfull \hbox (badness 10000) detected at line 638
 [][][]
  []
 
-) [20]
-Chapter 8.
-(d3/d66/classegl_1_1_buffer.tex [21
 
-] [22] [23])
-(d6/d3a/classegl_1_1_program.tex [24]
+Underfull \hbox (badness 10000) detected at line 651
+[][][]
+ []
+
+[22]
+Underfull \hbox (badness 10000) detected at line 698
+[][][]
+ []
+
+) [23] [24
+
+]
+Chapter 9.
+(d3/d66/classegl_1_1_buffer.tex [25] [26] [27])
+(d6/d3a/classegl_1_1_program.tex [28] [29]
 Underfull \hbox (badness 10000) detected at line 69
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 72
+Underfull \hbox (badness 10000) detected at line 74
 [][][]
  []
 
-[25]
-Underfull \hbox (badness 10000) detected at line 147
+[30]
+Underfull \hbox (badness 10000) detected at line 149
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 150
+Underfull \hbox (badness 10000) detected at line 152
 [][][]
  []
 
-[26]
-Underfull \hbox (badness 10000) detected at line 187
+[31]
+Underfull \hbox (badness 10000) detected at line 189
 [][][]
  []
 
-[27]
-Underfull \hbox (badness 10000) detected at line 217
+
+Underfull \hbox (badness 10000) detected at line 219
 [][][]
  []
 
-[28]
-Underfull \hbox (badness 10000) detected at line 261
+[32]
+Underfull \hbox (badness 10000) detected at line 263
 [][][]
  []
 
-) (d0/d13/classegl_1_1_program_link_error.tex
-Package epstopdf Info: Source file: <d0/d13/classegl_1_1_program_link_error.eps
->
-(epstopdf)                    date: 2026-01-28 21:35:25
-(epstopdf)                    size: 3820 bytes
-(epstopdf)             Output file: <d0/d13/classegl_1_1_program_link_error-eps
--converted-to.pdf>
-(epstopdf)                    date: 2026-01-28 21:41:01
-(epstopdf)                    size: 6053 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=d0/d13/classegl_1_1_
-program_link_error-eps-converted-to.pdf d0/d13/classegl_1_1_program_link_error.
-eps>
-(epstopdf)             \includegraphics on input line 15.
-Package epstopdf Info: Output file is already uptodate.
- <./d0/d13/classegl_1_1_program_link_error-eps-converted-to.pdf>
-<d0/d13/classegl_1_1_program_link_error-eps-converted-to.pdf, id=2092, 501.875p
-t x 279.0425pt>
-File: d0/d13/classegl_1_1_program_link_error-eps-converted-to.pdf Graphic file 
-(type pdf)
-<use d0/d13/classegl_1_1_program_link_error-eps-converted-to.pdf>
-Package pdftex.def Info: d0/d13/classegl_1_1_program_link_error-eps-converted-t
-o.pdf  used on input line 15.
+[33]) (d0/d13/classegl_1_1_program_link_error.tex <./d0/d13/classegl_1_1_progra
+m_link_error.pdf>
+<d0/d13/classegl_1_1_program_link_error.pdf, id=2317, 501.875pt x 279.0425pt>
+File: d0/d13/classegl_1_1_program_link_error.pdf Graphic file (type pdf)
+<use d0/d13/classegl_1_1_program_link_error.pdf>
+Package pdftex.def Info: d0/d13/classegl_1_1_program_link_error.pdf  used on in
+put line 15.
 (pdftex.def)             Requested size: 102.34897pt x 56.9055pt.
- [29]
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <7> not available
 (Font)              Font shape `T1/pcr/m/sl' tried instead on input line 35.
-)
-(d5/d5e/classegl_1_1_program_validate_error.tex
-Package epstopdf Info: Source file: <d5/d5e/classegl_1_1_program_validate_error
-.eps>
-(epstopdf)                    date: 2026-01-28 21:35:25
-(epstopdf)                    size: 3828 bytes
-(epstopdf)             Output file: <d5/d5e/classegl_1_1_program_validate_error
--eps-converted-to.pdf>
-(epstopdf)                    date: 2026-01-28 21:41:01
-(epstopdf)                    size: 5921 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=d5/d5e/classegl_1_1_
-program_validate_error-eps-converted-to.pdf d5/d5e/classegl_1_1_program_validat
-e_error.eps>
-(epstopdf)             \includegraphics on input line 15.
-Package epstopdf Info: Output file is already uptodate.
- <./d5/d5e/classegl_1_1_program_validate_error-eps-converted-to.pdf>
-<d5/d5e/classegl_1_1_program_validate_error-eps-converted-to.pdf, id=2116, 501.
-875pt x 240.9pt>
-File: d5/d5e/classegl_1_1_program_validate_error-eps-converted-to.pdf Graphic f
-ile (type pdf)
-<use d5/d5e/classegl_1_1_program_validate_error-eps-converted-to.pdf>
-Package pdftex.def Info: d5/d5e/classegl_1_1_program_validate_error-eps-convert
-ed-to.pdf  used on input line 15.
+ [34]) (d5/d5e/classegl_1_1_program_validate_error.tex <./d5/d5e/classegl_1_1_p
+rogram_validate_error.pdf>
+<d5/d5e/classegl_1_1_program_validate_error.pdf, id=2342, 501.875pt x 240.9pt>
+File: d5/d5e/classegl_1_1_program_validate_error.pdf Graphic file (type pdf)
+<use d5/d5e/classegl_1_1_program_validate_error.pdf>
+Package pdftex.def Info: d5/d5e/classegl_1_1_program_validate_error.pdf  used o
+n input line 15.
 (pdftex.def)             Requested size: 118.55327pt x 56.9055pt.
- [30]) (db/de5/classegl_1_1_shader.tex
-[31]
-Underfull \hbox (badness 10000) detected at line 77
+ [35])
+(db/de5/classegl_1_1_shader.tex [36]
+Underfull \hbox (badness 10000) detected at line 81
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 80
+Underfull \hbox (badness 10000) detected at line 86
 [][][]
  []
 
-[32] [33] [34] [35]
-Underfull \hbox (badness 10000) detected at line 283
+[37] [38] [39] [40]
+Underfull \hbox (badness 10000) detected at line 320
 [][][]
  []
 
-[36]
-Underfull \hbox (badness 10000) detected at line 342
+[41]
+Underfull \hbox (badness 10000) detected at line 351
 [][][]
  []
 
-) (d7/d26/classegl_1_1_shader_compile_error.tex [37]
-Package epstopdf Info: Source file: <d7/d26/classegl_1_1_shader_compile_error.e
-ps>
-(epstopdf)                    date: 2026-01-28 21:35:25
-(epstopdf)                    size: 3824 bytes
-(epstopdf)             Output file: <d7/d26/classegl_1_1_shader_compile_error-e
-ps-converted-to.pdf>
-(epstopdf)                    date: 2026-01-28 21:41:03
-(epstopdf)                    size: 6232 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=d7/d26/classegl_1_1_
-shader_compile_error-eps-converted-to.pdf d7/d26/classegl_1_1_shader_compile_er
-ror.eps>
-(epstopdf)             \includegraphics on input line 15.
-Package epstopdf Info: Output file is already uptodate.
- <./d7/d26/classegl_1_1_shader_compile_error-eps-converted-to.pdf>
-<d7/d26/classegl_1_1_shader_compile_error-eps-converted-to.pdf, id=2722, 501.87
-5pt x 252.945pt>
-File: d7/d26/classegl_1_1_shader_compile_error-eps-converted-to.pdf Graphic fil
-e (type pdf)
-<use d7/d26/classegl_1_1_shader_compile_error-eps-converted-to.pdf>
-Package pdftex.def Info: d7/d26/classegl_1_1_shader_compile_error-eps-converted
--to.pdf  used on input line 15.
+[42]
+Underfull \hbox (badness 10000) detected at line 414
+[][][]
+ []
+
+) (d7/d26/classegl_1_1_shader_compile_error.tex <./d7/d26/classegl_1_1_shader_c
+ompile_error.pdf>
+<d7/d26/classegl_1_1_shader_compile_error.pdf, id=3122, 501.875pt x 252.945pt>
+File: d7/d26/classegl_1_1_shader_compile_error.pdf Graphic file (type pdf)
+<use d7/d26/classegl_1_1_shader_compile_error.pdf>
+Package pdftex.def Info: d7/d26/classegl_1_1_shader_compile_error.pdf  used on 
+input line 15.
 (pdftex.def)             Requested size: 112.90167pt x 56.9055pt.
-) (d0/def/classegl_1_1_vertex_buffer.tex [38]) [39] [40
+ [43]) (d0/def/classegl_1_1_vertex_buffer.tex)
+(d2/d41/classegl_1_1_window_context.tex [44]
+Underfull \hbox (badness 10000) detected at line 50
+[][][]
+ []
 
-]
-Chapter 9.
+[45] [46]
+Underfull \hbox (badness 10000) detected at line 135
+[][][]
+ []
+
+[47]) [48]
+Chapter 10.
 (d5/d08/buffer_8h.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--6
+Underfull \hbox (badness 10000) in paragraph at lines 3--7
 
  []
 
-[41]) (d5/d08/buffer_8h_source.tex [42]) (db/d16/debug_8h.tex [43]
+[49
+
+]) (d5/d08/buffer_8h_source.tex [50] [51]) (db/d16/debug_8h.tex
 Underfull \hbox (badness 10000) detected at line 57
 [][][]
  []
@@ -1284,28 +1286,32 @@ Underfull \hbox (badness 10000) detected at line 60
 [][][]
  []
 
-[44]) (db/d16/debug_8h_source.tex) (d1/dea/program_8h.tex
+[52]) (db/d16/debug_8h_source.tex) (dc/dc6/mainpage_8md.tex)
+(d1/dea/program_8h.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
-) (d1/dea/program_8h_source.tex [45]) (d1/df4/shader_8h.tex
+[53]) (d1/dea/program_8h_source.tex [54]) (d1/df4/shader_8h.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--6
 
  []
 
-[46]) (d1/df4/shader_8h_source.tex [47]) (d4/d6e/vertex_buffer_8h.tex)
-(d4/d6e/vertex_buffer_8h_source.tex) [48] (refman.ind
+) (d1/df4/shader_8h_source.tex [55]) (d4/d6e/vertex_buffer_8h.tex [56])
+(d4/d6e/vertex_buffer_8h_source.tex) (d9/dcf/window_context_8h.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+) (d9/dcf/window_context_8h_source.tex [57]) [58] (refman.ind
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 22.39185pt on input line 1.
- [49
+ [59
 
 
 
-] [50] [51] [52
-
-])
-(refman.aux)
+] [60]
+[61] [62]) (refman.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-29>
@@ -1315,32 +1321,33 @@ L3 programming layer <2025-12-29>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `refman.out' has not changed.
-(rerunfilecheck)             Checksum: 19E9502009762594EC280D8D0F51F4E1;28152.
+(rerunfilecheck)             Checksum: A617B89D7917FB13DB1C84106F89ABB8;34082.
  ) 
 Here is how much of TeX's memory you used:
- 21622 strings out of 467870
- 400497 string characters out of 5418355
- 884653 words of memory out of 5000000
+ 21724 strings out of 467870
+ 402160 string characters out of 5418355
+ 897599 words of memory out of 5000000
  49637 multiletter control sequences out of 15000+600000
- 684940 words of font info for 112 fonts, out of 8000000 for 9000
+ 686094 words of font info for 113 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 103i,16n,124p,1505b,1488s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 103i,16n,123p,1505b,1488s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Tommy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmmi10.pfb><C:/Users/Tommy/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmmi7.pfb><C:/Users/Tommy/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmsy10.pfb><C:/Users/Tommy/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Tommy/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Tommy/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/urw/courier/ucrb8a.pfb><C:/Users/Tommy/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Tommy/AppData/Local/P
-rograms/MiKTeX/fonts/type1/urw/courier/ucrro8a.pfb><C:/Users/Tommy/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Tommy/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8ac.pfb><C:/Users/Tommy/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/Tommy/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on refman.pdf (58 pages, 633997 bytes).
+blic/amsfonts/cm/cmmi8.pfb><C:/Users/Tommy/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Tommy/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Tommy/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Tommy/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/urw/courier/ucrb8a.pfb><C:/Users/Tommy/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Tommy/AppData
+/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrro8a.pfb><C:/Users/Tommy/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Tommy/A
+ppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8ac.pfb><C:/Users/Tom
+my/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/
+Tommy/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on refman.pdf (70 pages, 722785 bytes).
 PDF statistics:
- 3963 PDF objects out of 4296 (max. 8388607)
- 446 named destinations out of 1000 (max. 500000)
- 1200 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 4579 PDF objects out of 5155 (max. 8388607)
+ 526 named destinations out of 1000 (max. 500000)
+ 1424 words of extra memory for PDF output out of 10000 (max. 10000000)
 

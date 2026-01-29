@@ -51,10 +51,6 @@ egl::WindowContext \- An abstract class to contain an window based application\&
 .RI "void \fBswapBuffers\fP ()"
 .br
 .RI "Swaps the display buffers\&. "
-.ti -1c
-.RI "void \fBpollEvents\fP ()"
-.br
-.RI "Poll GLFW events\&. "
 .in -1c
 .SS "Protected Attributes"
 
@@ -74,11 +70,9 @@ Instantiates a window in the constructor using GLFW and destroys it once it goes
 \fBNote\fP
 .RS 4
 Calling useContext is recomended in run to ensure the local context is used\&. 
-.RE
+
 .PP
-\fBWarning\fP
-.RS 4
-\fBWindowContext\fP may not be shared between threads, but multiple can be instantiated and used on diffrent threads as long as the GLFW Window is not shared\&. 
+\fBegl::WindowContext\fP is not thread safe and may only be used on the main thread\&. 
 .RE
 .PP
 
@@ -119,17 +113,6 @@ Construct a new Window Context object with given height, width and name\&.
 .SS "\fBWindowContext\fP & egl::WindowContext::operator= (const \fBWindowContext\fP & other)\fR [delete]\fP"
 
 .SS "\fBWindowContext\fP & egl::WindowContext::operator= (\fBWindowContext\fP && other)"
-
-.SS "void egl::WindowContext::pollEvents ()\fR [protected]\fP"
-
-.PP
-Poll GLFW events\&. 
-.PP
-\fBExceptions\fP
-.RS 4
-\fIstd::runtime_error\fP If the GLFW window is invalid\&. 
-.RE
-.PP
 
 .SS "virtual void egl::WindowContext::run ()\fR [pure virtual]\fP"
 

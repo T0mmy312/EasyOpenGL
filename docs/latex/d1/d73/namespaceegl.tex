@@ -129,7 +129,9 @@ unsigned int \doxymbox{\hyperlink{namespaceegl_a9944b5ef4b7af7d46ac6a17c01acab89
 bool \doxymbox{\hyperlink{namespaceegl_a687cef4344f705088c0253a1013f5e9f}{init\+GLFW}} ()
 \begin{DoxyCompactList}\small\item\em Initialize GLFW. \end{DoxyCompactList}\item 
 void \doxymbox{\hyperlink{namespaceegl_a563123e5c4200084c73d609e132346cc}{terminate\+GLFW}} ()
-\begin{DoxyCompactList}\small\item\em Terminates GLFW. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Terminates GLFW. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{namespaceegl_a06ae04f0a9cfd78ae442eadc5396e74d}{poll\+Events}} ()
+\begin{DoxyCompactList}\small\item\em Polls GLFW events. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \label{doc-enum-members}
@@ -564,7 +566,7 @@ Initialize GLFW.
 Sets up error callbacks and calls glfw\+Init.
 
 \begin{DoxyNote}{Note}
-\doxylink{namespaceegl_a687cef4344f705088c0253a1013f5e9f}{egl::\+init\+GLFW} is thread safe.
+\doxylink{namespaceegl_a687cef4344f705088c0253a1013f5e9f}{egl::\+init\+GLFW} is not thread safe and may only be called from the main thread.
 \end{DoxyNote}
 \begin{DoxyReturn}{Returns}
 true if GLFW has been successfully initialized. 
@@ -605,6 +607,19 @@ true if GLFW has been successfully initialized.
 {\footnotesize\ttfamily \label{namespaceegl_a6734858937e6a141ae2d1956b686c4fc} 
 \doxymbox{\hyperlink{namespaceegl_a79ed3ca25fe4c77c1ebacb3f1283d4b2}{Map\+Usage}} \& egl::\+operator\texorpdfstring{$\vert$}{|}= (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceegl_a79ed3ca25fe4c77c1ebacb3f1283d4b2}{Map\+Usage}} \&}]{a}{, }\item[{\doxymbox{\hyperlink{namespaceegl_a79ed3ca25fe4c77c1ebacb3f1283d4b2}{Map\+Usage}}}]{b}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
+\Hypertarget{namespaceegl_a06ae04f0a9cfd78ae442eadc5396e74d}\index{egl@{egl}!pollEvents@{pollEvents}}
+\index{pollEvents@{pollEvents}!egl@{egl}}
+\doxysubsubsection{\texorpdfstring{pollEvents()}{pollEvents()}}
+{\footnotesize\ttfamily \label{namespaceegl_a06ae04f0a9cfd78ae442eadc5396e74d} 
+void egl::\+poll\+Events (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Polls GLFW events. 
+
+\begin{DoxyNote}{Note}
+\doxylink{namespaceegl_a06ae04f0a9cfd78ae442eadc5396e74d}{egl::\+poll\+Events} is not thread safe and may only be called from the main thread. 
+\end{DoxyNote}
 \Hypertarget{namespaceegl_a87f2578a6769933eb523e5a008d3f1fb}\index{egl@{egl}!shaderTypeToString@{shaderTypeToString}}
 \index{shaderTypeToString@{shaderTypeToString}!egl@{egl}}
 \doxysubsubsection{\texorpdfstring{shaderTypeToString()}{shaderTypeToString()}}
@@ -634,7 +649,7 @@ void egl::\+terminate\+GLFW (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})
 Terminates GLFW. 
 
 \begin{DoxyNote}{Note}
-\doxylink{namespaceegl_a563123e5c4200084c73d609e132346cc}{egl::\+terminate\+GLFW} is thread safe. 
+\doxylink{namespaceegl_a563123e5c4200084c73d609e132346cc}{egl::\+terminate\+GLFW} is not thread safe and may only be called from the main thread. 
 \end{DoxyNote}
 \Hypertarget{namespaceegl_a7d27ff3fcab64e012f9a138459b63a67}\index{egl@{egl}!toGLenum@{toGLenum}}
 \index{toGLenum@{toGLenum}!egl@{egl}}

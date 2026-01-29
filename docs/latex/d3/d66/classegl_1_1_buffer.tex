@@ -25,7 +25,11 @@ int64\+\_\+t \doxymbox{\hyperlink{classegl_1_1_buffer_ad150bd3e569897627f147c40c
 \item 
 void \doxymbox{\hyperlink{classegl_1_1_buffer_a45f2a70b803a24809345b425da6c0e50}{set\+Data}} (int64\+\_\+t \doxymbox{\hyperlink{classegl_1_1_buffer_ad150bd3e569897627f147c40cb7b8a40}{size}}, const void \texorpdfstring{$\ast$}{*}data, \doxymbox{\hyperlink{namespaceegl_ac73662910801a578088c729c58a62c97}{Buffer\+Usage}} usage)
 \item 
+{\footnotesize template$<$typename T$>$ }\\void \doxymbox{\hyperlink{classegl_1_1_buffer_ad126cbfed769dae01b79a3caf3389570}{set\+Data}} (std::\+vector$<$ T $>$ data, \doxymbox{\hyperlink{namespaceegl_ac73662910801a578088c729c58a62c97}{Buffer\+Usage}} usage)
+\item 
 void \doxymbox{\hyperlink{classegl_1_1_buffer_a685c9de7c40cad0b90a118d9d33e8017}{set\+Storage}} (int64\+\_\+t \doxymbox{\hyperlink{classegl_1_1_buffer_ad150bd3e569897627f147c40cb7b8a40}{size}}, const void \texorpdfstring{$\ast$}{*}data, \doxymbox{\hyperlink{namespaceegl_a26041025f1dffb8975174b439d5f0150}{Buffer\+Flag}} flags)
+\item 
+{\footnotesize template$<$typename T$>$ }\\void \doxymbox{\hyperlink{classegl_1_1_buffer_a80434550e3acceb7320a16e60ad485ca}{set\+Storage}} (std::\+vector$<$ T $>$ data, \doxymbox{\hyperlink{namespaceegl_a26041025f1dffb8975174b439d5f0150}{Buffer\+Flag}} flags)
 \item 
 void \doxymbox{\hyperlink{classegl_1_1_buffer_a472ef3daa21a5f71959bf9e54531a4d5}{set\+Sub\+Data}} (int64\+\_\+t offset, int64\+\_\+t \doxymbox{\hyperlink{classegl_1_1_buffer_ad150bd3e569897627f147c40cb7b8a40}{size}}, const void \texorpdfstring{$\ast$}{*}data)
 \item 
@@ -149,15 +153,29 @@ void \texorpdfstring{$\ast$}{*} egl::\+\+Buffer::\+map (\begin{DoxyParamCaption}
 
 \Hypertarget{classegl_1_1_buffer_a45f2a70b803a24809345b425da6c0e50}\index{egl::Buffer@{egl::Buffer}!setData@{setData}}
 \index{setData@{setData}!egl::Buffer@{egl::Buffer}}
-\doxysubsubsection{\texorpdfstring{setData()}{setData()}}
+\doxysubsubsection{\texorpdfstring{setData()}{setData()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
 {\footnotesize\ttfamily \label{classegl_1_1_buffer_a45f2a70b803a24809345b425da6c0e50} 
 void egl::\+\+Buffer::\+set\+Data (\begin{DoxyParamCaption}\item[{int64\+\_\+t}]{size}{, }\item[{const void \texorpdfstring{$\ast$}{*}}]{data}{, }\item[{\doxymbox{\hyperlink{namespaceegl_ac73662910801a578088c729c58a62c97}{Buffer\+Usage}}}]{usage}{}\end{DoxyParamCaption})}
 
+\Hypertarget{classegl_1_1_buffer_ad126cbfed769dae01b79a3caf3389570}\index{egl::Buffer@{egl::Buffer}!setData@{setData}}
+\index{setData@{setData}!egl::Buffer@{egl::Buffer}}
+\doxysubsubsection{\texorpdfstring{setData()}{setData()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classegl_1_1_buffer_ad126cbfed769dae01b79a3caf3389570} 
+template$<$typename T$>$ \\
+void egl::\+\+Buffer::\+set\+Data (\begin{DoxyParamCaption}\item[{std::\+vector$<$ T $>$}]{data}{, }\item[{\doxymbox{\hyperlink{namespaceegl_ac73662910801a578088c729c58a62c97}{Buffer\+Usage}}}]{usage}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
 \Hypertarget{classegl_1_1_buffer_a685c9de7c40cad0b90a118d9d33e8017}\index{egl::Buffer@{egl::Buffer}!setStorage@{setStorage}}
 \index{setStorage@{setStorage}!egl::Buffer@{egl::Buffer}}
-\doxysubsubsection{\texorpdfstring{setStorage()}{setStorage()}}
+\doxysubsubsection{\texorpdfstring{setStorage()}{setStorage()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
 {\footnotesize\ttfamily \label{classegl_1_1_buffer_a685c9de7c40cad0b90a118d9d33e8017} 
 void egl::\+\+Buffer::\+set\+Storage (\begin{DoxyParamCaption}\item[{int64\+\_\+t}]{size}{, }\item[{const void \texorpdfstring{$\ast$}{*}}]{data}{, }\item[{\doxymbox{\hyperlink{namespaceegl_a26041025f1dffb8975174b439d5f0150}{Buffer\+Flag}}}]{flags}{}\end{DoxyParamCaption})}
+
+\Hypertarget{classegl_1_1_buffer_a80434550e3acceb7320a16e60ad485ca}\index{egl::Buffer@{egl::Buffer}!setStorage@{setStorage}}
+\index{setStorage@{setStorage}!egl::Buffer@{egl::Buffer}}
+\doxysubsubsection{\texorpdfstring{setStorage()}{setStorage()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classegl_1_1_buffer_a80434550e3acceb7320a16e60ad485ca} 
+template$<$typename T$>$ \\
+void egl::\+\+Buffer::\+set\+Storage (\begin{DoxyParamCaption}\item[{std::\+vector$<$ T $>$}]{data}{, }\item[{\doxymbox{\hyperlink{namespaceegl_a26041025f1dffb8975174b439d5f0150}{Buffer\+Flag}}}]{flags}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
 
 \Hypertarget{classegl_1_1_buffer_a472ef3daa21a5f71959bf9e54531a4d5}\index{egl::Buffer@{egl::Buffer}!setSubData@{setSubData}}
 \index{setSubData@{setSubData}!egl::Buffer@{egl::Buffer}}

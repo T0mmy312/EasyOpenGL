@@ -118,8 +118,6 @@ Protected Member Functions</h2></td></tr>
 <tr class="memdesc:afd150625e4956daa2f2787acace296e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the Window should close.  <br /></td></tr>
 <tr class="memitem:a7c3abb5729fba8187c54006521adf62d" id="r_a7c3abb5729fba8187c54006521adf62d"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a7c3abb5729fba8187c54006521adf62d">swapBuffers</a> ()</td></tr>
 <tr class="memdesc:a7c3abb5729fba8187c54006521adf62d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swaps the display buffers.  <br /></td></tr>
-<tr class="memitem:a4db2a2bdd2b080196a0175c688712f86" id="r_a4db2a2bdd2b080196a0175c688712f86"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a4db2a2bdd2b080196a0175c688712f86">pollEvents</a> ()</td></tr>
-<tr class="memdesc:a4db2a2bdd2b080196a0175c688712f86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Poll GLFW events.  <br /></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 id="header-pro-attribs" class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -129,8 +127,9 @@ Protected Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 id="header-details" class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>An abstract class to contain an window based application. </p>
 <p>Instantiates a window in the constructor using GLFW and destroys it once it goes out of scope. That window can be bound and used in the child class in the <a class="el" href="#acd76c03d3bdf79bcdd83e022cdfa1127" title="Virtual run method to overload when implementing a child class.">WindowContext::run</a> method implementation containing the setup and rendering loop.</p>
-<dl class="section note"><dt>Note</dt><dd>Calling useContext is recomended in run to ensure the local context is used. </dd></dl>
-<dl class="section warning"><dt>Warning</dt><dd><a class="el" href="../../d2/d41/classegl_1_1_window_context.html" title="An abstract class to contain an window based application.">WindowContext</a> may not be shared between threads, but multiple can be instantiated and used on diffrent threads as long as the GLFW Window is not shared. </dd></dl>
+<dl class="section note"><dt>Note</dt><dd>Calling useContext is recomended in run to ensure the local context is used. </dd>
+<dd>
+<a class="el" href="../../d2/d41/classegl_1_1_window_context.html" title="An abstract class to contain an window based application.">egl::WindowContext</a> is not thread safe and may only be used on the main thread. </dd></dl>
 </div><a name="doc-constructors" id="doc-constructors"></a><h2 id="header-doc-constructors" class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9d294876b495bce3b21b8c79c6f46707" name="a9d294876b495bce3b21b8c79c6f46707"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9d294876b495bce3b21b8c79c6f46707">&#9670;&#160;</a></span>WindowContext() <span class="overload">[1/3]</span></h2>
@@ -275,39 +274,6 @@ Protected Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4db2a2bdd2b080196a0175c688712f86" name="a4db2a2bdd2b080196a0175c688712f86"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4db2a2bdd2b080196a0175c688712f86">&#9670;&#160;</a></span>pollEvents()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void egl::WindowContext::pollEvents </td>
-          <td>(</td>
-          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel protected">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Poll GLFW events. </p>
-<dl class="exception"><dt>Exceptions</dt><dd>
-  <table class="exception">
-    <tr><td class="paramname">std::runtime_error</td><td>If the GLFW window is invalid. </td></tr>
-  </table>
-  </dd>
-</dl>
 
 </div>
 </div>

@@ -9,19 +9,16 @@
 
 namespace egl {
 
-void glfwErrorCallback(int error, const char* description) {
-    std::cerr << "GLFW error (" << error << "): " << description << std::endl;
-}
-
 namespace {
-    std::mutex glfwMutex;
     int glfwRefCount = 0;
     bool glfwInitialized = false;
 }
 
-bool initGLFW() {
-    std::lock_guard<std::mutex> lock(glfwMutex);
+void glfwErrorCallback(int error, const char* description) {
+    std::cerr << "GLFW error (" << error << "): " << description << std::endl;
+}
 
+bool initGLFW() {
     if (!glfwInitialized) {
         glfwSetErrorCallback(glfwErrorCallback);
         if (!glfwInit())
@@ -34,9 +31,7 @@ bool initGLFW() {
 }
 
 void terminateGLFW() {
-    std::lock_guard<std::mutex> lock(glfwMutex);
-
-    if (!glfwInitialized)
+     if (!glfwInitialized)
         return;
 
     --glfwRefCount;
@@ -45,6 +40,10 @@ void terminateGLFW() {
         glfwTerminate();
         glfwInitialized = false;
     }
+}
+
+void pollEvents() {
+    glfwPollEvents();
 }
 
 // ----------------------------------------------------------------------------------------------------
@@ -71,11 +70,6 @@ void WindowContext::swapBuffers() {
     if (window == NULL)
         throw std::runtime_error("GLFW Window is invalid!");
     glfwSwapBuffers(window);
-}
-
-void WindowContext::pollEvents() {
-    useContext();
-    glfwPollEvents();
 }
 
 // --------------------------------------------------
@@ -113,13 +107,13 @@ WindowContext::~WindowContext() {
 
 WindowContext& WindowContext::operator=(WindowContext&& other) {
     if (this != &other) {
-        if (window != nullptr) {
+        if (window != NULL) {
             glfwDestroyWindow(window);
             if (_ownsGLFW) terminateGLFW();
         }
         window = other.window;
         _ownsGLFW = other._ownsGLFW;
-        other.window = nullptr;
+        other.window = NULL;
         other._ownsGLFW = false;
     }
     return *this;

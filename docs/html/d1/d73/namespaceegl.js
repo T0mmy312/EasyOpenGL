@@ -72,6 +72,7 @@ var namespaceegl =
     [ "operator|", "d1/d73/namespaceegl.html#ab1245bbebff076568c2cca71835900d1", null ],
     [ "operator|=", "d1/d73/namespaceegl.html#a1475de49ec91100a500484e0afd10338", null ],
     [ "operator|=", "d1/d73/namespaceegl.html#a6734858937e6a141ae2d1956b686c4fc", null ],
+    [ "pollEvents", "d1/d73/namespaceegl.html#a06ae04f0a9cfd78ae442eadc5396e74d", null ],
     [ "shaderTypeToString", "d1/d73/namespaceegl.html#a87f2578a6769933eb523e5a008d3f1fb", null ],
     [ "terminateGLFW", "d1/d73/namespaceegl.html#a563123e5c4200084c73d609e132346cc", null ],
     [ "toGLenum", "d1/d73/namespaceegl.html#a7d27ff3fcab64e012f9a138459b63a67", null ],

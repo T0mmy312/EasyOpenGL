@@ -106,7 +106,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad150bd3e569897627f147c40cb7b8a40" id="r_ad150bd3e569897627f147c40cb7b8a40"><td class="memItemLeft">int64_t&#160;</td><td class="memItemRight"><a class="el" href="#ad150bd3e569897627f147c40cb7b8a40">size</a> () const</td></tr>
 <tr class="memitem:ae2b0f85fc95b4fb5d4a831ce2c5641c6" id="r_ae2b0f85fc95b4fb5d4a831ce2c5641c6"><td class="memItemLeft"><a class="el" href="../../d1/d73/namespaceegl.html#a9d3c4e1c16d66cc0e4de86e7ac323291">BufferType</a>&#160;</td><td class="memItemRight"><a class="el" href="#ae2b0f85fc95b4fb5d4a831ce2c5641c6">getType</a> () const</td></tr>
 <tr class="memitem:a45f2a70b803a24809345b425da6c0e50" id="r_a45f2a70b803a24809345b425da6c0e50"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a45f2a70b803a24809345b425da6c0e50">setData</a> (int64_t <a class="el" href="#ad150bd3e569897627f147c40cb7b8a40">size</a>, const void *data, <a class="el" href="../../d1/d73/namespaceegl.html#ac73662910801a578088c729c58a62c97">BufferUsage</a> usage)</td></tr>
+<tr class="memitem:ad126cbfed769dae01b79a3caf3389570" id="r_ad126cbfed769dae01b79a3caf3389570"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:ad126cbfed769dae01b79a3caf3389570 template"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#ad126cbfed769dae01b79a3caf3389570">setData</a> (std::vector&lt; T &gt; data, <a class="el" href="../../d1/d73/namespaceegl.html#ac73662910801a578088c729c58a62c97">BufferUsage</a> usage)</td></tr>
 <tr class="memitem:a685c9de7c40cad0b90a118d9d33e8017" id="r_a685c9de7c40cad0b90a118d9d33e8017"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a685c9de7c40cad0b90a118d9d33e8017">setStorage</a> (int64_t <a class="el" href="#ad150bd3e569897627f147c40cb7b8a40">size</a>, const void *data, <a class="el" href="../../d1/d73/namespaceegl.html#a26041025f1dffb8975174b439d5f0150">BufferFlag</a> flags)</td></tr>
+<tr class="memitem:a80434550e3acceb7320a16e60ad485ca" id="r_a80434550e3acceb7320a16e60ad485ca"><td class="memTemplParams" colspan="2">template&lt;typename T&gt; </td></tr>
+<tr class="memitem:a80434550e3acceb7320a16e60ad485ca template"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a80434550e3acceb7320a16e60ad485ca">setStorage</a> (std::vector&lt; T &gt; data, <a class="el" href="../../d1/d73/namespaceegl.html#a26041025f1dffb8975174b439d5f0150">BufferFlag</a> flags)</td></tr>
 <tr class="memitem:a472ef3daa21a5f71959bf9e54531a4d5" id="r_a472ef3daa21a5f71959bf9e54531a4d5"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a472ef3daa21a5f71959bf9e54531a4d5">setSubData</a> (int64_t offset, int64_t <a class="el" href="#ad150bd3e569897627f147c40cb7b8a40">size</a>, const void *data)</td></tr>
 <tr class="memitem:a290f1650bb443d8d377ccf9e30c1f4a0" id="r_a290f1650bb443d8d377ccf9e30c1f4a0"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a290f1650bb443d8d377ccf9e30c1f4a0">getSubData</a> (int64_t offset, int64_t <a class="el" href="#ad150bd3e569897627f147c40cb7b8a40">size</a>, void *data)</td></tr>
 <tr class="memitem:add697f15310d50fa942eeeff51a3fb63" id="r_add697f15310d50fa942eeeff51a3fb63"><td class="memItemLeft">void *&#160;</td><td class="memItemRight"><a class="el" href="#add697f15310d50fa942eeeff51a3fb63">map</a> (int64_t offset, int64_t length, <a class="el" href="../../d1/d73/namespaceegl.html#a79ed3ca25fe4c77c1ebacb3f1283d4b2">MapUsage</a> access)</td></tr>
@@ -417,7 +421,7 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <a id="a45f2a70b803a24809345b425da6c0e50" name="a45f2a70b803a24809345b425da6c0e50"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45f2a70b803a24809345b425da6c0e50">&#9670;&#160;</a></span>setData()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a45f2a70b803a24809345b425da6c0e50">&#9670;&#160;</a></span>setData() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -442,8 +446,39 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ad126cbfed769dae01b79a3caf3389570" name="ad126cbfed769dae01b79a3caf3389570"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad126cbfed769dae01b79a3caf3389570">&#9670;&#160;</a></span>setData() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void egl::Buffer::setData </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>data</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d1/d73/namespaceegl.html#ac73662910801a578088c729c58a62c97">BufferUsage</a></td>          <td class="paramname"><span class="paramname"><em>usage</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a685c9de7c40cad0b90a118d9d33e8017" name="a685c9de7c40cad0b90a118d9d33e8017"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a685c9de7c40cad0b90a118d9d33e8017">&#9670;&#160;</a></span>setStorage()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a685c9de7c40cad0b90a118d9d33e8017">&#9670;&#160;</a></span>setStorage() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -464,6 +499,37 @@ Protected Attributes</h2></td></tr>
           <td class="paramtype"><a class="el" href="../../d1/d73/namespaceegl.html#a26041025f1dffb8975174b439d5f0150">BufferFlag</a></td>          <td class="paramname"><span class="paramname"><em>flags</em></span>&#160;)</td>
         </tr>
       </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a80434550e3acceb7320a16e60ad485ca" name="a80434550e3acceb7320a16e60ad485ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80434550e3acceb7320a16e60ad485ca">&#9670;&#160;</a></span>setStorage() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void egl::Buffer::setStorage </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; T &gt;</td>          <td class="paramname"><span class="paramname"><em>data</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d1/d73/namespaceegl.html#a26041025f1dffb8975174b439d5f0150">BufferFlag</a></td>          <td class="paramname"><span class="paramname"><em>flags</em></span>&#160;)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel inline">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

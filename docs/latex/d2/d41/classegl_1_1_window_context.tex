@@ -34,9 +34,7 @@ void \doxymbox{\hyperlink{classegl_1_1_window_context_a53a5f0a67b1b943cc3de2d8f4
 bool \doxymbox{\hyperlink{classegl_1_1_window_context_afd150625e4956daa2f2787acace296e1}{should\+Close}} ()
 \begin{DoxyCompactList}\small\item\em Checks if the Window should close. \end{DoxyCompactList}\item 
 void \doxymbox{\hyperlink{classegl_1_1_window_context_a7c3abb5729fba8187c54006521adf62d}{swap\+Buffers}} ()
-\begin{DoxyCompactList}\small\item\em Swaps the display buffers. \end{DoxyCompactList}\item 
-void \doxymbox{\hyperlink{classegl_1_1_window_context_a4db2a2bdd2b080196a0175c688712f86}{poll\+Events}} ()
-\begin{DoxyCompactList}\small\item\em Poll GLFW events. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Swaps the display buffers. \end{DoxyCompactList}\end{DoxyCompactItemize}
 \doxysubsubsection*{Protected Attributes}
 \begin{DoxyCompactItemize}
 \item 
@@ -51,10 +49,9 @@ Instantiates a window in the constructor using GLFW and destroys it once it goes
 
 \begin{DoxyNote}{Note}
 Calling use\+Context is recomended in run to ensure the local context is used. 
+
+\doxylink{classegl_1_1_window_context}{egl::\+\+Window\+Context} is not thread safe and may only be used on the main thread. 
 \end{DoxyNote}
-\begin{DoxyWarning}{Warning}
-\doxylink{classegl_1_1_window_context}{Window\+Context} may not be shared between threads, but multiple can be instantiated and used on diffrent threads as long as the GLFW Window is not shared. 
-\end{DoxyWarning}
 
 
 \label{doc-constructors}
@@ -123,21 +120,6 @@ egl::\+\+Window\+Context::\+\texorpdfstring{$\sim$}{\string~}\+Window\+Context (
 {\footnotesize\ttfamily \label{classegl_1_1_window_context_aa75e7b1012f462a36fd94f0b08b694e7} 
 \doxymbox{\hyperlink{classegl_1_1_window_context_a9d294876b495bce3b21b8c79c6f46707}{Window\+Context}} \& egl::\+\+Window\+Context::\+operator= (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classegl_1_1_window_context_a9d294876b495bce3b21b8c79c6f46707}{Window\+Context}} \&\&}]{other}{}\end{DoxyParamCaption})}
 
-\Hypertarget{classegl_1_1_window_context_a4db2a2bdd2b080196a0175c688712f86}\index{egl::WindowContext@{egl::WindowContext}!pollEvents@{pollEvents}}
-\index{pollEvents@{pollEvents}!egl::WindowContext@{egl::WindowContext}}
-\doxysubsubsection{\texorpdfstring{pollEvents()}{pollEvents()}}
-{\footnotesize\ttfamily \label{classegl_1_1_window_context_a4db2a2bdd2b080196a0175c688712f86} 
-void egl::\+\+Window\+Context::\+poll\+Events (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
-
-
-
-Poll GLFW events. 
-
-
-\begin{DoxyExceptions}{Exceptions}
-{\em std::\+runtime\+\_\+error} & If the GLFW window is invalid. \\
-\hline
-\end{DoxyExceptions}
 \Hypertarget{classegl_1_1_window_context_acd76c03d3bdf79bcdd83e022cdfa1127}\index{egl::WindowContext@{egl::WindowContext}!run@{run}}
 \index{run@{run}!egl::WindowContext@{egl::WindowContext}}
 \doxysubsubsection{\texorpdfstring{run()}{run()}}
