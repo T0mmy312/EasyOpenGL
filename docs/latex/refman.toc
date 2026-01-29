@@ -16,32 +16,32 @@
 \contentsline {section}{\numberline {7.2}inc Directory Reference}{13}{section.7.2}%
 \contentsline {chapter}{\numberline {8}Namespace Documentation}{15}{chapter.8}%
 \contentsline {section}{\numberline {8.1}egl Namespace Reference}{15}{section.8.1}%
-\contentsline {subsection}{\numberline {8.1.1}Enumeration Type Documentation}{16}{subsection.8.1.1}%
-\contentsline {subsubsection}{\numberline {8.1.1.1}BufferFlag}{16}{subsubsection.8.1.1.1}%
+\contentsline {subsection}{\numberline {8.1.1}Enumeration Type Documentation}{17}{subsection.8.1.1}%
+\contentsline {subsubsection}{\numberline {8.1.1.1}BufferFlag}{17}{subsubsection.8.1.1.1}%
 \contentsline {subsubsection}{\numberline {8.1.1.2}BufferType}{17}{subsubsection.8.1.1.2}%
-\contentsline {subsubsection}{\numberline {8.1.1.3}BufferUsage}{17}{subsubsection.8.1.1.3}%
+\contentsline {subsubsection}{\numberline {8.1.1.3}BufferUsage}{18}{subsubsection.8.1.1.3}%
 \contentsline {subsubsection}{\numberline {8.1.1.4}MapUsage}{19}{subsubsection.8.1.1.4}%
 \contentsline {subsubsection}{\numberline {8.1.1.5}ShaderType}{19}{subsubsection.8.1.1.5}%
-\contentsline {subsection}{\numberline {8.1.2}Function Documentation}{19}{subsection.8.1.2}%
-\contentsline {subsubsection}{\numberline {8.1.2.1}glCheckError()}{19}{subsubsection.8.1.2.1}%
+\contentsline {subsection}{\numberline {8.1.2}Function Documentation}{20}{subsection.8.1.2}%
+\contentsline {subsubsection}{\numberline {8.1.2.1}glCheckError()}{20}{subsubsection.8.1.2.1}%
 \contentsline {subsubsection}{\numberline {8.1.2.2}glErrorString()}{20}{subsubsection.8.1.2.2}%
-\contentsline {subsubsection}{\numberline {8.1.2.3}initGLFW()}{20}{subsubsection.8.1.2.3}%
+\contentsline {subsubsection}{\numberline {8.1.2.3}initGLFW()}{21}{subsubsection.8.1.2.3}%
 \contentsline {subsubsection}{\numberline {8.1.2.4}operator\&()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{21}{subsubsection.8.1.2.4}%
 \contentsline {subsubsection}{\numberline {8.1.2.5}operator\&()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{21}{subsubsection.8.1.2.5}%
 \contentsline {subsubsection}{\numberline {8.1.2.6}operator\texttt {"|}()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{21}{subsubsection.8.1.2.6}%
 \contentsline {subsubsection}{\numberline {8.1.2.7}operator\texttt {"|}()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{21}{subsubsection.8.1.2.7}%
 \contentsline {subsubsection}{\numberline {8.1.2.8}operator\texttt {"|}=()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{21}{subsubsection.8.1.2.8}%
-\contentsline {subsubsection}{\numberline {8.1.2.9}operator\texttt {"|}=()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{21}{subsubsection.8.1.2.9}%
-\contentsline {subsubsection}{\numberline {8.1.2.10}pollEvents()}{21}{subsubsection.8.1.2.10}%
+\contentsline {subsubsection}{\numberline {8.1.2.9}operator\texttt {"|}=()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{22}{subsubsection.8.1.2.9}%
+\contentsline {subsubsection}{\numberline {8.1.2.10}pollEvents()}{22}{subsubsection.8.1.2.10}%
 \contentsline {subsubsection}{\numberline {8.1.2.11}shaderTypeToString()}{22}{subsubsection.8.1.2.11}%
 \contentsline {subsubsection}{\numberline {8.1.2.12}terminateGLFW()}{22}{subsubsection.8.1.2.12}%
 \contentsline {subsubsection}{\numberline {8.1.2.13}toGLenum()\hspace {0.1cm}{\footnotesize \ttfamily [1/5]}}{22}{subsubsection.8.1.2.13}%
-\contentsline {subsubsection}{\numberline {8.1.2.14}toGLenum()\hspace {0.1cm}{\footnotesize \ttfamily [2/5]}}{22}{subsubsection.8.1.2.14}%
-\contentsline {subsubsection}{\numberline {8.1.2.15}toGLenum()\hspace {0.1cm}{\footnotesize \ttfamily [3/5]}}{22}{subsubsection.8.1.2.15}%
-\contentsline {subsubsection}{\numberline {8.1.2.16}toGLenum()\hspace {0.1cm}{\footnotesize \ttfamily [4/5]}}{22}{subsubsection.8.1.2.16}%
+\contentsline {subsubsection}{\numberline {8.1.2.14}toGLenum()\hspace {0.1cm}{\footnotesize \ttfamily [2/5]}}{23}{subsubsection.8.1.2.14}%
+\contentsline {subsubsection}{\numberline {8.1.2.15}toGLenum()\hspace {0.1cm}{\footnotesize \ttfamily [3/5]}}{23}{subsubsection.8.1.2.15}%
+\contentsline {subsubsection}{\numberline {8.1.2.16}toGLenum()\hspace {0.1cm}{\footnotesize \ttfamily [4/5]}}{23}{subsubsection.8.1.2.16}%
 \contentsline {subsubsection}{\numberline {8.1.2.17}toGLenum()\hspace {0.1cm}{\footnotesize \ttfamily [5/5]}}{23}{subsubsection.8.1.2.17}%
-\contentsline {subsubsection}{\numberline {8.1.2.18}validateBufferFlag()}{23}{subsubsection.8.1.2.18}%
-\contentsline {subsubsection}{\numberline {8.1.2.19}validateMapUsage()}{23}{subsubsection.8.1.2.19}%
+\contentsline {subsubsection}{\numberline {8.1.2.18}validateBufferFlag()}{24}{subsubsection.8.1.2.18}%
+\contentsline {subsubsection}{\numberline {8.1.2.19}validateMapUsage()}{24}{subsubsection.8.1.2.19}%
 \contentsline {chapter}{\numberline {9}Data Structure Documentation}{25}{chapter.9}%
 \contentsline {section}{\numberline {9.1}egl::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Buffer Class Reference}{25}{section.9.1}%
 \contentsline {subsection}{\numberline {9.1.1}Constructor \& Destructor Documentation}{26}{subsection.9.1.1}%
@@ -52,126 +52,126 @@
 \contentsline {subsubsection}{\numberline {9.1.1.5}$\sim $Buffer()}{26}{subsubsection.9.1.1.5}%
 \contentsline {subsection}{\numberline {9.1.2}Member Function Documentation}{26}{subsection.9.1.2}%
 \contentsline {subsubsection}{\numberline {9.1.2.1}\_check()}{26}{subsubsection.9.1.2.1}%
-\contentsline {subsubsection}{\numberline {9.1.2.2}\_delete()}{26}{subsubsection.9.1.2.2}%
+\contentsline {subsubsection}{\numberline {9.1.2.2}\_delete()}{27}{subsubsection.9.1.2.2}%
 \contentsline {subsubsection}{\numberline {9.1.2.3}bind()}{27}{subsubsection.9.1.2.3}%
 \contentsline {subsubsection}{\numberline {9.1.2.4}getSubData()}{27}{subsubsection.9.1.2.4}%
 \contentsline {subsubsection}{\numberline {9.1.2.5}getType()}{27}{subsubsection.9.1.2.5}%
-\contentsline {subsubsection}{\numberline {9.1.2.6}map()}{27}{subsubsection.9.1.2.6}%
-\contentsline {subsubsection}{\numberline {9.1.2.7}operator=()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{27}{subsubsection.9.1.2.7}%
-\contentsline {subsubsection}{\numberline {9.1.2.8}operator=()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{27}{subsubsection.9.1.2.8}%
-\contentsline {subsubsection}{\numberline {9.1.2.9}setData()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{27}{subsubsection.9.1.2.9}%
-\contentsline {subsubsection}{\numberline {9.1.2.10}setData()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{27}{subsubsection.9.1.2.10}%
-\contentsline {subsubsection}{\numberline {9.1.2.11}setStorage()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{28}{subsubsection.9.1.2.11}%
-\contentsline {subsubsection}{\numberline {9.1.2.12}setStorage()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{28}{subsubsection.9.1.2.12}%
-\contentsline {subsubsection}{\numberline {9.1.2.13}setSubData()}{28}{subsubsection.9.1.2.13}%
-\contentsline {subsubsection}{\numberline {9.1.2.14}size()}{28}{subsubsection.9.1.2.14}%
-\contentsline {subsubsection}{\numberline {9.1.2.15}unmap()}{28}{subsubsection.9.1.2.15}%
-\contentsline {subsection}{\numberline {9.1.3}Field Documentation}{28}{subsection.9.1.3}%
-\contentsline {subsubsection}{\numberline {9.1.3.1}\_flags}{28}{subsubsection.9.1.3.1}%
-\contentsline {subsubsection}{\numberline {9.1.3.2}\_id}{28}{subsubsection.9.1.3.2}%
-\contentsline {subsubsection}{\numberline {9.1.3.3}\_mapped}{28}{subsubsection.9.1.3.3}%
-\contentsline {subsubsection}{\numberline {9.1.3.4}\_mapUsage}{29}{subsubsection.9.1.3.4}%
-\contentsline {subsubsection}{\numberline {9.1.3.5}\_type}{29}{subsubsection.9.1.3.5}%
-\contentsline {section}{\numberline {9.2}egl::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Program Class Reference}{29}{section.9.2}%
-\contentsline {subsection}{\numberline {9.2.1}Detailed Description}{30}{subsection.9.2.1}%
-\contentsline {subsection}{\numberline {9.2.2}Constructor \& Destructor Documentation}{30}{subsection.9.2.2}%
-\contentsline {subsubsection}{\numberline {9.2.2.1}Program()\hspace {0.1cm}{\footnotesize \ttfamily [1/3]}}{30}{subsubsection.9.2.2.1}%
-\contentsline {subsubsection}{\numberline {9.2.2.2}Program()\hspace {0.1cm}{\footnotesize \ttfamily [2/3]}}{30}{subsubsection.9.2.2.2}%
-\contentsline {subsubsection}{\numberline {9.2.2.3}Program()\hspace {0.1cm}{\footnotesize \ttfamily [3/3]}}{30}{subsubsection.9.2.2.3}%
-\contentsline {subsubsection}{\numberline {9.2.2.4}$\sim $Program()}{30}{subsubsection.9.2.2.4}%
-\contentsline {subsection}{\numberline {9.2.3}Member Function Documentation}{31}{subsection.9.2.3}%
-\contentsline {subsubsection}{\numberline {9.2.3.1}\_check()}{31}{subsubsection.9.2.3.1}%
-\contentsline {subsubsection}{\numberline {9.2.3.2}\_delete()}{31}{subsubsection.9.2.3.2}%
-\contentsline {subsubsection}{\numberline {9.2.3.3}\_ensure()}{31}{subsubsection.9.2.3.3}%
-\contentsline {subsubsection}{\numberline {9.2.3.4}\_getError()}{31}{subsubsection.9.2.3.4}%
-\contentsline {subsubsection}{\numberline {9.2.3.5}attach()}{31}{subsubsection.9.2.3.5}%
-\contentsline {subsubsection}{\numberline {9.2.3.6}attached()}{32}{subsubsection.9.2.3.6}%
-\contentsline {subsubsection}{\numberline {9.2.3.7}bind()}{32}{subsubsection.9.2.3.7}%
-\contentsline {subsubsection}{\numberline {9.2.3.8}detach()}{32}{subsubsection.9.2.3.8}%
-\contentsline {subsubsection}{\numberline {9.2.3.9}link()}{33}{subsubsection.9.2.3.9}%
-\contentsline {subsubsection}{\numberline {9.2.3.10}linked()}{33}{subsubsection.9.2.3.10}%
-\contentsline {subsubsection}{\numberline {9.2.3.11}operator=()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{33}{subsubsection.9.2.3.11}%
-\contentsline {subsubsection}{\numberline {9.2.3.12}operator=()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{33}{subsubsection.9.2.3.12}%
-\contentsline {subsubsection}{\numberline {9.2.3.13}reset()}{34}{subsubsection.9.2.3.13}%
-\contentsline {subsubsection}{\numberline {9.2.3.14}unbind()}{34}{subsubsection.9.2.3.14}%
-\contentsline {subsection}{\numberline {9.2.4}Field Documentation}{34}{subsection.9.2.4}%
-\contentsline {subsubsection}{\numberline {9.2.4.1}\_id}{34}{subsubsection.9.2.4.1}%
-\contentsline {subsubsection}{\numberline {9.2.4.2}\_linked}{34}{subsubsection.9.2.4.2}%
-\contentsline {section}{\numberline {9.3}egl::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Program\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Link\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Error Class Reference}{34}{section.9.3}%
-\contentsline {subsection}{\numberline {9.3.1}Detailed Description}{35}{subsection.9.3.1}%
-\contentsline {subsection}{\numberline {9.3.2}Constructor \& Destructor Documentation}{35}{subsection.9.3.2}%
-\contentsline {subsubsection}{\numberline {9.3.2.1}ProgramLinkError()}{35}{subsubsection.9.3.2.1}%
-\contentsline {section}{\numberline {9.4}egl::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Program\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Validate\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Error Class Reference}{35}{section.9.4}%
-\contentsline {subsection}{\numberline {9.4.1}Detailed Description}{36}{subsection.9.4.1}%
-\contentsline {subsection}{\numberline {9.4.2}Constructor \& Destructor Documentation}{36}{subsection.9.4.2}%
-\contentsline {subsubsection}{\numberline {9.4.2.1}ProgramValidateError()}{36}{subsubsection.9.4.2.1}%
-\contentsline {section}{\numberline {9.5}egl::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Shader Class Reference}{36}{section.9.5}%
-\contentsline {subsection}{\numberline {9.5.1}Detailed Description}{37}{subsection.9.5.1}%
-\contentsline {subsection}{\numberline {9.5.2}Constructor \& Destructor Documentation}{37}{subsection.9.5.2}%
-\contentsline {subsubsection}{\numberline {9.5.2.1}Shader()\hspace {0.1cm}{\footnotesize \ttfamily [1/8]}}{37}{subsubsection.9.5.2.1}%
-\contentsline {subsubsection}{\numberline {9.5.2.2}Shader()\hspace {0.1cm}{\footnotesize \ttfamily [2/8]}}{38}{subsubsection.9.5.2.2}%
-\contentsline {subsubsection}{\numberline {9.5.2.3}Shader()\hspace {0.1cm}{\footnotesize \ttfamily [3/8]}}{38}{subsubsection.9.5.2.3}%
-\contentsline {subsubsection}{\numberline {9.5.2.4}Shader()\hspace {0.1cm}{\footnotesize \ttfamily [4/8]}}{38}{subsubsection.9.5.2.4}%
-\contentsline {subsubsection}{\numberline {9.5.2.5}Shader()\hspace {0.1cm}{\footnotesize \ttfamily [5/8]}}{39}{subsubsection.9.5.2.5}%
-\contentsline {subsubsection}{\numberline {9.5.2.6}Shader()\hspace {0.1cm}{\footnotesize \ttfamily [6/8]}}{39}{subsubsection.9.5.2.6}%
-\contentsline {subsubsection}{\numberline {9.5.2.7}Shader()\hspace {0.1cm}{\footnotesize \ttfamily [7/8]}}{39}{subsubsection.9.5.2.7}%
-\contentsline {subsubsection}{\numberline {9.5.2.8}Shader()\hspace {0.1cm}{\footnotesize \ttfamily [8/8]}}{39}{subsubsection.9.5.2.8}%
-\contentsline {subsubsection}{\numberline {9.5.2.9}$\sim $Shader()}{40}{subsubsection.9.5.2.9}%
-\contentsline {subsection}{\numberline {9.5.3}Member Function Documentation}{40}{subsection.9.5.3}%
-\contentsline {subsubsection}{\numberline {9.5.3.1}\_check()}{40}{subsubsection.9.5.3.1}%
-\contentsline {subsubsection}{\numberline {9.5.3.2}\_delete()}{40}{subsubsection.9.5.3.2}%
-\contentsline {subsubsection}{\numberline {9.5.3.3}\_ensure()}{40}{subsubsection.9.5.3.3}%
-\contentsline {subsubsection}{\numberline {9.5.3.4}\_getError()}{40}{subsubsection.9.5.3.4}%
-\contentsline {subsubsection}{\numberline {9.5.3.5}compile()\hspace {0.1cm}{\footnotesize \ttfamily [1/4]}}{40}{subsubsection.9.5.3.5}%
-\contentsline {subsubsection}{\numberline {9.5.3.6}compile()\hspace {0.1cm}{\footnotesize \ttfamily [2/4]}}{41}{subsubsection.9.5.3.6}%
-\contentsline {subsubsection}{\numberline {9.5.3.7}compile()\hspace {0.1cm}{\footnotesize \ttfamily [3/4]}}{41}{subsubsection.9.5.3.7}%
-\contentsline {subsubsection}{\numberline {9.5.3.8}compile()\hspace {0.1cm}{\footnotesize \ttfamily [4/4]}}{42}{subsubsection.9.5.3.8}%
-\contentsline {subsubsection}{\numberline {9.5.3.9}compiled()}{42}{subsubsection.9.5.3.9}%
-\contentsline {subsubsection}{\numberline {9.5.3.10}getType()}{42}{subsubsection.9.5.3.10}%
-\contentsline {subsubsection}{\numberline {9.5.3.11}operator=()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{42}{subsubsection.9.5.3.11}%
-\contentsline {subsubsection}{\numberline {9.5.3.12}operator=()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{42}{subsubsection.9.5.3.12}%
-\contentsline {subsubsection}{\numberline {9.5.3.13}reset()}{43}{subsubsection.9.5.3.13}%
-\contentsline {subsection}{\numberline {9.5.4}Field Documentation}{43}{subsection.9.5.4}%
-\contentsline {subsubsection}{\numberline {9.5.4.1}\_compiled}{43}{subsubsection.9.5.4.1}%
-\contentsline {subsubsection}{\numberline {9.5.4.2}\_id}{43}{subsubsection.9.5.4.2}%
-\contentsline {subsubsection}{\numberline {9.5.4.3}\_type}{43}{subsubsection.9.5.4.3}%
-\contentsline {subsubsection}{\numberline {9.5.4.4}Program}{43}{subsubsection.9.5.4.4}%
-\contentsline {section}{\numberline {9.6}egl::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Shader\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Compile\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Error Class Reference}{43}{section.9.6}%
-\contentsline {subsection}{\numberline {9.6.1}Detailed Description}{44}{subsection.9.6.1}%
-\contentsline {subsection}{\numberline {9.6.2}Constructor \& Destructor Documentation}{44}{subsection.9.6.2}%
-\contentsline {subsubsection}{\numberline {9.6.2.1}ShaderCompileError()}{44}{subsubsection.9.6.2.1}%
-\contentsline {section}{\numberline {9.7}egl::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Vertex\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Buffer Class Reference}{44}{section.9.7}%
-\contentsline {section}{\numberline {9.8}egl::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Window\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Context Class Reference}{44}{section.9.8}%
-\contentsline {subsection}{\numberline {9.8.1}Detailed Description}{45}{subsection.9.8.1}%
-\contentsline {subsection}{\numberline {9.8.2}Constructor \& Destructor Documentation}{46}{subsection.9.8.2}%
-\contentsline {subsubsection}{\numberline {9.8.2.1}WindowContext()\hspace {0.1cm}{\footnotesize \ttfamily [1/3]}}{46}{subsubsection.9.8.2.1}%
-\contentsline {subsubsection}{\numberline {9.8.2.2}WindowContext()\hspace {0.1cm}{\footnotesize \ttfamily [2/3]}}{46}{subsubsection.9.8.2.2}%
-\contentsline {subsubsection}{\numberline {9.8.2.3}WindowContext()\hspace {0.1cm}{\footnotesize \ttfamily [3/3]}}{46}{subsubsection.9.8.2.3}%
-\contentsline {subsubsection}{\numberline {9.8.2.4}$\sim $WindowContext()}{46}{subsubsection.9.8.2.4}%
-\contentsline {subsection}{\numberline {9.8.3}Member Function Documentation}{46}{subsection.9.8.3}%
-\contentsline {subsubsection}{\numberline {9.8.3.1}operator=()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{46}{subsubsection.9.8.3.1}%
-\contentsline {subsubsection}{\numberline {9.8.3.2}operator=()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{47}{subsubsection.9.8.3.2}%
-\contentsline {subsubsection}{\numberline {9.8.3.3}run()}{47}{subsubsection.9.8.3.3}%
-\contentsline {subsubsection}{\numberline {9.8.3.4}shouldClose()}{47}{subsubsection.9.8.3.4}%
-\contentsline {subsubsection}{\numberline {9.8.3.5}swapBuffers()}{47}{subsubsection.9.8.3.5}%
-\contentsline {subsubsection}{\numberline {9.8.3.6}useContext()}{48}{subsubsection.9.8.3.6}%
-\contentsline {subsection}{\numberline {9.8.4}Field Documentation}{48}{subsection.9.8.4}%
-\contentsline {subsubsection}{\numberline {9.8.4.1}window}{48}{subsubsection.9.8.4.1}%
-\contentsline {chapter}{\numberline {10}File Documentation}{49}{chapter.10}%
-\contentsline {section}{\numberline {10.1}inc/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}EGL/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}buffer.h File Reference}{49}{section.10.1}%
-\contentsline {section}{\numberline {10.2}buffer.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{50}{section.10.2}%
-\contentsline {section}{\numberline {10.3}inc/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}EGL/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}debug.h File Reference}{52}{section.10.3}%
-\contentsline {subsection}{\numberline {10.3.1}Macro Definition Documentation}{52}{subsection.10.3.1}%
-\contentsline {subsubsection}{\numberline {10.3.1.1}DEBUG\_ONLY}{52}{subsubsection.10.3.1.1}%
-\contentsline {subsubsection}{\numberline {10.3.1.2}GL\_CALL}{53}{subsubsection.10.3.1.2}%
-\contentsline {section}{\numberline {10.4}debug.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{53}{section.10.4}%
-\contentsline {section}{\numberline {10.5}inc/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}EGL/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}mainpage.md File Reference}{53}{section.10.5}%
-\contentsline {section}{\numberline {10.6}inc/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}EGL/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}program.h File Reference}{53}{section.10.6}%
-\contentsline {section}{\numberline {10.7}program.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{54}{section.10.7}%
-\contentsline {section}{\numberline {10.8}inc/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}EGL/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}shader.h File Reference}{55}{section.10.8}%
-\contentsline {section}{\numberline {10.9}shader.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{56}{section.10.9}%
-\contentsline {section}{\numberline {10.10}inc/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}EGL/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}vertex\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Buffer.h File Reference}{57}{section.10.10}%
-\contentsline {section}{\numberline {10.11}vertex\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Buffer.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{57}{section.10.11}%
-\contentsline {section}{\numberline {10.12}inc/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}EGL/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}window\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Context.h File Reference}{57}{section.10.12}%
-\contentsline {section}{\numberline {10.13}window\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Context.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{58}{section.10.13}%
-\contentsline {chapter}{Index}{59}{section*.44}%
+\contentsline {subsubsection}{\numberline {9.1.2.6}map()}{28}{subsubsection.9.1.2.6}%
+\contentsline {subsubsection}{\numberline {9.1.2.7}operator=()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{28}{subsubsection.9.1.2.7}%
+\contentsline {subsubsection}{\numberline {9.1.2.8}operator=()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{28}{subsubsection.9.1.2.8}%
+\contentsline {subsubsection}{\numberline {9.1.2.9}setData()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{29}{subsubsection.9.1.2.9}%
+\contentsline {subsubsection}{\numberline {9.1.2.10}setData()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{29}{subsubsection.9.1.2.10}%
+\contentsline {subsubsection}{\numberline {9.1.2.11}setStorage()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{29}{subsubsection.9.1.2.11}%
+\contentsline {subsubsection}{\numberline {9.1.2.12}setStorage()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{30}{subsubsection.9.1.2.12}%
+\contentsline {subsubsection}{\numberline {9.1.2.13}setSubData()}{30}{subsubsection.9.1.2.13}%
+\contentsline {subsubsection}{\numberline {9.1.2.14}size()}{31}{subsubsection.9.1.2.14}%
+\contentsline {subsubsection}{\numberline {9.1.2.15}unmap()}{31}{subsubsection.9.1.2.15}%
+\contentsline {subsection}{\numberline {9.1.3}Field Documentation}{31}{subsection.9.1.3}%
+\contentsline {subsubsection}{\numberline {9.1.3.1}\_flags}{31}{subsubsection.9.1.3.1}%
+\contentsline {subsubsection}{\numberline {9.1.3.2}\_id}{31}{subsubsection.9.1.3.2}%
+\contentsline {subsubsection}{\numberline {9.1.3.3}\_mapped}{31}{subsubsection.9.1.3.3}%
+\contentsline {subsubsection}{\numberline {9.1.3.4}\_mapUsage}{31}{subsubsection.9.1.3.4}%
+\contentsline {subsubsection}{\numberline {9.1.3.5}\_type}{31}{subsubsection.9.1.3.5}%
+\contentsline {section}{\numberline {9.2}egl::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Program Class Reference}{32}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}Detailed Description}{33}{subsection.9.2.1}%
+\contentsline {subsection}{\numberline {9.2.2}Constructor \& Destructor Documentation}{33}{subsection.9.2.2}%
+\contentsline {subsubsection}{\numberline {9.2.2.1}Program()\hspace {0.1cm}{\footnotesize \ttfamily [1/3]}}{33}{subsubsection.9.2.2.1}%
+\contentsline {subsubsection}{\numberline {9.2.2.2}Program()\hspace {0.1cm}{\footnotesize \ttfamily [2/3]}}{33}{subsubsection.9.2.2.2}%
+\contentsline {subsubsection}{\numberline {9.2.2.3}Program()\hspace {0.1cm}{\footnotesize \ttfamily [3/3]}}{33}{subsubsection.9.2.2.3}%
+\contentsline {subsubsection}{\numberline {9.2.2.4}$\sim $Program()}{33}{subsubsection.9.2.2.4}%
+\contentsline {subsection}{\numberline {9.2.3}Member Function Documentation}{33}{subsection.9.2.3}%
+\contentsline {subsubsection}{\numberline {9.2.3.1}\_check()}{33}{subsubsection.9.2.3.1}%
+\contentsline {subsubsection}{\numberline {9.2.3.2}\_delete()}{33}{subsubsection.9.2.3.2}%
+\contentsline {subsubsection}{\numberline {9.2.3.3}\_ensure()}{34}{subsubsection.9.2.3.3}%
+\contentsline {subsubsection}{\numberline {9.2.3.4}\_getError()}{34}{subsubsection.9.2.3.4}%
+\contentsline {subsubsection}{\numberline {9.2.3.5}attach()}{34}{subsubsection.9.2.3.5}%
+\contentsline {subsubsection}{\numberline {9.2.3.6}attached()}{34}{subsubsection.9.2.3.6}%
+\contentsline {subsubsection}{\numberline {9.2.3.7}bind()}{35}{subsubsection.9.2.3.7}%
+\contentsline {subsubsection}{\numberline {9.2.3.8}detach()}{35}{subsubsection.9.2.3.8}%
+\contentsline {subsubsection}{\numberline {9.2.3.9}link()}{36}{subsubsection.9.2.3.9}%
+\contentsline {subsubsection}{\numberline {9.2.3.10}linked()}{36}{subsubsection.9.2.3.10}%
+\contentsline {subsubsection}{\numberline {9.2.3.11}operator=()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{36}{subsubsection.9.2.3.11}%
+\contentsline {subsubsection}{\numberline {9.2.3.12}operator=()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{36}{subsubsection.9.2.3.12}%
+\contentsline {subsubsection}{\numberline {9.2.3.13}reset()}{36}{subsubsection.9.2.3.13}%
+\contentsline {subsubsection}{\numberline {9.2.3.14}unbind()}{37}{subsubsection.9.2.3.14}%
+\contentsline {subsection}{\numberline {9.2.4}Field Documentation}{37}{subsection.9.2.4}%
+\contentsline {subsubsection}{\numberline {9.2.4.1}\_id}{37}{subsubsection.9.2.4.1}%
+\contentsline {subsubsection}{\numberline {9.2.4.2}\_linked}{37}{subsubsection.9.2.4.2}%
+\contentsline {section}{\numberline {9.3}egl::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Program\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Link\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Error Class Reference}{37}{section.9.3}%
+\contentsline {subsection}{\numberline {9.3.1}Detailed Description}{37}{subsection.9.3.1}%
+\contentsline {subsection}{\numberline {9.3.2}Constructor \& Destructor Documentation}{38}{subsection.9.3.2}%
+\contentsline {subsubsection}{\numberline {9.3.2.1}ProgramLinkError()}{38}{subsubsection.9.3.2.1}%
+\contentsline {section}{\numberline {9.4}egl::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Program\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Validate\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Error Class Reference}{38}{section.9.4}%
+\contentsline {subsection}{\numberline {9.4.1}Detailed Description}{38}{subsection.9.4.1}%
+\contentsline {subsection}{\numberline {9.4.2}Constructor \& Destructor Documentation}{39}{subsection.9.4.2}%
+\contentsline {subsubsection}{\numberline {9.4.2.1}ProgramValidateError()}{39}{subsubsection.9.4.2.1}%
+\contentsline {section}{\numberline {9.5}egl::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Shader Class Reference}{39}{section.9.5}%
+\contentsline {subsection}{\numberline {9.5.1}Detailed Description}{40}{subsection.9.5.1}%
+\contentsline {subsection}{\numberline {9.5.2}Constructor \& Destructor Documentation}{40}{subsection.9.5.2}%
+\contentsline {subsubsection}{\numberline {9.5.2.1}Shader()\hspace {0.1cm}{\footnotesize \ttfamily [1/8]}}{40}{subsubsection.9.5.2.1}%
+\contentsline {subsubsection}{\numberline {9.5.2.2}Shader()\hspace {0.1cm}{\footnotesize \ttfamily [2/8]}}{41}{subsubsection.9.5.2.2}%
+\contentsline {subsubsection}{\numberline {9.5.2.3}Shader()\hspace {0.1cm}{\footnotesize \ttfamily [3/8]}}{41}{subsubsection.9.5.2.3}%
+\contentsline {subsubsection}{\numberline {9.5.2.4}Shader()\hspace {0.1cm}{\footnotesize \ttfamily [4/8]}}{41}{subsubsection.9.5.2.4}%
+\contentsline {subsubsection}{\numberline {9.5.2.5}Shader()\hspace {0.1cm}{\footnotesize \ttfamily [5/8]}}{42}{subsubsection.9.5.2.5}%
+\contentsline {subsubsection}{\numberline {9.5.2.6}Shader()\hspace {0.1cm}{\footnotesize \ttfamily [6/8]}}{42}{subsubsection.9.5.2.6}%
+\contentsline {subsubsection}{\numberline {9.5.2.7}Shader()\hspace {0.1cm}{\footnotesize \ttfamily [7/8]}}{42}{subsubsection.9.5.2.7}%
+\contentsline {subsubsection}{\numberline {9.5.2.8}Shader()\hspace {0.1cm}{\footnotesize \ttfamily [8/8]}}{42}{subsubsection.9.5.2.8}%
+\contentsline {subsubsection}{\numberline {9.5.2.9}$\sim $Shader()}{43}{subsubsection.9.5.2.9}%
+\contentsline {subsection}{\numberline {9.5.3}Member Function Documentation}{43}{subsection.9.5.3}%
+\contentsline {subsubsection}{\numberline {9.5.3.1}\_check()}{43}{subsubsection.9.5.3.1}%
+\contentsline {subsubsection}{\numberline {9.5.3.2}\_delete()}{43}{subsubsection.9.5.3.2}%
+\contentsline {subsubsection}{\numberline {9.5.3.3}\_ensure()}{43}{subsubsection.9.5.3.3}%
+\contentsline {subsubsection}{\numberline {9.5.3.4}\_getError()}{43}{subsubsection.9.5.3.4}%
+\contentsline {subsubsection}{\numberline {9.5.3.5}compile()\hspace {0.1cm}{\footnotesize \ttfamily [1/4]}}{43}{subsubsection.9.5.3.5}%
+\contentsline {subsubsection}{\numberline {9.5.3.6}compile()\hspace {0.1cm}{\footnotesize \ttfamily [2/4]}}{44}{subsubsection.9.5.3.6}%
+\contentsline {subsubsection}{\numberline {9.5.3.7}compile()\hspace {0.1cm}{\footnotesize \ttfamily [3/4]}}{44}{subsubsection.9.5.3.7}%
+\contentsline {subsubsection}{\numberline {9.5.3.8}compile()\hspace {0.1cm}{\footnotesize \ttfamily [4/4]}}{45}{subsubsection.9.5.3.8}%
+\contentsline {subsubsection}{\numberline {9.5.3.9}compiled()}{45}{subsubsection.9.5.3.9}%
+\contentsline {subsubsection}{\numberline {9.5.3.10}getType()}{45}{subsubsection.9.5.3.10}%
+\contentsline {subsubsection}{\numberline {9.5.3.11}operator=()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{45}{subsubsection.9.5.3.11}%
+\contentsline {subsubsection}{\numberline {9.5.3.12}operator=()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{45}{subsubsection.9.5.3.12}%
+\contentsline {subsubsection}{\numberline {9.5.3.13}reset()}{46}{subsubsection.9.5.3.13}%
+\contentsline {subsection}{\numberline {9.5.4}Field Documentation}{46}{subsection.9.5.4}%
+\contentsline {subsubsection}{\numberline {9.5.4.1}\_compiled}{46}{subsubsection.9.5.4.1}%
+\contentsline {subsubsection}{\numberline {9.5.4.2}\_id}{46}{subsubsection.9.5.4.2}%
+\contentsline {subsubsection}{\numberline {9.5.4.3}\_type}{46}{subsubsection.9.5.4.3}%
+\contentsline {subsubsection}{\numberline {9.5.4.4}Program}{46}{subsubsection.9.5.4.4}%
+\contentsline {section}{\numberline {9.6}egl::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Shader\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Compile\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Error Class Reference}{46}{section.9.6}%
+\contentsline {subsection}{\numberline {9.6.1}Detailed Description}{47}{subsection.9.6.1}%
+\contentsline {subsection}{\numberline {9.6.2}Constructor \& Destructor Documentation}{47}{subsection.9.6.2}%
+\contentsline {subsubsection}{\numberline {9.6.2.1}ShaderCompileError()}{47}{subsubsection.9.6.2.1}%
+\contentsline {section}{\numberline {9.7}egl::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Vertex\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Buffer Class Reference}{47}{section.9.7}%
+\contentsline {section}{\numberline {9.8}egl::\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Window\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Context Class Reference}{47}{section.9.8}%
+\contentsline {subsection}{\numberline {9.8.1}Detailed Description}{48}{subsection.9.8.1}%
+\contentsline {subsection}{\numberline {9.8.2}Constructor \& Destructor Documentation}{49}{subsection.9.8.2}%
+\contentsline {subsubsection}{\numberline {9.8.2.1}WindowContext()\hspace {0.1cm}{\footnotesize \ttfamily [1/3]}}{49}{subsubsection.9.8.2.1}%
+\contentsline {subsubsection}{\numberline {9.8.2.2}WindowContext()\hspace {0.1cm}{\footnotesize \ttfamily [2/3]}}{49}{subsubsection.9.8.2.2}%
+\contentsline {subsubsection}{\numberline {9.8.2.3}WindowContext()\hspace {0.1cm}{\footnotesize \ttfamily [3/3]}}{49}{subsubsection.9.8.2.3}%
+\contentsline {subsubsection}{\numberline {9.8.2.4}$\sim $WindowContext()}{49}{subsubsection.9.8.2.4}%
+\contentsline {subsection}{\numberline {9.8.3}Member Function Documentation}{49}{subsection.9.8.3}%
+\contentsline {subsubsection}{\numberline {9.8.3.1}operator=()\hspace {0.1cm}{\footnotesize \ttfamily [1/2]}}{49}{subsubsection.9.8.3.1}%
+\contentsline {subsubsection}{\numberline {9.8.3.2}operator=()\hspace {0.1cm}{\footnotesize \ttfamily [2/2]}}{50}{subsubsection.9.8.3.2}%
+\contentsline {subsubsection}{\numberline {9.8.3.3}run()}{50}{subsubsection.9.8.3.3}%
+\contentsline {subsubsection}{\numberline {9.8.3.4}shouldClose()}{50}{subsubsection.9.8.3.4}%
+\contentsline {subsubsection}{\numberline {9.8.3.5}swapBuffers()}{50}{subsubsection.9.8.3.5}%
+\contentsline {subsubsection}{\numberline {9.8.3.6}useContext()}{51}{subsubsection.9.8.3.6}%
+\contentsline {subsection}{\numberline {9.8.4}Field Documentation}{51}{subsection.9.8.4}%
+\contentsline {subsubsection}{\numberline {9.8.4.1}window}{51}{subsubsection.9.8.4.1}%
+\contentsline {chapter}{\numberline {10}File Documentation}{53}{chapter.10}%
+\contentsline {section}{\numberline {10.1}inc/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}EGL/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}buffer.h File Reference}{53}{section.10.1}%
+\contentsline {section}{\numberline {10.2}buffer.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{54}{section.10.2}%
+\contentsline {section}{\numberline {10.3}inc/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}EGL/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}debug.h File Reference}{56}{section.10.3}%
+\contentsline {subsection}{\numberline {10.3.1}Macro Definition Documentation}{56}{subsection.10.3.1}%
+\contentsline {subsubsection}{\numberline {10.3.1.1}DEBUG\_ONLY}{56}{subsubsection.10.3.1.1}%
+\contentsline {subsubsection}{\numberline {10.3.1.2}GL\_CALL}{57}{subsubsection.10.3.1.2}%
+\contentsline {section}{\numberline {10.4}debug.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{57}{section.10.4}%
+\contentsline {section}{\numberline {10.5}inc/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}EGL/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}mainpage.md File Reference}{57}{section.10.5}%
+\contentsline {section}{\numberline {10.6}inc/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}EGL/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}program.h File Reference}{57}{section.10.6}%
+\contentsline {section}{\numberline {10.7}program.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{58}{section.10.7}%
+\contentsline {section}{\numberline {10.8}inc/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}EGL/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}shader.h File Reference}{59}{section.10.8}%
+\contentsline {section}{\numberline {10.9}shader.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{60}{section.10.9}%
+\contentsline {section}{\numberline {10.10}inc/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}EGL/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}vertex\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Buffer.h File Reference}{61}{section.10.10}%
+\contentsline {section}{\numberline {10.11}vertex\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Buffer.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{61}{section.10.11}%
+\contentsline {section}{\numberline {10.12}inc/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}EGL/\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}window\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Context.h File Reference}{61}{section.10.12}%
+\contentsline {section}{\numberline {10.13}window\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}Context.\discretionary {\mbox {\scriptsize $\hookleftarrow $}}{}{}h}{62}{section.10.13}%
+\contentsline {chapter}{Index}{63}{section*.44}%

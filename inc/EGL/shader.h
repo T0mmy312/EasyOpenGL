@@ -201,7 +201,7 @@ public:
      * @throws std::logic_error If the current Shader object does not exist (reset() is recommended to return to a valid state).
      * @throws egl::ShaderCompileError If the Shader fails to compile.
      * 
-     * @param src Source to compile.
+     * @param str Source to compile.
      */
     void compile(const std::string& str);
 

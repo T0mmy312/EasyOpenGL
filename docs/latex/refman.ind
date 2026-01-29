@@ -2,43 +2,43 @@
 
   \item {\_check}
     \subitem {egl::Buffer}, \hyperpage{26}
-    \subitem {egl::Program}, \hyperpage{31}
-    \subitem {egl::Shader}, \hyperpage{40}
-  \item {\_compiled}
+    \subitem {egl::Program}, \hyperpage{33}
     \subitem {egl::Shader}, \hyperpage{43}
+  \item {\_compiled}
+    \subitem {egl::Shader}, \hyperpage{46}
   \item {\_delete}
     \subitem {egl::Buffer}, \hyperpage{26}
-    \subitem {egl::Program}, \hyperpage{31}
-    \subitem {egl::Shader}, \hyperpage{40}
+    \subitem {egl::Program}, \hyperpage{33}
+    \subitem {egl::Shader}, \hyperpage{43}
   \item {\_ensure}
-    \subitem {egl::Program}, \hyperpage{31}
-    \subitem {egl::Shader}, \hyperpage{40}
+    \subitem {egl::Program}, \hyperpage{33}
+    \subitem {egl::Shader}, \hyperpage{43}
   \item {\_flags}
-    \subitem {egl::Buffer}, \hyperpage{28}
+    \subitem {egl::Buffer}, \hyperpage{31}
   \item {\_getError}
-    \subitem {egl::Program}, \hyperpage{31}
-    \subitem {egl::Shader}, \hyperpage{40}
+    \subitem {egl::Program}, \hyperpage{34}
+    \subitem {egl::Shader}, \hyperpage{43}
   \item {\_id}
-    \subitem {egl::Buffer}, \hyperpage{28}
-    \subitem {egl::Program}, \hyperpage{34}
-    \subitem {egl::Shader}, \hyperpage{43}
+    \subitem {egl::Buffer}, \hyperpage{31}
+    \subitem {egl::Program}, \hyperpage{37}
+    \subitem {egl::Shader}, \hyperpage{46}
   \item {\_linked}
-    \subitem {egl::Program}, \hyperpage{34}
+    \subitem {egl::Program}, \hyperpage{37}
   \item {\_mapUsage}
-    \subitem {egl::Buffer}, \hyperpage{28}
+    \subitem {egl::Buffer}, \hyperpage{31}
   \item {\_mapped}
-    \subitem {egl::Buffer}, \hyperpage{28}
+    \subitem {egl::Buffer}, \hyperpage{31}
   \item {\_type}
-    \subitem {egl::Buffer}, \hyperpage{29}
-    \subitem {egl::Shader}, \hyperpage{43}
+    \subitem {egl::Buffer}, \hyperpage{31}
+    \subitem {egl::Shader}, \hyperpage{46}
   \item {\texorpdfstring{$\sim$}{\string~}Buffer}
     \subitem {egl::Buffer}, \hyperpage{26}
   \item {\texorpdfstring{$\sim$}{\string~}Program}
-    \subitem {egl::Program}, \hyperpage{30}
+    \subitem {egl::Program}, \hyperpage{33}
   \item {\texorpdfstring{$\sim$}{\string~}Shader}
-    \subitem {egl::Shader}, \hyperpage{39}
+    \subitem {egl::Shader}, \hyperpage{42}
   \item {\texorpdfstring{$\sim$}{\string~}WindowContext}
-    \subitem {egl::WindowContext}, \hyperpage{46}
+    \subitem {egl::WindowContext}, \hyperpage{49}
 
   \indexspace
 
@@ -47,23 +47,23 @@
   \item {AtomicCounter}
     \subitem {egl}, \hyperpage{17}
   \item {attach}
-    \subitem {egl::Program}, \hyperpage{31}
+    \subitem {egl::Program}, \hyperpage{34}
   \item {attached}
-    \subitem {egl::Program}, \hyperpage{31}
+    \subitem {egl::Program}, \hyperpage{34}
 
   \indexspace
 
   \item {bind}
-    \subitem {egl::Buffer}, \hyperpage{26}
-    \subitem {egl::Program}, \hyperpage{32}
+    \subitem {egl::Buffer}, \hyperpage{27}
+    \subitem {egl::Program}, \hyperpage{35}
   \item {Buffer}
     \subitem {egl::Buffer}, \hyperpage{26}
   \item {BufferFlag}
-    \subitem {egl}, \hyperpage{16}
+    \subitem {egl}, \hyperpage{17}
   \item {BufferType}
     \subitem {egl}, \hyperpage{17}
   \item {BufferUsage}
-    \subitem {egl}, \hyperpage{17}
+    \subitem {egl}, \hyperpage{18}
 
   \indexspace
 
@@ -72,11 +72,11 @@
   \item {Coherent}
     \subitem {egl}, \hyperpage{19}
   \item {compile}
-    \subitem {egl::Shader}, \hyperpage{40, 41}
+    \subitem {egl::Shader}, \hyperpage{43, 44}
   \item {compiled}
-    \subitem {egl::Shader}, \hyperpage{42}
+    \subitem {egl::Shader}, \hyperpage{45}
   \item {Compute}
-    \subitem {egl}, \hyperpage{19}
+    \subitem {egl}, \hyperpage{20}
   \item {CopyRead}
     \subitem {egl}, \hyperpage{17}
   \item {CopyWrite}
@@ -85,22 +85,22 @@
   \indexspace
 
   \item {debug.h}
-    \subitem {DEBUG\_ONLY}, \hyperpage{52}
-    \subitem {GL\_CALL}, \hyperpage{52}
+    \subitem {DEBUG\_ONLY}, \hyperpage{56}
+    \subitem {GL\_CALL}, \hyperpage{56}
   \item {DEBUG\_ONLY}
-    \subitem {debug.h}, \hyperpage{52}
+    \subitem {debug.h}, \hyperpage{56}
   \item {detach}
-    \subitem {egl::Program}, \hyperpage{32}
+    \subitem {egl::Program}, \hyperpage{35}
   \item {DispatchIndirect}
     \subitem {egl}, \hyperpage{17}
   \item {DrawIndirect}
     \subitem {egl}, \hyperpage{17}
   \item {DynamicCopy}
-    \subitem {egl}, \hyperpage{18}
+    \subitem {egl}, \hyperpage{19}
   \item {DynamicDraw}
-    \subitem {egl}, \hyperpage{18}
+    \subitem {egl}, \hyperpage{19}
   \item {DynamicRead}
-    \subitem {egl}, \hyperpage{18}
+    \subitem {egl}, \hyperpage{19}
   \item {DynamicStorage}
     \subitem {egl}, \hyperpage{17}
 
@@ -109,25 +109,25 @@
   \item {egl}, \hyperpage{15}
     \subitem {Array}, \hyperpage{17}
     \subitem {AtomicCounter}, \hyperpage{17}
-    \subitem {BufferFlag}, \hyperpage{16}
+    \subitem {BufferFlag}, \hyperpage{17}
     \subitem {BufferType}, \hyperpage{17}
-    \subitem {BufferUsage}, \hyperpage{17}
+    \subitem {BufferUsage}, \hyperpage{18}
     \subitem {ClientStorage}, \hyperpage{17}
     \subitem {Coherent}, \hyperpage{19}
-    \subitem {Compute}, \hyperpage{19}
+    \subitem {Compute}, \hyperpage{20}
     \subitem {CopyRead}, \hyperpage{17}
     \subitem {CopyWrite}, \hyperpage{17}
     \subitem {DispatchIndirect}, \hyperpage{17}
     \subitem {DrawIndirect}, \hyperpage{17}
-    \subitem {DynamicCopy}, \hyperpage{18}
-    \subitem {DynamicDraw}, \hyperpage{18}
-    \subitem {DynamicRead}, \hyperpage{18}
+    \subitem {DynamicCopy}, \hyperpage{19}
+    \subitem {DynamicDraw}, \hyperpage{19}
+    \subitem {DynamicRead}, \hyperpage{19}
     \subitem {DynamicStorage}, \hyperpage{17}
     \subitem {ElementArray}, \hyperpage{17}
     \subitem {FlushExplicit}, \hyperpage{19}
     \subitem {Fragment}, \hyperpage{19}
-    \subitem {Geometry}, \hyperpage{19}
-    \subitem {glCheckError}, \hyperpage{19}
+    \subitem {Geometry}, \hyperpage{20}
+    \subitem {glCheckError}, \hyperpage{20}
     \subitem {glErrorString}, \hyperpage{20}
     \subitem {initGLFW}, \hyperpage{20}
     \subitem {InvalidateBuffer}, \hyperpage{19}
@@ -135,110 +135,110 @@
     \subitem {MapCoherent}, \hyperpage{17}
     \subitem {MapPersistent}, \hyperpage{17}
     \subitem {MapRead}, \hyperpage{17}
-    \subitem {MapUsage}, \hyperpage{18}
+    \subitem {MapUsage}, \hyperpage{19}
     \subitem {MapWrite}, \hyperpage{17}
     \subitem {None}, \hyperpage{17}, \hyperpage{19}
-    \subitem {operator\&}, \hyperpage{20, 21}
+    \subitem {operator\&}, \hyperpage{21}
     \subitem {operator\texttt{|}}, \hyperpage{21}
     \subitem {operator\texttt{|}=}, \hyperpage{21}
     \subitem {Persistent}, \hyperpage{19}
     \subitem {PixelPack}, \hyperpage{17}
     \subitem {PixelUnpack}, \hyperpage{17}
-    \subitem {pollEvents}, \hyperpage{21}
+    \subitem {pollEvents}, \hyperpage{22}
     \subitem {Query}, \hyperpage{17}
     \subitem {Read}, \hyperpage{19}
     \subitem {ShaderStorage}, \hyperpage{17}
     \subitem {ShaderType}, \hyperpage{19}
-    \subitem {shaderTypeToString}, \hyperpage{21}
-    \subitem {StaticCopy}, \hyperpage{18}
-    \subitem {StaticDraw}, \hyperpage{18}
-    \subitem {StaticRead}, \hyperpage{18}
-    \subitem {StreamCopy}, \hyperpage{18}
+    \subitem {shaderTypeToString}, \hyperpage{22}
+    \subitem {StaticCopy}, \hyperpage{19}
+    \subitem {StaticDraw}, \hyperpage{19}
+    \subitem {StaticRead}, \hyperpage{19}
+    \subitem {StreamCopy}, \hyperpage{19}
     \subitem {StreamDraw}, \hyperpage{18}
-    \subitem {StreamRead}, \hyperpage{18}
+    \subitem {StreamRead}, \hyperpage{19}
     \subitem {terminateGLFW}, \hyperpage{22}
-    \subitem {TessControl}, \hyperpage{19}
-    \subitem {TessEvaluation}, \hyperpage{19}
+    \subitem {TessControl}, \hyperpage{20}
+    \subitem {TessEvaluation}, \hyperpage{20}
     \subitem {Texture}, \hyperpage{17}
-    \subitem {toGLenum}, \hyperpage{22}
-    \subitem {TransformFeedback}, \hyperpage{17}
-    \subitem {Uniform}, \hyperpage{17}
+    \subitem {toGLenum}, \hyperpage{22, 23}
+    \subitem {TransformFeedback}, \hyperpage{18}
+    \subitem {Uniform}, \hyperpage{18}
     \subitem {Unsynchronized}, \hyperpage{19}
     \subitem {validateBufferFlag}, \hyperpage{23}
-    \subitem {validateMapUsage}, \hyperpage{23}
+    \subitem {validateMapUsage}, \hyperpage{24}
     \subitem {Vertex}, \hyperpage{19}
     \subitem {Write}, \hyperpage{19}
   \item {egl::Buffer}, \hyperpage{25}
     \subitem {\_check}, \hyperpage{26}
     \subitem {\_delete}, \hyperpage{26}
-    \subitem {\_flags}, \hyperpage{28}
-    \subitem {\_id}, \hyperpage{28}
-    \subitem {\_mapUsage}, \hyperpage{28}
-    \subitem {\_mapped}, \hyperpage{28}
-    \subitem {\_type}, \hyperpage{29}
+    \subitem {\_flags}, \hyperpage{31}
+    \subitem {\_id}, \hyperpage{31}
+    \subitem {\_mapUsage}, \hyperpage{31}
+    \subitem {\_mapped}, \hyperpage{31}
+    \subitem {\_type}, \hyperpage{31}
     \subitem {\texorpdfstring{$\sim$}{\string~}Buffer}, \hyperpage{26}
-    \subitem {bind}, \hyperpage{26}
+    \subitem {bind}, \hyperpage{27}
     \subitem {Buffer}, \hyperpage{26}
     \subitem {getSubData}, \hyperpage{27}
     \subitem {getType}, \hyperpage{27}
     \subitem {map}, \hyperpage{27}
-    \subitem {operator=}, \hyperpage{27}
-    \subitem {setData}, \hyperpage{27}
-    \subitem {setStorage}, \hyperpage{27, 28}
-    \subitem {setSubData}, \hyperpage{28}
-    \subitem {size}, \hyperpage{28}
-    \subitem {unmap}, \hyperpage{28}
-  \item {egl::Program}, \hyperpage{29}
-    \subitem {\_check}, \hyperpage{31}
-    \subitem {\_delete}, \hyperpage{31}
-    \subitem {\_ensure}, \hyperpage{31}
-    \subitem {\_getError}, \hyperpage{31}
-    \subitem {\_id}, \hyperpage{34}
-    \subitem {\_linked}, \hyperpage{34}
-    \subitem {\texorpdfstring{$\sim$}{\string~}Program}, \hyperpage{30}
-    \subitem {attach}, \hyperpage{31}
-    \subitem {attached}, \hyperpage{31}
-    \subitem {bind}, \hyperpage{32}
-    \subitem {detach}, \hyperpage{32}
-    \subitem {link}, \hyperpage{33}
-    \subitem {linked}, \hyperpage{33}
-    \subitem {operator=}, \hyperpage{33}
-    \subitem {Program}, \hyperpage{30}
-    \subitem {reset}, \hyperpage{33}
-    \subitem {unbind}, \hyperpage{34}
-  \item {egl::ProgramLinkError}, \hyperpage{34}
-    \subitem {ProgramLinkError}, \hyperpage{35}
-  \item {egl::ProgramValidateError}, \hyperpage{35}
-    \subitem {ProgramValidateError}, \hyperpage{36}
-  \item {egl::Shader}, \hyperpage{36}
-    \subitem {\_check}, \hyperpage{40}
-    \subitem {\_compiled}, \hyperpage{43}
-    \subitem {\_delete}, \hyperpage{40}
-    \subitem {\_ensure}, \hyperpage{40}
-    \subitem {\_getError}, \hyperpage{40}
-    \subitem {\_id}, \hyperpage{43}
-    \subitem {\_type}, \hyperpage{43}
-    \subitem {\texorpdfstring{$\sim$}{\string~}Shader}, \hyperpage{39}
-    \subitem {compile}, \hyperpage{40, 41}
-    \subitem {compiled}, \hyperpage{42}
-    \subitem {getType}, \hyperpage{42}
-    \subitem {operator=}, \hyperpage{42}
-    \subitem {Program}, \hyperpage{43}
-    \subitem {reset}, \hyperpage{42}
-    \subitem {Shader}, \hyperpage{37--39}
-  \item {egl::ShaderCompileError}, \hyperpage{43}
-    \subitem {ShaderCompileError}, \hyperpage{44}
-  \item {egl::VertexBuffer}, \hyperpage{44}
-  \item {egl::WindowContext}, \hyperpage{44}
+    \subitem {operator=}, \hyperpage{28}
+    \subitem {setData}, \hyperpage{28, 29}
+    \subitem {setStorage}, \hyperpage{29, 30}
+    \subitem {setSubData}, \hyperpage{30}
+    \subitem {size}, \hyperpage{31}
+    \subitem {unmap}, \hyperpage{31}
+  \item {egl::Program}, \hyperpage{32}
+    \subitem {\_check}, \hyperpage{33}
+    \subitem {\_delete}, \hyperpage{33}
+    \subitem {\_ensure}, \hyperpage{33}
+    \subitem {\_getError}, \hyperpage{34}
+    \subitem {\_id}, \hyperpage{37}
+    \subitem {\_linked}, \hyperpage{37}
+    \subitem {\texorpdfstring{$\sim$}{\string~}Program}, \hyperpage{33}
+    \subitem {attach}, \hyperpage{34}
+    \subitem {attached}, \hyperpage{34}
+    \subitem {bind}, \hyperpage{35}
+    \subitem {detach}, \hyperpage{35}
+    \subitem {link}, \hyperpage{35}
+    \subitem {linked}, \hyperpage{36}
+    \subitem {operator=}, \hyperpage{36}
+    \subitem {Program}, \hyperpage{33}
+    \subitem {reset}, \hyperpage{36}
+    \subitem {unbind}, \hyperpage{36}
+  \item {egl::ProgramLinkError}, \hyperpage{37}
+    \subitem {ProgramLinkError}, \hyperpage{38}
+  \item {egl::ProgramValidateError}, \hyperpage{38}
+    \subitem {ProgramValidateError}, \hyperpage{39}
+  \item {egl::Shader}, \hyperpage{39}
+    \subitem {\_check}, \hyperpage{43}
+    \subitem {\_compiled}, \hyperpage{46}
+    \subitem {\_delete}, \hyperpage{43}
+    \subitem {\_ensure}, \hyperpage{43}
+    \subitem {\_getError}, \hyperpage{43}
+    \subitem {\_id}, \hyperpage{46}
+    \subitem {\_type}, \hyperpage{46}
+    \subitem {\texorpdfstring{$\sim$}{\string~}Shader}, \hyperpage{42}
+    \subitem {compile}, \hyperpage{43, 44}
+    \subitem {compiled}, \hyperpage{45}
+    \subitem {getType}, \hyperpage{45}
+    \subitem {operator=}, \hyperpage{45}
+    \subitem {Program}, \hyperpage{46}
+    \subitem {reset}, \hyperpage{45}
+    \subitem {Shader}, \hyperpage{40--42}
+  \item {egl::ShaderCompileError}, \hyperpage{46}
+    \subitem {ShaderCompileError}, \hyperpage{47}
+  \item {egl::VertexBuffer}, \hyperpage{47}
+  \item {egl::WindowContext}, \hyperpage{47}
     \subitem {\texorpdfstring{$\sim$}{\string~}WindowContext}, 
-		\hyperpage{46}
-    \subitem {operator=}, \hyperpage{46}
-    \subitem {run}, \hyperpage{47}
-    \subitem {shouldClose}, \hyperpage{47}
-    \subitem {swapBuffers}, \hyperpage{47}
-    \subitem {useContext}, \hyperpage{47}
-    \subitem {window}, \hyperpage{48}
-    \subitem {WindowContext}, \hyperpage{46}
+		\hyperpage{49}
+    \subitem {operator=}, \hyperpage{49}
+    \subitem {run}, \hyperpage{50}
+    \subitem {shouldClose}, \hyperpage{50}
+    \subitem {swapBuffers}, \hyperpage{50}
+    \subitem {useContext}, \hyperpage{50}
+    \subitem {window}, \hyperpage{51}
+    \subitem {WindowContext}, \hyperpage{49}
   \item {ElementArray}
     \subitem {egl}, \hyperpage{17}
 
@@ -252,16 +252,16 @@
   \indexspace
 
   \item {Geometry}
-    \subitem {egl}, \hyperpage{19}
+    \subitem {egl}, \hyperpage{20}
   \item {getSubData}
     \subitem {egl::Buffer}, \hyperpage{27}
   \item {getType}
     \subitem {egl::Buffer}, \hyperpage{27}
-    \subitem {egl::Shader}, \hyperpage{42}
+    \subitem {egl::Shader}, \hyperpage{45}
   \item {GL\_CALL}
-    \subitem {debug.h}, \hyperpage{52}
+    \subitem {debug.h}, \hyperpage{56}
   \item {glCheckError}
-    \subitem {egl}, \hyperpage{19}
+    \subitem {egl}, \hyperpage{20}
   \item {glErrorString}
     \subitem {egl}, \hyperpage{20}
 
@@ -269,13 +269,13 @@
 
   \item {inc Directory Reference}, \hyperpage{13}
   \item {inc/EGL Directory Reference}, \hyperpage{13}
-  \item {inc/EGL/buffer.h}, \hyperpage{49, 50}
-  \item {inc/EGL/debug.h}, \hyperpage{52, 53}
-  \item {inc/EGL/mainpage.md}, \hyperpage{53}
-  \item {inc/EGL/program.h}, \hyperpage{53, 54}
-  \item {inc/EGL/shader.h}, \hyperpage{55, 56}
-  \item {inc/EGL/vertexBuffer.h}, \hyperpage{57}
-  \item {inc/EGL/windowContext.h}, \hyperpage{57, 58}
+  \item {inc/EGL/buffer.h}, \hyperpage{53, 54}
+  \item {inc/EGL/debug.h}, \hyperpage{56, 57}
+  \item {inc/EGL/mainpage.md}, \hyperpage{57}
+  \item {inc/EGL/program.h}, \hyperpage{57, 58}
+  \item {inc/EGL/shader.h}, \hyperpage{59, 60}
+  \item {inc/EGL/vertexBuffer.h}, \hyperpage{61}
+  \item {inc/EGL/windowContext.h}, \hyperpage{61, 62}
   \item {initGLFW}
     \subitem {egl}, \hyperpage{20}
   \item {Introduction}, \hyperpage{1}
@@ -287,9 +287,9 @@
   \indexspace
 
   \item {link}
-    \subitem {egl::Program}, \hyperpage{33}
+    \subitem {egl::Program}, \hyperpage{35}
   \item {linked}
-    \subitem {egl::Program}, \hyperpage{33}
+    \subitem {egl::Program}, \hyperpage{36}
 
   \indexspace
 
@@ -302,7 +302,7 @@
   \item {MapRead}
     \subitem {egl}, \hyperpage{17}
   \item {MapUsage}
-    \subitem {egl}, \hyperpage{18}
+    \subitem {egl}, \hyperpage{19}
   \item {MapWrite}
     \subitem {egl}, \hyperpage{17}
 
@@ -314,12 +314,12 @@
   \indexspace
 
   \item {operator=}
-    \subitem {egl::Buffer}, \hyperpage{27}
-    \subitem {egl::Program}, \hyperpage{33}
-    \subitem {egl::Shader}, \hyperpage{42}
-    \subitem {egl::WindowContext}, \hyperpage{46}
+    \subitem {egl::Buffer}, \hyperpage{28}
+    \subitem {egl::Program}, \hyperpage{36}
+    \subitem {egl::Shader}, \hyperpage{45}
+    \subitem {egl::WindowContext}, \hyperpage{49}
   \item {operator\&}
-    \subitem {egl}, \hyperpage{20, 21}
+    \subitem {egl}, \hyperpage{21}
   \item {operator\texttt{|}}
     \subitem {egl}, \hyperpage{21}
   \item {operator\texttt{|}=}
@@ -334,14 +334,14 @@
   \item {PixelUnpack}
     \subitem {egl}, \hyperpage{17}
   \item {pollEvents}
-    \subitem {egl}, \hyperpage{21}
+    \subitem {egl}, \hyperpage{22}
   \item {Program}
-    \subitem {egl::Program}, \hyperpage{30}
-    \subitem {egl::Shader}, \hyperpage{43}
+    \subitem {egl::Program}, \hyperpage{33}
+    \subitem {egl::Shader}, \hyperpage{46}
   \item {ProgramLinkError}
-    \subitem {egl::ProgramLinkError}, \hyperpage{35}
+    \subitem {egl::ProgramLinkError}, \hyperpage{38}
   \item {ProgramValidateError}
-    \subitem {egl::ProgramValidateError}, \hyperpage{36}
+    \subitem {egl::ProgramValidateError}, \hyperpage{39}
 
   \indexspace
 
@@ -353,91 +353,91 @@
   \item {Read}
     \subitem {egl}, \hyperpage{19}
   \item {reset}
-    \subitem {egl::Program}, \hyperpage{33}
-    \subitem {egl::Shader}, \hyperpage{42}
+    \subitem {egl::Program}, \hyperpage{36}
+    \subitem {egl::Shader}, \hyperpage{45}
   \item {run}
-    \subitem {egl::WindowContext}, \hyperpage{47}
+    \subitem {egl::WindowContext}, \hyperpage{50}
 
   \indexspace
 
   \item {setData}
-    \subitem {egl::Buffer}, \hyperpage{27}
+    \subitem {egl::Buffer}, \hyperpage{28, 29}
   \item {setStorage}
-    \subitem {egl::Buffer}, \hyperpage{27, 28}
+    \subitem {egl::Buffer}, \hyperpage{29, 30}
   \item {setSubData}
-    \subitem {egl::Buffer}, \hyperpage{28}
+    \subitem {egl::Buffer}, \hyperpage{30}
   \item {Shader}
-    \subitem {egl::Shader}, \hyperpage{37--39}
+    \subitem {egl::Shader}, \hyperpage{40--42}
   \item {ShaderCompileError}
-    \subitem {egl::ShaderCompileError}, \hyperpage{44}
+    \subitem {egl::ShaderCompileError}, \hyperpage{47}
   \item {ShaderStorage}
     \subitem {egl}, \hyperpage{17}
   \item {ShaderType}
     \subitem {egl}, \hyperpage{19}
   \item {shaderTypeToString}
-    \subitem {egl}, \hyperpage{21}
+    \subitem {egl}, \hyperpage{22}
   \item {shouldClose}
-    \subitem {egl::WindowContext}, \hyperpage{47}
+    \subitem {egl::WindowContext}, \hyperpage{50}
   \item {size}
-    \subitem {egl::Buffer}, \hyperpage{28}
+    \subitem {egl::Buffer}, \hyperpage{31}
   \item {StaticCopy}
-    \subitem {egl}, \hyperpage{18}
+    \subitem {egl}, \hyperpage{19}
   \item {StaticDraw}
-    \subitem {egl}, \hyperpage{18}
+    \subitem {egl}, \hyperpage{19}
   \item {StaticRead}
-    \subitem {egl}, \hyperpage{18}
+    \subitem {egl}, \hyperpage{19}
   \item {StreamCopy}
-    \subitem {egl}, \hyperpage{18}
+    \subitem {egl}, \hyperpage{19}
   \item {StreamDraw}
     \subitem {egl}, \hyperpage{18}
   \item {StreamRead}
-    \subitem {egl}, \hyperpage{18}
+    \subitem {egl}, \hyperpage{19}
   \item {swapBuffers}
-    \subitem {egl::WindowContext}, \hyperpage{47}
+    \subitem {egl::WindowContext}, \hyperpage{50}
 
   \indexspace
 
   \item {terminateGLFW}
     \subitem {egl}, \hyperpage{22}
   \item {TessControl}
-    \subitem {egl}, \hyperpage{19}
+    \subitem {egl}, \hyperpage{20}
   \item {TessEvaluation}
-    \subitem {egl}, \hyperpage{19}
+    \subitem {egl}, \hyperpage{20}
   \item {Texture}
     \subitem {egl}, \hyperpage{17}
   \item {toGLenum}
-    \subitem {egl}, \hyperpage{22}
+    \subitem {egl}, \hyperpage{22, 23}
   \item {TransformFeedback}
-    \subitem {egl}, \hyperpage{17}
+    \subitem {egl}, \hyperpage{18}
 
   \indexspace
 
   \item {unbind}
-    \subitem {egl::Program}, \hyperpage{34}
+    \subitem {egl::Program}, \hyperpage{36}
   \item {Uniform}
-    \subitem {egl}, \hyperpage{17}
+    \subitem {egl}, \hyperpage{18}
   \item {unmap}
-    \subitem {egl::Buffer}, \hyperpage{28}
+    \subitem {egl::Buffer}, \hyperpage{31}
   \item {Unsynchronized}
     \subitem {egl}, \hyperpage{19}
   \item {useContext}
-    \subitem {egl::WindowContext}, \hyperpage{47}
+    \subitem {egl::WindowContext}, \hyperpage{50}
 
   \indexspace
 
   \item {validateBufferFlag}
     \subitem {egl}, \hyperpage{23}
   \item {validateMapUsage}
-    \subitem {egl}, \hyperpage{23}
+    \subitem {egl}, \hyperpage{24}
   \item {Vertex}
     \subitem {egl}, \hyperpage{19}
 
   \indexspace
 
   \item {window}
-    \subitem {egl::WindowContext}, \hyperpage{48}
+    \subitem {egl::WindowContext}, \hyperpage{51}
   \item {WindowContext}
-    \subitem {egl::WindowContext}, \hyperpage{46}
+    \subitem {egl::WindowContext}, \hyperpage{49}
   \item {Write}
     \subitem {egl}, \hyperpage{19}
 

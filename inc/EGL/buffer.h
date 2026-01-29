@@ -31,7 +31,7 @@ enum class BufferType {
 /**
  * @brief Enum to indicate Buffer Usage.
  * 
- * The Usage of a buffer can be split into two parts as follows:
+ * The Usage of a Buffer can be split into two parts as follows:
  * 
  * The frequency of usage may be one of these:
  *
@@ -130,11 +130,48 @@ inline BufferFlag& operator|=(BufferFlag& a, BufferFlag b) {
     return a;
 }
 
+/**
+ * @brief Converts a BufferType enum into a GLenum.
+ * 
+ * @throws std::invalid_argument If the BufferType is invalid.
+ */
 unsigned int toGLenum(BufferType type);
+
+/**
+ * @brief Converts a BufferUsage enum into a GLenum.
+ * 
+ * @throws std::invalid_argument If the BufferUsage is invalid.
+ */
 unsigned int toGLenum(BufferUsage usage);
+
+/**
+ * @brief Converts a MapUsage enum into a GLenum.
+ */
 unsigned int toGLenum(MapUsage usage);
+
+/**
+ * @brief Converts a BufferFlag enum into a GLenum.
+ */
 unsigned int toGLenum(BufferFlag flag);
+
+/**
+ * @brief Checks if the given MapUsage flag combination is valid.  
+ * 
+ * @param usage MapUsage flag combination to check
+ * @param error Error string output if the combination is invalid
+ * 
+ * @returns true if the MapUsage combination is valid
+ */
 bool validateMapUsage(MapUsage usage, std::string& error);
+
+/**
+ * @brief Checks if the given BufferFlag flag combination is valid.  
+ * 
+ * @param flag BufferFlag flag combination to check
+ * @param error Error string output if the combination is invalid
+ * 
+ * @returns true if the BufferFlag combination is valid
+ */
 bool validateBufferFlag(BufferFlag flag, std::string& error);
 
 class Buffer {
@@ -150,29 +187,125 @@ protected:
 
 public:
     Buffer() = delete;
+    /**
+     * @brief Construct a new Buffer object of given type.
+     */
     Buffer(BufferType type);
     Buffer(Buffer&& other);
     Buffer(const Buffer& other) = delete;
     ~Buffer() noexcept;
 
+    /**
+     * @brief Binds the Buffer to the appropriate binding point.
+     */
     void bind() const;
+
+    /**
+     * @brief Returns the size in bytes of the Buffer. 
+     */
     int64_t size() const;
 
+    /**
+     * @brief Get the Type of the Buffer.
+     */
     BufferType getType() const;
 
-    void setData(int64_t size, const void* data, BufferUsage usage); // size in bytes
+    /**
+     * @brief Set the data of the Buffer with a given usage.
+     * 
+     * @throws std::runtime_error If size is negative
+     * 
+     * @param size The size of the data in bytes
+     * @param data The data to store in the Buffer (must have at least size bytes of data)
+     * @param usage The usage hint of the Buffer
+     */
+    void setData(int64_t size, const void* data, BufferUsage usage);
+
+    /**
+     * @brief Set the data of the Buffer with a given usage.
+     * 
+     * @param data The data to store in the Buffer
+     * @param usage The usage hint of the Buffer
+     */
     template <typename T>
     void setData(std::vector<T> data, BufferUsage usage) { setData(data.size() * sizeof(T), (void*)data.data(), usage); }
 
-    void setStorage(int64_t size, const void* data, BufferFlag flags); // size in bytes
+    /**
+     * @brief Set the data of the Buffer with given Buffer flags.
+     * 
+     * @throws std::runtime_error If size is not greater than 0
+     * @throws std::runtime_error If the BufferFlag combination is invalid
+     * 
+     * @param size The size of the data in bytes
+     * @param data The data to store in the Buffer (must have at least size bytes of data)
+     * @param flags The Buffer usage flags
+     */
+    void setStorage(int64_t size, const void* data, BufferFlag flags);
+
+    /**
+     * @brief Set the data of the Buffer with given Buffer flags.
+     * 
+     * @throws std::runtime_error If size is not greater than 0
+     * @throws std::runtime_error If the BufferFlag combination is invalid
+     * 
+     * @param data The data to store in the Buffer
+     * @param flags The Buffer usage flags
+     */
     template <typename T>
     void setStorage(std::vector<T> data, BufferFlag flags) { setStorage(data.size() * sizeof(T), (void*)data.data(), flags); }
 
-    void setSubData(int64_t offset, int64_t size, const void* data); // offset and size in bytes
+    /**
+     * @brief Set a subset of the data in the Buffer.
+     * 
+     * @throws std::runtime_error If offset is negativ
+     * @throws std::runtime_error If size is negativ
+     * @throws std::runtime_error If offset + size is greater than the size of the Buffer
+     * @throws std::runtime_error If the Buffer is mapped and MapUsage::Persistent is not set
+     * 
+     * @param offset The offset of the start of the subset to set in bytes
+     * @param size The size of the subset to set in bytes
+     * @param data The data of the subset (must have at least size bytes of data)
+     */
+    void setSubData(int64_t offset, int64_t size, const void* data);
 
-    void getSubData(int64_t offset, int64_t size, void* data); // data must be at least be as big as size
+    /**
+     * @brief Get a subset of the data in the Buffer.
+     * 
+     * @throws std::runtime_error If offset is negativ
+     * @throws std::runtime_error If size is negativ
+     * @throws std::runtime_error If offset + size is greater than the size of the Buffer
+     * @throws std::runtime_error If the Buffer is mapped and MapUsage::Persistent is not set
+     * 
+     * @param offset The offset of the start of the subset to get in bytes
+     * @param size The size of the subset to get in bytes
+     * @param data The destination of the data of the subset (must be at least size bytes big)
+     */
+    void getSubData(int64_t offset, int64_t size, void* data);
 
-    void* map(int64_t offset, int64_t length, MapUsage access); // get a pointer to the buffer data for a specific usage
+    /**
+     * @brief Map a part of the Buffer data to the client's address space.
+     * 
+     * @throws std::runtime_error If the Buffer was allready mapped
+     * @throws std::runtime_error If length is less than or equal to 0
+     * @throws std::runtime_error If offset is less than 0
+     * @throws std::runtime_error If length + offset is greater than the size of the Buffer
+     * @throws std::runtime_error If the MapUsage is invalid
+     * @throws std::runtime_error If MapUsage::Persistent was requested without BufferFlag::MapPersistent being set through setStorage
+     * @throws std::runtime_error If mapping failed and a nullptr was returned
+     * 
+     * @param offset The offset of the map range into the Buffer in bytes
+     * @param length The length of the map range in the Buffer in bytes
+     * @param access The usage of the mapped range
+     * 
+     * @return A pointer to the beginning of the mapped range 
+     */
+    void* map(int64_t offset, int64_t length, MapUsage access);
+
+    /**
+     * @brief Unmaps the Buffer.
+     * 
+     * @throws std::runtime_error If OpenGL signalled data corruption
+     */
     void unmap();
 
     Buffer& operator=(Buffer&& other);

@@ -196,11 +196,17 @@ Functions</h2></td></tr>
 <tr class="memitem:a5b04786d00995760e2d9c6f6f68c1d5e" id="r_a5b04786d00995760e2d9c6f6f68c1d5e"><td class="memItemLeft"><a class="el" href="#a26041025f1dffb8975174b439d5f0150">BufferFlag</a>&#160;</td><td class="memItemRight"><a class="el" href="#a5b04786d00995760e2d9c6f6f68c1d5e">operator&amp;</a> (<a class="el" href="#a26041025f1dffb8975174b439d5f0150">BufferFlag</a> a, <a class="el" href="#a26041025f1dffb8975174b439d5f0150">BufferFlag</a> b)</td></tr>
 <tr class="memitem:a1475de49ec91100a500484e0afd10338" id="r_a1475de49ec91100a500484e0afd10338"><td class="memItemLeft"><a class="el" href="#a26041025f1dffb8975174b439d5f0150">BufferFlag</a> &amp;&#160;</td><td class="memItemRight"><a class="el" href="#a1475de49ec91100a500484e0afd10338">operator|=</a> (<a class="el" href="#a26041025f1dffb8975174b439d5f0150">BufferFlag</a> &amp;a, <a class="el" href="#a26041025f1dffb8975174b439d5f0150">BufferFlag</a> b)</td></tr>
 <tr class="memitem:a5b49c788db9d2063d7ab77f98703f900" id="r_a5b49c788db9d2063d7ab77f98703f900"><td class="memItemLeft">unsigned int&#160;</td><td class="memItemRight"><a class="el" href="#a5b49c788db9d2063d7ab77f98703f900">toGLenum</a> (<a class="el" href="#a9d3c4e1c16d66cc0e4de86e7ac323291">BufferType</a> type)</td></tr>
+<tr class="memdesc:a5b49c788db9d2063d7ab77f98703f900"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a <a class="el" href="#a9d3c4e1c16d66cc0e4de86e7ac323291" title="Enum to indicate the type of Buffer.">BufferType</a> enum into a GLenum.  <br /></td></tr>
 <tr class="memitem:a0ae23397829820009b95472f8cd4c48c" id="r_a0ae23397829820009b95472f8cd4c48c"><td class="memItemLeft">unsigned int&#160;</td><td class="memItemRight"><a class="el" href="#a0ae23397829820009b95472f8cd4c48c">toGLenum</a> (<a class="el" href="#ac73662910801a578088c729c58a62c97">BufferUsage</a> usage)</td></tr>
+<tr class="memdesc:a0ae23397829820009b95472f8cd4c48c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a <a class="el" href="#ac73662910801a578088c729c58a62c97" title="Enum to indicate Buffer Usage.">BufferUsage</a> enum into a GLenum.  <br /></td></tr>
 <tr class="memitem:a0688070e56c8b033413a91f82b999792" id="r_a0688070e56c8b033413a91f82b999792"><td class="memItemLeft">unsigned int&#160;</td><td class="memItemRight"><a class="el" href="#a0688070e56c8b033413a91f82b999792">toGLenum</a> (<a class="el" href="#a79ed3ca25fe4c77c1ebacb3f1283d4b2">MapUsage</a> usage)</td></tr>
+<tr class="memdesc:a0688070e56c8b033413a91f82b999792"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a <a class="el" href="#a79ed3ca25fe4c77c1ebacb3f1283d4b2" title="Enum flags to indicate Buffer map usage.">MapUsage</a> enum into a GLenum.  <br /></td></tr>
 <tr class="memitem:a7d27ff3fcab64e012f9a138459b63a67" id="r_a7d27ff3fcab64e012f9a138459b63a67"><td class="memItemLeft">unsigned int&#160;</td><td class="memItemRight"><a class="el" href="#a7d27ff3fcab64e012f9a138459b63a67">toGLenum</a> (<a class="el" href="#a26041025f1dffb8975174b439d5f0150">BufferFlag</a> flag)</td></tr>
+<tr class="memdesc:a7d27ff3fcab64e012f9a138459b63a67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a <a class="el" href="#a26041025f1dffb8975174b439d5f0150" title="Enum falgs for explicit Buffer usage in setStorage.">BufferFlag</a> enum into a GLenum.  <br /></td></tr>
 <tr class="memitem:a827e3e9edcc216c2b83c9cfe3af8343b" id="r_a827e3e9edcc216c2b83c9cfe3af8343b"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a827e3e9edcc216c2b83c9cfe3af8343b">validateMapUsage</a> (<a class="el" href="#a79ed3ca25fe4c77c1ebacb3f1283d4b2">MapUsage</a> usage, std::string &amp;error)</td></tr>
+<tr class="memdesc:a827e3e9edcc216c2b83c9cfe3af8343b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the given <a class="el" href="#a79ed3ca25fe4c77c1ebacb3f1283d4b2" title="Enum flags to indicate Buffer map usage.">MapUsage</a> flag combination is valid.  <br /></td></tr>
 <tr class="memitem:a5ef35b2b7cce9cbf20fbeb47e595054e" id="r_a5ef35b2b7cce9cbf20fbeb47e595054e"><td class="memItemLeft">bool&#160;</td><td class="memItemRight"><a class="el" href="#a5ef35b2b7cce9cbf20fbeb47e595054e">validateBufferFlag</a> (<a class="el" href="#a26041025f1dffb8975174b439d5f0150">BufferFlag</a> flag, std::string &amp;error)</td></tr>
+<tr class="memdesc:a5ef35b2b7cce9cbf20fbeb47e595054e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the given <a class="el" href="#a26041025f1dffb8975174b439d5f0150" title="Enum falgs for explicit Buffer usage in setStorage.">BufferFlag</a> flag combination is valid.  <br /></td></tr>
 <tr class="memitem:aaf82114960a088c58a478591198f4c16" id="r_aaf82114960a088c58a478591198f4c16"><td class="memItemLeft">const char *&#160;</td><td class="memItemRight"><a class="el" href="#aaf82114960a088c58a478591198f4c16">glErrorString</a> (unsigned int err)</td></tr>
 <tr class="memdesc:aaf82114960a088c58a478591198f4c16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a c-style string from from a OpenGL enum.  <br /></td></tr>
 <tr class="memitem:a3bbf040016c69492e2a5f73ba1405b45" id="r_a3bbf040016c69492e2a5f73ba1405b45"><td class="memItemLeft">void&#160;</td><td class="memItemRight"><a class="el" href="#a3bbf040016c69492e2a5f73ba1405b45">glCheckError</a> (const char *func, const char *file, int line)</td></tr>
@@ -331,7 +337,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Enum to indicate <a class="el" href="../../d3/d66/classegl_1_1_buffer.html">Buffer</a> Usage. </p>
-<p>The Usage of a buffer can be split into two parts as follows:</p>
+<p>The Usage of a <a class="el" href="../../d3/d66/classegl_1_1_buffer.html">Buffer</a> can be split into two parts as follows:</p>
 <p>The frequency of usage may be one of these:</p>
 <p>Stream</p><ul>
 <li>The data store contents will be modified once and used at most a few times.</li>
@@ -800,6 +806,8 @@ Mainly used in the GL_CALL macro in the backend of the Easy OpenGL abstraction.<
       </table>
 </div><div class="memdoc">
 
+<p>Converts a <a class="el" href="#a26041025f1dffb8975174b439d5f0150" title="Enum falgs for explicit Buffer usage in setStorage.">BufferFlag</a> enum into a GLenum. </p>
+
 </div>
 </div>
 <a id="a5b49c788db9d2063d7ab77f98703f900" name="a5b49c788db9d2063d7ab77f98703f900"></a>
@@ -816,6 +824,14 @@ Mainly used in the GL_CALL macro in the backend of the Easy OpenGL abstraction.<
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Converts a <a class="el" href="#a9d3c4e1c16d66cc0e4de86e7ac323291" title="Enum to indicate the type of Buffer.">BufferType</a> enum into a GLenum. </p>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::invalid_argument</td><td>If the <a class="el" href="#a9d3c4e1c16d66cc0e4de86e7ac323291" title="Enum to indicate the type of Buffer.">BufferType</a> is invalid. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -834,6 +850,14 @@ Mainly used in the GL_CALL macro in the backend of the Easy OpenGL abstraction.<
       </table>
 </div><div class="memdoc">
 
+<p>Converts a <a class="el" href="#ac73662910801a578088c729c58a62c97" title="Enum to indicate Buffer Usage.">BufferUsage</a> enum into a GLenum. </p>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">std::invalid_argument</td><td>If the <a class="el" href="#ac73662910801a578088c729c58a62c97" title="Enum to indicate Buffer Usage.">BufferUsage</a> is invalid. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a0688070e56c8b033413a91f82b999792" name="a0688070e56c8b033413a91f82b999792"></a>
@@ -850,6 +874,8 @@ Mainly used in the GL_CALL macro in the backend of the Easy OpenGL abstraction.<
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Converts a <a class="el" href="#a79ed3ca25fe4c77c1ebacb3f1283d4b2" title="Enum flags to indicate Buffer map usage.">MapUsage</a> enum into a GLenum. </p>
 
 </div>
 </div>
@@ -904,6 +930,16 @@ Mainly used in the GL_CALL macro in the backend of the Easy OpenGL abstraction.<
       </table>
 </div><div class="memdoc">
 
+<p>Checks if the given <a class="el" href="#a26041025f1dffb8975174b439d5f0150" title="Enum falgs for explicit Buffer usage in setStorage.">BufferFlag</a> flag combination is valid. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">flag</td><td><a class="el" href="#a26041025f1dffb8975174b439d5f0150" title="Enum falgs for explicit Buffer usage in setStorage.">BufferFlag</a> flag combination to check </td></tr>
+    <tr><td class="paramname">error</td><td>Error string output if the combination is invalid</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the <a class="el" href="#a26041025f1dffb8975174b439d5f0150" title="Enum falgs for explicit Buffer usage in setStorage.">BufferFlag</a> combination is valid </dd></dl>
+
 </div>
 </div>
 <a id="a827e3e9edcc216c2b83c9cfe3af8343b" name="a827e3e9edcc216c2b83c9cfe3af8343b"></a>
@@ -924,6 +960,16 @@ Mainly used in the GL_CALL macro in the backend of the Easy OpenGL abstraction.<
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Checks if the given <a class="el" href="#a79ed3ca25fe4c77c1ebacb3f1283d4b2" title="Enum flags to indicate Buffer map usage.">MapUsage</a> flag combination is valid. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">usage</td><td><a class="el" href="#a79ed3ca25fe4c77c1ebacb3f1283d4b2" title="Enum flags to indicate Buffer map usage.">MapUsage</a> flag combination to check </td></tr>
+    <tr><td class="paramname">error</td><td>Error string output if the combination is invalid</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>true if the <a class="el" href="#a79ed3ca25fe4c77c1ebacb3f1283d4b2" title="Enum flags to indicate Buffer map usage.">MapUsage</a> combination is valid </dd></dl>
 
 </div>
 </div>

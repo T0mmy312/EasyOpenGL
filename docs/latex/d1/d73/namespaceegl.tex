@@ -107,17 +107,17 @@ enum class \doxymbox{\hyperlink{namespaceegl_aaaec9f917c250f938f83b38200719753}{
 \doxymbox{\hyperlink{namespaceegl_a26041025f1dffb8975174b439d5f0150}{Buffer\+Flag}} \& \doxymbox{\hyperlink{namespaceegl_a1475de49ec91100a500484e0afd10338}{operator\texorpdfstring{$\vert$}{|}=}} (\doxymbox{\hyperlink{namespaceegl_a26041025f1dffb8975174b439d5f0150}{Buffer\+Flag}} \&a, \doxymbox{\hyperlink{namespaceegl_a26041025f1dffb8975174b439d5f0150}{Buffer\+Flag}} b)
 \item 
 unsigned int \doxymbox{\hyperlink{namespaceegl_a5b49c788db9d2063d7ab77f98703f900}{to\+GLenum}} (\doxymbox{\hyperlink{namespaceegl_a9d3c4e1c16d66cc0e4de86e7ac323291}{Buffer\+Type}} type)
-\item 
+\begin{DoxyCompactList}\small\item\em Converts a \doxylink{namespaceegl_a9d3c4e1c16d66cc0e4de86e7ac323291}{Buffer\+Type} enum into a GLenum. \end{DoxyCompactList}\item 
 unsigned int \doxymbox{\hyperlink{namespaceegl_a0ae23397829820009b95472f8cd4c48c}{to\+GLenum}} (\doxymbox{\hyperlink{namespaceegl_ac73662910801a578088c729c58a62c97}{Buffer\+Usage}} usage)
-\item 
+\begin{DoxyCompactList}\small\item\em Converts a \doxylink{namespaceegl_ac73662910801a578088c729c58a62c97}{Buffer\+Usage} enum into a GLenum. \end{DoxyCompactList}\item 
 unsigned int \doxymbox{\hyperlink{namespaceegl_a0688070e56c8b033413a91f82b999792}{to\+GLenum}} (\doxymbox{\hyperlink{namespaceegl_a79ed3ca25fe4c77c1ebacb3f1283d4b2}{Map\+Usage}} usage)
-\item 
+\begin{DoxyCompactList}\small\item\em Converts a \doxylink{namespaceegl_a79ed3ca25fe4c77c1ebacb3f1283d4b2}{Map\+Usage} enum into a GLenum. \end{DoxyCompactList}\item 
 unsigned int \doxymbox{\hyperlink{namespaceegl_a7d27ff3fcab64e012f9a138459b63a67}{to\+GLenum}} (\doxymbox{\hyperlink{namespaceegl_a26041025f1dffb8975174b439d5f0150}{Buffer\+Flag}} flag)
-\item 
+\begin{DoxyCompactList}\small\item\em Converts a \doxylink{namespaceegl_a26041025f1dffb8975174b439d5f0150}{Buffer\+Flag} enum into a GLenum. \end{DoxyCompactList}\item 
 bool \doxymbox{\hyperlink{namespaceegl_a827e3e9edcc216c2b83c9cfe3af8343b}{validate\+Map\+Usage}} (\doxymbox{\hyperlink{namespaceegl_a79ed3ca25fe4c77c1ebacb3f1283d4b2}{Map\+Usage}} usage, std::\+string \&error)
-\item 
+\begin{DoxyCompactList}\small\item\em Checks if the given \doxylink{namespaceegl_a79ed3ca25fe4c77c1ebacb3f1283d4b2}{Map\+Usage} flag combination is valid. \end{DoxyCompactList}\item 
 bool \doxymbox{\hyperlink{namespaceegl_a5ef35b2b7cce9cbf20fbeb47e595054e}{validate\+Buffer\+Flag}} (\doxymbox{\hyperlink{namespaceegl_a26041025f1dffb8975174b439d5f0150}{Buffer\+Flag}} flag, std::\+string \&error)
-\item 
+\begin{DoxyCompactList}\small\item\em Checks if the given \doxylink{namespaceegl_a26041025f1dffb8975174b439d5f0150}{Buffer\+Flag} flag combination is valid. \end{DoxyCompactList}\item 
 const char \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{namespaceegl_aaf82114960a088c58a478591198f4c16}{gl\+Error\+String}} (unsigned int err)
 \begin{DoxyCompactList}\small\item\em Gets a c-\/style string from from a Open\+GL enum. \end{DoxyCompactList}\item 
 void \doxymbox{\hyperlink{namespaceegl_a3bbf040016c69492e2a5f73ba1405b45}{gl\+Check\+Error}} (const char \texorpdfstring{$\ast$}{*}func, const char \texorpdfstring{$\ast$}{*}file, int line)
@@ -297,7 +297,7 @@ enum class \doxymbox{\hyperlink{namespaceegl_ac73662910801a578088c729c58a62c97}{
 
 Enum to indicate \doxylink{classegl_1_1_buffer}{Buffer} Usage. 
 
-The Usage of a buffer can be split into two parts as follows:\+
+The Usage of a \doxylink{classegl_1_1_buffer}{Buffer} can be split into two parts as follows:\+
 
 The frequency of usage may be one of these:\+
 
@@ -657,23 +657,49 @@ Terminates GLFW.
 {\footnotesize\ttfamily \label{namespaceegl_a7d27ff3fcab64e012f9a138459b63a67} 
 unsigned int egl::\+to\+GLenum (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceegl_a26041025f1dffb8975174b439d5f0150}{Buffer\+Flag}}}]{flag}{}\end{DoxyParamCaption})}
 
+
+
+Converts a \doxylink{namespaceegl_a26041025f1dffb8975174b439d5f0150}{Buffer\+Flag} enum into a GLenum. 
+
 \Hypertarget{namespaceegl_a5b49c788db9d2063d7ab77f98703f900}\index{egl@{egl}!toGLenum@{toGLenum}}
 \index{toGLenum@{toGLenum}!egl@{egl}}
 \doxysubsubsection{\texorpdfstring{toGLenum()}{toGLenum()}\hspace{0.1cm}{\footnotesize\ttfamily [2/5]}}
 {\footnotesize\ttfamily \label{namespaceegl_a5b49c788db9d2063d7ab77f98703f900} 
 unsigned int egl::\+to\+GLenum (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceegl_a9d3c4e1c16d66cc0e4de86e7ac323291}{Buffer\+Type}}}]{type}{}\end{DoxyParamCaption})}
 
+
+
+Converts a \doxylink{namespaceegl_a9d3c4e1c16d66cc0e4de86e7ac323291}{Buffer\+Type} enum into a GLenum. 
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em std::\+invalid\+\_\+argument} & If the \doxylink{namespaceegl_a9d3c4e1c16d66cc0e4de86e7ac323291}{Buffer\+Type} is invalid. \\
+\hline
+\end{DoxyExceptions}
 \Hypertarget{namespaceegl_a0ae23397829820009b95472f8cd4c48c}\index{egl@{egl}!toGLenum@{toGLenum}}
 \index{toGLenum@{toGLenum}!egl@{egl}}
 \doxysubsubsection{\texorpdfstring{toGLenum()}{toGLenum()}\hspace{0.1cm}{\footnotesize\ttfamily [3/5]}}
 {\footnotesize\ttfamily \label{namespaceegl_a0ae23397829820009b95472f8cd4c48c} 
 unsigned int egl::\+to\+GLenum (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceegl_ac73662910801a578088c729c58a62c97}{Buffer\+Usage}}}]{usage}{}\end{DoxyParamCaption})}
 
+
+
+Converts a \doxylink{namespaceegl_ac73662910801a578088c729c58a62c97}{Buffer\+Usage} enum into a GLenum. 
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em std::\+invalid\+\_\+argument} & If the \doxylink{namespaceegl_ac73662910801a578088c729c58a62c97}{Buffer\+Usage} is invalid. \\
+\hline
+\end{DoxyExceptions}
 \Hypertarget{namespaceegl_a0688070e56c8b033413a91f82b999792}\index{egl@{egl}!toGLenum@{toGLenum}}
 \index{toGLenum@{toGLenum}!egl@{egl}}
 \doxysubsubsection{\texorpdfstring{toGLenum()}{toGLenum()}\hspace{0.1cm}{\footnotesize\ttfamily [4/5]}}
 {\footnotesize\ttfamily \label{namespaceegl_a0688070e56c8b033413a91f82b999792} 
 unsigned int egl::\+to\+GLenum (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceegl_a79ed3ca25fe4c77c1ebacb3f1283d4b2}{Map\+Usage}}}]{usage}{}\end{DoxyParamCaption})}
+
+
+
+Converts a \doxylink{namespaceegl_a79ed3ca25fe4c77c1ebacb3f1283d4b2}{Map\+Usage} enum into a GLenum. 
 
 \Hypertarget{namespaceegl_a9944b5ef4b7af7d46ac6a17c01acab89}\index{egl@{egl}!toGLenum@{toGLenum}}
 \index{toGLenum@{toGLenum}!egl@{egl}}
@@ -704,9 +730,37 @@ The resulting Open\+GL enum.
 {\footnotesize\ttfamily \label{namespaceegl_a5ef35b2b7cce9cbf20fbeb47e595054e} 
 bool egl::\+validate\+Buffer\+Flag (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceegl_a26041025f1dffb8975174b439d5f0150}{Buffer\+Flag}}}]{flag}{, }\item[{std::\+string \&}]{error}{}\end{DoxyParamCaption})}
 
+
+
+Checks if the given \doxylink{namespaceegl_a26041025f1dffb8975174b439d5f0150}{Buffer\+Flag} flag combination is valid. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em flag} & \doxylink{namespaceegl_a26041025f1dffb8975174b439d5f0150}{Buffer\+Flag} flag combination to check \\
+\hline
+{\em error} & Error string output if the combination is invalid\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the \doxylink{namespaceegl_a26041025f1dffb8975174b439d5f0150}{Buffer\+Flag} combination is valid 
+\end{DoxyReturn}
 \Hypertarget{namespaceegl_a827e3e9edcc216c2b83c9cfe3af8343b}\index{egl@{egl}!validateMapUsage@{validateMapUsage}}
 \index{validateMapUsage@{validateMapUsage}!egl@{egl}}
 \doxysubsubsection{\texorpdfstring{validateMapUsage()}{validateMapUsage()}}
 {\footnotesize\ttfamily \label{namespaceegl_a827e3e9edcc216c2b83c9cfe3af8343b} 
 bool egl::\+validate\+Map\+Usage (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespaceegl_a79ed3ca25fe4c77c1ebacb3f1283d4b2}{Map\+Usage}}}]{usage}{, }\item[{std::\+string \&}]{error}{}\end{DoxyParamCaption})}
 
+
+
+Checks if the given \doxylink{namespaceegl_a79ed3ca25fe4c77c1ebacb3f1283d4b2}{Map\+Usage} flag combination is valid. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em usage} & \doxylink{namespaceegl_a79ed3ca25fe4c77c1ebacb3f1283d4b2}{Map\+Usage} flag combination to check \\
+\hline
+{\em error} & Error string output if the combination is invalid\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the \doxylink{namespaceegl_a79ed3ca25fe4c77c1ebacb3f1283d4b2}{Map\+Usage} combination is valid 
+\end{DoxyReturn}

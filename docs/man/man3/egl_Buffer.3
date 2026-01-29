@@ -17,6 +17,7 @@ egl::Buffer
 .ti -1c
 .RI "\fBBuffer\fP (\fBBufferType\fP type)"
 .br
+.RI "Construct a new \fBBuffer\fP object of given type\&. "
 .ti -1c
 .RI "\fBBuffer\fP (Buffer &&other)"
 .br
@@ -29,36 +30,47 @@ egl::Buffer
 .ti -1c
 .RI "void \fBbind\fP () const"
 .br
+.RI "Binds the \fBBuffer\fP to the appropriate binding point\&. "
 .ti -1c
 .RI "int64_t \fBsize\fP () const"
 .br
+.RI "Returns the size in bytes of the \fBBuffer\fP\&. "
 .ti -1c
 .RI "\fBBufferType\fP \fBgetType\fP () const"
 .br
+.RI "Get the Type of the \fBBuffer\fP\&. "
 .ti -1c
 .RI "void \fBsetData\fP (int64_t \fBsize\fP, const void *data, \fBBufferUsage\fP usage)"
 .br
+.RI "Set the data of the \fBBuffer\fP with a given usage\&. "
 .ti -1c
 .RI "template<typename T> void \fBsetData\fP (std::vector< T > data, \fBBufferUsage\fP usage)"
 .br
+.RI "Set the data of the \fBBuffer\fP with a given usage\&. "
 .ti -1c
 .RI "void \fBsetStorage\fP (int64_t \fBsize\fP, const void *data, \fBBufferFlag\fP flags)"
 .br
+.RI "Set the data of the \fBBuffer\fP with given \fBBuffer\fP flags\&. "
 .ti -1c
 .RI "template<typename T> void \fBsetStorage\fP (std::vector< T > data, \fBBufferFlag\fP flags)"
 .br
+.RI "Set the data of the \fBBuffer\fP with given \fBBuffer\fP flags\&. "
 .ti -1c
 .RI "void \fBsetSubData\fP (int64_t offset, int64_t \fBsize\fP, const void *data)"
 .br
+.RI "Set a subset of the data in the \fBBuffer\fP\&. "
 .ti -1c
 .RI "void \fBgetSubData\fP (int64_t offset, int64_t \fBsize\fP, void *data)"
 .br
+.RI "Get a subset of the data in the \fBBuffer\fP\&. "
 .ti -1c
 .RI "void * \fBmap\fP (int64_t offset, int64_t length, \fBMapUsage\fP access)"
 .br
+.RI "Map a part of the \fBBuffer\fP data to the client's address space\&. "
 .ti -1c
 .RI "void \fBunmap\fP ()"
 .br
+.RI "Unmaps the \fBBuffer\fP\&. "
 .ti -1c
 .RI "\fBBuffer\fP & \fBoperator=\fP (\fBBuffer\fP &&other)"
 .br
@@ -101,6 +113,8 @@ egl::Buffer
 
 .SS "egl::Buffer::Buffer (\fBBufferType\fP type)"
 
+.PP
+Construct a new \fBBuffer\fP object of given type\&. 
 .SS "egl::Buffer::Buffer (Buffer && other)"
 
 .SS "egl::Buffer::Buffer (const Buffer & other)\fR [delete]\fP"
@@ -115,11 +129,74 @@ egl::Buffer
 
 .SS "void egl::Buffer::bind () const"
 
+.PP
+Binds the \fBBuffer\fP to the appropriate binding point\&. 
 .SS "void egl::Buffer::getSubData (int64_t offset, int64_t size, void * data)"
+
+.PP
+Get a subset of the data in the \fBBuffer\fP\&. 
+.PP
+\fBExceptions\fP
+.RS 4
+\fIstd::runtime_error\fP If offset is negativ 
+.br
+\fIstd::runtime_error\fP If size is negativ 
+.br
+\fIstd::runtime_error\fP If offset + size is greater than the size of the \fBBuffer\fP 
+.br
+\fIstd::runtime_error\fP If the \fBBuffer\fP is mapped and \fBMapUsage::Persistent\fP is not set
+.RE
+.PP
+\fBParameters\fP
+.RS 4
+\fIoffset\fP The offset of the start of the subset to get in bytes 
+.br
+\fI\fBsize\fP\fP The size of the subset to get in bytes 
+.br
+\fIdata\fP The destination of the data of the subset (must be at least size bytes big) 
+.RE
+.PP
 
 .SS "\fBBufferType\fP egl::Buffer::getType () const"
 
+.PP
+Get the Type of the \fBBuffer\fP\&. 
 .SS "void * egl::Buffer::map (int64_t offset, int64_t length, \fBMapUsage\fP access)"
+
+.PP
+Map a part of the \fBBuffer\fP data to the client's address space\&. 
+.PP
+\fBExceptions\fP
+.RS 4
+\fIstd::runtime_error\fP If the \fBBuffer\fP was allready mapped 
+.br
+\fIstd::runtime_error\fP If length is less than or equal to 0 
+.br
+\fIstd::runtime_error\fP If offset is less than 0 
+.br
+\fIstd::runtime_error\fP If length + offset is greater than the size of the \fBBuffer\fP 
+.br
+\fIstd::runtime_error\fP If the \fBMapUsage\fP is invalid 
+.br
+\fIstd::runtime_error\fP If \fBMapUsage::Persistent\fP was requested without \fBBufferFlag::MapPersistent\fP being set through setStorage 
+.br
+\fIstd::runtime_error\fP If mapping failed and a nullptr was returned
+.RE
+.PP
+\fBParameters\fP
+.RS 4
+\fIoffset\fP The offset of the map range into the \fBBuffer\fP in bytes 
+.br
+\fIlength\fP The length of the map range in the \fBBuffer\fP in bytes 
+.br
+\fIaccess\fP The usage of the mapped range
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+A pointer to the beginning of the mapped range 
+.RE
+.PP
 
 .SS "\fBBuffer\fP & egl::Buffer::operator= (\fBBuffer\fP && other)"
 
@@ -127,17 +204,119 @@ egl::Buffer
 
 .SS "void egl::Buffer::setData (int64_t size, const void * data, \fBBufferUsage\fP usage)"
 
+.PP
+Set the data of the \fBBuffer\fP with a given usage\&. 
+.PP
+\fBExceptions\fP
+.RS 4
+\fIstd::runtime_error\fP If size is negative
+.RE
+.PP
+\fBParameters\fP
+.RS 4
+\fI\fBsize\fP\fP The size of the data in bytes 
+.br
+\fIdata\fP The data to store in the \fBBuffer\fP (must have at least size bytes of data) 
+.br
+\fIusage\fP The usage hint of the \fBBuffer\fP 
+.RE
+.PP
+
 .SS "template<typename T> void egl::Buffer::setData (std::vector< T > data, \fBBufferUsage\fP usage)\fR [inline]\fP"
+
+.PP
+Set the data of the \fBBuffer\fP with a given usage\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIdata\fP The data to store in the \fBBuffer\fP 
+.br
+\fIusage\fP The usage hint of the \fBBuffer\fP 
+.RE
+.PP
 
 .SS "void egl::Buffer::setStorage (int64_t size, const void * data, \fBBufferFlag\fP flags)"
 
+.PP
+Set the data of the \fBBuffer\fP with given \fBBuffer\fP flags\&. 
+.PP
+\fBExceptions\fP
+.RS 4
+\fIstd::runtime_error\fP If size is not greater than 0 
+.br
+\fIstd::runtime_error\fP If the \fBBufferFlag\fP combination is invalid
+.RE
+.PP
+\fBParameters\fP
+.RS 4
+\fI\fBsize\fP\fP The size of the data in bytes 
+.br
+\fIdata\fP The data to store in the \fBBuffer\fP (must have at least size bytes of data) 
+.br
+\fIflags\fP The \fBBuffer\fP usage flags 
+.RE
+.PP
+
 .SS "template<typename T> void egl::Buffer::setStorage (std::vector< T > data, \fBBufferFlag\fP flags)\fR [inline]\fP"
+
+.PP
+Set the data of the \fBBuffer\fP with given \fBBuffer\fP flags\&. 
+.PP
+\fBExceptions\fP
+.RS 4
+\fIstd::runtime_error\fP If size is not greater than 0 
+.br
+\fIstd::runtime_error\fP If the \fBBufferFlag\fP combination is invalid
+.RE
+.PP
+\fBParameters\fP
+.RS 4
+\fIdata\fP The data to store in the \fBBuffer\fP 
+.br
+\fIflags\fP The \fBBuffer\fP usage flags 
+.RE
+.PP
 
 .SS "void egl::Buffer::setSubData (int64_t offset, int64_t size, const void * data)"
 
+.PP
+Set a subset of the data in the \fBBuffer\fP\&. 
+.PP
+\fBExceptions\fP
+.RS 4
+\fIstd::runtime_error\fP If offset is negativ 
+.br
+\fIstd::runtime_error\fP If size is negativ 
+.br
+\fIstd::runtime_error\fP If offset + size is greater than the size of the \fBBuffer\fP 
+.br
+\fIstd::runtime_error\fP If the \fBBuffer\fP is mapped and \fBMapUsage::Persistent\fP is not set
+.RE
+.PP
+\fBParameters\fP
+.RS 4
+\fIoffset\fP The offset of the start of the subset to set in bytes 
+.br
+\fI\fBsize\fP\fP The size of the subset to set in bytes 
+.br
+\fIdata\fP The data of the subset (must have at least size bytes of data) 
+.RE
+.PP
+
 .SS "int64_t egl::Buffer::size () const"
 
+.PP
+Returns the size in bytes of the \fBBuffer\fP\&. 
 .SS "void egl::Buffer::unmap ()"
+
+.PP
+Unmaps the \fBBuffer\fP\&. 
+.PP
+\fBExceptions\fP
+.RS 4
+\fIstd::runtime_error\fP If OpenGL signalled data corruption 
+.RE
+.PP
 
 .SH "Field Documentation"
 .PP 

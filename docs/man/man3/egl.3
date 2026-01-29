@@ -88,21 +88,27 @@ egl
 .ti -1c
 .RI "unsigned int \fBtoGLenum\fP (\fBBufferType\fP type)"
 .br
+.RI "Converts a \fBBufferType\fP enum into a GLenum\&. "
 .ti -1c
 .RI "unsigned int \fBtoGLenum\fP (\fBBufferUsage\fP usage)"
 .br
+.RI "Converts a \fBBufferUsage\fP enum into a GLenum\&. "
 .ti -1c
 .RI "unsigned int \fBtoGLenum\fP (\fBMapUsage\fP usage)"
 .br
+.RI "Converts a \fBMapUsage\fP enum into a GLenum\&. "
 .ti -1c
 .RI "unsigned int \fBtoGLenum\fP (\fBBufferFlag\fP flag)"
 .br
+.RI "Converts a \fBBufferFlag\fP enum into a GLenum\&. "
 .ti -1c
 .RI "bool \fBvalidateMapUsage\fP (\fBMapUsage\fP usage, std::string &error)"
 .br
+.RI "Checks if the given \fBMapUsage\fP flag combination is valid\&. "
 .ti -1c
 .RI "bool \fBvalidateBufferFlag\fP (\fBBufferFlag\fP flag, std::string &error)"
 .br
+.RI "Checks if the given \fBBufferFlag\fP flag combination is valid\&. "
 .ti -1c
 .RI "const char * \fBglErrorString\fP (unsigned int err)"
 .br
@@ -213,7 +219,7 @@ Uniform block storage\&.
 .SS "enum class \fBegl::BufferUsage\fP\fR [strong]\fP"
 
 .PP
-Enum to indicate \fBBuffer\fP Usage\&. The Usage of a buffer can be split into two parts as follows:
+Enum to indicate \fBBuffer\fP Usage\&. The Usage of a \fBBuffer\fP can be split into two parts as follows:
 
 .PP
 The frequency of usage may be one of these:
@@ -452,12 +458,34 @@ Terminates GLFW\&.
 
 .SS "unsigned int egl::toGLenum (\fBBufferFlag\fP flag)"
 
+.PP
+Converts a \fBBufferFlag\fP enum into a GLenum\&. 
 .SS "unsigned int egl::toGLenum (\fBBufferType\fP type)"
+
+.PP
+Converts a \fBBufferType\fP enum into a GLenum\&. 
+.PP
+\fBExceptions\fP
+.RS 4
+\fIstd::invalid_argument\fP If the \fBBufferType\fP is invalid\&. 
+.RE
+.PP
 
 .SS "unsigned int egl::toGLenum (\fBBufferUsage\fP usage)"
 
+.PP
+Converts a \fBBufferUsage\fP enum into a GLenum\&. 
+.PP
+\fBExceptions\fP
+.RS 4
+\fIstd::invalid_argument\fP If the \fBBufferUsage\fP is invalid\&. 
+.RE
+.PP
+
 .SS "unsigned int egl::toGLenum (\fBMapUsage\fP usage)"
 
+.PP
+Converts a \fBMapUsage\fP enum into a GLenum\&. 
 .SS "unsigned int egl::toGLenum (\fBShaderType\fP type)"
 
 .PP
@@ -481,7 +509,39 @@ The resulting OpenGL enum\&.
 
 .SS "bool egl::validateBufferFlag (\fBBufferFlag\fP flag, std::string & error)"
 
+.PP
+Checks if the given \fBBufferFlag\fP flag combination is valid\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIflag\fP \fBBufferFlag\fP flag combination to check 
+.br
+\fIerror\fP Error string output if the combination is invalid
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true if the \fBBufferFlag\fP combination is valid 
+.RE
+.PP
+
 .SS "bool egl::validateMapUsage (\fBMapUsage\fP usage, std::string & error)"
+
+.PP
+Checks if the given \fBMapUsage\fP flag combination is valid\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIusage\fP \fBMapUsage\fP flag combination to check 
+.br
+\fIerror\fP Error string output if the combination is invalid
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true if the \fBMapUsage\fP combination is valid 
+.RE
+.PP
 
 .SH "Author"
 .PP 

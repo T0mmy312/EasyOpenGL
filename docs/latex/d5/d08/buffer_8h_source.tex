@@ -97,57 +97,66 @@
 \DoxyCodeLine{00130\ \ \ \ \ \textcolor{keywordflow}{return}\ a;}
 \DoxyCodeLine{00131\ \}}
 \DoxyCodeLine{00132\ }
-\DoxyCodeLine{00133\ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{namespaceegl_a5b49c788db9d2063d7ab77f98703f900}{toGLenum}}(\doxymbox{\hyperlink{namespaceegl_a9d3c4e1c16d66cc0e4de86e7ac323291}{BufferType}}\ type);}
-\DoxyCodeLine{00134\ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{namespaceegl_a5b49c788db9d2063d7ab77f98703f900}{toGLenum}}(\doxymbox{\hyperlink{namespaceegl_ac73662910801a578088c729c58a62c97}{BufferUsage}}\ usage);}
-\DoxyCodeLine{00135\ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{namespaceegl_a5b49c788db9d2063d7ab77f98703f900}{toGLenum}}(\doxymbox{\hyperlink{namespaceegl_a79ed3ca25fe4c77c1ebacb3f1283d4b2}{MapUsage}}\ usage);}
-\DoxyCodeLine{00136\ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{namespaceegl_a5b49c788db9d2063d7ab77f98703f900}{toGLenum}}(\doxymbox{\hyperlink{namespaceegl_a26041025f1dffb8975174b439d5f0150}{BufferFlag}}\ flag);}
-\DoxyCodeLine{00137\ \textcolor{keywordtype}{bool}\ \doxymbox{\hyperlink{namespaceegl_a827e3e9edcc216c2b83c9cfe3af8343b}{validateMapUsage}}(\doxymbox{\hyperlink{namespaceegl_a79ed3ca25fe4c77c1ebacb3f1283d4b2}{MapUsage}}\ usage,\ std::string\&\ error);}
-\DoxyCodeLine{00138\ \textcolor{keywordtype}{bool}\ \doxymbox{\hyperlink{namespaceegl_a5ef35b2b7cce9cbf20fbeb47e595054e}{validateBufferFlag}}(\doxymbox{\hyperlink{namespaceegl_a26041025f1dffb8975174b439d5f0150}{BufferFlag}}\ flag,\ std::string\&\ error);}
+\DoxyCodeLine{00138\ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{namespaceegl_a5b49c788db9d2063d7ab77f98703f900}{toGLenum}}(\doxymbox{\hyperlink{namespaceegl_a9d3c4e1c16d66cc0e4de86e7ac323291}{BufferType}}\ type);}
 \DoxyCodeLine{00139\ }
-\DoxyCodeLine{00140\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{classegl_1_1_buffer_a4c0bb261ed6631f6aecda907ce72f1b3}{Buffer}}\ \{}
-\DoxyCodeLine{00141\ \textcolor{keyword}{protected}:}
-\DoxyCodeLine{00142\ \ \ \ \ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{classegl_1_1_buffer_a55ed2a64908b06ea6f684bb53987d578}{\_id}}\ =\ 0;}
-\DoxyCodeLine{00143\ \ \ \ \ \textcolor{keywordtype}{bool}\ \doxymbox{\hyperlink{classegl_1_1_buffer_a7bee745bcdd4f7166b9b563738213e9e}{\_mapped}}\ =\ \textcolor{keyword}{false};}
-\DoxyCodeLine{00144\ \ \ \ \ \doxymbox{\hyperlink{namespaceegl_a79ed3ca25fe4c77c1ebacb3f1283d4b2}{MapUsage}}\ \doxymbox{\hyperlink{classegl_1_1_buffer_a683a2afd7b811afda1f5114d2f826e80}{\_mapUsage}}\ =\ \doxymbox{\hyperlink{namespaceegl_a79ed3ca25fe4c77c1ebacb3f1283d4b2a6adf97f83acf6453d4a6a4b1070f3754}{MapUsage::None}};}
-\DoxyCodeLine{00145\ \ \ \ \ \doxymbox{\hyperlink{namespaceegl_a26041025f1dffb8975174b439d5f0150}{BufferFlag}}\ \doxymbox{\hyperlink{classegl_1_1_buffer_a4e6a8def4b5f4920b3ab54a6fd34749f}{\_flags}}\ =\ \doxymbox{\hyperlink{namespaceegl_a26041025f1dffb8975174b439d5f0150a6adf97f83acf6453d4a6a4b1070f3754}{BufferFlag::None}};}
-\DoxyCodeLine{00146\ \ \ \ \ \doxymbox{\hyperlink{namespaceegl_a9d3c4e1c16d66cc0e4de86e7ac323291}{BufferType}}\ \doxymbox{\hyperlink{classegl_1_1_buffer_a24c2b512d61e32ec1b2dbf45f0f53433}{\_type}};}
-\DoxyCodeLine{00147\ }
-\DoxyCodeLine{00148\ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{classegl_1_1_buffer_a944f8ef35e53f9abc76f170b63bb4147}{\_delete}}();}
-\DoxyCodeLine{00149\ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{classegl_1_1_buffer_a328d43858bbb78be3e7e85f41c842dc0}{\_check}}();}
-\DoxyCodeLine{00150\ }
-\DoxyCodeLine{00151\ \textcolor{keyword}{public}:}
-\DoxyCodeLine{00152\ \ \ \ \ \doxymbox{\hyperlink{classegl_1_1_buffer_a4c0bb261ed6631f6aecda907ce72f1b3}{Buffer}}()\ =\ \textcolor{keyword}{delete};}
-\DoxyCodeLine{00153\ \ \ \ \ \doxymbox{\hyperlink{classegl_1_1_buffer_a4bc82879484bb3e7cbaaba2dfd7bf205}{Buffer}}(\doxymbox{\hyperlink{namespaceegl_a9d3c4e1c16d66cc0e4de86e7ac323291}{BufferType}}\ type);}
-\DoxyCodeLine{00154\ \ \ \ \ \doxymbox{\hyperlink{classegl_1_1_buffer_a6a1da098a28d616adfce5c1bbc6b9a76}{Buffer}}(\doxymbox{\hyperlink{classegl_1_1_buffer_a4c0bb261ed6631f6aecda907ce72f1b3}{Buffer}}\&\&\ other);}
-\DoxyCodeLine{00155\ \ \ \ \ \doxymbox{\hyperlink{classegl_1_1_buffer_a5c48b0b11f8cf67a81e80f90abdcff6e}{Buffer}}(\textcolor{keyword}{const}\ \doxymbox{\hyperlink{classegl_1_1_buffer_a4c0bb261ed6631f6aecda907ce72f1b3}{Buffer}}\&\ other)\ =\ \textcolor{keyword}{delete};}
-\DoxyCodeLine{00156\ \ \ \ \ \doxymbox{\hyperlink{classegl_1_1_buffer_a7a4248ece01b7a14db753b54a9a1872c}{\string~Buffer}}()\ noexcept;}
-\DoxyCodeLine{00157\ }
-\DoxyCodeLine{00158\ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{classegl_1_1_buffer_aa7e6f7fb21ef634de2c2b88b7bc8d62d}{bind}}()\ const;}
-\DoxyCodeLine{00159\ \ \ \ \ int64\_t\ \doxymbox{\hyperlink{classegl_1_1_buffer_ad150bd3e569897627f147c40cb7b8a40}{size}}()\ const;}
-\DoxyCodeLine{00160\ }
-\DoxyCodeLine{00161\ \ \ \ \ \doxymbox{\hyperlink{namespaceegl_a9d3c4e1c16d66cc0e4de86e7ac323291}{BufferType}}\ \doxymbox{\hyperlink{classegl_1_1_buffer_ae2b0f85fc95b4fb5d4a831ce2c5641c6}{getType}}()\ const;}
-\DoxyCodeLine{00162\ }
-\DoxyCodeLine{00163\ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{classegl_1_1_buffer_a45f2a70b803a24809345b425da6c0e50}{setData}}(int64\_t\ \doxymbox{\hyperlink{classegl_1_1_buffer_ad150bd3e569897627f147c40cb7b8a40}{size}},\ const\ \textcolor{keywordtype}{void}*\ data,\ \doxymbox{\hyperlink{namespaceegl_ac73662910801a578088c729c58a62c97}{BufferUsage}}\ usage);\ \textcolor{comment}{//\ size\ in\ bytes}}
-\DoxyCodeLine{00164\ \ \ \ \ template\ <typename\ T>}
-\DoxyCodeLine{00165\ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{classegl_1_1_buffer_a45f2a70b803a24809345b425da6c0e50}{setData}}(std::vector<T>\ data,\ \doxymbox{\hyperlink{namespaceegl_ac73662910801a578088c729c58a62c97}{BufferUsage}}\ usage)\ \{\ \doxymbox{\hyperlink{classegl_1_1_buffer_ad126cbfed769dae01b79a3caf3389570}{setData}}(data.size()\ *\ \textcolor{keyword}{sizeof}(T),\ (\textcolor{keywordtype}{void}*)data.data(),\ usage);\ \}}
+\DoxyCodeLine{00145\ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{namespaceegl_a5b49c788db9d2063d7ab77f98703f900}{toGLenum}}(\doxymbox{\hyperlink{namespaceegl_ac73662910801a578088c729c58a62c97}{BufferUsage}}\ usage);}
+\DoxyCodeLine{00146\ }
+\DoxyCodeLine{00150\ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{namespaceegl_a5b49c788db9d2063d7ab77f98703f900}{toGLenum}}(\doxymbox{\hyperlink{namespaceegl_a79ed3ca25fe4c77c1ebacb3f1283d4b2}{MapUsage}}\ usage);}
+\DoxyCodeLine{00151\ }
+\DoxyCodeLine{00155\ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{namespaceegl_a5b49c788db9d2063d7ab77f98703f900}{toGLenum}}(\doxymbox{\hyperlink{namespaceegl_a26041025f1dffb8975174b439d5f0150}{BufferFlag}}\ flag);}
+\DoxyCodeLine{00156\ }
+\DoxyCodeLine{00165\ \textcolor{keywordtype}{bool}\ \doxymbox{\hyperlink{namespaceegl_a827e3e9edcc216c2b83c9cfe3af8343b}{validateMapUsage}}(\doxymbox{\hyperlink{namespaceegl_a79ed3ca25fe4c77c1ebacb3f1283d4b2}{MapUsage}}\ usage,\ std::string\&\ error);}
 \DoxyCodeLine{00166\ }
-\DoxyCodeLine{00167\ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{classegl_1_1_buffer_a685c9de7c40cad0b90a118d9d33e8017}{setStorage}}(int64\_t\ \doxymbox{\hyperlink{classegl_1_1_buffer_ad150bd3e569897627f147c40cb7b8a40}{size}},\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{void}*\ data,\ \doxymbox{\hyperlink{namespaceegl_a26041025f1dffb8975174b439d5f0150}{BufferFlag}}\ flags);\ \textcolor{comment}{//\ size\ in\ bytes}}
-\DoxyCodeLine{00168\ \ \ \ \ \textcolor{keyword}{template}\ <\textcolor{keyword}{typename}\ T>}
-\DoxyCodeLine{00169\ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{classegl_1_1_buffer_a80434550e3acceb7320a16e60ad485ca}{setStorage}}(std::vector<T>\ data,\ \doxymbox{\hyperlink{namespaceegl_a26041025f1dffb8975174b439d5f0150}{BufferFlag}}\ flags)\ \{\ \doxymbox{\hyperlink{classegl_1_1_buffer_a80434550e3acceb7320a16e60ad485ca}{setStorage}}(data.size()\ *\ \textcolor{keyword}{sizeof}(T),\ (\textcolor{keywordtype}{void}*)data.data(),\ flags);\ \}}
-\DoxyCodeLine{00170\ }
-\DoxyCodeLine{00171\ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{classegl_1_1_buffer_a472ef3daa21a5f71959bf9e54531a4d5}{setSubData}}(int64\_t\ offset,\ int64\_t\ \doxymbox{\hyperlink{classegl_1_1_buffer_ad150bd3e569897627f147c40cb7b8a40}{size}},\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{void}*\ data);\ \textcolor{comment}{//\ offset\ and\ size\ in\ bytes}}
-\DoxyCodeLine{00172\ }
-\DoxyCodeLine{00173\ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{classegl_1_1_buffer_a290f1650bb443d8d377ccf9e30c1f4a0}{getSubData}}(int64\_t\ offset,\ int64\_t\ \doxymbox{\hyperlink{classegl_1_1_buffer_ad150bd3e569897627f147c40cb7b8a40}{size}},\ \textcolor{keywordtype}{void}*\ data);\ \textcolor{comment}{//\ data\ must\ be\ at\ least\ be\ as\ big\ as\ size}}
-\DoxyCodeLine{00174\ }
-\DoxyCodeLine{00175\ \ \ \ \ \textcolor{keywordtype}{void}*\ \doxymbox{\hyperlink{classegl_1_1_buffer_add697f15310d50fa942eeeff51a3fb63}{map}}(int64\_t\ offset,\ int64\_t\ length,\ \doxymbox{\hyperlink{namespaceegl_a79ed3ca25fe4c77c1ebacb3f1283d4b2}{MapUsage}}\ access);\ \textcolor{comment}{//\ get\ a\ pointer\ to\ the\ buffer\ data\ for\ a\ specific\ usage}}
-\DoxyCodeLine{00176\ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{classegl_1_1_buffer_a592d8d8e84ffe3f0c51a0798114f1a8a}{unmap}}();}
-\DoxyCodeLine{00177\ }
-\DoxyCodeLine{00178\ \ \ \ \ \doxymbox{\hyperlink{classegl_1_1_buffer_a4c0bb261ed6631f6aecda907ce72f1b3}{Buffer}}\&\ \doxymbox{\hyperlink{classegl_1_1_buffer_aed107413bb135b147bf275f29b58fa1d}{operator=}}(\doxymbox{\hyperlink{classegl_1_1_buffer_a4c0bb261ed6631f6aecda907ce72f1b3}{Buffer}}\&\&\ other);}
-\DoxyCodeLine{00179\ \ \ \ \ \doxymbox{\hyperlink{classegl_1_1_buffer_a4c0bb261ed6631f6aecda907ce72f1b3}{Buffer}}\&\ \doxymbox{\hyperlink{classegl_1_1_buffer_adf6f1925aeff8b794267696dc4052a78}{operator=}}(\textcolor{keyword}{const}\ \doxymbox{\hyperlink{classegl_1_1_buffer_a4c0bb261ed6631f6aecda907ce72f1b3}{Buffer}}\&\ other)\ =\ \textcolor{keyword}{delete};}
-\DoxyCodeLine{00180\ \};}
-\DoxyCodeLine{00181\ }
-\DoxyCodeLine{00182\ \}}
-\DoxyCodeLine{00183\ }
-\DoxyCodeLine{00184\ \textcolor{preprocessor}{\#endif}}
+\DoxyCodeLine{00175\ \textcolor{keywordtype}{bool}\ \doxymbox{\hyperlink{namespaceegl_a5ef35b2b7cce9cbf20fbeb47e595054e}{validateBufferFlag}}(\doxymbox{\hyperlink{namespaceegl_a26041025f1dffb8975174b439d5f0150}{BufferFlag}}\ flag,\ std::string\&\ error);}
+\DoxyCodeLine{00176\ }
+\DoxyCodeLine{00177\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{classegl_1_1_buffer_a4c0bb261ed6631f6aecda907ce72f1b3}{Buffer}}\ \{}
+\DoxyCodeLine{00178\ \textcolor{keyword}{protected}:}
+\DoxyCodeLine{00179\ \ \ \ \ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{classegl_1_1_buffer_a55ed2a64908b06ea6f684bb53987d578}{\_id}}\ =\ 0;}
+\DoxyCodeLine{00180\ \ \ \ \ \textcolor{keywordtype}{bool}\ \doxymbox{\hyperlink{classegl_1_1_buffer_a7bee745bcdd4f7166b9b563738213e9e}{\_mapped}}\ =\ \textcolor{keyword}{false};}
+\DoxyCodeLine{00181\ \ \ \ \ \doxymbox{\hyperlink{namespaceegl_a79ed3ca25fe4c77c1ebacb3f1283d4b2}{MapUsage}}\ \doxymbox{\hyperlink{classegl_1_1_buffer_a683a2afd7b811afda1f5114d2f826e80}{\_mapUsage}}\ =\ \doxymbox{\hyperlink{namespaceegl_a79ed3ca25fe4c77c1ebacb3f1283d4b2a6adf97f83acf6453d4a6a4b1070f3754}{MapUsage::None}};}
+\DoxyCodeLine{00182\ \ \ \ \ \doxymbox{\hyperlink{namespaceegl_a26041025f1dffb8975174b439d5f0150}{BufferFlag}}\ \doxymbox{\hyperlink{classegl_1_1_buffer_a4e6a8def4b5f4920b3ab54a6fd34749f}{\_flags}}\ =\ \doxymbox{\hyperlink{namespaceegl_a26041025f1dffb8975174b439d5f0150a6adf97f83acf6453d4a6a4b1070f3754}{BufferFlag::None}};}
+\DoxyCodeLine{00183\ \ \ \ \ \doxymbox{\hyperlink{namespaceegl_a9d3c4e1c16d66cc0e4de86e7ac323291}{BufferType}}\ \doxymbox{\hyperlink{classegl_1_1_buffer_a24c2b512d61e32ec1b2dbf45f0f53433}{\_type}};}
+\DoxyCodeLine{00184\ }
+\DoxyCodeLine{00185\ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{classegl_1_1_buffer_a944f8ef35e53f9abc76f170b63bb4147}{\_delete}}();}
+\DoxyCodeLine{00186\ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{classegl_1_1_buffer_a328d43858bbb78be3e7e85f41c842dc0}{\_check}}();}
+\DoxyCodeLine{00187\ }
+\DoxyCodeLine{00188\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00189\ \ \ \ \ \doxymbox{\hyperlink{classegl_1_1_buffer_a4c0bb261ed6631f6aecda907ce72f1b3}{Buffer}}()\ =\ \textcolor{keyword}{delete};}
+\DoxyCodeLine{00193\ \ \ \ \ \doxymbox{\hyperlink{classegl_1_1_buffer_a4bc82879484bb3e7cbaaba2dfd7bf205}{Buffer}}(\doxymbox{\hyperlink{namespaceegl_a9d3c4e1c16d66cc0e4de86e7ac323291}{BufferType}}\ type);}
+\DoxyCodeLine{00194\ \ \ \ \ \doxymbox{\hyperlink{classegl_1_1_buffer_a6a1da098a28d616adfce5c1bbc6b9a76}{Buffer}}(\doxymbox{\hyperlink{classegl_1_1_buffer_a4c0bb261ed6631f6aecda907ce72f1b3}{Buffer}}\&\&\ other);}
+\DoxyCodeLine{00195\ \ \ \ \ \doxymbox{\hyperlink{classegl_1_1_buffer_a5c48b0b11f8cf67a81e80f90abdcff6e}{Buffer}}(\textcolor{keyword}{const}\ \doxymbox{\hyperlink{classegl_1_1_buffer_a4c0bb261ed6631f6aecda907ce72f1b3}{Buffer}}\&\ other)\ =\ \textcolor{keyword}{delete};}
+\DoxyCodeLine{00196\ \ \ \ \ \doxymbox{\hyperlink{classegl_1_1_buffer_a7a4248ece01b7a14db753b54a9a1872c}{\string~Buffer}}()\ noexcept;}
+\DoxyCodeLine{00197\ }
+\DoxyCodeLine{00201\ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{classegl_1_1_buffer_aa7e6f7fb21ef634de2c2b88b7bc8d62d}{bind}}()\ const;}
+\DoxyCodeLine{00202\ }
+\DoxyCodeLine{00206\ \ \ \ \ int64\_t\ \doxymbox{\hyperlink{classegl_1_1_buffer_ad150bd3e569897627f147c40cb7b8a40}{size}}()\ const;}
+\DoxyCodeLine{00207\ }
+\DoxyCodeLine{00211\ \ \ \ \ \doxymbox{\hyperlink{namespaceegl_a9d3c4e1c16d66cc0e4de86e7ac323291}{BufferType}}\ \doxymbox{\hyperlink{classegl_1_1_buffer_ae2b0f85fc95b4fb5d4a831ce2c5641c6}{getType}}()\ const;}
+\DoxyCodeLine{00212\ }
+\DoxyCodeLine{00222\ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{classegl_1_1_buffer_a45f2a70b803a24809345b425da6c0e50}{setData}}(int64\_t\ \doxymbox{\hyperlink{classegl_1_1_buffer_ad150bd3e569897627f147c40cb7b8a40}{size}},\ const\ \textcolor{keywordtype}{void}*\ data,\ \doxymbox{\hyperlink{namespaceegl_ac73662910801a578088c729c58a62c97}{BufferUsage}}\ usage);}
+\DoxyCodeLine{00223\ }
+\DoxyCodeLine{00230\ \ \ \ \ template\ <typename\ T>}
+\DoxyCodeLine{00231\ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{classegl_1_1_buffer_a45f2a70b803a24809345b425da6c0e50}{setData}}(std::vector<T>\ data,\ \doxymbox{\hyperlink{namespaceegl_ac73662910801a578088c729c58a62c97}{BufferUsage}}\ usage)\ \{\ \doxymbox{\hyperlink{classegl_1_1_buffer_ad126cbfed769dae01b79a3caf3389570}{setData}}(data.size()\ *\ \textcolor{keyword}{sizeof}(T),\ (\textcolor{keywordtype}{void}*)data.data(),\ usage);\ \}}
+\DoxyCodeLine{00232\ }
+\DoxyCodeLine{00243\ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{classegl_1_1_buffer_a685c9de7c40cad0b90a118d9d33e8017}{setStorage}}(int64\_t\ \doxymbox{\hyperlink{classegl_1_1_buffer_ad150bd3e569897627f147c40cb7b8a40}{size}},\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{void}*\ data,\ \doxymbox{\hyperlink{namespaceegl_a26041025f1dffb8975174b439d5f0150}{BufferFlag}}\ flags);}
+\DoxyCodeLine{00244\ }
+\DoxyCodeLine{00254\ \ \ \ \ \textcolor{keyword}{template}\ <\textcolor{keyword}{typename}\ T>}
+\DoxyCodeLine{00255\ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{classegl_1_1_buffer_a80434550e3acceb7320a16e60ad485ca}{setStorage}}(std::vector<T>\ data,\ \doxymbox{\hyperlink{namespaceegl_a26041025f1dffb8975174b439d5f0150}{BufferFlag}}\ flags)\ \{\ \doxymbox{\hyperlink{classegl_1_1_buffer_a80434550e3acceb7320a16e60ad485ca}{setStorage}}(data.size()\ *\ \textcolor{keyword}{sizeof}(T),\ (\textcolor{keywordtype}{void}*)data.data(),\ flags);\ \}}
+\DoxyCodeLine{00256\ }
+\DoxyCodeLine{00269\ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{classegl_1_1_buffer_a472ef3daa21a5f71959bf9e54531a4d5}{setSubData}}(int64\_t\ offset,\ int64\_t\ \doxymbox{\hyperlink{classegl_1_1_buffer_ad150bd3e569897627f147c40cb7b8a40}{size}},\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{void}*\ data);}
+\DoxyCodeLine{00270\ }
+\DoxyCodeLine{00283\ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{classegl_1_1_buffer_a290f1650bb443d8d377ccf9e30c1f4a0}{getSubData}}(int64\_t\ offset,\ int64\_t\ \doxymbox{\hyperlink{classegl_1_1_buffer_ad150bd3e569897627f147c40cb7b8a40}{size}},\ \textcolor{keywordtype}{void}*\ data);}
+\DoxyCodeLine{00284\ }
+\DoxyCodeLine{00302\ \ \ \ \ \textcolor{keywordtype}{void}*\ \doxymbox{\hyperlink{classegl_1_1_buffer_add697f15310d50fa942eeeff51a3fb63}{map}}(int64\_t\ offset,\ int64\_t\ length,\ \doxymbox{\hyperlink{namespaceegl_a79ed3ca25fe4c77c1ebacb3f1283d4b2}{MapUsage}}\ access);}
+\DoxyCodeLine{00303\ }
+\DoxyCodeLine{00309\ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{classegl_1_1_buffer_a592d8d8e84ffe3f0c51a0798114f1a8a}{unmap}}();}
+\DoxyCodeLine{00310\ }
+\DoxyCodeLine{00311\ \ \ \ \ \doxymbox{\hyperlink{classegl_1_1_buffer_a4c0bb261ed6631f6aecda907ce72f1b3}{Buffer}}\&\ \doxymbox{\hyperlink{classegl_1_1_buffer_aed107413bb135b147bf275f29b58fa1d}{operator=}}(\doxymbox{\hyperlink{classegl_1_1_buffer_a4c0bb261ed6631f6aecda907ce72f1b3}{Buffer}}\&\&\ other);}
+\DoxyCodeLine{00312\ \ \ \ \ \doxymbox{\hyperlink{classegl_1_1_buffer_a4c0bb261ed6631f6aecda907ce72f1b3}{Buffer}}\&\ \doxymbox{\hyperlink{classegl_1_1_buffer_adf6f1925aeff8b794267696dc4052a78}{operator=}}(\textcolor{keyword}{const}\ \doxymbox{\hyperlink{classegl_1_1_buffer_a4c0bb261ed6631f6aecda907ce72f1b3}{Buffer}}\&\ other)\ =\ \textcolor{keyword}{delete};}
+\DoxyCodeLine{00313\ \};}
+\DoxyCodeLine{00314\ }
+\DoxyCodeLine{00315\ \}}
+\DoxyCodeLine{00316\ }
+\DoxyCodeLine{00317\ \textcolor{preprocessor}{\#endif}}
 
 \end{DoxyCode}

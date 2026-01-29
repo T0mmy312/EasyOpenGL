@@ -24,8 +24,8 @@ unsigned int toGLenum(BufferType type) {
     case BufferType::Texture: return GL_TEXTURE_BUFFER;
     case BufferType::TransformFeedback: return GL_TRANSFORM_FEEDBACK_BUFFER;
     case BufferType::Uniform: return GL_UNIFORM_BUFFER;
-    default: return 0;
     }
+    throw std::invalid_argument("BufferType is invalid!");
 }
 
 unsigned int toGLenum(BufferUsage usage) {
@@ -40,8 +40,8 @@ unsigned int toGLenum(BufferUsage usage) {
     case BufferUsage::DynamicDraw: return GL_DYNAMIC_DRAW;
     case BufferUsage::DynamicRead: return GL_DYNAMIC_READ;
     case BufferUsage::DynamicCopy: return GL_DYNAMIC_COPY;
-    default: return 0;
     }
+    throw std::invalid_argument("BufferUsage is invalid!");
 }
 
 unsigned int toGLenum(MapUsage usage) {
