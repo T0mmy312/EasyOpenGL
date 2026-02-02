@@ -1,0 +1,99 @@
+\doxysection{gla::\+Vertex\+Attribute Struct Reference}
+\hypertarget{structgla_1_1_vertex_attribute}{}\label{structgla_1_1_vertex_attribute}\index{gla::VertexAttribute@{gla::VertexAttribute}}
+
+
+Defines a vertex attribute for the \doxylink{classgla_1_1_vertex_array}{gla::\+\+Vertex\+Array}.  
+
+
+
+
+{\ttfamily \+\#include $<$vertex\+Array.\+h$>$}
+
+\doxysubsubsection*{Data Fields}
+\begin{DoxyCompactItemize}
+\item 
+unsigned int \doxymbox{\hyperlink{structgla_1_1_vertex_attribute_af4d271d0f53e41831c38388fe82c86eb}{index}}
+\begin{DoxyCompactList}\small\item\em \doxylink{structgla_1_1_vertex_attribute}{Vertex\+Attribute} location in the GLSL shader program. \end{DoxyCompactList}\item 
+int \doxymbox{\hyperlink{structgla_1_1_vertex_attribute_aad366ba35ccd43bc909e4a7f71af25da}{num\+Components}}
+\begin{DoxyCompactList}\small\item\em number of components for \doxylink{structgla_1_1_vertex_attribute}{Vertex\+Attribute} may be \+[1;4]\+. For example 3 for vec3. \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801}{Vertex\+Attrib\+Type}} \doxymbox{\hyperlink{structgla_1_1_vertex_attribute_a62212c60886906519ec798f7761c428a}{type}}
+\begin{DoxyCompactList}\small\item\em Type of the \doxylink{structgla_1_1_vertex_attribute}{Vertex\+Attribute}. \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{namespacegla_a34151dddf27744725eaf153f30a5c7a6}{Vertex\+Attrib\+Interp}} \doxymbox{\hyperlink{structgla_1_1_vertex_attribute_ae658b95d010bb780d4c3c1bf80cccd8f}{interp}}
+\begin{DoxyCompactList}\small\item\em Interpretation of the \doxylink{structgla_1_1_vertex_attribute}{Vertex\+Attribute}, for example is type Byte is specified, but should be used as a float. \end{DoxyCompactList}\item 
+bool \doxymbox{\hyperlink{structgla_1_1_vertex_attribute_a00c40c5433826b5e248a759e02cfcd48}{normalized}}
+\begin{DoxyCompactList}\small\item\em If it the vertex Attribute should be mapped to \+[-\/1;1]\+ for signed values or \+[0;1]\+ for unsigned values. (disregarded for int types). \end{DoxyCompactList}\item 
+int \doxymbox{\hyperlink{structgla_1_1_vertex_attribute_aa6c8049db19b44193fad2b868c1ca1f6}{offset}}
+\begin{DoxyCompactList}\small\item\em Offset to the start of the current \doxylink{structgla_1_1_vertex_attribute}{Vertex\+Attribute}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Defines a vertex attribute for the \doxylink{classgla_1_1_vertex_array}{gla::\+\+Vertex\+Array}. 
+
+\label{doc-variable-members}
+\Hypertarget{structgla_1_1_vertex_attribute_doc-variable-members}
+\doxysubsection{Field Documentation}
+\Hypertarget{structgla_1_1_vertex_attribute_af4d271d0f53e41831c38388fe82c86eb}\index{gla::VertexAttribute@{gla::VertexAttribute}!index@{index}}
+\index{index@{index}!gla::VertexAttribute@{gla::VertexAttribute}}
+\doxysubsubsection{\texorpdfstring{index}{index}}
+{\footnotesize\ttfamily \label{structgla_1_1_vertex_attribute_af4d271d0f53e41831c38388fe82c86eb} 
+unsigned int gla::\+\+Vertex\+Attribute::\+index}
+
+
+
+\doxylink{structgla_1_1_vertex_attribute}{Vertex\+Attribute} location in the GLSL shader program. 
+
+\Hypertarget{structgla_1_1_vertex_attribute_ae658b95d010bb780d4c3c1bf80cccd8f}\index{gla::VertexAttribute@{gla::VertexAttribute}!interp@{interp}}
+\index{interp@{interp}!gla::VertexAttribute@{gla::VertexAttribute}}
+\doxysubsubsection{\texorpdfstring{interp}{interp}}
+{\footnotesize\ttfamily \label{structgla_1_1_vertex_attribute_ae658b95d010bb780d4c3c1bf80cccd8f} 
+\doxymbox{\hyperlink{namespacegla_a34151dddf27744725eaf153f30a5c7a6}{Vertex\+Attrib\+Interp}} gla::\+\+Vertex\+Attribute::\+interp}
+
+
+
+Interpretation of the \doxylink{structgla_1_1_vertex_attribute}{Vertex\+Attribute}, for example is type Byte is specified, but should be used as a float. 
+
+\Hypertarget{structgla_1_1_vertex_attribute_a00c40c5433826b5e248a759e02cfcd48}\index{gla::VertexAttribute@{gla::VertexAttribute}!normalized@{normalized}}
+\index{normalized@{normalized}!gla::VertexAttribute@{gla::VertexAttribute}}
+\doxysubsubsection{\texorpdfstring{normalized}{normalized}}
+{\footnotesize\ttfamily \label{structgla_1_1_vertex_attribute_a00c40c5433826b5e248a759e02cfcd48} 
+bool gla::\+\+Vertex\+Attribute::\+normalized}
+
+
+
+If it the vertex Attribute should be mapped to \+[-\/1;1]\+ for signed values or \+[0;1]\+ for unsigned values. (disregarded for int types). 
+
+\Hypertarget{structgla_1_1_vertex_attribute_aad366ba35ccd43bc909e4a7f71af25da}\index{gla::VertexAttribute@{gla::VertexAttribute}!numComponents@{numComponents}}
+\index{numComponents@{numComponents}!gla::VertexAttribute@{gla::VertexAttribute}}
+\doxysubsubsection{\texorpdfstring{numComponents}{numComponents}}
+{\footnotesize\ttfamily \label{structgla_1_1_vertex_attribute_aad366ba35ccd43bc909e4a7f71af25da} 
+int gla::\+\+Vertex\+Attribute::\+num\+Components}
+
+
+
+number of components for \doxylink{structgla_1_1_vertex_attribute}{Vertex\+Attribute} may be \+[1;4]\+. For example 3 for vec3. 
+
+\Hypertarget{structgla_1_1_vertex_attribute_aa6c8049db19b44193fad2b868c1ca1f6}\index{gla::VertexAttribute@{gla::VertexAttribute}!offset@{offset}}
+\index{offset@{offset}!gla::VertexAttribute@{gla::VertexAttribute}}
+\doxysubsubsection{\texorpdfstring{offset}{offset}}
+{\footnotesize\ttfamily \label{structgla_1_1_vertex_attribute_aa6c8049db19b44193fad2b868c1ca1f6} 
+int gla::\+\+Vertex\+Attribute::\+offset}
+
+
+
+Offset to the start of the current \doxylink{structgla_1_1_vertex_attribute}{Vertex\+Attribute}. 
+
+\Hypertarget{structgla_1_1_vertex_attribute_a62212c60886906519ec798f7761c428a}\index{gla::VertexAttribute@{gla::VertexAttribute}!type@{type}}
+\index{type@{type}!gla::VertexAttribute@{gla::VertexAttribute}}
+\doxysubsubsection{\texorpdfstring{type}{type}}
+{\footnotesize\ttfamily \label{structgla_1_1_vertex_attribute_a62212c60886906519ec798f7761c428a} 
+\doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801}{Vertex\+Attrib\+Type}} gla::\+\+Vertex\+Attribute::\+type}
+
+
+
+Type of the \doxylink{structgla_1_1_vertex_attribute}{Vertex\+Attribute}. 
+
+
+
+The documentation for this struct was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+inc/\+\+GLA/\+\doxymbox{\hyperlink{vertex_array_8h}{vertex\+Array.\+h}}\end{DoxyCompactItemize}

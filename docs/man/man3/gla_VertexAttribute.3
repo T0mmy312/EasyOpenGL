@@ -1,0 +1,72 @@
+.TH "gla::VertexAttribute" 3 "OpenGL Abstraction" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+gla::VertexAttribute \- Defines a vertex attribute for the \fBgla::VertexArray\fP\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fR#include <vertexArray\&.h>\fP
+.SS "Data Fields"
+
+.in +1c
+.ti -1c
+.RI "unsigned int \fBindex\fP"
+.br
+.RI "\fBVertexAttribute\fP location in the GLSL shader program\&. "
+.ti -1c
+.RI "int \fBnumComponents\fP"
+.br
+.RI "number of components for \fBVertexAttribute\fP may be [1;4]\&. For example 3 for vec3\&. "
+.ti -1c
+.RI "\fBVertexAttribType\fP \fBtype\fP"
+.br
+.RI "Type of the \fBVertexAttribute\fP\&. "
+.ti -1c
+.RI "\fBVertexAttribInterp\fP \fBinterp\fP"
+.br
+.RI "Interpretation of the \fBVertexAttribute\fP, for example is type Byte is specified, but should be used as a float\&. "
+.ti -1c
+.RI "bool \fBnormalized\fP"
+.br
+.RI "If it the vertex Attribute should be mapped to [-1;1] for signed values or [0;1] for unsigned values\&. (disregarded for int types)\&. "
+.ti -1c
+.RI "int \fBoffset\fP"
+.br
+.RI "Offset to the start of the current \fBVertexAttribute\fP\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Defines a vertex attribute for the \fBgla::VertexArray\fP\&. 
+.SH "Field Documentation"
+.PP 
+.SS "unsigned int gla::VertexAttribute::index"
+
+.PP
+\fBVertexAttribute\fP location in the GLSL shader program\&. 
+.SS "\fBVertexAttribInterp\fP gla::VertexAttribute::interp"
+
+.PP
+Interpretation of the \fBVertexAttribute\fP, for example is type Byte is specified, but should be used as a float\&. 
+.SS "bool gla::VertexAttribute::normalized"
+
+.PP
+If it the vertex Attribute should be mapped to [-1;1] for signed values or [0;1] for unsigned values\&. (disregarded for int types)\&. 
+.SS "int gla::VertexAttribute::numComponents"
+
+.PP
+number of components for \fBVertexAttribute\fP may be [1;4]\&. For example 3 for vec3\&. 
+.SS "int gla::VertexAttribute::offset"
+
+.PP
+Offset to the start of the current \fBVertexAttribute\fP\&. 
+.SS "\fBVertexAttribType\fP gla::VertexAttribute::type"
+
+.PP
+Type of the \fBVertexAttribute\fP\&. 
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for OpenGL Abstraction from the source code\&.

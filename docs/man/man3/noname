@@ -2,8 +2,8 @@
 .ad l
 .nh
 .SH NAME
-GLA buffer\&.h debug\&.h program\&.h shader\&.h vertexBuffer\&.h windowContext\&.h 
+GLA buffer\&.h debug\&.h program\&.h shader\&.h vertexArray\&.h windowContext\&.h 
 .PP
-inc GLA buffer\&.h debug\&.h program\&.h shader\&.h vertexBuffer\&.h windowContext\&.h 
+inc GLA buffer\&.h debug\&.h program\&.h shader\&.h vertexArray\&.h windowContext\&.h 
 .PP
 

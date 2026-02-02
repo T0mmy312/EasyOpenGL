@@ -2,80 +2,82 @@
 
   \item {\_check}
     \subitem {gla::Buffer}, \hyperpage{29}
-    \subitem {gla::Program}, \hyperpage{41}
-    \subitem {gla::Shader}, \hyperpage{70}
+    \subitem {gla::Program}, \hyperpage{40}
+    \subitem {gla::Shader}, \hyperpage{69}
   \item {\_compiled}
-    \subitem {gla::Shader}, \hyperpage{73}
+    \subitem {gla::Shader}, \hyperpage{72}
   \item {\_delete}
     \subitem {gla::Buffer}, \hyperpage{29}
-    \subitem {gla::Program}, \hyperpage{41}
-    \subitem {gla::Shader}, \hyperpage{70}
+    \subitem {gla::Program}, \hyperpage{40}
+    \subitem {gla::Shader}, \hyperpage{69}
   \item {\_ensure}
-    \subitem {gla::Program}, \hyperpage{41}
-    \subitem {gla::Shader}, \hyperpage{70}
+    \subitem {gla::Program}, \hyperpage{40}
+    \subitem {gla::Shader}, \hyperpage{69}
   \item {\_flags}
-    \subitem {gla::Buffer}, \hyperpage{34}
+    \subitem {gla::Buffer}, \hyperpage{33}
   \item {\_getError}
     \subitem {gla::Program}, \hyperpage{41}
-    \subitem {gla::Shader}, \hyperpage{70}
+    \subitem {gla::Shader}, \hyperpage{69}
   \item {\_id}
-    \subitem {gla::Buffer}, \hyperpage{34}
-    \subitem {gla::Program}, \hyperpage{63}
-    \subitem {gla::Shader}, \hyperpage{73}
+    \subitem {gla::Buffer}, \hyperpage{33}
+    \subitem {gla::Program}, \hyperpage{62}
+    \subitem {gla::Shader}, \hyperpage{72}
   \item {\_linked}
-    \subitem {gla::Program}, \hyperpage{63}
+    \subitem {gla::Program}, \hyperpage{62}
   \item {\_mapUsage}
-    \subitem {gla::Buffer}, \hyperpage{34}
+    \subitem {gla::Buffer}, \hyperpage{33}
   \item {\_mapped}
-    \subitem {gla::Buffer}, \hyperpage{34}
+    \subitem {gla::Buffer}, \hyperpage{33}
   \item {\_queryUniformData}
     \subitem {gla::Program}, \hyperpage{41}
   \item {\_setupUniform}
     \subitem {gla::Program}, \hyperpage{41}
   \item {\_type}
-    \subitem {gla::Buffer}, \hyperpage{34}
-    \subitem {gla::Shader}, \hyperpage{73}
+    \subitem {gla::Buffer}, \hyperpage{33}
+    \subitem {gla::Shader}, \hyperpage{72}
   \item {\_uniformData}
-    \subitem {gla::Program}, \hyperpage{64}
+    \subitem {gla::Program}, \hyperpage{63}
   \item {\_uniformIndexMap}
-    \subitem {gla::Program}, \hyperpage{64}
+    \subitem {gla::Program}, \hyperpage{63}
   \item {\_uniformLocationIndexMap}
-    \subitem {gla::Program}, \hyperpage{64}
+    \subitem {gla::Program}, \hyperpage{63}
   \item {\texorpdfstring{$\sim$}{\string~}Buffer}
-    \subitem {gla::Buffer}, \hyperpage{29}
+    \subitem {gla::Buffer}, \hyperpage{28}
   \item {\texorpdfstring{$\sim$}{\string~}Program}
-    \subitem {gla::Program}, \hyperpage{41}
+    \subitem {gla::Program}, \hyperpage{40}
   \item {\texorpdfstring{$\sim$}{\string~}Shader}
-    \subitem {gla::Shader}, \hyperpage{69}
+    \subitem {gla::Shader}, \hyperpage{68}
   \item {\texorpdfstring{$\sim$}{\string~}WindowContext}
-    \subitem {gla::WindowContext}, \hyperpage{86}
+    \subitem {gla::WindowContext}, \hyperpage{89}
 
   \indexspace
 
   \item {Array}
     \subitem {gla}, \hyperpage{17}
   \item {arraySize}
-    \subitem {gla::\_uniformData}, \hyperpage{27}
+    \subitem {gla::UniformData}, \hyperpage{73}
   \item {AtomicCounter}
     \subitem {gla}, \hyperpage{17}
   \item {attach}
-    \subitem {gla::Program}, \hyperpage{42}
+    \subitem {gla::Program}, \hyperpage{41}
   \item {attached}
-    \subitem {gla::Program}, \hyperpage{42}
+    \subitem {gla::Program}, \hyperpage{41}
 
   \indexspace
 
   \item {bind}
     \subitem {gla::Buffer}, \hyperpage{29}
-    \subitem {gla::Program}, \hyperpage{43}
+    \subitem {gla::Program}, \hyperpage{42}
   \item {Buffer}
-    \subitem {gla::Buffer}, \hyperpage{29}
+    \subitem {gla::Buffer}, \hyperpage{28}
   \item {BufferFlag}
     \subitem {gla}, \hyperpage{17}
   \item {BufferType}
     \subitem {gla}, \hyperpage{17}
   \item {BufferUsage}
     \subitem {gla}, \hyperpage{18}
+  \item {Byte}
+    \subitem {gla}, \hyperpage{20}
 
   \indexspace
 
@@ -84,27 +86,29 @@
   \item {Coherent}
     \subitem {gla}, \hyperpage{19}
   \item {compile}
-    \subitem {gla::Shader}, \hyperpage{70, 71}
+    \subitem {gla::Shader}, \hyperpage{69, 70}
   \item {compiled}
-    \subitem {gla::Shader}, \hyperpage{72}
+    \subitem {gla::Shader}, \hyperpage{71}
   \item {Compute}
     \subitem {gla}, \hyperpage{20}
   \item {CopyRead}
-    \subitem {gla}, \hyperpage{17}
+    \subitem {gla}, \hyperpage{18}
   \item {CopyWrite}
-    \subitem {gla}, \hyperpage{17}
+    \subitem {gla}, \hyperpage{18}
 
   \indexspace
 
   \item {debug.h}
-    \subitem {DEBUG\_ONLY}, \hyperpage{92}
-    \subitem {GL\_CALL}, \hyperpage{92}
+    \subitem {DEBUG\_ONLY}, \hyperpage{96}
+    \subitem {GL\_CALL}, \hyperpage{96}
   \item {DEBUG\_ONLY}
-    \subitem {debug.h}, \hyperpage{92}
+    \subitem {debug.h}, \hyperpage{96}
   \item {detach}
-    \subitem {gla::Program}, \hyperpage{43}
+    \subitem {gla::Program}, \hyperpage{42}
   \item {DispatchIndirect}
-    \subitem {gla}, \hyperpage{17}
+    \subitem {gla}, \hyperpage{18}
+  \item {Double}
+    \subitem {gla}, \hyperpage{20}
   \item {DrawIndirect}
     \subitem {gla}, \hyperpage{18}
   \item {DynamicCopy}
@@ -123,6 +127,10 @@
 
   \indexspace
 
+  \item {Fixed}
+    \subitem {gla}, \hyperpage{20}
+  \item {Float}
+    \subitem {gla}, \hyperpage{20}
   \item {FlushExplicit}
     \subitem {gla}, \hyperpage{19}
   \item {Fragment}
@@ -135,38 +143,45 @@
   \item {getSubData}
     \subitem {gla::Buffer}, \hyperpage{29}
   \item {getType}
-    \subitem {gla::Buffer}, \hyperpage{30}
-    \subitem {gla::Shader}, \hyperpage{72}
+    \subitem {gla::Buffer}, \hyperpage{29}
+    \subitem {gla::Shader}, \hyperpage{71}
   \item {getUniform}
-    \subitem {gla::Program}, \hyperpage{43--51}
+    \subitem {gla::Program}, \hyperpage{43--50}
   \item {getUniformLocation}
-    \subitem {gla::Program}, \hyperpage{51}
+    \subitem {gla::Program}, \hyperpage{50}
   \item {GL\_CALL}
-    \subitem {debug.h}, \hyperpage{92}
+    \subitem {debug.h}, \hyperpage{96}
   \item {gla}, \hyperpage{15}
     \subitem {Array}, \hyperpage{17}
     \subitem {AtomicCounter}, \hyperpage{17}
     \subitem {BufferFlag}, \hyperpage{17}
     \subitem {BufferType}, \hyperpage{17}
     \subitem {BufferUsage}, \hyperpage{18}
+    \subitem {Byte}, \hyperpage{20}
     \subitem {ClientStorage}, \hyperpage{17}
     \subitem {Coherent}, \hyperpage{19}
     \subitem {Compute}, \hyperpage{20}
-    \subitem {CopyRead}, \hyperpage{17}
-    \subitem {CopyWrite}, \hyperpage{17}
-    \subitem {DispatchIndirect}, \hyperpage{17}
+    \subitem {CopyRead}, \hyperpage{18}
+    \subitem {CopyWrite}, \hyperpage{18}
+    \subitem {DispatchIndirect}, \hyperpage{18}
+    \subitem {Double}, \hyperpage{20}
     \subitem {DrawIndirect}, \hyperpage{18}
     \subitem {DynamicCopy}, \hyperpage{19}
     \subitem {DynamicDraw}, \hyperpage{19}
     \subitem {DynamicRead}, \hyperpage{19}
     \subitem {DynamicStorage}, \hyperpage{17}
     \subitem {ElementArray}, \hyperpage{18}
+    \subitem {Fixed}, \hyperpage{20}
+    \subitem {Float}, \hyperpage{20}
     \subitem {FlushExplicit}, \hyperpage{19}
     \subitem {Fragment}, \hyperpage{20}
     \subitem {Geometry}, \hyperpage{20}
-    \subitem {glCheckError}, \hyperpage{20}
-    \subitem {glErrorString}, \hyperpage{20}
+    \subitem {glCheckError}, \hyperpage{21}
+    \subitem {glErrorString}, \hyperpage{21}
+    \subitem {HalfFloat}, \hyperpage{20}
     \subitem {initGLFW}, \hyperpage{21}
+    \subitem {Int}, \hyperpage{20}
+    \subitem {Integer}, \hyperpage{20}
     \subitem {InvalidateBuffer}, \hyperpage{19}
     \subitem {InvalidRange}, \hyperpage{19}
     \subitem {MapCoherent}, \hyperpage{17}
@@ -175,92 +190,95 @@
     \subitem {MapUsage}, \hyperpage{19}
     \subitem {MapWrite}, \hyperpage{17}
     \subitem {None}, \hyperpage{17}, \hyperpage{19}
-    \subitem {operator\&}, \hyperpage{21}
-    \subitem {operator\texttt{|}}, \hyperpage{21}
+    \subitem {operator\&}, \hyperpage{22}
+    \subitem {operator\texttt{|}}, \hyperpage{22}
     \subitem {operator\texttt{|}=}, \hyperpage{22}
     \subitem {Persistent}, \hyperpage{19}
     \subitem {PixelPack}, \hyperpage{18}
     \subitem {PixelUnpack}, \hyperpage{18}
-    \subitem {pollEvents}, \hyperpage{22}
+    \subitem {pollEvents}, \hyperpage{23}
     \subitem {Query}, \hyperpage{18}
     \subitem {Read}, \hyperpage{19}
     \subitem {ShaderStorage}, \hyperpage{18}
     \subitem {ShaderType}, \hyperpage{19}
-    \subitem {shaderTypeToString}, \hyperpage{22}
+    \subitem {shaderTypeToString}, \hyperpage{23}
+    \subitem {Short}, \hyperpage{20}
     \subitem {StaticCopy}, \hyperpage{19}
     \subitem {StaticDraw}, \hyperpage{19}
     \subitem {StaticRead}, \hyperpage{19}
     \subitem {StreamCopy}, \hyperpage{19}
     \subitem {StreamDraw}, \hyperpage{19}
     \subitem {StreamRead}, \hyperpage{19}
-    \subitem {terminateGLFW}, \hyperpage{22}
+    \subitem {terminateGLFW}, \hyperpage{23}
     \subitem {TessControl}, \hyperpage{20}
     \subitem {TessEvaluation}, \hyperpage{20}
     \subitem {Texture}, \hyperpage{18}
-    \subitem {toGLenum}, \hyperpage{23}
+    \subitem {toGLenum}, \hyperpage{23, 24}
     \subitem {TransformFeedback}, \hyperpage{18}
+    \subitem {typeToBytes}, \hyperpage{25}
     \subitem {Uniform}, \hyperpage{18}
-    \subitem {UniformData}, \hyperpage{17}
+    \subitem {UnsignedByte}, \hyperpage{20}
+    \subitem {UnsignedInt}, \hyperpage{20}
+    \subitem {UnsignedShort}, \hyperpage{20}
     \subitem {Unsynchronized}, \hyperpage{19}
-    \subitem {validateBufferFlag}, \hyperpage{24}
-    \subitem {validateMapUsage}, \hyperpage{24}
+    \subitem {validateBufferFlag}, \hyperpage{25}
+    \subitem {validateMapUsage}, \hyperpage{25}
+    \subitem {validateTypeInterpretation}, \hyperpage{26}
     \subitem {Vertex}, \hyperpage{20}
+    \subitem {VertexAttribInterp}, \hyperpage{20}
+    \subitem {VertexAttribType}, \hyperpage{20}
     \subitem {Write}, \hyperpage{19}
-  \item {gla::\_uniformData}, \hyperpage{27}
-    \subitem {arraySize}, \hyperpage{27}
-    \subitem {glType}, \hyperpage{27}
-    \subitem {location}, \hyperpage{27}
-  \item {gla::Buffer}, \hyperpage{28}
+  \item {gla::Buffer}, \hyperpage{27}
     \subitem {\_check}, \hyperpage{29}
     \subitem {\_delete}, \hyperpage{29}
-    \subitem {\_flags}, \hyperpage{34}
-    \subitem {\_id}, \hyperpage{34}
-    \subitem {\_mapUsage}, \hyperpage{34}
-    \subitem {\_mapped}, \hyperpage{34}
-    \subitem {\_type}, \hyperpage{34}
-    \subitem {\texorpdfstring{$\sim$}{\string~}Buffer}, \hyperpage{29}
+    \subitem {\_flags}, \hyperpage{33}
+    \subitem {\_id}, \hyperpage{33}
+    \subitem {\_mapUsage}, \hyperpage{33}
+    \subitem {\_mapped}, \hyperpage{33}
+    \subitem {\_type}, \hyperpage{33}
+    \subitem {\texorpdfstring{$\sim$}{\string~}Buffer}, \hyperpage{28}
     \subitem {bind}, \hyperpage{29}
-    \subitem {Buffer}, \hyperpage{29}
+    \subitem {Buffer}, \hyperpage{28}
     \subitem {getSubData}, \hyperpage{29}
-    \subitem {getType}, \hyperpage{30}
+    \subitem {getType}, \hyperpage{29}
     \subitem {map}, \hyperpage{30}
-    \subitem {operator=}, \hyperpage{31}
-    \subitem {setData}, \hyperpage{31}
-    \subitem {setStorage}, \hyperpage{32}
-    \subitem {setSubData}, \hyperpage{33}
+    \subitem {operator=}, \hyperpage{30}
+    \subitem {setData}, \hyperpage{30, 31}
+    \subitem {setStorage}, \hyperpage{31, 32}
+    \subitem {setSubData}, \hyperpage{32}
     \subitem {size}, \hyperpage{33}
     \subitem {unmap}, \hyperpage{33}
   \item {gla::Program}, \hyperpage{34}
-    \subitem {\_check}, \hyperpage{41}
-    \subitem {\_delete}, \hyperpage{41}
-    \subitem {\_ensure}, \hyperpage{41}
+    \subitem {\_check}, \hyperpage{40}
+    \subitem {\_delete}, \hyperpage{40}
+    \subitem {\_ensure}, \hyperpage{40}
     \subitem {\_getError}, \hyperpage{41}
-    \subitem {\_id}, \hyperpage{63}
-    \subitem {\_linked}, \hyperpage{63}
+    \subitem {\_id}, \hyperpage{62}
+    \subitem {\_linked}, \hyperpage{62}
     \subitem {\_queryUniformData}, \hyperpage{41}
     \subitem {\_setupUniform}, \hyperpage{41}
-    \subitem {\_uniformData}, \hyperpage{64}
-    \subitem {\_uniformIndexMap}, \hyperpage{64}
-    \subitem {\_uniformLocationIndexMap}, \hyperpage{64}
-    \subitem {\texorpdfstring{$\sim$}{\string~}Program}, \hyperpage{41}
-    \subitem {attach}, \hyperpage{42}
-    \subitem {attached}, \hyperpage{42}
-    \subitem {bind}, \hyperpage{43}
-    \subitem {detach}, \hyperpage{43}
-    \subitem {getUniform}, \hyperpage{43--51}
-    \subitem {getUniformLocation}, \hyperpage{51}
-    \subitem {link}, \hyperpage{52}
-    \subitem {linked}, \hyperpage{52}
-    \subitem {operator=}, \hyperpage{52, 53}
-    \subitem {operator[]}, \hyperpage{53, 54}
-    \subitem {Program}, \hyperpage{41}
-    \subitem {reset}, \hyperpage{55}
-    \subitem {setUniform}, \hyperpage{55--63}
-    \subitem {unbind}, \hyperpage{63}
+    \subitem {\_uniformData}, \hyperpage{63}
+    \subitem {\_uniformIndexMap}, \hyperpage{63}
+    \subitem {\_uniformLocationIndexMap}, \hyperpage{63}
+    \subitem {\texorpdfstring{$\sim$}{\string~}Program}, \hyperpage{40}
+    \subitem {attach}, \hyperpage{41}
+    \subitem {attached}, \hyperpage{41}
+    \subitem {bind}, \hyperpage{42}
+    \subitem {detach}, \hyperpage{42}
+    \subitem {getUniform}, \hyperpage{43--50}
+    \subitem {getUniformLocation}, \hyperpage{50}
+    \subitem {link}, \hyperpage{51}
+    \subitem {linked}, \hyperpage{51}
+    \subitem {operator=}, \hyperpage{51, 52}
+    \subitem {operator[]}, \hyperpage{52, 53}
+    \subitem {Program}, \hyperpage{40}
+    \subitem {reset}, \hyperpage{54}
+    \subitem {setUniform}, \hyperpage{54--62}
+    \subitem {unbind}, \hyperpage{62}
   \item {gla::Program::UniformProxy}, \hyperpage{74}
-    \subitem {operator float}, \hyperpage{76}
-    \subitem {operator glm::ivec2}, \hyperpage{76}
-    \subitem {operator glm::ivec3}, \hyperpage{76}
+    \subitem {operator float}, \hyperpage{75}
+    \subitem {operator glm::ivec2}, \hyperpage{75}
+    \subitem {operator glm::ivec3}, \hyperpage{75}
     \subitem {operator glm::ivec4}, \hyperpage{76}
     \subitem {operator glm::mat2}, \hyperpage{76}
     \subitem {operator glm::mat2x3}, \hyperpage{76}
@@ -268,9 +286,9 @@
     \subitem {operator glm::mat3}, \hyperpage{76}
     \subitem {operator glm::mat3x2}, \hyperpage{76}
     \subitem {operator glm::mat3x4}, \hyperpage{76}
-    \subitem {operator glm::mat4}, \hyperpage{77}
-    \subitem {operator glm::mat4x2}, \hyperpage{77}
-    \subitem {operator glm::mat4x3}, \hyperpage{77}
+    \subitem {operator glm::mat4}, \hyperpage{76}
+    \subitem {operator glm::mat4x2}, \hyperpage{76}
+    \subitem {operator glm::mat4x3}, \hyperpage{76}
     \subitem {operator glm::uvec2}, \hyperpage{77}
     \subitem {operator glm::uvec3}, \hyperpage{77}
     \subitem {operator glm::uvec4}, \hyperpage{77}
@@ -278,86 +296,113 @@
     \subitem {operator glm::vec3}, \hyperpage{77}
     \subitem {operator glm::vec4}, \hyperpage{77}
     \subitem {operator int}, \hyperpage{77}
-    \subitem {operator unsigned int}, \hyperpage{78}
-    \subitem {operator=}, \hyperpage{78--80}
+    \subitem {operator unsigned int}, \hyperpage{77}
+    \subitem {operator=}, \hyperpage{77--80}
     \subitem {UniformProxy}, \hyperpage{75}
   \item {gla::Program::UniformProxyConst}, \hyperpage{80}
-    \subitem {operator float}, \hyperpage{82}
-    \subitem {operator glm::ivec2}, \hyperpage{82}
-    \subitem {operator glm::ivec3}, \hyperpage{82}
-    \subitem {operator glm::ivec4}, \hyperpage{82}
-    \subitem {operator glm::mat2}, \hyperpage{82}
-    \subitem {operator glm::mat2x3}, \hyperpage{82}
-    \subitem {operator glm::mat2x4}, \hyperpage{82}
+    \subitem {operator float}, \hyperpage{81}
+    \subitem {operator glm::ivec2}, \hyperpage{81}
+    \subitem {operator glm::ivec3}, \hyperpage{81}
+    \subitem {operator glm::ivec4}, \hyperpage{81}
+    \subitem {operator glm::mat2}, \hyperpage{81}
+    \subitem {operator glm::mat2x3}, \hyperpage{81}
+    \subitem {operator glm::mat2x4}, \hyperpage{81}
     \subitem {operator glm::mat3}, \hyperpage{82}
     \subitem {operator glm::mat3x2}, \hyperpage{82}
     \subitem {operator glm::mat3x4}, \hyperpage{82}
     \subitem {operator glm::mat4}, \hyperpage{82}
-    \subitem {operator glm::mat4x2}, \hyperpage{83}
-    \subitem {operator glm::mat4x3}, \hyperpage{83}
-    \subitem {operator glm::uvec2}, \hyperpage{83}
-    \subitem {operator glm::uvec3}, \hyperpage{83}
-    \subitem {operator glm::uvec4}, \hyperpage{83}
-    \subitem {operator glm::vec2}, \hyperpage{83}
+    \subitem {operator glm::mat4x2}, \hyperpage{82}
+    \subitem {operator glm::mat4x3}, \hyperpage{82}
+    \subitem {operator glm::uvec2}, \hyperpage{82}
+    \subitem {operator glm::uvec3}, \hyperpage{82}
+    \subitem {operator glm::uvec4}, \hyperpage{82}
+    \subitem {operator glm::vec2}, \hyperpage{82}
     \subitem {operator glm::vec3}, \hyperpage{83}
     \subitem {operator glm::vec4}, \hyperpage{83}
     \subitem {operator int}, \hyperpage{83}
     \subitem {operator unsigned int}, \hyperpage{83}
-    \subitem {operator=}, \hyperpage{84}
+    \subitem {operator=}, \hyperpage{83}
     \subitem {UniformProxyConst}, \hyperpage{81}
-  \item {gla::ProgramLinkError}, \hyperpage{64}
-    \subitem {ProgramLinkError}, \hyperpage{65}
-  \item {gla::ProgramValidateError}, \hyperpage{65}
-    \subitem {ProgramValidateError}, \hyperpage{66}
-  \item {gla::Shader}, \hyperpage{66}
-    \subitem {\_check}, \hyperpage{70}
-    \subitem {\_compiled}, \hyperpage{73}
-    \subitem {\_delete}, \hyperpage{70}
-    \subitem {\_ensure}, \hyperpage{70}
-    \subitem {\_getError}, \hyperpage{70}
-    \subitem {\_id}, \hyperpage{73}
-    \subitem {\_type}, \hyperpage{73}
-    \subitem {\texorpdfstring{$\sim$}{\string~}Shader}, \hyperpage{69}
-    \subitem {compile}, \hyperpage{70, 71}
-    \subitem {compiled}, \hyperpage{72}
-    \subitem {getType}, \hyperpage{72}
-    \subitem {operator=}, \hyperpage{72}
-    \subitem {Program}, \hyperpage{73}
-    \subitem {reset}, \hyperpage{72}
-    \subitem {Shader}, \hyperpage{67--69}
-  \item {gla::ShaderCompileError}, \hyperpage{73}
-    \subitem {ShaderCompileError}, \hyperpage{74}
-  \item {gla::VertexBuffer}, \hyperpage{84}
-  \item {gla::WindowContext}, \hyperpage{84}
+  \item {gla::ProgramLinkError}, \hyperpage{63}
+    \subitem {ProgramLinkError}, \hyperpage{64}
+  \item {gla::ProgramValidateError}, \hyperpage{64}
+    \subitem {ProgramValidateError}, \hyperpage{65}
+  \item {gla::Shader}, \hyperpage{65}
+    \subitem {\_check}, \hyperpage{69}
+    \subitem {\_compiled}, \hyperpage{72}
+    \subitem {\_delete}, \hyperpage{69}
+    \subitem {\_ensure}, \hyperpage{69}
+    \subitem {\_getError}, \hyperpage{69}
+    \subitem {\_id}, \hyperpage{72}
+    \subitem {\_type}, \hyperpage{72}
+    \subitem {\texorpdfstring{$\sim$}{\string~}Shader}, \hyperpage{68}
+    \subitem {compile}, \hyperpage{69, 70}
+    \subitem {compiled}, \hyperpage{71}
+    \subitem {getType}, \hyperpage{71}
+    \subitem {operator=}, \hyperpage{71}
+    \subitem {Program}, \hyperpage{72}
+    \subitem {reset}, \hyperpage{71}
+    \subitem {Shader}, \hyperpage{66--68}
+  \item {gla::ShaderCompileError}, \hyperpage{72}
+    \subitem {ShaderCompileError}, \hyperpage{73}
+  \item {gla::UniformData}, \hyperpage{73}
+    \subitem {arraySize}, \hyperpage{73}
+    \subitem {glType}, \hyperpage{73}
+    \subitem {location}, \hyperpage{74}
+  \item {gla::VertexArray}, \hyperpage{83}
+    \subitem {operator=}, \hyperpage{85}
+    \subitem {setAttributes}, \hyperpage{86}
+    \subitem {VertexArray}, \hyperpage{85}
+  \item {gla::VertexAttribute}, \hyperpage{86}
+    \subitem {index}, \hyperpage{87}
+    \subitem {interp}, \hyperpage{87}
+    \subitem {normalized}, \hyperpage{87}
+    \subitem {numComponents}, \hyperpage{87}
+    \subitem {offset}, \hyperpage{87}
+    \subitem {type}, \hyperpage{88}
+  \item {gla::WindowContext}, \hyperpage{88}
     \subitem {\texorpdfstring{$\sim$}{\string~}WindowContext}, 
-		\hyperpage{86}
-    \subitem {operator=}, \hyperpage{86}
-    \subitem {run}, \hyperpage{86}
-    \subitem {shouldClose}, \hyperpage{86}
-    \subitem {swapBuffers}, \hyperpage{87}
-    \subitem {useContext}, \hyperpage{87}
-    \subitem {window}, \hyperpage{87}
-    \subitem {WindowContext}, \hyperpage{85, 86}
+		\hyperpage{89}
+    \subitem {operator=}, \hyperpage{90}
+    \subitem {run}, \hyperpage{90}
+    \subitem {shouldClose}, \hyperpage{90}
+    \subitem {swapBuffers}, \hyperpage{90}
+    \subitem {useContext}, \hyperpage{91}
+    \subitem {window}, \hyperpage{91}
+    \subitem {WindowContext}, \hyperpage{89}
   \item {glCheckError}
-    \subitem {gla}, \hyperpage{20}
+    \subitem {gla}, \hyperpage{21}
   \item {glErrorString}
-    \subitem {gla}, \hyperpage{20}
+    \subitem {gla}, \hyperpage{21}
   \item {glType}
-    \subitem {gla::\_uniformData}, \hyperpage{27}
+    \subitem {gla::UniformData}, \hyperpage{73}
+
+  \indexspace
+
+  \item {HalfFloat}
+    \subitem {gla}, \hyperpage{20}
 
   \indexspace
 
   \item {inc Directory Reference}, \hyperpage{13}
   \item {inc/GLA Directory Reference}, \hyperpage{13}
-  \item {inc/GLA/buffer.h}, \hyperpage{89, 90}
-  \item {inc/GLA/debug.h}, \hyperpage{92, 93}
-  \item {inc/GLA/mainpage.md}, \hyperpage{93}
-  \item {inc/GLA/program.h}, \hyperpage{93, 94}
-  \item {inc/GLA/shader.h}, \hyperpage{98, 99}
-  \item {inc/GLA/vertexBuffer.h}, \hyperpage{100}
-  \item {inc/GLA/windowContext.h}, \hyperpage{101}
+  \item {inc/GLA/buffer.h}, \hyperpage{93, 94}
+  \item {inc/GLA/debug.h}, \hyperpage{96, 97}
+  \item {inc/GLA/mainpage.md}, \hyperpage{97}
+  \item {inc/GLA/program.h}, \hyperpage{97, 98}
+  \item {inc/GLA/shader.h}, \hyperpage{102, 103}
+  \item {inc/GLA/vertexArray.h}, \hyperpage{104, 105}
+  \item {inc/GLA/windowContext.h}, \hyperpage{106}
+  \item {index}
+    \subitem {gla::VertexAttribute}, \hyperpage{87}
   \item {initGLFW}
     \subitem {gla}, \hyperpage{21}
+  \item {Int}
+    \subitem {gla}, \hyperpage{20}
+  \item {Integer}
+    \subitem {gla}, \hyperpage{20}
+  \item {interp}
+    \subitem {gla::VertexAttribute}, \hyperpage{87}
   \item {Introduction}, \hyperpage{1}
   \item {InvalidateBuffer}
     \subitem {gla}, \hyperpage{19}
@@ -367,11 +412,11 @@
   \indexspace
 
   \item {link}
-    \subitem {gla::Program}, \hyperpage{52}
+    \subitem {gla::Program}, \hyperpage{51}
   \item {linked}
-    \subitem {gla::Program}, \hyperpage{52}
+    \subitem {gla::Program}, \hyperpage{51}
   \item {location}
-    \subitem {gla::\_uniformData}, \hyperpage{27}
+    \subitem {gla::UniformData}, \hyperpage{74}
 
   \indexspace
 
@@ -392,30 +437,36 @@
 
   \item {None}
     \subitem {gla}, \hyperpage{17}, \hyperpage{19}
+  \item {normalized}
+    \subitem {gla::VertexAttribute}, \hyperpage{87}
+  \item {numComponents}
+    \subitem {gla::VertexAttribute}, \hyperpage{87}
 
   \indexspace
 
+  \item {offset}
+    \subitem {gla::VertexAttribute}, \hyperpage{87}
   \item {operator float}
-    \subitem {gla::Program::UniformProxy}, \hyperpage{76}
-    \subitem {gla::Program::UniformProxyConst}, \hyperpage{82}
+    \subitem {gla::Program::UniformProxy}, \hyperpage{75}
+    \subitem {gla::Program::UniformProxyConst}, \hyperpage{81}
   \item {operator glm::ivec2}
-    \subitem {gla::Program::UniformProxy}, \hyperpage{76}
-    \subitem {gla::Program::UniformProxyConst}, \hyperpage{82}
+    \subitem {gla::Program::UniformProxy}, \hyperpage{75}
+    \subitem {gla::Program::UniformProxyConst}, \hyperpage{81}
   \item {operator glm::ivec3}
-    \subitem {gla::Program::UniformProxy}, \hyperpage{76}
-    \subitem {gla::Program::UniformProxyConst}, \hyperpage{82}
+    \subitem {gla::Program::UniformProxy}, \hyperpage{75}
+    \subitem {gla::Program::UniformProxyConst}, \hyperpage{81}
   \item {operator glm::ivec4}
     \subitem {gla::Program::UniformProxy}, \hyperpage{76}
-    \subitem {gla::Program::UniformProxyConst}, \hyperpage{82}
+    \subitem {gla::Program::UniformProxyConst}, \hyperpage{81}
   \item {operator glm::mat2}
     \subitem {gla::Program::UniformProxy}, \hyperpage{76}
-    \subitem {gla::Program::UniformProxyConst}, \hyperpage{82}
+    \subitem {gla::Program::UniformProxyConst}, \hyperpage{81}
   \item {operator glm::mat2x3}
     \subitem {gla::Program::UniformProxy}, \hyperpage{76}
-    \subitem {gla::Program::UniformProxyConst}, \hyperpage{82}
+    \subitem {gla::Program::UniformProxyConst}, \hyperpage{81}
   \item {operator glm::mat2x4}
     \subitem {gla::Program::UniformProxy}, \hyperpage{76}
-    \subitem {gla::Program::UniformProxyConst}, \hyperpage{82}
+    \subitem {gla::Program::UniformProxyConst}, \hyperpage{81}
   \item {operator glm::mat3}
     \subitem {gla::Program::UniformProxy}, \hyperpage{76}
     \subitem {gla::Program::UniformProxyConst}, \hyperpage{82}
@@ -426,26 +477,26 @@
     \subitem {gla::Program::UniformProxy}, \hyperpage{76}
     \subitem {gla::Program::UniformProxyConst}, \hyperpage{82}
   \item {operator glm::mat4}
-    \subitem {gla::Program::UniformProxy}, \hyperpage{77}
+    \subitem {gla::Program::UniformProxy}, \hyperpage{76}
     \subitem {gla::Program::UniformProxyConst}, \hyperpage{82}
   \item {operator glm::mat4x2}
-    \subitem {gla::Program::UniformProxy}, \hyperpage{77}
-    \subitem {gla::Program::UniformProxyConst}, \hyperpage{83}
+    \subitem {gla::Program::UniformProxy}, \hyperpage{76}
+    \subitem {gla::Program::UniformProxyConst}, \hyperpage{82}
   \item {operator glm::mat4x3}
-    \subitem {gla::Program::UniformProxy}, \hyperpage{77}
-    \subitem {gla::Program::UniformProxyConst}, \hyperpage{83}
+    \subitem {gla::Program::UniformProxy}, \hyperpage{76}
+    \subitem {gla::Program::UniformProxyConst}, \hyperpage{82}
   \item {operator glm::uvec2}
     \subitem {gla::Program::UniformProxy}, \hyperpage{77}
-    \subitem {gla::Program::UniformProxyConst}, \hyperpage{83}
+    \subitem {gla::Program::UniformProxyConst}, \hyperpage{82}
   \item {operator glm::uvec3}
     \subitem {gla::Program::UniformProxy}, \hyperpage{77}
-    \subitem {gla::Program::UniformProxyConst}, \hyperpage{83}
+    \subitem {gla::Program::UniformProxyConst}, \hyperpage{82}
   \item {operator glm::uvec4}
     \subitem {gla::Program::UniformProxy}, \hyperpage{77}
-    \subitem {gla::Program::UniformProxyConst}, \hyperpage{83}
+    \subitem {gla::Program::UniformProxyConst}, \hyperpage{82}
   \item {operator glm::vec2}
     \subitem {gla::Program::UniformProxy}, \hyperpage{77}
-    \subitem {gla::Program::UniformProxyConst}, \hyperpage{83}
+    \subitem {gla::Program::UniformProxyConst}, \hyperpage{82}
   \item {operator glm::vec3}
     \subitem {gla::Program::UniformProxy}, \hyperpage{77}
     \subitem {gla::Program::UniformProxyConst}, \hyperpage{83}
@@ -456,21 +507,22 @@
     \subitem {gla::Program::UniformProxy}, \hyperpage{77}
     \subitem {gla::Program::UniformProxyConst}, \hyperpage{83}
   \item {operator unsigned int}
-    \subitem {gla::Program::UniformProxy}, \hyperpage{78}
+    \subitem {gla::Program::UniformProxy}, \hyperpage{77}
     \subitem {gla::Program::UniformProxyConst}, \hyperpage{83}
   \item {operator=}
-    \subitem {gla::Buffer}, \hyperpage{31}
-    \subitem {gla::Program}, \hyperpage{52, 53}
-    \subitem {gla::Program::UniformProxy}, \hyperpage{78--80}
-    \subitem {gla::Program::UniformProxyConst}, \hyperpage{84}
-    \subitem {gla::Shader}, \hyperpage{72}
-    \subitem {gla::WindowContext}, \hyperpage{86}
+    \subitem {gla::Buffer}, \hyperpage{30}
+    \subitem {gla::Program}, \hyperpage{51, 52}
+    \subitem {gla::Program::UniformProxy}, \hyperpage{77--80}
+    \subitem {gla::Program::UniformProxyConst}, \hyperpage{83}
+    \subitem {gla::Shader}, \hyperpage{71}
+    \subitem {gla::VertexArray}, \hyperpage{85}
+    \subitem {gla::WindowContext}, \hyperpage{90}
   \item {operator\&}
-    \subitem {gla}, \hyperpage{21}
+    \subitem {gla}, \hyperpage{22}
   \item {operator[]}
-    \subitem {gla::Program}, \hyperpage{53, 54}
+    \subitem {gla::Program}, \hyperpage{52, 53}
   \item {operator\texttt{|}}
-    \subitem {gla}, \hyperpage{21}
+    \subitem {gla}, \hyperpage{22}
   \item {operator\texttt{|}=}
     \subitem {gla}, \hyperpage{22}
 
@@ -483,14 +535,14 @@
   \item {PixelUnpack}
     \subitem {gla}, \hyperpage{18}
   \item {pollEvents}
-    \subitem {gla}, \hyperpage{22}
+    \subitem {gla}, \hyperpage{23}
   \item {Program}
-    \subitem {gla::Program}, \hyperpage{41}
-    \subitem {gla::Shader}, \hyperpage{73}
+    \subitem {gla::Program}, \hyperpage{40}
+    \subitem {gla::Shader}, \hyperpage{72}
   \item {ProgramLinkError}
-    \subitem {gla::ProgramLinkError}, \hyperpage{65}
+    \subitem {gla::ProgramLinkError}, \hyperpage{64}
   \item {ProgramValidateError}
-    \subitem {gla::ProgramValidateError}, \hyperpage{66}
+    \subitem {gla::ProgramValidateError}, \hyperpage{65}
 
   \indexspace
 
@@ -502,33 +554,37 @@
   \item {Read}
     \subitem {gla}, \hyperpage{19}
   \item {reset}
-    \subitem {gla::Program}, \hyperpage{55}
-    \subitem {gla::Shader}, \hyperpage{72}
+    \subitem {gla::Program}, \hyperpage{54}
+    \subitem {gla::Shader}, \hyperpage{71}
   \item {run}
-    \subitem {gla::WindowContext}, \hyperpage{86}
+    \subitem {gla::WindowContext}, \hyperpage{90}
 
   \indexspace
 
+  \item {setAttributes}
+    \subitem {gla::VertexArray}, \hyperpage{86}
   \item {setData}
-    \subitem {gla::Buffer}, \hyperpage{31}
+    \subitem {gla::Buffer}, \hyperpage{30, 31}
   \item {setStorage}
-    \subitem {gla::Buffer}, \hyperpage{32}
+    \subitem {gla::Buffer}, \hyperpage{31, 32}
   \item {setSubData}
-    \subitem {gla::Buffer}, \hyperpage{33}
+    \subitem {gla::Buffer}, \hyperpage{32}
   \item {setUniform}
-    \subitem {gla::Program}, \hyperpage{55--63}
+    \subitem {gla::Program}, \hyperpage{54--62}
   \item {Shader}
-    \subitem {gla::Shader}, \hyperpage{67--69}
+    \subitem {gla::Shader}, \hyperpage{66--68}
   \item {ShaderCompileError}
-    \subitem {gla::ShaderCompileError}, \hyperpage{74}
+    \subitem {gla::ShaderCompileError}, \hyperpage{73}
   \item {ShaderStorage}
     \subitem {gla}, \hyperpage{18}
   \item {ShaderType}
     \subitem {gla}, \hyperpage{19}
   \item {shaderTypeToString}
-    \subitem {gla}, \hyperpage{22}
+    \subitem {gla}, \hyperpage{23}
+  \item {Short}
+    \subitem {gla}, \hyperpage{20}
   \item {shouldClose}
-    \subitem {gla::WindowContext}, \hyperpage{86}
+    \subitem {gla::WindowContext}, \hyperpage{90}
   \item {size}
     \subitem {gla::Buffer}, \hyperpage{33}
   \item {StaticCopy}
@@ -544,12 +600,12 @@
   \item {StreamRead}
     \subitem {gla}, \hyperpage{19}
   \item {swapBuffers}
-    \subitem {gla::WindowContext}, \hyperpage{87}
+    \subitem {gla::WindowContext}, \hyperpage{90}
 
   \indexspace
 
   \item {terminateGLFW}
-    \subitem {gla}, \hyperpage{22}
+    \subitem {gla}, \hyperpage{23}
   \item {TessControl}
     \subitem {gla}, \hyperpage{20}
   \item {TessEvaluation}
@@ -557,44 +613,60 @@
   \item {Texture}
     \subitem {gla}, \hyperpage{18}
   \item {toGLenum}
-    \subitem {gla}, \hyperpage{23}
+    \subitem {gla}, \hyperpage{23, 24}
   \item {TransformFeedback}
     \subitem {gla}, \hyperpage{18}
+  \item {type}
+    \subitem {gla::VertexAttribute}, \hyperpage{88}
+  \item {typeToBytes}
+    \subitem {gla}, \hyperpage{25}
 
   \indexspace
 
   \item {unbind}
-    \subitem {gla::Program}, \hyperpage{63}
+    \subitem {gla::Program}, \hyperpage{62}
   \item {Uniform}
     \subitem {gla}, \hyperpage{18}
-  \item {UniformData}
-    \subitem {gla}, \hyperpage{17}
   \item {UniformProxy}
     \subitem {gla::Program::UniformProxy}, \hyperpage{75}
   \item {UniformProxyConst}
     \subitem {gla::Program::UniformProxyConst}, \hyperpage{81}
   \item {unmap}
     \subitem {gla::Buffer}, \hyperpage{33}
+  \item {UnsignedByte}
+    \subitem {gla}, \hyperpage{20}
+  \item {UnsignedInt}
+    \subitem {gla}, \hyperpage{20}
+  \item {UnsignedShort}
+    \subitem {gla}, \hyperpage{20}
   \item {Unsynchronized}
     \subitem {gla}, \hyperpage{19}
   \item {useContext}
-    \subitem {gla::WindowContext}, \hyperpage{87}
+    \subitem {gla::WindowContext}, \hyperpage{91}
 
   \indexspace
 
   \item {validateBufferFlag}
-    \subitem {gla}, \hyperpage{24}
+    \subitem {gla}, \hyperpage{25}
   \item {validateMapUsage}
-    \subitem {gla}, \hyperpage{24}
+    \subitem {gla}, \hyperpage{25}
+  \item {validateTypeInterpretation}
+    \subitem {gla}, \hyperpage{26}
   \item {Vertex}
+    \subitem {gla}, \hyperpage{20}
+  \item {VertexArray}
+    \subitem {gla::VertexArray}, \hyperpage{85}
+  \item {VertexAttribInterp}
+    \subitem {gla}, \hyperpage{20}
+  \item {VertexAttribType}
     \subitem {gla}, \hyperpage{20}
 
   \indexspace
 
   \item {window}
-    \subitem {gla::WindowContext}, \hyperpage{87}
+    \subitem {gla::WindowContext}, \hyperpage{91}
   \item {WindowContext}
-    \subitem {gla::WindowContext}, \hyperpage{85, 86}
+    \subitem {gla::WindowContext}, \hyperpage{89}
   \item {Write}
     \subitem {gla}, \hyperpage{19}
 

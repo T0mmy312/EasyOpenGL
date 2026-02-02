@@ -1,0 +1,69 @@
+\doxysection{vertex\+Array.\+h}
+\hypertarget{vertex_array_8h_source}{}\label{vertex_array_8h_source}\index{inc/GLA/vertexArray.h@{inc/GLA/vertexArray.h}}
+\doxymbox{\hyperlink{vertex_array_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ GLA\_VERTEX\_ARRAY\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ GLA\_VERTEX\_ARRAY\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <stdexcept>}}
+\DoxyCodeLine{00006\ }
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ <\doxymbox{\hyperlink{buffer_8h}{GLA/buffer.h}}>}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include\ <\doxymbox{\hyperlink{debug_8h}{GLA/debug.h}}>}}
+\DoxyCodeLine{00009\ }
+\DoxyCodeLine{00010\ \textcolor{keyword}{namespace\ }\doxymbox{\hyperlink{namespacegla}{gla}}\ \{}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00012\ \textcolor{keyword}{enum\ class}\ \doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801}{VertexAttribType}}\ \{}
+\DoxyCodeLine{00013\ \ \ \ \ \doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801aa245c3230debe5c956484ecc6fa93877}{Byte}},\ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00014\ \ \ \ \ \doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801a8f0fb883eb5a52838534191513e365a2}{UnsignedByte}},\ \ \ }
+\DoxyCodeLine{00015\ \ \ \ \ \doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801a30bb747c98bccdd11b3f89e644c4d0ad}{Short}},\ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00016\ \ \ \ \ \doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801aeb51124277f3ec904a9af74d5de34e7b}{UnsignedShort}},\ \ }
+\DoxyCodeLine{00017\ \ \ \ \ \doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801a1686a6c336b71b36d77354cea19a8b52}{Int}},\ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00018\ \ \ \ \ \doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801ac93cff91b6b9a57fa32bbe1863150070}{UnsignedInt}},\ \ \ \ }
+\DoxyCodeLine{00019\ \ \ \ \ \doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801ad35523d81610cee8b87cdac1853ad51f}{HalfFloat}},\ \ \ \ \ \ }
+\DoxyCodeLine{00020\ \ \ \ \ \doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801a22ae0e2b89e5e3d477f988cc36d3272b}{Float}},\ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00021\ \ \ \ \ \doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801ad909d38d705ce75386dd86e611a82f5b}{Double}},\ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00022\ \ \ \ \ \doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801a4457d440870ad6d42bab9082d9bf9b61}{Fixed}}\ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00023\ \};}
+\DoxyCodeLine{00024\ }
+\DoxyCodeLine{00025\ \textcolor{keyword}{enum\ class}\ \doxymbox{\hyperlink{namespacegla_a34151dddf27744725eaf153f30a5c7a6}{VertexAttribInterp}}\ \{}
+\DoxyCodeLine{00026\ \ \ \ \ \doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801a22ae0e2b89e5e3d477f988cc36d3272b}{Float}},\ \ }
+\DoxyCodeLine{00027\ \ \ \ \ \doxymbox{\hyperlink{namespacegla_a34151dddf27744725eaf153f30a5c7a6aa0faef0851b4294c06f2b94bb1cb2044}{Integer}}\ }
+\DoxyCodeLine{00028\ \};}
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00030\ }
+\DoxyCodeLine{00036\ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{namespacegla_acf5a79b8cdeed0b99411c2712fc19983}{toGLenum}}(\doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801}{VertexAttribType}}\ type);}
+\DoxyCodeLine{00037\ }
+\DoxyCodeLine{00045\ \textcolor{keywordtype}{bool}\ \doxymbox{\hyperlink{namespacegla_a04224fa648564f5d2de7fb96b722c068}{validateTypeInterpretation}}(\doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801}{VertexAttribType}}\ type,\ \doxymbox{\hyperlink{namespacegla_a34151dddf27744725eaf153f30a5c7a6}{VertexAttribInterp}}\ interp,\ std::string\&\ error);}
+\DoxyCodeLine{00046\ }
+\DoxyCodeLine{00052\ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{namespacegla_a25c53cb145acc908db39bbb79f634dc0}{typeToBytes}}(\doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801}{VertexAttribType}}\ type);}
+\DoxyCodeLine{00053\ }
+\DoxyCodeLine{00057\ \textcolor{keyword}{struct\ }\doxymbox{\hyperlink{structgla_1_1_vertex_attribute}{VertexAttribute}}\ \{}
+\DoxyCodeLine{00058\ \ \ \ \ \textcolor{keywordtype}{unsigned}\ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{structgla_1_1_vertex_attribute_af4d271d0f53e41831c38388fe82c86eb}{index}};\ }
+\DoxyCodeLine{00059\ \ \ \ \ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{structgla_1_1_vertex_attribute_aad366ba35ccd43bc909e4a7f71af25da}{numComponents}};\ }
+\DoxyCodeLine{00060\ \ \ \ \ \doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801}{VertexAttribType}}\ \doxymbox{\hyperlink{structgla_1_1_vertex_attribute_a62212c60886906519ec798f7761c428a}{type}};\ }
+\DoxyCodeLine{00061\ \ \ \ \ \doxymbox{\hyperlink{namespacegla_a34151dddf27744725eaf153f30a5c7a6}{VertexAttribInterp}}\ \doxymbox{\hyperlink{structgla_1_1_vertex_attribute_ae658b95d010bb780d4c3c1bf80cccd8f}{interp}};\ }
+\DoxyCodeLine{00062\ \ \ \ \ \textcolor{keywordtype}{bool}\ \doxymbox{\hyperlink{structgla_1_1_vertex_attribute_a00c40c5433826b5e248a759e02cfcd48}{normalized}};\ }
+\DoxyCodeLine{00063\ \ \ \ \ \textcolor{keywordtype}{int}\ \doxymbox{\hyperlink{structgla_1_1_vertex_attribute_aa6c8049db19b44193fad2b868c1ca1f6}{offset}};\ }
+\DoxyCodeLine{00064\ \};}
+\DoxyCodeLine{00065\ }
+\DoxyCodeLine{00074\ \textcolor{keyword}{class\ }\doxymbox{\hyperlink{classgla_1_1_vertex_array_a1e4c0a15c7b5ecd0c7264076e45cb8e5}{VertexArray}}\ :\ \textcolor{keyword}{public}\ \doxymbox{\hyperlink{classgla_1_1_buffer_a2ed17f7bfbe557c7624777585e0cfbe0}{Buffer}}\ \{}
+\DoxyCodeLine{00075\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00076\ \ \ \ \ std::vector<unsigned\ int>\ \_enabledVertexAttribs\ =\ \{\};}
+\DoxyCodeLine{00077\ }
+\DoxyCodeLine{00078\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00079\ \ \ \ \ \doxymbox{\hyperlink{classgla_1_1_vertex_array_a1e4c0a15c7b5ecd0c7264076e45cb8e5}{VertexArray}}()\ :\ \doxymbox{\hyperlink{classgla_1_1_buffer_a2ed17f7bfbe557c7624777585e0cfbe0}{Buffer}}(\doxymbox{\hyperlink{namespacegla_a7442220d0141215247011f052258ecad}{BufferType}}::\doxymbox{\hyperlink{namespacegla_a7442220d0141215247011f052258ecada4410ec34d9e6c1a68100ca0ce033fb17}{Array}})\ \{\}}
+\DoxyCodeLine{00080\ \ \ \ \ \doxymbox{\hyperlink{classgla_1_1_vertex_array_a9f08ca7798703a25e70fba6aa4d2674a}{VertexArray}}(\doxymbox{\hyperlink{classgla_1_1_vertex_array_a1e4c0a15c7b5ecd0c7264076e45cb8e5}{VertexArray}}\&\&\ other)\ :\ \doxymbox{\hyperlink{classgla_1_1_buffer_a2ed17f7bfbe557c7624777585e0cfbe0}{Buffer}}(std::move(other))\ \{\}}
+\DoxyCodeLine{00081\ \ \ \ \ \doxymbox{\hyperlink{classgla_1_1_vertex_array_aac73bef5f0ceb178f1885035b075a1e5}{VertexArray}}(\textcolor{keyword}{const}\ \doxymbox{\hyperlink{classgla_1_1_vertex_array_a1e4c0a15c7b5ecd0c7264076e45cb8e5}{VertexArray}}\&\ other)\ =\ \textcolor{keyword}{delete};}
+\DoxyCodeLine{00082\ }
+\DoxyCodeLine{00101\ \ \ \ \ \textcolor{keywordtype}{void}\ \doxymbox{\hyperlink{classgla_1_1_vertex_array_ab379ac7b11bd7bd8917ad21a16c49e25}{setAttributes}}(\textcolor{keyword}{const}\ std::vector<VertexAttribute>\&\ attribs,\ \textcolor{keywordtype}{int}\ stride);}
+\DoxyCodeLine{00102\ }
+\DoxyCodeLine{00103\ \ \ \ \ \doxymbox{\hyperlink{classgla_1_1_vertex_array_a1e4c0a15c7b5ecd0c7264076e45cb8e5}{VertexArray}}\&\ \doxymbox{\hyperlink{classgla_1_1_vertex_array_a6782c9ede6dae4e5d41743b17dfcc7cc}{operator=}}(\doxymbox{\hyperlink{classgla_1_1_vertex_array_a1e4c0a15c7b5ecd0c7264076e45cb8e5}{VertexArray}}\&\&\ other)\ \{\ \doxymbox{\hyperlink{classgla_1_1_buffer_a074a95f359501da8dab624d69c9a5c4b}{Buffer::operator=}}(std::move(other));\ \textcolor{keywordflow}{return}\ *\textcolor{keyword}{this};\ \}}
+\DoxyCodeLine{00104\ \ \ \ \ \doxymbox{\hyperlink{classgla_1_1_vertex_array_a1e4c0a15c7b5ecd0c7264076e45cb8e5}{VertexArray}}\&\ \doxymbox{\hyperlink{classgla_1_1_vertex_array_acddb92f8e3f654648d43b95db04621d5}{operator=}}(\textcolor{keyword}{const}\ \doxymbox{\hyperlink{classgla_1_1_vertex_array_a1e4c0a15c7b5ecd0c7264076e45cb8e5}{VertexArray}}\&\ other)\ =\ \textcolor{keyword}{delete};}
+\DoxyCodeLine{00105\ \};}
+\DoxyCodeLine{00106\ }
+\DoxyCodeLine{00107\ \}}
+\DoxyCodeLine{00108\ }
+\DoxyCodeLine{00109\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

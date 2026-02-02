@@ -4,11 +4,12 @@ var annotated_dup =
       [ "Buffer", "d5/ddd/classgla_1_1_buffer.html", "d5/ddd/classgla_1_1_buffer" ],
       [ "ProgramLinkError", "dc/dff/classgla_1_1_program_link_error.html", "dc/dff/classgla_1_1_program_link_error" ],
       [ "ProgramValidateError", "d5/d11/classgla_1_1_program_validate_error.html", "d5/d11/classgla_1_1_program_validate_error" ],
-      [ "_uniformData", "d6/de4/structgla_1_1__uniform_data.html", "d6/de4/structgla_1_1__uniform_data" ],
+      [ "UniformData", "d2/d48/structgla_1_1_uniform_data.html", "d2/d48/structgla_1_1_uniform_data" ],
       [ "Program", "d0/dac/classgla_1_1_program.html", "d0/dac/classgla_1_1_program" ],
       [ "ShaderCompileError", "d8/d03/classgla_1_1_shader_compile_error.html", "d8/d03/classgla_1_1_shader_compile_error" ],
       [ "Shader", "d1/dc3/classgla_1_1_shader.html", "d1/dc3/classgla_1_1_shader" ],
-      [ "VertexBuffer", "dc/d63/classgla_1_1_vertex_buffer.html", null ],
+      [ "VertexAttribute", "d3/de5/structgla_1_1_vertex_attribute.html", "d3/de5/structgla_1_1_vertex_attribute" ],
+      [ "VertexArray", "d6/d49/classgla_1_1_vertex_array.html", "d6/d49/classgla_1_1_vertex_array" ],
       [ "WindowContext", "d8/d3c/classgla_1_1_window_context.html", "d8/d3c/classgla_1_1_window_context" ]
     ] ]
 ];

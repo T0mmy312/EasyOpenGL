@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['gltype_0',['glType',['../d6/de4/structgla_1_1__uniform_data.html#a41a1b5bc91e5702c3ae28ea050a73159',1,'gla::_uniformData']]]
+  ['gltype_0',['glType',['../d2/d48/structgla_1_1_uniform_data.html#a98151bee063cd19c6b99aac63b588a1d',1,'gla::UniformData']]]
 ];

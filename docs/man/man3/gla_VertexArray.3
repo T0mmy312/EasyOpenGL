@@ -1,0 +1,212 @@
+.TH "gla::VertexArray" 3 "OpenGL Abstraction" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+gla::VertexArray \- \fBVertexArray\fP class to abstract the OpenGL vertex array\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fR#include <vertexArray\&.h>\fP
+.PP
+Inherits \fBgla::Buffer\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBVertexArray\fP ()"
+.br
+.ti -1c
+.RI "\fBVertexArray\fP (VertexArray &&other)"
+.br
+.ti -1c
+.RI "\fBVertexArray\fP (const VertexArray &other)=delete"
+.br
+.ti -1c
+.RI "void \fBsetAttributes\fP (const std::vector< \fBVertexAttribute\fP > &attribs, int stride)"
+.br
+.RI "Set the Attributes for a vertex array\&. "
+.ti -1c
+.RI "\fBVertexArray\fP & \fBoperator=\fP (\fBVertexArray\fP &&other)"
+.br
+.ti -1c
+.RI "\fBVertexArray\fP & \fBoperator=\fP (const \fBVertexArray\fP &other)=delete"
+.br
+.in -1c
+
+Public Member Functions inherited from \fBgla::Buffer\fP
+.in +1c
+.ti -1c
+.RI "\fBBuffer\fP ()=delete"
+.br
+.ti -1c
+.RI "\fBBuffer\fP (\fBBufferType\fP type)"
+.br
+.RI "Construct a new \fBBuffer\fP object of given type\&. "
+.ti -1c
+.RI "\fBBuffer\fP (Buffer &&other)"
+.br
+.ti -1c
+.RI "\fBBuffer\fP (const Buffer &other)=delete"
+.br
+.ti -1c
+.RI "\fB~Buffer\fP () noexcept"
+.br
+.ti -1c
+.RI "void \fBbind\fP () const"
+.br
+.RI "Binds the \fBBuffer\fP to the appropriate binding point\&. "
+.ti -1c
+.RI "int64_t \fBsize\fP () const"
+.br
+.RI "Returns the size in bytes of the \fBBuffer\fP\&. "
+.ti -1c
+.RI "\fBBufferType\fP \fBgetType\fP () const"
+.br
+.RI "Get the Type of the \fBBuffer\fP\&. "
+.ti -1c
+.RI "void \fBsetData\fP (int64_t \fBsize\fP, const void *data, \fBBufferUsage\fP usage)"
+.br
+.RI "Set the data of the \fBBuffer\fP with a given usage\&. "
+.ti -1c
+.RI "template<typename T> void \fBsetData\fP (std::vector< T > data, \fBBufferUsage\fP usage)"
+.br
+.RI "Set the data of the \fBBuffer\fP with a given usage\&. "
+.ti -1c
+.RI "void \fBsetStorage\fP (int64_t \fBsize\fP, const void *data, \fBBufferFlag\fP flags)"
+.br
+.RI "Set the data of the \fBBuffer\fP with given \fBBuffer\fP flags\&. "
+.ti -1c
+.RI "template<typename T> void \fBsetStorage\fP (std::vector< T > data, \fBBufferFlag\fP flags)"
+.br
+.RI "Set the data of the \fBBuffer\fP with given \fBBuffer\fP flags\&. "
+.ti -1c
+.RI "void \fBsetSubData\fP (int64_t offset, int64_t \fBsize\fP, const void *data)"
+.br
+.RI "Set a subset of the data in the \fBBuffer\fP\&. "
+.ti -1c
+.RI "void \fBgetSubData\fP (int64_t offset, int64_t \fBsize\fP, void *data)"
+.br
+.RI "Get a subset of the data in the \fBBuffer\fP\&. "
+.ti -1c
+.RI "void * \fBmap\fP (int64_t offset, int64_t length, \fBMapUsage\fP access)"
+.br
+.RI "Map a part of the \fBBuffer\fP data to the client's address space\&. "
+.ti -1c
+.RI "void \fBunmap\fP ()"
+.br
+.RI "Unmaps the \fBBuffer\fP\&. "
+.ti -1c
+.RI "\fBBuffer\fP & \fBoperator=\fP (\fBBuffer\fP &&other)"
+.br
+.ti -1c
+.RI "\fBBuffer\fP & \fBoperator=\fP (const \fBBuffer\fP &other)=delete"
+.br
+.in -1c
+.SS "Additional Inherited Members"
+
+
+Protected Member Functions inherited from \fBgla::Buffer\fP
+.in +1c
+.ti -1c
+.RI "void \fB_delete\fP ()"
+.br
+.ti -1c
+.RI "void \fB_check\fP ()"
+.br
+.in -1c
+
+Protected Attributes inherited from \fBgla::Buffer\fP
+.in +1c
+.ti -1c
+.RI "unsigned int \fB_id\fP = 0"
+.br
+.ti -1c
+.RI "bool \fB_mapped\fP = false"
+.br
+.ti -1c
+.RI "\fBMapUsage\fP \fB_mapUsage\fP = \fBMapUsage::None\fP"
+.br
+.ti -1c
+.RI "\fBBufferFlag\fP \fB_flags\fP = \fBBufferFlag::None\fP"
+.br
+.ti -1c
+.RI "\fBBufferType\fP \fB_type\fP"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+\fBVertexArray\fP class to abstract the OpenGL vertex array\&. 
+
+
+.PP
+\fBWarning\fP
+.RS 4
+\fBProgram\fP must be deconstructed before the OpenGL context is destroyed\&. 
+
+.PP
+This class is not guaranteed to be thread-safe\&.
+.RE
+.PP
+\fBNote\fP
+.RS 4
+Inherits from \fBgla::Buffer\fP\&. 
+.RE
+.PP
+
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "gla::VertexArray::VertexArray ()\fR [inline]\fP"
+
+.SS "gla::VertexArray::VertexArray (VertexArray && other)\fR [inline]\fP"
+
+.SS "gla::VertexArray::VertexArray (const VertexArray & other)\fR [delete]\fP"
+
+.SH "Member Function Documentation"
+.PP 
+.SS "\fBVertexArray\fP & gla::VertexArray::operator= (const \fBVertexArray\fP & other)\fR [delete]\fP"
+
+.SS "\fBVertexArray\fP & gla::VertexArray::operator= (\fBVertexArray\fP && other)\fR [inline]\fP"
+
+.SS "void gla::VertexArray::setAttributes (const std::vector< \fBVertexAttribute\fP > & attribs, int stride)"
+
+.PP
+Set the Attributes for a vertex array\&. 
+.PP
+\fBExceptions\fP
+.RS 4
+\fIstd::invalid_argument\fP If stride is less than or equal to 0 
+.br
+\fIstd::runtime_error\fP If it could not query GL_MAX_VERTEX_ATTRIBS 
+.br
+\fIstd::runtime_error\fP If the current GPU doesn't support the given amount of \fBVertexAttribute\fP (at least 16 are guaranteed) 
+.br
+\fIstd::invalid_argument\fP If the any given index goes above the amount of VertexAttributes supported by the GPU (at least 16 are guaranteed) 
+.br
+\fIstd::invalid_argument\fP If any \fBVertexAttribute\fP requests less than 1 or more than 4 numComponents 
+.br
+\fIstd::invalid_argument\fP If any of the given combinations of type and interpretation is invalid 
+.br
+\fIstd::invalid_argument\fP If the given \fBVertexAttribType\fP in any \fBVertexAttribute\fP is invalid
+.br
+\fIstd::invalid_argument\fP If the given VertexAttributes extend over the given stride (only when DEBUG_MODE is defined) 
+.br
+\fIstd::invalid_argument\fP If the given VertexAttributes overlap (only when DEBUG_MODE is defined)
+.RE
+.PP
+\fBNote\fP
+.RS 4
+Calling this function binds this \fBBuffer\fP\&.
+.RE
+.PP
+\fBParameters\fP
+.RS 4
+\fIattribs\fP Vector of Attributes to assign to the \fBVertexArray\fP 
+.RE
+.PP
+
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for OpenGL Abstraction from the source code\&.

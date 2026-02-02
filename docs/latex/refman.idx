@@ -2,8 +2,6 @@
 \indexentry{inc/GLA Directory Reference@{inc/GLA Directory Reference}|hyperpage}{13}
 \indexentry{inc Directory Reference@{inc Directory Reference}|hyperpage}{13}
 \indexentry{gla@{gla}|hyperpage}{15}
-\indexentry{gla@{gla}!UniformData@{UniformData}|hyperpage}{17}
-\indexentry{UniformData@{UniformData}!gla@{gla}|hyperpage}{17}
 \indexentry{gla@{gla}!BufferFlag@{BufferFlag}|hyperpage}{17}
 \indexentry{BufferFlag@{BufferFlag}!gla@{gla}|hyperpage}{17}
 \indexentry{None@{None}!gla@{gla}|hyperpage}{17}
@@ -26,12 +24,12 @@
 \indexentry{gla@{gla}!Array@{Array}|hyperpage}{17}
 \indexentry{AtomicCounter@{AtomicCounter}!gla@{gla}|hyperpage}{17}
 \indexentry{gla@{gla}!AtomicCounter@{AtomicCounter}|hyperpage}{17}
-\indexentry{CopyRead@{CopyRead}!gla@{gla}|hyperpage}{17}
-\indexentry{gla@{gla}!CopyRead@{CopyRead}|hyperpage}{17}
-\indexentry{CopyWrite@{CopyWrite}!gla@{gla}|hyperpage}{17}
-\indexentry{gla@{gla}!CopyWrite@{CopyWrite}|hyperpage}{17}
-\indexentry{DispatchIndirect@{DispatchIndirect}!gla@{gla}|hyperpage}{17}
-\indexentry{gla@{gla}!DispatchIndirect@{DispatchIndirect}|hyperpage}{17}
+\indexentry{CopyRead@{CopyRead}!gla@{gla}|hyperpage}{18}
+\indexentry{gla@{gla}!CopyRead@{CopyRead}|hyperpage}{18}
+\indexentry{CopyWrite@{CopyWrite}!gla@{gla}|hyperpage}{18}
+\indexentry{gla@{gla}!CopyWrite@{CopyWrite}|hyperpage}{18}
+\indexentry{DispatchIndirect@{DispatchIndirect}!gla@{gla}|hyperpage}{18}
+\indexentry{gla@{gla}!DispatchIndirect@{DispatchIndirect}|hyperpage}{18}
 \indexentry{DrawIndirect@{DrawIndirect}!gla@{gla}|hyperpage}{18}
 \indexentry{gla@{gla}!DrawIndirect@{DrawIndirect}|hyperpage}{18}
 \indexentry{ElementArray@{ElementArray}!gla@{gla}|hyperpage}{18}
@@ -104,62 +102,89 @@
 \indexentry{gla@{gla}!TessControl@{TessControl}|hyperpage}{20}
 \indexentry{Compute@{Compute}!gla@{gla}|hyperpage}{20}
 \indexentry{gla@{gla}!Compute@{Compute}|hyperpage}{20}
-\indexentry{gla@{gla}!glCheckError@{glCheckError}|hyperpage}{20}
-\indexentry{glCheckError@{glCheckError}!gla@{gla}|hyperpage}{20}
-\indexentry{gla@{gla}!glErrorString@{glErrorString}|hyperpage}{20}
-\indexentry{glErrorString@{glErrorString}!gla@{gla}|hyperpage}{20}
+\indexentry{gla@{gla}!VertexAttribInterp@{VertexAttribInterp}|hyperpage}{20}
+\indexentry{VertexAttribInterp@{VertexAttribInterp}!gla@{gla}|hyperpage}{20}
+\indexentry{Float@{Float}!gla@{gla}|hyperpage}{20}
+\indexentry{gla@{gla}!Float@{Float}|hyperpage}{20}
+\indexentry{Integer@{Integer}!gla@{gla}|hyperpage}{20}
+\indexentry{gla@{gla}!Integer@{Integer}|hyperpage}{20}
+\indexentry{gla@{gla}!VertexAttribType@{VertexAttribType}|hyperpage}{20}
+\indexentry{VertexAttribType@{VertexAttribType}!gla@{gla}|hyperpage}{20}
+\indexentry{Byte@{Byte}!gla@{gla}|hyperpage}{20}
+\indexentry{gla@{gla}!Byte@{Byte}|hyperpage}{20}
+\indexentry{UnsignedByte@{UnsignedByte}!gla@{gla}|hyperpage}{20}
+\indexentry{gla@{gla}!UnsignedByte@{UnsignedByte}|hyperpage}{20}
+\indexentry{Short@{Short}!gla@{gla}|hyperpage}{20}
+\indexentry{gla@{gla}!Short@{Short}|hyperpage}{20}
+\indexentry{UnsignedShort@{UnsignedShort}!gla@{gla}|hyperpage}{20}
+\indexentry{gla@{gla}!UnsignedShort@{UnsignedShort}|hyperpage}{20}
+\indexentry{Int@{Int}!gla@{gla}|hyperpage}{20}
+\indexentry{gla@{gla}!Int@{Int}|hyperpage}{20}
+\indexentry{UnsignedInt@{UnsignedInt}!gla@{gla}|hyperpage}{20}
+\indexentry{gla@{gla}!UnsignedInt@{UnsignedInt}|hyperpage}{20}
+\indexentry{HalfFloat@{HalfFloat}!gla@{gla}|hyperpage}{20}
+\indexentry{gla@{gla}!HalfFloat@{HalfFloat}|hyperpage}{20}
+\indexentry{Float@{Float}!gla@{gla}|hyperpage}{20}
+\indexentry{gla@{gla}!Float@{Float}|hyperpage}{20}
+\indexentry{Double@{Double}!gla@{gla}|hyperpage}{20}
+\indexentry{gla@{gla}!Double@{Double}|hyperpage}{20}
+\indexentry{Fixed@{Fixed}!gla@{gla}|hyperpage}{20}
+\indexentry{gla@{gla}!Fixed@{Fixed}|hyperpage}{20}
+\indexentry{gla@{gla}!glCheckError@{glCheckError}|hyperpage}{21}
+\indexentry{glCheckError@{glCheckError}!gla@{gla}|hyperpage}{21}
+\indexentry{gla@{gla}!glErrorString@{glErrorString}|hyperpage}{21}
+\indexentry{glErrorString@{glErrorString}!gla@{gla}|hyperpage}{21}
 \indexentry{gla@{gla}!initGLFW@{initGLFW}|hyperpage}{21}
 \indexentry{initGLFW@{initGLFW}!gla@{gla}|hyperpage}{21}
-\indexentry{gla@{gla}!operator\&@{operator\&}|hyperpage}{21}
-\indexentry{operator\&@{operator\&}!gla@{gla}|hyperpage}{21}
-\indexentry{gla@{gla}!operator\&@{operator\&}|hyperpage}{21}
-\indexentry{operator\&@{operator\&}!gla@{gla}|hyperpage}{21}
-\indexentry{gla@{gla}!operator\texttt{"|}@{operator\texttt{"|}}|hyperpage}{21}
-\indexentry{operator\texttt{"|}@{operator\texttt{"|}}!gla@{gla}|hyperpage}{21}
-\indexentry{gla@{gla}!operator\texttt{"|}@{operator\texttt{"|}}|hyperpage}{21}
-\indexentry{operator\texttt{"|}@{operator\texttt{"|}}!gla@{gla}|hyperpage}{21}
+\indexentry{gla@{gla}!operator\&@{operator\&}|hyperpage}{22}
+\indexentry{operator\&@{operator\&}!gla@{gla}|hyperpage}{22}
+\indexentry{gla@{gla}!operator\&@{operator\&}|hyperpage}{22}
+\indexentry{operator\&@{operator\&}!gla@{gla}|hyperpage}{22}
+\indexentry{gla@{gla}!operator\texttt{"|}@{operator\texttt{"|}}|hyperpage}{22}
+\indexentry{operator\texttt{"|}@{operator\texttt{"|}}!gla@{gla}|hyperpage}{22}
+\indexentry{gla@{gla}!operator\texttt{"|}@{operator\texttt{"|}}|hyperpage}{22}
+\indexentry{operator\texttt{"|}@{operator\texttt{"|}}!gla@{gla}|hyperpage}{22}
 \indexentry{gla@{gla}!operator\texttt{"|}=@{operator\texttt{"|}=}|hyperpage}{22}
 \indexentry{operator\texttt{"|}=@{operator\texttt{"|}=}!gla@{gla}|hyperpage}{22}
 \indexentry{gla@{gla}!operator\texttt{"|}=@{operator\texttt{"|}=}|hyperpage}{22}
 \indexentry{operator\texttt{"|}=@{operator\texttt{"|}=}!gla@{gla}|hyperpage}{22}
-\indexentry{gla@{gla}!pollEvents@{pollEvents}|hyperpage}{22}
-\indexentry{pollEvents@{pollEvents}!gla@{gla}|hyperpage}{22}
-\indexentry{gla@{gla}!shaderTypeToString@{shaderTypeToString}|hyperpage}{22}
-\indexentry{shaderTypeToString@{shaderTypeToString}!gla@{gla}|hyperpage}{22}
-\indexentry{gla@{gla}!terminateGLFW@{terminateGLFW}|hyperpage}{22}
-\indexentry{terminateGLFW@{terminateGLFW}!gla@{gla}|hyperpage}{22}
+\indexentry{gla@{gla}!pollEvents@{pollEvents}|hyperpage}{23}
+\indexentry{pollEvents@{pollEvents}!gla@{gla}|hyperpage}{23}
+\indexentry{gla@{gla}!shaderTypeToString@{shaderTypeToString}|hyperpage}{23}
+\indexentry{shaderTypeToString@{shaderTypeToString}!gla@{gla}|hyperpage}{23}
+\indexentry{gla@{gla}!terminateGLFW@{terminateGLFW}|hyperpage}{23}
+\indexentry{terminateGLFW@{terminateGLFW}!gla@{gla}|hyperpage}{23}
 \indexentry{gla@{gla}!toGLenum@{toGLenum}|hyperpage}{23}
 \indexentry{toGLenum@{toGLenum}!gla@{gla}|hyperpage}{23}
 \indexentry{gla@{gla}!toGLenum@{toGLenum}|hyperpage}{23}
 \indexentry{toGLenum@{toGLenum}!gla@{gla}|hyperpage}{23}
-\indexentry{gla@{gla}!toGLenum@{toGLenum}|hyperpage}{23}
-\indexentry{toGLenum@{toGLenum}!gla@{gla}|hyperpage}{23}
-\indexentry{gla@{gla}!toGLenum@{toGLenum}|hyperpage}{23}
-\indexentry{toGLenum@{toGLenum}!gla@{gla}|hyperpage}{23}
-\indexentry{gla@{gla}!toGLenum@{toGLenum}|hyperpage}{23}
-\indexentry{toGLenum@{toGLenum}!gla@{gla}|hyperpage}{23}
-\indexentry{gla@{gla}!validateBufferFlag@{validateBufferFlag}|hyperpage}{24}
-\indexentry{validateBufferFlag@{validateBufferFlag}!gla@{gla}|hyperpage}{24}
-\indexentry{gla@{gla}!validateMapUsage@{validateMapUsage}|hyperpage}{24}
-\indexentry{validateMapUsage@{validateMapUsage}!gla@{gla}|hyperpage}{24}
-\indexentry{gla::\_uniformData@{gla::\_uniformData}|hyperpage}{27}
-\indexentry{gla::\_uniformData@{gla::\_uniformData}!arraySize@{arraySize}|hyperpage}{27}
-\indexentry{arraySize@{arraySize}!gla::\_uniformData@{gla::\_uniformData}|hyperpage}{27}
-\indexentry{gla::\_uniformData@{gla::\_uniformData}!glType@{glType}|hyperpage}{27}
-\indexentry{glType@{glType}!gla::\_uniformData@{gla::\_uniformData}|hyperpage}{27}
-\indexentry{gla::\_uniformData@{gla::\_uniformData}!location@{location}|hyperpage}{27}
-\indexentry{location@{location}!gla::\_uniformData@{gla::\_uniformData}|hyperpage}{27}
-\indexentry{gla::Buffer@{gla::Buffer}|hyperpage}{28}
-\indexentry{gla::Buffer@{gla::Buffer}!Buffer@{Buffer}|hyperpage}{29}
-\indexentry{Buffer@{Buffer}!gla::Buffer@{gla::Buffer}|hyperpage}{29}
-\indexentry{gla::Buffer@{gla::Buffer}!Buffer@{Buffer}|hyperpage}{29}
-\indexentry{Buffer@{Buffer}!gla::Buffer@{gla::Buffer}|hyperpage}{29}
-\indexentry{gla::Buffer@{gla::Buffer}!Buffer@{Buffer}|hyperpage}{29}
-\indexentry{Buffer@{Buffer}!gla::Buffer@{gla::Buffer}|hyperpage}{29}
-\indexentry{gla::Buffer@{gla::Buffer}!Buffer@{Buffer}|hyperpage}{29}
-\indexentry{Buffer@{Buffer}!gla::Buffer@{gla::Buffer}|hyperpage}{29}
-\indexentry{gla::Buffer@{gla::Buffer}!````~Buffer@{\texorpdfstring{$\sim$}{\string~}Buffer}|hyperpage}{29}
-\indexentry{````~Buffer@{\texorpdfstring{$\sim$}{\string~}Buffer}!gla::Buffer@{gla::Buffer}|hyperpage}{29}
+\indexentry{gla@{gla}!toGLenum@{toGLenum}|hyperpage}{24}
+\indexentry{toGLenum@{toGLenum}!gla@{gla}|hyperpage}{24}
+\indexentry{gla@{gla}!toGLenum@{toGLenum}|hyperpage}{24}
+\indexentry{toGLenum@{toGLenum}!gla@{gla}|hyperpage}{24}
+\indexentry{gla@{gla}!toGLenum@{toGLenum}|hyperpage}{24}
+\indexentry{toGLenum@{toGLenum}!gla@{gla}|hyperpage}{24}
+\indexentry{gla@{gla}!toGLenum@{toGLenum}|hyperpage}{24}
+\indexentry{toGLenum@{toGLenum}!gla@{gla}|hyperpage}{24}
+\indexentry{gla@{gla}!typeToBytes@{typeToBytes}|hyperpage}{25}
+\indexentry{typeToBytes@{typeToBytes}!gla@{gla}|hyperpage}{25}
+\indexentry{gla@{gla}!validateBufferFlag@{validateBufferFlag}|hyperpage}{25}
+\indexentry{validateBufferFlag@{validateBufferFlag}!gla@{gla}|hyperpage}{25}
+\indexentry{gla@{gla}!validateMapUsage@{validateMapUsage}|hyperpage}{25}
+\indexentry{validateMapUsage@{validateMapUsage}!gla@{gla}|hyperpage}{25}
+\indexentry{gla@{gla}!validateTypeInterpretation@{validateTypeInterpretation}|hyperpage}{26}
+\indexentry{validateTypeInterpretation@{validateTypeInterpretation}!gla@{gla}|hyperpage}{26}
+\indexentry{gla::Buffer@{gla::Buffer}|hyperpage}{27}
+\indexentry{gla::Buffer@{gla::Buffer}!Buffer@{Buffer}|hyperpage}{28}
+\indexentry{Buffer@{Buffer}!gla::Buffer@{gla::Buffer}|hyperpage}{28}
+\indexentry{gla::Buffer@{gla::Buffer}!Buffer@{Buffer}|hyperpage}{28}
+\indexentry{Buffer@{Buffer}!gla::Buffer@{gla::Buffer}|hyperpage}{28}
+\indexentry{gla::Buffer@{gla::Buffer}!Buffer@{Buffer}|hyperpage}{28}
+\indexentry{Buffer@{Buffer}!gla::Buffer@{gla::Buffer}|hyperpage}{28}
+\indexentry{gla::Buffer@{gla::Buffer}!Buffer@{Buffer}|hyperpage}{28}
+\indexentry{Buffer@{Buffer}!gla::Buffer@{gla::Buffer}|hyperpage}{28}
+\indexentry{gla::Buffer@{gla::Buffer}!````~Buffer@{\texorpdfstring{$\sim$}{\string~}Buffer}|hyperpage}{28}
+\indexentry{````~Buffer@{\texorpdfstring{$\sim$}{\string~}Buffer}!gla::Buffer@{gla::Buffer}|hyperpage}{28}
 \indexentry{gla::Buffer@{gla::Buffer}!\_check@{\_check}|hyperpage}{29}
 \indexentry{\_check@{\_check}!gla::Buffer@{gla::Buffer}|hyperpage}{29}
 \indexentry{gla::Buffer@{gla::Buffer}!\_delete@{\_delete}|hyperpage}{29}
@@ -168,67 +193,73 @@
 \indexentry{bind@{bind}!gla::Buffer@{gla::Buffer}|hyperpage}{29}
 \indexentry{gla::Buffer@{gla::Buffer}!getSubData@{getSubData}|hyperpage}{29}
 \indexentry{getSubData@{getSubData}!gla::Buffer@{gla::Buffer}|hyperpage}{29}
-\indexentry{gla::Buffer@{gla::Buffer}!getType@{getType}|hyperpage}{30}
-\indexentry{getType@{getType}!gla::Buffer@{gla::Buffer}|hyperpage}{30}
+\indexentry{gla::Buffer@{gla::Buffer}!getType@{getType}|hyperpage}{29}
+\indexentry{getType@{getType}!gla::Buffer@{gla::Buffer}|hyperpage}{29}
 \indexentry{gla::Buffer@{gla::Buffer}!map@{map}|hyperpage}{30}
 \indexentry{map@{map}!gla::Buffer@{gla::Buffer}|hyperpage}{30}
-\indexentry{gla::Buffer@{gla::Buffer}!operator=@{operator=}|hyperpage}{31}
-\indexentry{operator=@{operator=}!gla::Buffer@{gla::Buffer}|hyperpage}{31}
-\indexentry{gla::Buffer@{gla::Buffer}!operator=@{operator=}|hyperpage}{31}
-\indexentry{operator=@{operator=}!gla::Buffer@{gla::Buffer}|hyperpage}{31}
+\indexentry{gla::Buffer@{gla::Buffer}!operator=@{operator=}|hyperpage}{30}
+\indexentry{operator=@{operator=}!gla::Buffer@{gla::Buffer}|hyperpage}{30}
+\indexentry{gla::Buffer@{gla::Buffer}!operator=@{operator=}|hyperpage}{30}
+\indexentry{operator=@{operator=}!gla::Buffer@{gla::Buffer}|hyperpage}{30}
+\indexentry{gla::Buffer@{gla::Buffer}!setData@{setData}|hyperpage}{30}
+\indexentry{setData@{setData}!gla::Buffer@{gla::Buffer}|hyperpage}{30}
 \indexentry{gla::Buffer@{gla::Buffer}!setData@{setData}|hyperpage}{31}
 \indexentry{setData@{setData}!gla::Buffer@{gla::Buffer}|hyperpage}{31}
-\indexentry{gla::Buffer@{gla::Buffer}!setData@{setData}|hyperpage}{31}
-\indexentry{setData@{setData}!gla::Buffer@{gla::Buffer}|hyperpage}{31}
+\indexentry{gla::Buffer@{gla::Buffer}!setStorage@{setStorage}|hyperpage}{31}
+\indexentry{setStorage@{setStorage}!gla::Buffer@{gla::Buffer}|hyperpage}{31}
 \indexentry{gla::Buffer@{gla::Buffer}!setStorage@{setStorage}|hyperpage}{32}
 \indexentry{setStorage@{setStorage}!gla::Buffer@{gla::Buffer}|hyperpage}{32}
-\indexentry{gla::Buffer@{gla::Buffer}!setStorage@{setStorage}|hyperpage}{32}
-\indexentry{setStorage@{setStorage}!gla::Buffer@{gla::Buffer}|hyperpage}{32}
-\indexentry{gla::Buffer@{gla::Buffer}!setSubData@{setSubData}|hyperpage}{33}
-\indexentry{setSubData@{setSubData}!gla::Buffer@{gla::Buffer}|hyperpage}{33}
+\indexentry{gla::Buffer@{gla::Buffer}!setSubData@{setSubData}|hyperpage}{32}
+\indexentry{setSubData@{setSubData}!gla::Buffer@{gla::Buffer}|hyperpage}{32}
 \indexentry{gla::Buffer@{gla::Buffer}!size@{size}|hyperpage}{33}
 \indexentry{size@{size}!gla::Buffer@{gla::Buffer}|hyperpage}{33}
 \indexentry{gla::Buffer@{gla::Buffer}!unmap@{unmap}|hyperpage}{33}
 \indexentry{unmap@{unmap}!gla::Buffer@{gla::Buffer}|hyperpage}{33}
-\indexentry{gla::Buffer@{gla::Buffer}!\_flags@{\_flags}|hyperpage}{34}
-\indexentry{\_flags@{\_flags}!gla::Buffer@{gla::Buffer}|hyperpage}{34}
-\indexentry{gla::Buffer@{gla::Buffer}!\_id@{\_id}|hyperpage}{34}
-\indexentry{\_id@{\_id}!gla::Buffer@{gla::Buffer}|hyperpage}{34}
-\indexentry{gla::Buffer@{gla::Buffer}!\_mapped@{\_mapped}|hyperpage}{34}
-\indexentry{\_mapped@{\_mapped}!gla::Buffer@{gla::Buffer}|hyperpage}{34}
-\indexentry{gla::Buffer@{gla::Buffer}!\_mapUsage@{\_mapUsage}|hyperpage}{34}
-\indexentry{\_mapUsage@{\_mapUsage}!gla::Buffer@{gla::Buffer}|hyperpage}{34}
-\indexentry{gla::Buffer@{gla::Buffer}!\_type@{\_type}|hyperpage}{34}
-\indexentry{\_type@{\_type}!gla::Buffer@{gla::Buffer}|hyperpage}{34}
+\indexentry{gla::Buffer@{gla::Buffer}!\_flags@{\_flags}|hyperpage}{33}
+\indexentry{\_flags@{\_flags}!gla::Buffer@{gla::Buffer}|hyperpage}{33}
+\indexentry{gla::Buffer@{gla::Buffer}!\_id@{\_id}|hyperpage}{33}
+\indexentry{\_id@{\_id}!gla::Buffer@{gla::Buffer}|hyperpage}{33}
+\indexentry{gla::Buffer@{gla::Buffer}!\_mapped@{\_mapped}|hyperpage}{33}
+\indexentry{\_mapped@{\_mapped}!gla::Buffer@{gla::Buffer}|hyperpage}{33}
+\indexentry{gla::Buffer@{gla::Buffer}!\_mapUsage@{\_mapUsage}|hyperpage}{33}
+\indexentry{\_mapUsage@{\_mapUsage}!gla::Buffer@{gla::Buffer}|hyperpage}{33}
+\indexentry{gla::Buffer@{gla::Buffer}!\_type@{\_type}|hyperpage}{33}
+\indexentry{\_type@{\_type}!gla::Buffer@{gla::Buffer}|hyperpage}{33}
 \indexentry{gla::Program@{gla::Program}|hyperpage}{34}
-\indexentry{gla::Program@{gla::Program}!Program@{Program}|hyperpage}{41}
-\indexentry{Program@{Program}!gla::Program@{gla::Program}|hyperpage}{41}
-\indexentry{gla::Program@{gla::Program}!Program@{Program}|hyperpage}{41}
-\indexentry{Program@{Program}!gla::Program@{gla::Program}|hyperpage}{41}
-\indexentry{gla::Program@{gla::Program}!Program@{Program}|hyperpage}{41}
-\indexentry{Program@{Program}!gla::Program@{gla::Program}|hyperpage}{41}
-\indexentry{gla::Program@{gla::Program}!````~Program@{\texorpdfstring{$\sim$}{\string~}Program}|hyperpage}{41}
-\indexentry{````~Program@{\texorpdfstring{$\sim$}{\string~}Program}!gla::Program@{gla::Program}|hyperpage}{41}
-\indexentry{gla::Program@{gla::Program}!\_check@{\_check}|hyperpage}{41}
-\indexentry{\_check@{\_check}!gla::Program@{gla::Program}|hyperpage}{41}
-\indexentry{gla::Program@{gla::Program}!\_delete@{\_delete}|hyperpage}{41}
-\indexentry{\_delete@{\_delete}!gla::Program@{gla::Program}|hyperpage}{41}
-\indexentry{gla::Program@{gla::Program}!\_ensure@{\_ensure}|hyperpage}{41}
-\indexentry{\_ensure@{\_ensure}!gla::Program@{gla::Program}|hyperpage}{41}
+\indexentry{gla::Program@{gla::Program}!Program@{Program}|hyperpage}{40}
+\indexentry{Program@{Program}!gla::Program@{gla::Program}|hyperpage}{40}
+\indexentry{gla::Program@{gla::Program}!Program@{Program}|hyperpage}{40}
+\indexentry{Program@{Program}!gla::Program@{gla::Program}|hyperpage}{40}
+\indexentry{gla::Program@{gla::Program}!Program@{Program}|hyperpage}{40}
+\indexentry{Program@{Program}!gla::Program@{gla::Program}|hyperpage}{40}
+\indexentry{gla::Program@{gla::Program}!````~Program@{\texorpdfstring{$\sim$}{\string~}Program}|hyperpage}{40}
+\indexentry{````~Program@{\texorpdfstring{$\sim$}{\string~}Program}!gla::Program@{gla::Program}|hyperpage}{40}
+\indexentry{gla::Program@{gla::Program}!\_check@{\_check}|hyperpage}{40}
+\indexentry{\_check@{\_check}!gla::Program@{gla::Program}|hyperpage}{40}
+\indexentry{gla::Program@{gla::Program}!\_delete@{\_delete}|hyperpage}{40}
+\indexentry{\_delete@{\_delete}!gla::Program@{gla::Program}|hyperpage}{40}
+\indexentry{gla::Program@{gla::Program}!\_ensure@{\_ensure}|hyperpage}{40}
+\indexentry{\_ensure@{\_ensure}!gla::Program@{gla::Program}|hyperpage}{40}
 \indexentry{gla::Program@{gla::Program}!\_getError@{\_getError}|hyperpage}{41}
 \indexentry{\_getError@{\_getError}!gla::Program@{gla::Program}|hyperpage}{41}
 \indexentry{gla::Program@{gla::Program}!\_queryUniformData@{\_queryUniformData}|hyperpage}{41}
 \indexentry{\_queryUniformData@{\_queryUniformData}!gla::Program@{gla::Program}|hyperpage}{41}
 \indexentry{gla::Program@{gla::Program}!\_setupUniform@{\_setupUniform}|hyperpage}{41}
 \indexentry{\_setupUniform@{\_setupUniform}!gla::Program@{gla::Program}|hyperpage}{41}
-\indexentry{gla::Program@{gla::Program}!attach@{attach}|hyperpage}{42}
-\indexentry{attach@{attach}!gla::Program@{gla::Program}|hyperpage}{42}
-\indexentry{gla::Program@{gla::Program}!attached@{attached}|hyperpage}{42}
-\indexentry{attached@{attached}!gla::Program@{gla::Program}|hyperpage}{42}
-\indexentry{gla::Program@{gla::Program}!bind@{bind}|hyperpage}{43}
-\indexentry{bind@{bind}!gla::Program@{gla::Program}|hyperpage}{43}
-\indexentry{gla::Program@{gla::Program}!detach@{detach}|hyperpage}{43}
-\indexentry{detach@{detach}!gla::Program@{gla::Program}|hyperpage}{43}
+\indexentry{gla::Program@{gla::Program}!attach@{attach}|hyperpage}{41}
+\indexentry{attach@{attach}!gla::Program@{gla::Program}|hyperpage}{41}
+\indexentry{gla::Program@{gla::Program}!attached@{attached}|hyperpage}{41}
+\indexentry{attached@{attached}!gla::Program@{gla::Program}|hyperpage}{41}
+\indexentry{gla::Program@{gla::Program}!bind@{bind}|hyperpage}{42}
+\indexentry{bind@{bind}!gla::Program@{gla::Program}|hyperpage}{42}
+\indexentry{gla::Program@{gla::Program}!detach@{detach}|hyperpage}{42}
+\indexentry{detach@{detach}!gla::Program@{gla::Program}|hyperpage}{42}
+\indexentry{gla::Program@{gla::Program}!getUniform@{getUniform}|hyperpage}{43}
+\indexentry{getUniform@{getUniform}!gla::Program@{gla::Program}|hyperpage}{43}
+\indexentry{gla::Program@{gla::Program}!getUniform@{getUniform}|hyperpage}{43}
+\indexentry{getUniform@{getUniform}!gla::Program@{gla::Program}|hyperpage}{43}
+\indexentry{gla::Program@{gla::Program}!getUniform@{getUniform}|hyperpage}{43}
+\indexentry{getUniform@{getUniform}!gla::Program@{gla::Program}|hyperpage}{43}
 \indexentry{gla::Program@{gla::Program}!getUniform@{getUniform}|hyperpage}{43}
 \indexentry{getUniform@{getUniform}!gla::Program@{gla::Program}|hyperpage}{43}
 \indexentry{gla::Program@{gla::Program}!getUniform@{getUniform}|hyperpage}{44}
@@ -239,6 +270,10 @@
 \indexentry{getUniform@{getUniform}!gla::Program@{gla::Program}|hyperpage}{44}
 \indexentry{gla::Program@{gla::Program}!getUniform@{getUniform}|hyperpage}{44}
 \indexentry{getUniform@{getUniform}!gla::Program@{gla::Program}|hyperpage}{44}
+\indexentry{gla::Program@{gla::Program}!getUniform@{getUniform}|hyperpage}{44}
+\indexentry{getUniform@{getUniform}!gla::Program@{gla::Program}|hyperpage}{44}
+\indexentry{gla::Program@{gla::Program}!getUniform@{getUniform}|hyperpage}{44}
+\indexentry{getUniform@{getUniform}!gla::Program@{gla::Program}|hyperpage}{44}
 \indexentry{gla::Program@{gla::Program}!getUniform@{getUniform}|hyperpage}{45}
 \indexentry{getUniform@{getUniform}!gla::Program@{gla::Program}|hyperpage}{45}
 \indexentry{gla::Program@{gla::Program}!getUniform@{getUniform}|hyperpage}{45}
@@ -263,8 +298,6 @@
 \indexentry{getUniform@{getUniform}!gla::Program@{gla::Program}|hyperpage}{46}
 \indexentry{gla::Program@{gla::Program}!getUniform@{getUniform}|hyperpage}{46}
 \indexentry{getUniform@{getUniform}!gla::Program@{gla::Program}|hyperpage}{46}
-\indexentry{gla::Program@{gla::Program}!getUniform@{getUniform}|hyperpage}{47}
-\indexentry{getUniform@{getUniform}!gla::Program@{gla::Program}|hyperpage}{47}
 \indexentry{gla::Program@{gla::Program}!getUniform@{getUniform}|hyperpage}{47}
 \indexentry{getUniform@{getUniform}!gla::Program@{gla::Program}|hyperpage}{47}
 \indexentry{gla::Program@{gla::Program}!getUniform@{getUniform}|hyperpage}{47}
@@ -281,6 +314,10 @@
 \indexentry{getUniform@{getUniform}!gla::Program@{gla::Program}|hyperpage}{48}
 \indexentry{gla::Program@{gla::Program}!getUniform@{getUniform}|hyperpage}{48}
 \indexentry{getUniform@{getUniform}!gla::Program@{gla::Program}|hyperpage}{48}
+\indexentry{gla::Program@{gla::Program}!getUniform@{getUniform}|hyperpage}{48}
+\indexentry{getUniform@{getUniform}!gla::Program@{gla::Program}|hyperpage}{48}
+\indexentry{gla::Program@{gla::Program}!getUniform@{getUniform}|hyperpage}{48}
+\indexentry{getUniform@{getUniform}!gla::Program@{gla::Program}|hyperpage}{48}
 \indexentry{gla::Program@{gla::Program}!getUniform@{getUniform}|hyperpage}{49}
 \indexentry{getUniform@{getUniform}!gla::Program@{gla::Program}|hyperpage}{49}
 \indexentry{gla::Program@{gla::Program}!getUniform@{getUniform}|hyperpage}{49}
@@ -301,38 +338,34 @@
 \indexentry{getUniform@{getUniform}!gla::Program@{gla::Program}|hyperpage}{50}
 \indexentry{gla::Program@{gla::Program}!getUniform@{getUniform}|hyperpage}{50}
 \indexentry{getUniform@{getUniform}!gla::Program@{gla::Program}|hyperpage}{50}
-\indexentry{gla::Program@{gla::Program}!getUniform@{getUniform}|hyperpage}{50}
-\indexentry{getUniform@{getUniform}!gla::Program@{gla::Program}|hyperpage}{50}
-\indexentry{gla::Program@{gla::Program}!getUniform@{getUniform}|hyperpage}{50}
-\indexentry{getUniform@{getUniform}!gla::Program@{gla::Program}|hyperpage}{50}
-\indexentry{gla::Program@{gla::Program}!getUniform@{getUniform}|hyperpage}{51}
-\indexentry{getUniform@{getUniform}!gla::Program@{gla::Program}|hyperpage}{51}
-\indexentry{gla::Program@{gla::Program}!getUniform@{getUniform}|hyperpage}{51}
-\indexentry{getUniform@{getUniform}!gla::Program@{gla::Program}|hyperpage}{51}
-\indexentry{gla::Program@{gla::Program}!getUniform@{getUniform}|hyperpage}{51}
-\indexentry{getUniform@{getUniform}!gla::Program@{gla::Program}|hyperpage}{51}
-\indexentry{gla::Program@{gla::Program}!getUniform@{getUniform}|hyperpage}{51}
-\indexentry{getUniform@{getUniform}!gla::Program@{gla::Program}|hyperpage}{51}
-\indexentry{gla::Program@{gla::Program}!getUniformLocation@{getUniformLocation}|hyperpage}{51}
-\indexentry{getUniformLocation@{getUniformLocation}!gla::Program@{gla::Program}|hyperpage}{51}
-\indexentry{gla::Program@{gla::Program}!link@{link}|hyperpage}{52}
-\indexentry{link@{link}!gla::Program@{gla::Program}|hyperpage}{52}
-\indexentry{gla::Program@{gla::Program}!linked@{linked}|hyperpage}{52}
-\indexentry{linked@{linked}!gla::Program@{gla::Program}|hyperpage}{52}
+\indexentry{gla::Program@{gla::Program}!getUniformLocation@{getUniformLocation}|hyperpage}{50}
+\indexentry{getUniformLocation@{getUniformLocation}!gla::Program@{gla::Program}|hyperpage}{50}
+\indexentry{gla::Program@{gla::Program}!link@{link}|hyperpage}{51}
+\indexentry{link@{link}!gla::Program@{gla::Program}|hyperpage}{51}
+\indexentry{gla::Program@{gla::Program}!linked@{linked}|hyperpage}{51}
+\indexentry{linked@{linked}!gla::Program@{gla::Program}|hyperpage}{51}
+\indexentry{gla::Program@{gla::Program}!operator=@{operator=}|hyperpage}{51}
+\indexentry{operator=@{operator=}!gla::Program@{gla::Program}|hyperpage}{51}
 \indexentry{gla::Program@{gla::Program}!operator=@{operator=}|hyperpage}{52}
 \indexentry{operator=@{operator=}!gla::Program@{gla::Program}|hyperpage}{52}
-\indexentry{gla::Program@{gla::Program}!operator=@{operator=}|hyperpage}{53}
-\indexentry{operator=@{operator=}!gla::Program@{gla::Program}|hyperpage}{53}
+\indexentry{gla::Program@{gla::Program}!operator\+[]\+@{operator[]}|hyperpage}{52}
+\indexentry{operator\+[]\+@{operator[]}!gla::Program@{gla::Program}|hyperpage}{52}
+\indexentry{gla::Program@{gla::Program}!operator\+[]\+@{operator[]}|hyperpage}{52}
+\indexentry{operator\+[]\+@{operator[]}!gla::Program@{gla::Program}|hyperpage}{52}
 \indexentry{gla::Program@{gla::Program}!operator\+[]\+@{operator[]}|hyperpage}{53}
 \indexentry{operator\+[]\+@{operator[]}!gla::Program@{gla::Program}|hyperpage}{53}
 \indexentry{gla::Program@{gla::Program}!operator\+[]\+@{operator[]}|hyperpage}{53}
 \indexentry{operator\+[]\+@{operator[]}!gla::Program@{gla::Program}|hyperpage}{53}
-\indexentry{gla::Program@{gla::Program}!operator\+[]\+@{operator[]}|hyperpage}{54}
-\indexentry{operator\+[]\+@{operator[]}!gla::Program@{gla::Program}|hyperpage}{54}
-\indexentry{gla::Program@{gla::Program}!operator\+[]\+@{operator[]}|hyperpage}{54}
-\indexentry{operator\+[]\+@{operator[]}!gla::Program@{gla::Program}|hyperpage}{54}
-\indexentry{gla::Program@{gla::Program}!reset@{reset}|hyperpage}{55}
-\indexentry{reset@{reset}!gla::Program@{gla::Program}|hyperpage}{55}
+\indexentry{gla::Program@{gla::Program}!reset@{reset}|hyperpage}{54}
+\indexentry{reset@{reset}!gla::Program@{gla::Program}|hyperpage}{54}
+\indexentry{gla::Program@{gla::Program}!setUniform@{setUniform}|hyperpage}{54}
+\indexentry{setUniform@{setUniform}!gla::Program@{gla::Program}|hyperpage}{54}
+\indexentry{gla::Program@{gla::Program}!setUniform@{setUniform}|hyperpage}{54}
+\indexentry{setUniform@{setUniform}!gla::Program@{gla::Program}|hyperpage}{54}
+\indexentry{gla::Program@{gla::Program}!setUniform@{setUniform}|hyperpage}{54}
+\indexentry{setUniform@{setUniform}!gla::Program@{gla::Program}|hyperpage}{54}
+\indexentry{gla::Program@{gla::Program}!setUniform@{setUniform}|hyperpage}{54}
+\indexentry{setUniform@{setUniform}!gla::Program@{gla::Program}|hyperpage}{54}
 \indexentry{gla::Program@{gla::Program}!setUniform@{setUniform}|hyperpage}{55}
 \indexentry{setUniform@{setUniform}!gla::Program@{gla::Program}|hyperpage}{55}
 \indexentry{gla::Program@{gla::Program}!setUniform@{setUniform}|hyperpage}{55}
@@ -341,6 +374,10 @@
 \indexentry{setUniform@{setUniform}!gla::Program@{gla::Program}|hyperpage}{55}
 \indexentry{gla::Program@{gla::Program}!setUniform@{setUniform}|hyperpage}{55}
 \indexentry{setUniform@{setUniform}!gla::Program@{gla::Program}|hyperpage}{55}
+\indexentry{gla::Program@{gla::Program}!setUniform@{setUniform}|hyperpage}{55}
+\indexentry{setUniform@{setUniform}!gla::Program@{gla::Program}|hyperpage}{55}
+\indexentry{gla::Program@{gla::Program}!setUniform@{setUniform}|hyperpage}{55}
+\indexentry{setUniform@{setUniform}!gla::Program@{gla::Program}|hyperpage}{55}
 \indexentry{gla::Program@{gla::Program}!setUniform@{setUniform}|hyperpage}{56}
 \indexentry{setUniform@{setUniform}!gla::Program@{gla::Program}|hyperpage}{56}
 \indexentry{gla::Program@{gla::Program}!setUniform@{setUniform}|hyperpage}{56}
@@ -353,12 +390,6 @@
 \indexentry{setUniform@{setUniform}!gla::Program@{gla::Program}|hyperpage}{56}
 \indexentry{gla::Program@{gla::Program}!setUniform@{setUniform}|hyperpage}{56}
 \indexentry{setUniform@{setUniform}!gla::Program@{gla::Program}|hyperpage}{56}
-\indexentry{gla::Program@{gla::Program}!setUniform@{setUniform}|hyperpage}{57}
-\indexentry{setUniform@{setUniform}!gla::Program@{gla::Program}|hyperpage}{57}
-\indexentry{gla::Program@{gla::Program}!setUniform@{setUniform}|hyperpage}{57}
-\indexentry{setUniform@{setUniform}!gla::Program@{gla::Program}|hyperpage}{57}
-\indexentry{gla::Program@{gla::Program}!setUniform@{setUniform}|hyperpage}{57}
-\indexentry{setUniform@{setUniform}!gla::Program@{gla::Program}|hyperpage}{57}
 \indexentry{gla::Program@{gla::Program}!setUniform@{setUniform}|hyperpage}{57}
 \indexentry{setUniform@{setUniform}!gla::Program@{gla::Program}|hyperpage}{57}
 \indexentry{gla::Program@{gla::Program}!setUniform@{setUniform}|hyperpage}{57}
@@ -371,6 +402,10 @@
 \indexentry{setUniform@{setUniform}!gla::Program@{gla::Program}|hyperpage}{58}
 \indexentry{gla::Program@{gla::Program}!setUniform@{setUniform}|hyperpage}{58}
 \indexentry{setUniform@{setUniform}!gla::Program@{gla::Program}|hyperpage}{58}
+\indexentry{gla::Program@{gla::Program}!setUniform@{setUniform}|hyperpage}{58}
+\indexentry{setUniform@{setUniform}!gla::Program@{gla::Program}|hyperpage}{58}
+\indexentry{gla::Program@{gla::Program}!setUniform@{setUniform}|hyperpage}{58}
+\indexentry{setUniform@{setUniform}!gla::Program@{gla::Program}|hyperpage}{58}
 \indexentry{gla::Program@{gla::Program}!setUniform@{setUniform}|hyperpage}{59}
 \indexentry{setUniform@{setUniform}!gla::Program@{gla::Program}|hyperpage}{59}
 \indexentry{gla::Program@{gla::Program}!setUniform@{setUniform}|hyperpage}{59}
@@ -381,6 +416,8 @@
 \indexentry{setUniform@{setUniform}!gla::Program@{gla::Program}|hyperpage}{59}
 \indexentry{gla::Program@{gla::Program}!setUniform@{setUniform}|hyperpage}{59}
 \indexentry{setUniform@{setUniform}!gla::Program@{gla::Program}|hyperpage}{59}
+\indexentry{gla::Program@{gla::Program}!setUniform@{setUniform}|hyperpage}{59}
+\indexentry{setUniform@{setUniform}!gla::Program@{gla::Program}|hyperpage}{59}
 \indexentry{gla::Program@{gla::Program}!setUniform@{setUniform}|hyperpage}{60}
 \indexentry{setUniform@{setUniform}!gla::Program@{gla::Program}|hyperpage}{60}
 \indexentry{gla::Program@{gla::Program}!setUniform@{setUniform}|hyperpage}{60}
@@ -393,10 +430,6 @@
 \indexentry{setUniform@{setUniform}!gla::Program@{gla::Program}|hyperpage}{60}
 \indexentry{gla::Program@{gla::Program}!setUniform@{setUniform}|hyperpage}{60}
 \indexentry{setUniform@{setUniform}!gla::Program@{gla::Program}|hyperpage}{60}
-\indexentry{gla::Program@{gla::Program}!setUniform@{setUniform}|hyperpage}{61}
-\indexentry{setUniform@{setUniform}!gla::Program@{gla::Program}|hyperpage}{61}
-\indexentry{gla::Program@{gla::Program}!setUniform@{setUniform}|hyperpage}{61}
-\indexentry{setUniform@{setUniform}!gla::Program@{gla::Program}|hyperpage}{61}
 \indexentry{gla::Program@{gla::Program}!setUniform@{setUniform}|hyperpage}{61}
 \indexentry{setUniform@{setUniform}!gla::Program@{gla::Program}|hyperpage}{61}
 \indexentry{gla::Program@{gla::Program}!setUniform@{setUniform}|hyperpage}{61}
@@ -409,88 +442,87 @@
 \indexentry{setUniform@{setUniform}!gla::Program@{gla::Program}|hyperpage}{62}
 \indexentry{gla::Program@{gla::Program}!setUniform@{setUniform}|hyperpage}{62}
 \indexentry{setUniform@{setUniform}!gla::Program@{gla::Program}|hyperpage}{62}
-\indexentry{gla::Program@{gla::Program}!setUniform@{setUniform}|hyperpage}{62}
-\indexentry{setUniform@{setUniform}!gla::Program@{gla::Program}|hyperpage}{62}
-\indexentry{gla::Program@{gla::Program}!setUniform@{setUniform}|hyperpage}{62}
-\indexentry{setUniform@{setUniform}!gla::Program@{gla::Program}|hyperpage}{62}
-\indexentry{gla::Program@{gla::Program}!setUniform@{setUniform}|hyperpage}{63}
-\indexentry{setUniform@{setUniform}!gla::Program@{gla::Program}|hyperpage}{63}
-\indexentry{gla::Program@{gla::Program}!setUniform@{setUniform}|hyperpage}{63}
-\indexentry{setUniform@{setUniform}!gla::Program@{gla::Program}|hyperpage}{63}
-\indexentry{gla::Program@{gla::Program}!unbind@{unbind}|hyperpage}{63}
-\indexentry{unbind@{unbind}!gla::Program@{gla::Program}|hyperpage}{63}
-\indexentry{gla::Program@{gla::Program}!\_id@{\_id}|hyperpage}{63}
-\indexentry{\_id@{\_id}!gla::Program@{gla::Program}|hyperpage}{63}
-\indexentry{gla::Program@{gla::Program}!\_linked@{\_linked}|hyperpage}{63}
-\indexentry{\_linked@{\_linked}!gla::Program@{gla::Program}|hyperpage}{63}
-\indexentry{gla::Program@{gla::Program}!\_uniformData@{\_uniformData}|hyperpage}{64}
-\indexentry{\_uniformData@{\_uniformData}!gla::Program@{gla::Program}|hyperpage}{64}
-\indexentry{gla::Program@{gla::Program}!\_uniformIndexMap@{\_uniformIndexMap}|hyperpage}{64}
-\indexentry{\_uniformIndexMap@{\_uniformIndexMap}!gla::Program@{gla::Program}|hyperpage}{64}
-\indexentry{gla::Program@{gla::Program}!\_uniformLocationIndexMap@{\_uniformLocationIndexMap}|hyperpage}{64}
-\indexentry{\_uniformLocationIndexMap@{\_uniformLocationIndexMap}!gla::Program@{gla::Program}|hyperpage}{64}
-\indexentry{gla::ProgramLinkError@{gla::ProgramLinkError}|hyperpage}{64}
-\indexentry{gla::ProgramLinkError@{gla::ProgramLinkError}!ProgramLinkError@{ProgramLinkError}|hyperpage}{65}
-\indexentry{ProgramLinkError@{ProgramLinkError}!gla::ProgramLinkError@{gla::ProgramLinkError}|hyperpage}{65}
-\indexentry{gla::ProgramValidateError@{gla::ProgramValidateError}|hyperpage}{65}
-\indexentry{gla::ProgramValidateError@{gla::ProgramValidateError}!ProgramValidateError@{ProgramValidateError}|hyperpage}{66}
-\indexentry{ProgramValidateError@{ProgramValidateError}!gla::ProgramValidateError@{gla::ProgramValidateError}|hyperpage}{66}
-\indexentry{gla::Shader@{gla::Shader}|hyperpage}{66}
+\indexentry{gla::Program@{gla::Program}!unbind@{unbind}|hyperpage}{62}
+\indexentry{unbind@{unbind}!gla::Program@{gla::Program}|hyperpage}{62}
+\indexentry{gla::Program@{gla::Program}!\_id@{\_id}|hyperpage}{62}
+\indexentry{\_id@{\_id}!gla::Program@{gla::Program}|hyperpage}{62}
+\indexentry{gla::Program@{gla::Program}!\_linked@{\_linked}|hyperpage}{62}
+\indexentry{\_linked@{\_linked}!gla::Program@{gla::Program}|hyperpage}{62}
+\indexentry{gla::Program@{gla::Program}!\_uniformData@{\_uniformData}|hyperpage}{63}
+\indexentry{\_uniformData@{\_uniformData}!gla::Program@{gla::Program}|hyperpage}{63}
+\indexentry{gla::Program@{gla::Program}!\_uniformIndexMap@{\_uniformIndexMap}|hyperpage}{63}
+\indexentry{\_uniformIndexMap@{\_uniformIndexMap}!gla::Program@{gla::Program}|hyperpage}{63}
+\indexentry{gla::Program@{gla::Program}!\_uniformLocationIndexMap@{\_uniformLocationIndexMap}|hyperpage}{63}
+\indexentry{\_uniformLocationIndexMap@{\_uniformLocationIndexMap}!gla::Program@{gla::Program}|hyperpage}{63}
+\indexentry{gla::ProgramLinkError@{gla::ProgramLinkError}|hyperpage}{63}
+\indexentry{gla::ProgramLinkError@{gla::ProgramLinkError}!ProgramLinkError@{ProgramLinkError}|hyperpage}{64}
+\indexentry{ProgramLinkError@{ProgramLinkError}!gla::ProgramLinkError@{gla::ProgramLinkError}|hyperpage}{64}
+\indexentry{gla::ProgramValidateError@{gla::ProgramValidateError}|hyperpage}{64}
+\indexentry{gla::ProgramValidateError@{gla::ProgramValidateError}!ProgramValidateError@{ProgramValidateError}|hyperpage}{65}
+\indexentry{ProgramValidateError@{ProgramValidateError}!gla::ProgramValidateError@{gla::ProgramValidateError}|hyperpage}{65}
+\indexentry{gla::Shader@{gla::Shader}|hyperpage}{65}
+\indexentry{gla::Shader@{gla::Shader}!Shader@{Shader}|hyperpage}{66}
+\indexentry{Shader@{Shader}!gla::Shader@{gla::Shader}|hyperpage}{66}
+\indexentry{gla::Shader@{gla::Shader}!Shader@{Shader}|hyperpage}{66}
+\indexentry{Shader@{Shader}!gla::Shader@{gla::Shader}|hyperpage}{66}
 \indexentry{gla::Shader@{gla::Shader}!Shader@{Shader}|hyperpage}{67}
 \indexentry{Shader@{Shader}!gla::Shader@{gla::Shader}|hyperpage}{67}
 \indexentry{gla::Shader@{gla::Shader}!Shader@{Shader}|hyperpage}{67}
 \indexentry{Shader@{Shader}!gla::Shader@{gla::Shader}|hyperpage}{67}
+\indexentry{gla::Shader@{gla::Shader}!Shader@{Shader}|hyperpage}{67}
+\indexentry{Shader@{Shader}!gla::Shader@{gla::Shader}|hyperpage}{67}
 \indexentry{gla::Shader@{gla::Shader}!Shader@{Shader}|hyperpage}{68}
 \indexentry{Shader@{Shader}!gla::Shader@{gla::Shader}|hyperpage}{68}
 \indexentry{gla::Shader@{gla::Shader}!Shader@{Shader}|hyperpage}{68}
 \indexentry{Shader@{Shader}!gla::Shader@{gla::Shader}|hyperpage}{68}
 \indexentry{gla::Shader@{gla::Shader}!Shader@{Shader}|hyperpage}{68}
 \indexentry{Shader@{Shader}!gla::Shader@{gla::Shader}|hyperpage}{68}
-\indexentry{gla::Shader@{gla::Shader}!Shader@{Shader}|hyperpage}{69}
-\indexentry{Shader@{Shader}!gla::Shader@{gla::Shader}|hyperpage}{69}
-\indexentry{gla::Shader@{gla::Shader}!Shader@{Shader}|hyperpage}{69}
-\indexentry{Shader@{Shader}!gla::Shader@{gla::Shader}|hyperpage}{69}
-\indexentry{gla::Shader@{gla::Shader}!Shader@{Shader}|hyperpage}{69}
-\indexentry{Shader@{Shader}!gla::Shader@{gla::Shader}|hyperpage}{69}
-\indexentry{gla::Shader@{gla::Shader}!````~Shader@{\texorpdfstring{$\sim$}{\string~}Shader}|hyperpage}{69}
-\indexentry{````~Shader@{\texorpdfstring{$\sim$}{\string~}Shader}!gla::Shader@{gla::Shader}|hyperpage}{69}
-\indexentry{gla::Shader@{gla::Shader}!\_check@{\_check}|hyperpage}{70}
-\indexentry{\_check@{\_check}!gla::Shader@{gla::Shader}|hyperpage}{70}
-\indexentry{gla::Shader@{gla::Shader}!\_delete@{\_delete}|hyperpage}{70}
-\indexentry{\_delete@{\_delete}!gla::Shader@{gla::Shader}|hyperpage}{70}
-\indexentry{gla::Shader@{gla::Shader}!\_ensure@{\_ensure}|hyperpage}{70}
-\indexentry{\_ensure@{\_ensure}!gla::Shader@{gla::Shader}|hyperpage}{70}
-\indexentry{gla::Shader@{gla::Shader}!\_getError@{\_getError}|hyperpage}{70}
-\indexentry{\_getError@{\_getError}!gla::Shader@{gla::Shader}|hyperpage}{70}
+\indexentry{gla::Shader@{gla::Shader}!````~Shader@{\texorpdfstring{$\sim$}{\string~}Shader}|hyperpage}{68}
+\indexentry{````~Shader@{\texorpdfstring{$\sim$}{\string~}Shader}!gla::Shader@{gla::Shader}|hyperpage}{68}
+\indexentry{gla::Shader@{gla::Shader}!\_check@{\_check}|hyperpage}{69}
+\indexentry{\_check@{\_check}!gla::Shader@{gla::Shader}|hyperpage}{69}
+\indexentry{gla::Shader@{gla::Shader}!\_delete@{\_delete}|hyperpage}{69}
+\indexentry{\_delete@{\_delete}!gla::Shader@{gla::Shader}|hyperpage}{69}
+\indexentry{gla::Shader@{gla::Shader}!\_ensure@{\_ensure}|hyperpage}{69}
+\indexentry{\_ensure@{\_ensure}!gla::Shader@{gla::Shader}|hyperpage}{69}
+\indexentry{gla::Shader@{gla::Shader}!\_getError@{\_getError}|hyperpage}{69}
+\indexentry{\_getError@{\_getError}!gla::Shader@{gla::Shader}|hyperpage}{69}
+\indexentry{gla::Shader@{gla::Shader}!compile@{compile}|hyperpage}{69}
+\indexentry{compile@{compile}!gla::Shader@{gla::Shader}|hyperpage}{69}
+\indexentry{gla::Shader@{gla::Shader}!compile@{compile}|hyperpage}{69}
+\indexentry{compile@{compile}!gla::Shader@{gla::Shader}|hyperpage}{69}
 \indexentry{gla::Shader@{gla::Shader}!compile@{compile}|hyperpage}{70}
 \indexentry{compile@{compile}!gla::Shader@{gla::Shader}|hyperpage}{70}
 \indexentry{gla::Shader@{gla::Shader}!compile@{compile}|hyperpage}{70}
 \indexentry{compile@{compile}!gla::Shader@{gla::Shader}|hyperpage}{70}
-\indexentry{gla::Shader@{gla::Shader}!compile@{compile}|hyperpage}{71}
-\indexentry{compile@{compile}!gla::Shader@{gla::Shader}|hyperpage}{71}
-\indexentry{gla::Shader@{gla::Shader}!compile@{compile}|hyperpage}{71}
-\indexentry{compile@{compile}!gla::Shader@{gla::Shader}|hyperpage}{71}
-\indexentry{gla::Shader@{gla::Shader}!compiled@{compiled}|hyperpage}{72}
-\indexentry{compiled@{compiled}!gla::Shader@{gla::Shader}|hyperpage}{72}
-\indexentry{gla::Shader@{gla::Shader}!getType@{getType}|hyperpage}{72}
-\indexentry{getType@{getType}!gla::Shader@{gla::Shader}|hyperpage}{72}
-\indexentry{gla::Shader@{gla::Shader}!operator=@{operator=}|hyperpage}{72}
-\indexentry{operator=@{operator=}!gla::Shader@{gla::Shader}|hyperpage}{72}
-\indexentry{gla::Shader@{gla::Shader}!operator=@{operator=}|hyperpage}{72}
-\indexentry{operator=@{operator=}!gla::Shader@{gla::Shader}|hyperpage}{72}
-\indexentry{gla::Shader@{gla::Shader}!reset@{reset}|hyperpage}{72}
-\indexentry{reset@{reset}!gla::Shader@{gla::Shader}|hyperpage}{72}
-\indexentry{gla::Shader@{gla::Shader}!\_compiled@{\_compiled}|hyperpage}{73}
-\indexentry{\_compiled@{\_compiled}!gla::Shader@{gla::Shader}|hyperpage}{73}
-\indexentry{gla::Shader@{gla::Shader}!\_id@{\_id}|hyperpage}{73}
-\indexentry{\_id@{\_id}!gla::Shader@{gla::Shader}|hyperpage}{73}
-\indexentry{gla::Shader@{gla::Shader}!\_type@{\_type}|hyperpage}{73}
-\indexentry{\_type@{\_type}!gla::Shader@{gla::Shader}|hyperpage}{73}
-\indexentry{gla::Shader@{gla::Shader}!Program@{Program}|hyperpage}{73}
-\indexentry{Program@{Program}!gla::Shader@{gla::Shader}|hyperpage}{73}
-\indexentry{gla::ShaderCompileError@{gla::ShaderCompileError}|hyperpage}{73}
-\indexentry{gla::ShaderCompileError@{gla::ShaderCompileError}!ShaderCompileError@{ShaderCompileError}|hyperpage}{74}
-\indexentry{ShaderCompileError@{ShaderCompileError}!gla::ShaderCompileError@{gla::ShaderCompileError}|hyperpage}{74}
+\indexentry{gla::Shader@{gla::Shader}!compiled@{compiled}|hyperpage}{71}
+\indexentry{compiled@{compiled}!gla::Shader@{gla::Shader}|hyperpage}{71}
+\indexentry{gla::Shader@{gla::Shader}!getType@{getType}|hyperpage}{71}
+\indexentry{getType@{getType}!gla::Shader@{gla::Shader}|hyperpage}{71}
+\indexentry{gla::Shader@{gla::Shader}!operator=@{operator=}|hyperpage}{71}
+\indexentry{operator=@{operator=}!gla::Shader@{gla::Shader}|hyperpage}{71}
+\indexentry{gla::Shader@{gla::Shader}!operator=@{operator=}|hyperpage}{71}
+\indexentry{operator=@{operator=}!gla::Shader@{gla::Shader}|hyperpage}{71}
+\indexentry{gla::Shader@{gla::Shader}!reset@{reset}|hyperpage}{71}
+\indexentry{reset@{reset}!gla::Shader@{gla::Shader}|hyperpage}{71}
+\indexentry{gla::Shader@{gla::Shader}!\_compiled@{\_compiled}|hyperpage}{72}
+\indexentry{\_compiled@{\_compiled}!gla::Shader@{gla::Shader}|hyperpage}{72}
+\indexentry{gla::Shader@{gla::Shader}!\_id@{\_id}|hyperpage}{72}
+\indexentry{\_id@{\_id}!gla::Shader@{gla::Shader}|hyperpage}{72}
+\indexentry{gla::Shader@{gla::Shader}!\_type@{\_type}|hyperpage}{72}
+\indexentry{\_type@{\_type}!gla::Shader@{gla::Shader}|hyperpage}{72}
+\indexentry{gla::Shader@{gla::Shader}!Program@{Program}|hyperpage}{72}
+\indexentry{Program@{Program}!gla::Shader@{gla::Shader}|hyperpage}{72}
+\indexentry{gla::ShaderCompileError@{gla::ShaderCompileError}|hyperpage}{72}
+\indexentry{gla::ShaderCompileError@{gla::ShaderCompileError}!ShaderCompileError@{ShaderCompileError}|hyperpage}{73}
+\indexentry{ShaderCompileError@{ShaderCompileError}!gla::ShaderCompileError@{gla::ShaderCompileError}|hyperpage}{73}
+\indexentry{gla::UniformData@{gla::UniformData}|hyperpage}{73}
+\indexentry{gla::UniformData@{gla::UniformData}!arraySize@{arraySize}|hyperpage}{73}
+\indexentry{arraySize@{arraySize}!gla::UniformData@{gla::UniformData}|hyperpage}{73}
+\indexentry{gla::UniformData@{gla::UniformData}!glType@{glType}|hyperpage}{73}
+\indexentry{glType@{glType}!gla::UniformData@{gla::UniformData}|hyperpage}{73}
+\indexentry{gla::UniformData@{gla::UniformData}!location@{location}|hyperpage}{74}
+\indexentry{location@{location}!gla::UniformData@{gla::UniformData}|hyperpage}{74}
 \indexentry{gla::Program::UniformProxy@{gla::Program::UniformProxy}|hyperpage}{74}
 \indexentry{gla::Program::UniformProxy@{gla::Program::UniformProxy}!UniformProxy@{UniformProxy}|hyperpage}{75}
 \indexentry{UniformProxy@{UniformProxy}!gla::Program::UniformProxy@{gla::Program::UniformProxy}|hyperpage}{75}
@@ -498,12 +530,12 @@
 \indexentry{UniformProxy@{UniformProxy}!gla::Program::UniformProxy@{gla::Program::UniformProxy}|hyperpage}{75}
 \indexentry{gla::Program::UniformProxy@{gla::Program::UniformProxy}!UniformProxy@{UniformProxy}|hyperpage}{75}
 \indexentry{UniformProxy@{UniformProxy}!gla::Program::UniformProxy@{gla::Program::UniformProxy}|hyperpage}{75}
-\indexentry{gla::Program::UniformProxy@{gla::Program::UniformProxy}!operator float@{operator float}|hyperpage}{76}
-\indexentry{operator float@{operator float}!gla::Program::UniformProxy@{gla::Program::UniformProxy}|hyperpage}{76}
-\indexentry{gla::Program::UniformProxy@{gla::Program::UniformProxy}!operator glm::ivec2@{operator glm::ivec2}|hyperpage}{76}
-\indexentry{operator glm::ivec2@{operator glm::ivec2}!gla::Program::UniformProxy@{gla::Program::UniformProxy}|hyperpage}{76}
-\indexentry{gla::Program::UniformProxy@{gla::Program::UniformProxy}!operator glm::ivec3@{operator glm::ivec3}|hyperpage}{76}
-\indexentry{operator glm::ivec3@{operator glm::ivec3}!gla::Program::UniformProxy@{gla::Program::UniformProxy}|hyperpage}{76}
+\indexentry{gla::Program::UniformProxy@{gla::Program::UniformProxy}!operator float@{operator float}|hyperpage}{75}
+\indexentry{operator float@{operator float}!gla::Program::UniformProxy@{gla::Program::UniformProxy}|hyperpage}{75}
+\indexentry{gla::Program::UniformProxy@{gla::Program::UniformProxy}!operator glm::ivec2@{operator glm::ivec2}|hyperpage}{75}
+\indexentry{operator glm::ivec2@{operator glm::ivec2}!gla::Program::UniformProxy@{gla::Program::UniformProxy}|hyperpage}{75}
+\indexentry{gla::Program::UniformProxy@{gla::Program::UniformProxy}!operator glm::ivec3@{operator glm::ivec3}|hyperpage}{75}
+\indexentry{operator glm::ivec3@{operator glm::ivec3}!gla::Program::UniformProxy@{gla::Program::UniformProxy}|hyperpage}{75}
 \indexentry{gla::Program::UniformProxy@{gla::Program::UniformProxy}!operator glm::ivec4@{operator glm::ivec4}|hyperpage}{76}
 \indexentry{operator glm::ivec4@{operator glm::ivec4}!gla::Program::UniformProxy@{gla::Program::UniformProxy}|hyperpage}{76}
 \indexentry{gla::Program::UniformProxy@{gla::Program::UniformProxy}!operator glm::mat2@{operator glm::mat2}|hyperpage}{76}
@@ -518,12 +550,12 @@
 \indexentry{operator glm::mat3x2@{operator glm::mat3x2}!gla::Program::UniformProxy@{gla::Program::UniformProxy}|hyperpage}{76}
 \indexentry{gla::Program::UniformProxy@{gla::Program::UniformProxy}!operator glm::mat3x4@{operator glm::mat3x4}|hyperpage}{76}
 \indexentry{operator glm::mat3x4@{operator glm::mat3x4}!gla::Program::UniformProxy@{gla::Program::UniformProxy}|hyperpage}{76}
-\indexentry{gla::Program::UniformProxy@{gla::Program::UniformProxy}!operator glm::mat4@{operator glm::mat4}|hyperpage}{77}
-\indexentry{operator glm::mat4@{operator glm::mat4}!gla::Program::UniformProxy@{gla::Program::UniformProxy}|hyperpage}{77}
-\indexentry{gla::Program::UniformProxy@{gla::Program::UniformProxy}!operator glm::mat4x2@{operator glm::mat4x2}|hyperpage}{77}
-\indexentry{operator glm::mat4x2@{operator glm::mat4x2}!gla::Program::UniformProxy@{gla::Program::UniformProxy}|hyperpage}{77}
-\indexentry{gla::Program::UniformProxy@{gla::Program::UniformProxy}!operator glm::mat4x3@{operator glm::mat4x3}|hyperpage}{77}
-\indexentry{operator glm::mat4x3@{operator glm::mat4x3}!gla::Program::UniformProxy@{gla::Program::UniformProxy}|hyperpage}{77}
+\indexentry{gla::Program::UniformProxy@{gla::Program::UniformProxy}!operator glm::mat4@{operator glm::mat4}|hyperpage}{76}
+\indexentry{operator glm::mat4@{operator glm::mat4}!gla::Program::UniformProxy@{gla::Program::UniformProxy}|hyperpage}{76}
+\indexentry{gla::Program::UniformProxy@{gla::Program::UniformProxy}!operator glm::mat4x2@{operator glm::mat4x2}|hyperpage}{76}
+\indexentry{operator glm::mat4x2@{operator glm::mat4x2}!gla::Program::UniformProxy@{gla::Program::UniformProxy}|hyperpage}{76}
+\indexentry{gla::Program::UniformProxy@{gla::Program::UniformProxy}!operator glm::mat4x3@{operator glm::mat4x3}|hyperpage}{76}
+\indexentry{operator glm::mat4x3@{operator glm::mat4x3}!gla::Program::UniformProxy@{gla::Program::UniformProxy}|hyperpage}{76}
 \indexentry{gla::Program::UniformProxy@{gla::Program::UniformProxy}!operator glm::uvec2@{operator glm::uvec2}|hyperpage}{77}
 \indexentry{operator glm::uvec2@{operator glm::uvec2}!gla::Program::UniformProxy@{gla::Program::UniformProxy}|hyperpage}{77}
 \indexentry{gla::Program::UniformProxy@{gla::Program::UniformProxy}!operator glm::uvec3@{operator glm::uvec3}|hyperpage}{77}
@@ -538,8 +570,12 @@
 \indexentry{operator glm::vec4@{operator glm::vec4}!gla::Program::UniformProxy@{gla::Program::UniformProxy}|hyperpage}{77}
 \indexentry{gla::Program::UniformProxy@{gla::Program::UniformProxy}!operator int@{operator int}|hyperpage}{77}
 \indexentry{operator int@{operator int}!gla::Program::UniformProxy@{gla::Program::UniformProxy}|hyperpage}{77}
-\indexentry{gla::Program::UniformProxy@{gla::Program::UniformProxy}!operator unsigned int@{operator unsigned int}|hyperpage}{78}
-\indexentry{operator unsigned int@{operator unsigned int}!gla::Program::UniformProxy@{gla::Program::UniformProxy}|hyperpage}{78}
+\indexentry{gla::Program::UniformProxy@{gla::Program::UniformProxy}!operator unsigned int@{operator unsigned int}|hyperpage}{77}
+\indexentry{operator unsigned int@{operator unsigned int}!gla::Program::UniformProxy@{gla::Program::UniformProxy}|hyperpage}{77}
+\indexentry{gla::Program::UniformProxy@{gla::Program::UniformProxy}!operator=@{operator=}|hyperpage}{77}
+\indexentry{operator=@{operator=}!gla::Program::UniformProxy@{gla::Program::UniformProxy}|hyperpage}{77}
+\indexentry{gla::Program::UniformProxy@{gla::Program::UniformProxy}!operator=@{operator=}|hyperpage}{77}
+\indexentry{operator=@{operator=}!gla::Program::UniformProxy@{gla::Program::UniformProxy}|hyperpage}{77}
 \indexentry{gla::Program::UniformProxy@{gla::Program::UniformProxy}!operator=@{operator=}|hyperpage}{78}
 \indexentry{operator=@{operator=}!gla::Program::UniformProxy@{gla::Program::UniformProxy}|hyperpage}{78}
 \indexentry{gla::Program::UniformProxy@{gla::Program::UniformProxy}!operator=@{operator=}|hyperpage}{78}
@@ -556,6 +592,8 @@
 \indexentry{operator=@{operator=}!gla::Program::UniformProxy@{gla::Program::UniformProxy}|hyperpage}{78}
 \indexentry{gla::Program::UniformProxy@{gla::Program::UniformProxy}!operator=@{operator=}|hyperpage}{78}
 \indexentry{operator=@{operator=}!gla::Program::UniformProxy@{gla::Program::UniformProxy}|hyperpage}{78}
+\indexentry{gla::Program::UniformProxy@{gla::Program::UniformProxy}!operator=@{operator=}|hyperpage}{78}
+\indexentry{operator=@{operator=}!gla::Program::UniformProxy@{gla::Program::UniformProxy}|hyperpage}{78}
 \indexentry{gla::Program::UniformProxy@{gla::Program::UniformProxy}!operator=@{operator=}|hyperpage}{79}
 \indexentry{operator=@{operator=}!gla::Program::UniformProxy@{gla::Program::UniformProxy}|hyperpage}{79}
 \indexentry{gla::Program::UniformProxy@{gla::Program::UniformProxy}!operator=@{operator=}|hyperpage}{79}
@@ -574,12 +612,6 @@
 \indexentry{operator=@{operator=}!gla::Program::UniformProxy@{gla::Program::UniformProxy}|hyperpage}{79}
 \indexentry{gla::Program::UniformProxy@{gla::Program::UniformProxy}!operator=@{operator=}|hyperpage}{79}
 \indexentry{operator=@{operator=}!gla::Program::UniformProxy@{gla::Program::UniformProxy}|hyperpage}{79}
-\indexentry{gla::Program::UniformProxy@{gla::Program::UniformProxy}!operator=@{operator=}|hyperpage}{80}
-\indexentry{operator=@{operator=}!gla::Program::UniformProxy@{gla::Program::UniformProxy}|hyperpage}{80}
-\indexentry{gla::Program::UniformProxy@{gla::Program::UniformProxy}!operator=@{operator=}|hyperpage}{80}
-\indexentry{operator=@{operator=}!gla::Program::UniformProxy@{gla::Program::UniformProxy}|hyperpage}{80}
-\indexentry{gla::Program::UniformProxy@{gla::Program::UniformProxy}!operator=@{operator=}|hyperpage}{80}
-\indexentry{operator=@{operator=}!gla::Program::UniformProxy@{gla::Program::UniformProxy}|hyperpage}{80}
 \indexentry{gla::Program::UniformProxy@{gla::Program::UniformProxy}!operator=@{operator=}|hyperpage}{80}
 \indexentry{operator=@{operator=}!gla::Program::UniformProxy@{gla::Program::UniformProxy}|hyperpage}{80}
 \indexentry{gla::Program::UniformProxy@{gla::Program::UniformProxy}!operator=@{operator=}|hyperpage}{80}
@@ -593,20 +625,20 @@
 \indexentry{UniformProxyConst@{UniformProxyConst}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{81}
 \indexentry{gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}!UniformProxyConst@{UniformProxyConst}|hyperpage}{81}
 \indexentry{UniformProxyConst@{UniformProxyConst}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{81}
-\indexentry{gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}!operator float@{operator float}|hyperpage}{82}
-\indexentry{operator float@{operator float}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{82}
-\indexentry{gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}!operator glm::ivec2@{operator glm::ivec2}|hyperpage}{82}
-\indexentry{operator glm::ivec2@{operator glm::ivec2}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{82}
-\indexentry{gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}!operator glm::ivec3@{operator glm::ivec3}|hyperpage}{82}
-\indexentry{operator glm::ivec3@{operator glm::ivec3}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{82}
-\indexentry{gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}!operator glm::ivec4@{operator glm::ivec4}|hyperpage}{82}
-\indexentry{operator glm::ivec4@{operator glm::ivec4}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{82}
-\indexentry{gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}!operator glm::mat2@{operator glm::mat2}|hyperpage}{82}
-\indexentry{operator glm::mat2@{operator glm::mat2}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{82}
-\indexentry{gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}!operator glm::mat2x3@{operator glm::mat2x3}|hyperpage}{82}
-\indexentry{operator glm::mat2x3@{operator glm::mat2x3}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{82}
-\indexentry{gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}!operator glm::mat2x4@{operator glm::mat2x4}|hyperpage}{82}
-\indexentry{operator glm::mat2x4@{operator glm::mat2x4}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{82}
+\indexentry{gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}!operator float@{operator float}|hyperpage}{81}
+\indexentry{operator float@{operator float}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{81}
+\indexentry{gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}!operator glm::ivec2@{operator glm::ivec2}|hyperpage}{81}
+\indexentry{operator glm::ivec2@{operator glm::ivec2}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{81}
+\indexentry{gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}!operator glm::ivec3@{operator glm::ivec3}|hyperpage}{81}
+\indexentry{operator glm::ivec3@{operator glm::ivec3}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{81}
+\indexentry{gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}!operator glm::ivec4@{operator glm::ivec4}|hyperpage}{81}
+\indexentry{operator glm::ivec4@{operator glm::ivec4}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{81}
+\indexentry{gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}!operator glm::mat2@{operator glm::mat2}|hyperpage}{81}
+\indexentry{operator glm::mat2@{operator glm::mat2}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{81}
+\indexentry{gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}!operator glm::mat2x3@{operator glm::mat2x3}|hyperpage}{81}
+\indexentry{operator glm::mat2x3@{operator glm::mat2x3}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{81}
+\indexentry{gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}!operator glm::mat2x4@{operator glm::mat2x4}|hyperpage}{81}
+\indexentry{operator glm::mat2x4@{operator glm::mat2x4}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{81}
 \indexentry{gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}!operator glm::mat3@{operator glm::mat3}|hyperpage}{82}
 \indexentry{operator glm::mat3@{operator glm::mat3}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{82}
 \indexentry{gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}!operator glm::mat3x2@{operator glm::mat3x2}|hyperpage}{82}
@@ -615,18 +647,18 @@
 \indexentry{operator glm::mat3x4@{operator glm::mat3x4}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{82}
 \indexentry{gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}!operator glm::mat4@{operator glm::mat4}|hyperpage}{82}
 \indexentry{operator glm::mat4@{operator glm::mat4}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{82}
-\indexentry{gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}!operator glm::mat4x2@{operator glm::mat4x2}|hyperpage}{83}
-\indexentry{operator glm::mat4x2@{operator glm::mat4x2}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{83}
-\indexentry{gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}!operator glm::mat4x3@{operator glm::mat4x3}|hyperpage}{83}
-\indexentry{operator glm::mat4x3@{operator glm::mat4x3}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{83}
-\indexentry{gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}!operator glm::uvec2@{operator glm::uvec2}|hyperpage}{83}
-\indexentry{operator glm::uvec2@{operator glm::uvec2}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{83}
-\indexentry{gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}!operator glm::uvec3@{operator glm::uvec3}|hyperpage}{83}
-\indexentry{operator glm::uvec3@{operator glm::uvec3}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{83}
-\indexentry{gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}!operator glm::uvec4@{operator glm::uvec4}|hyperpage}{83}
-\indexentry{operator glm::uvec4@{operator glm::uvec4}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{83}
-\indexentry{gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}!operator glm::vec2@{operator glm::vec2}|hyperpage}{83}
-\indexentry{operator glm::vec2@{operator glm::vec2}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{83}
+\indexentry{gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}!operator glm::mat4x2@{operator glm::mat4x2}|hyperpage}{82}
+\indexentry{operator glm::mat4x2@{operator glm::mat4x2}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{82}
+\indexentry{gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}!operator glm::mat4x3@{operator glm::mat4x3}|hyperpage}{82}
+\indexentry{operator glm::mat4x3@{operator glm::mat4x3}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{82}
+\indexentry{gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}!operator glm::uvec2@{operator glm::uvec2}|hyperpage}{82}
+\indexentry{operator glm::uvec2@{operator glm::uvec2}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{82}
+\indexentry{gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}!operator glm::uvec3@{operator glm::uvec3}|hyperpage}{82}
+\indexentry{operator glm::uvec3@{operator glm::uvec3}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{82}
+\indexentry{gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}!operator glm::uvec4@{operator glm::uvec4}|hyperpage}{82}
+\indexentry{operator glm::uvec4@{operator glm::uvec4}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{82}
+\indexentry{gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}!operator glm::vec2@{operator glm::vec2}|hyperpage}{82}
+\indexentry{operator glm::vec2@{operator glm::vec2}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{82}
 \indexentry{gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}!operator glm::vec3@{operator glm::vec3}|hyperpage}{83}
 \indexentry{operator glm::vec3@{operator glm::vec3}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{83}
 \indexentry{gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}!operator glm::vec4@{operator glm::vec4}|hyperpage}{83}
@@ -635,48 +667,73 @@
 \indexentry{operator int@{operator int}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{83}
 \indexentry{gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}!operator unsigned int@{operator unsigned int}|hyperpage}{83}
 \indexentry{operator unsigned int@{operator unsigned int}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{83}
-\indexentry{gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}!operator=@{operator=}|hyperpage}{84}
-\indexentry{operator=@{operator=}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{84}
-\indexentry{gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}!operator=@{operator=}|hyperpage}{84}
-\indexentry{operator=@{operator=}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{84}
-\indexentry{gla::VertexBuffer@{gla::VertexBuffer}|hyperpage}{84}
-\indexentry{gla::WindowContext@{gla::WindowContext}|hyperpage}{84}
-\indexentry{gla::WindowContext@{gla::WindowContext}!WindowContext@{WindowContext}|hyperpage}{85}
-\indexentry{WindowContext@{WindowContext}!gla::WindowContext@{gla::WindowContext}|hyperpage}{85}
-\indexentry{gla::WindowContext@{gla::WindowContext}!WindowContext@{WindowContext}|hyperpage}{86}
-\indexentry{WindowContext@{WindowContext}!gla::WindowContext@{gla::WindowContext}|hyperpage}{86}
-\indexentry{gla::WindowContext@{gla::WindowContext}!WindowContext@{WindowContext}|hyperpage}{86}
-\indexentry{WindowContext@{WindowContext}!gla::WindowContext@{gla::WindowContext}|hyperpage}{86}
-\indexentry{gla::WindowContext@{gla::WindowContext}!````~WindowContext@{\texorpdfstring{$\sim$}{\string~}WindowContext}|hyperpage}{86}
-\indexentry{````~WindowContext@{\texorpdfstring{$\sim$}{\string~}WindowContext}!gla::WindowContext@{gla::WindowContext}|hyperpage}{86}
-\indexentry{gla::WindowContext@{gla::WindowContext}!operator=@{operator=}|hyperpage}{86}
-\indexentry{operator=@{operator=}!gla::WindowContext@{gla::WindowContext}|hyperpage}{86}
-\indexentry{gla::WindowContext@{gla::WindowContext}!operator=@{operator=}|hyperpage}{86}
-\indexentry{operator=@{operator=}!gla::WindowContext@{gla::WindowContext}|hyperpage}{86}
-\indexentry{gla::WindowContext@{gla::WindowContext}!run@{run}|hyperpage}{86}
-\indexentry{run@{run}!gla::WindowContext@{gla::WindowContext}|hyperpage}{86}
-\indexentry{gla::WindowContext@{gla::WindowContext}!shouldClose@{shouldClose}|hyperpage}{86}
-\indexentry{shouldClose@{shouldClose}!gla::WindowContext@{gla::WindowContext}|hyperpage}{86}
-\indexentry{gla::WindowContext@{gla::WindowContext}!swapBuffers@{swapBuffers}|hyperpage}{87}
-\indexentry{swapBuffers@{swapBuffers}!gla::WindowContext@{gla::WindowContext}|hyperpage}{87}
-\indexentry{gla::WindowContext@{gla::WindowContext}!useContext@{useContext}|hyperpage}{87}
-\indexentry{useContext@{useContext}!gla::WindowContext@{gla::WindowContext}|hyperpage}{87}
-\indexentry{gla::WindowContext@{gla::WindowContext}!window@{window}|hyperpage}{87}
-\indexentry{window@{window}!gla::WindowContext@{gla::WindowContext}|hyperpage}{87}
-\indexentry{inc/GLA/buffer.h@{inc/GLA/buffer.h}|hyperpage}{89}
-\indexentry{inc/GLA/buffer.h@{inc/GLA/buffer.h}|hyperpage}{90}
-\indexentry{inc/GLA/debug.h@{inc/GLA/debug.h}|hyperpage}{92}
-\indexentry{debug.h@{debug.h}!DEBUG\_ONLY@{DEBUG\_ONLY}|hyperpage}{92}
-\indexentry{DEBUG\_ONLY@{DEBUG\_ONLY}!debug.h@{debug.h}|hyperpage}{92}
-\indexentry{debug.h@{debug.h}!GL\_CALL@{GL\_CALL}|hyperpage}{92}
-\indexentry{GL\_CALL@{GL\_CALL}!debug.h@{debug.h}|hyperpage}{92}
-\indexentry{inc/GLA/debug.h@{inc/GLA/debug.h}|hyperpage}{93}
-\indexentry{inc/GLA/mainpage.md@{inc/GLA/mainpage.md}|hyperpage}{93}
-\indexentry{inc/GLA/program.h@{inc/GLA/program.h}|hyperpage}{93}
-\indexentry{inc/GLA/program.h@{inc/GLA/program.h}|hyperpage}{94}
-\indexentry{inc/GLA/shader.h@{inc/GLA/shader.h}|hyperpage}{98}
-\indexentry{inc/GLA/shader.h@{inc/GLA/shader.h}|hyperpage}{99}
-\indexentry{inc/GLA/vertexBuffer.h@{inc/GLA/vertexBuffer.h}|hyperpage}{100}
-\indexentry{inc/GLA/vertexBuffer.h@{inc/GLA/vertexBuffer.h}|hyperpage}{100}
-\indexentry{inc/GLA/windowContext.h@{inc/GLA/windowContext.h}|hyperpage}{101}
-\indexentry{inc/GLA/windowContext.h@{inc/GLA/windowContext.h}|hyperpage}{101}
+\indexentry{gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}!operator=@{operator=}|hyperpage}{83}
+\indexentry{operator=@{operator=}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{83}
+\indexentry{gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}!operator=@{operator=}|hyperpage}{83}
+\indexentry{operator=@{operator=}!gla::Program::UniformProxyConst@{gla::Program::UniformProxyConst}|hyperpage}{83}
+\indexentry{gla::VertexArray@{gla::VertexArray}|hyperpage}{83}
+\indexentry{gla::VertexArray@{gla::VertexArray}!VertexArray@{VertexArray}|hyperpage}{85}
+\indexentry{VertexArray@{VertexArray}!gla::VertexArray@{gla::VertexArray}|hyperpage}{85}
+\indexentry{gla::VertexArray@{gla::VertexArray}!VertexArray@{VertexArray}|hyperpage}{85}
+\indexentry{VertexArray@{VertexArray}!gla::VertexArray@{gla::VertexArray}|hyperpage}{85}
+\indexentry{gla::VertexArray@{gla::VertexArray}!VertexArray@{VertexArray}|hyperpage}{85}
+\indexentry{VertexArray@{VertexArray}!gla::VertexArray@{gla::VertexArray}|hyperpage}{85}
+\indexentry{gla::VertexArray@{gla::VertexArray}!operator=@{operator=}|hyperpage}{85}
+\indexentry{operator=@{operator=}!gla::VertexArray@{gla::VertexArray}|hyperpage}{85}
+\indexentry{gla::VertexArray@{gla::VertexArray}!operator=@{operator=}|hyperpage}{85}
+\indexentry{operator=@{operator=}!gla::VertexArray@{gla::VertexArray}|hyperpage}{85}
+\indexentry{gla::VertexArray@{gla::VertexArray}!setAttributes@{setAttributes}|hyperpage}{86}
+\indexentry{setAttributes@{setAttributes}!gla::VertexArray@{gla::VertexArray}|hyperpage}{86}
+\indexentry{gla::VertexAttribute@{gla::VertexAttribute}|hyperpage}{86}
+\indexentry{gla::VertexAttribute@{gla::VertexAttribute}!index@{index}|hyperpage}{87}
+\indexentry{index@{index}!gla::VertexAttribute@{gla::VertexAttribute}|hyperpage}{87}
+\indexentry{gla::VertexAttribute@{gla::VertexAttribute}!interp@{interp}|hyperpage}{87}
+\indexentry{interp@{interp}!gla::VertexAttribute@{gla::VertexAttribute}|hyperpage}{87}
+\indexentry{gla::VertexAttribute@{gla::VertexAttribute}!normalized@{normalized}|hyperpage}{87}
+\indexentry{normalized@{normalized}!gla::VertexAttribute@{gla::VertexAttribute}|hyperpage}{87}
+\indexentry{gla::VertexAttribute@{gla::VertexAttribute}!numComponents@{numComponents}|hyperpage}{87}
+\indexentry{numComponents@{numComponents}!gla::VertexAttribute@{gla::VertexAttribute}|hyperpage}{87}
+\indexentry{gla::VertexAttribute@{gla::VertexAttribute}!offset@{offset}|hyperpage}{87}
+\indexentry{offset@{offset}!gla::VertexAttribute@{gla::VertexAttribute}|hyperpage}{87}
+\indexentry{gla::VertexAttribute@{gla::VertexAttribute}!type@{type}|hyperpage}{88}
+\indexentry{type@{type}!gla::VertexAttribute@{gla::VertexAttribute}|hyperpage}{88}
+\indexentry{gla::WindowContext@{gla::WindowContext}|hyperpage}{88}
+\indexentry{gla::WindowContext@{gla::WindowContext}!WindowContext@{WindowContext}|hyperpage}{89}
+\indexentry{WindowContext@{WindowContext}!gla::WindowContext@{gla::WindowContext}|hyperpage}{89}
+\indexentry{gla::WindowContext@{gla::WindowContext}!WindowContext@{WindowContext}|hyperpage}{89}
+\indexentry{WindowContext@{WindowContext}!gla::WindowContext@{gla::WindowContext}|hyperpage}{89}
+\indexentry{gla::WindowContext@{gla::WindowContext}!WindowContext@{WindowContext}|hyperpage}{89}
+\indexentry{WindowContext@{WindowContext}!gla::WindowContext@{gla::WindowContext}|hyperpage}{89}
+\indexentry{gla::WindowContext@{gla::WindowContext}!````~WindowContext@{\texorpdfstring{$\sim$}{\string~}WindowContext}|hyperpage}{89}
+\indexentry{````~WindowContext@{\texorpdfstring{$\sim$}{\string~}WindowContext}!gla::WindowContext@{gla::WindowContext}|hyperpage}{89}
+\indexentry{gla::WindowContext@{gla::WindowContext}!operator=@{operator=}|hyperpage}{90}
+\indexentry{operator=@{operator=}!gla::WindowContext@{gla::WindowContext}|hyperpage}{90}
+\indexentry{gla::WindowContext@{gla::WindowContext}!operator=@{operator=}|hyperpage}{90}
+\indexentry{operator=@{operator=}!gla::WindowContext@{gla::WindowContext}|hyperpage}{90}
+\indexentry{gla::WindowContext@{gla::WindowContext}!run@{run}|hyperpage}{90}
+\indexentry{run@{run}!gla::WindowContext@{gla::WindowContext}|hyperpage}{90}
+\indexentry{gla::WindowContext@{gla::WindowContext}!shouldClose@{shouldClose}|hyperpage}{90}
+\indexentry{shouldClose@{shouldClose}!gla::WindowContext@{gla::WindowContext}|hyperpage}{90}
+\indexentry{gla::WindowContext@{gla::WindowContext}!swapBuffers@{swapBuffers}|hyperpage}{90}
+\indexentry{swapBuffers@{swapBuffers}!gla::WindowContext@{gla::WindowContext}|hyperpage}{90}
+\indexentry{gla::WindowContext@{gla::WindowContext}!useContext@{useContext}|hyperpage}{91}
+\indexentry{useContext@{useContext}!gla::WindowContext@{gla::WindowContext}|hyperpage}{91}
+\indexentry{gla::WindowContext@{gla::WindowContext}!window@{window}|hyperpage}{91}
+\indexentry{window@{window}!gla::WindowContext@{gla::WindowContext}|hyperpage}{91}
+\indexentry{inc/GLA/buffer.h@{inc/GLA/buffer.h}|hyperpage}{93}
+\indexentry{inc/GLA/buffer.h@{inc/GLA/buffer.h}|hyperpage}{94}
+\indexentry{inc/GLA/debug.h@{inc/GLA/debug.h}|hyperpage}{96}
+\indexentry{debug.h@{debug.h}!DEBUG\_ONLY@{DEBUG\_ONLY}|hyperpage}{96}
+\indexentry{DEBUG\_ONLY@{DEBUG\_ONLY}!debug.h@{debug.h}|hyperpage}{96}
+\indexentry{debug.h@{debug.h}!GL\_CALL@{GL\_CALL}|hyperpage}{96}
+\indexentry{GL\_CALL@{GL\_CALL}!debug.h@{debug.h}|hyperpage}{96}
+\indexentry{inc/GLA/debug.h@{inc/GLA/debug.h}|hyperpage}{97}
+\indexentry{inc/GLA/mainpage.md@{inc/GLA/mainpage.md}|hyperpage}{97}
+\indexentry{inc/GLA/program.h@{inc/GLA/program.h}|hyperpage}{97}
+\indexentry{inc/GLA/program.h@{inc/GLA/program.h}|hyperpage}{98}
+\indexentry{inc/GLA/shader.h@{inc/GLA/shader.h}|hyperpage}{102}
+\indexentry{inc/GLA/shader.h@{inc/GLA/shader.h}|hyperpage}{103}
+\indexentry{inc/GLA/vertexArray.h@{inc/GLA/vertexArray.h}|hyperpage}{104}
+\indexentry{inc/GLA/vertexArray.h@{inc/GLA/vertexArray.h}|hyperpage}{105}
+\indexentry{inc/GLA/windowContext.h@{inc/GLA/windowContext.h}|hyperpage}{106}
+\indexentry{inc/GLA/windowContext.h@{inc/GLA/windowContext.h}|hyperpage}{106}

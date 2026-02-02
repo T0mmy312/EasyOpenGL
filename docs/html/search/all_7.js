@@ -9,5 +9,5 @@ var searchData=
   ['gla_6',['gla',['../d7/df0/namespacegla.html',1,'']]],
   ['glcheckerror_7',['glCheckError',['../d7/df0/namespacegla.html#a776fa1ca8c6db42ad2ace3c425ae9466',1,'gla']]],
   ['glerrorstring_8',['glErrorString',['../d7/df0/namespacegla.html#abcdac3b947f67c9ed54ceddb2ef9a63a',1,'gla']]],
-  ['gltype_9',['glType',['../d6/de4/structgla_1_1__uniform_data.html#a41a1b5bc91e5702c3ae28ea050a73159',1,'gla::_uniformData']]]
+  ['gltype_9',['glType',['../d2/d48/structgla_1_1_uniform_data.html#a98151bee063cd19c6b99aac63b588a1d',1,'gla::UniformData']]]
 ];

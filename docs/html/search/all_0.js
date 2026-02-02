@@ -13,7 +13,7 @@ var searchData=
   ['_5fqueryuniformdata_10',['_queryUniformData',['../d0/dac/classgla_1_1_program.html#ae4477fa41dcb61667785d37ae3751cc3',1,'gla::Program']]],
   ['_5fsetupuniform_11',['_setupUniform',['../d0/dac/classgla_1_1_program.html#a59fbdca6f625282047027866c437abaf',1,'gla::Program']]],
   ['_5ftype_12',['_type',['../d5/ddd/classgla_1_1_buffer.html#a61ddc1f032f58ea03167b0848f4b40c1',1,'gla::Buffer::_type'],['../d1/dc3/classgla_1_1_shader.html#ae5e9584e8fa91d4f3ab9f4111a95edc8',1,'gla::Shader::_type']]],
-  ['_5funiformdata_13',['_uniformData',['../d6/de4/structgla_1_1__uniform_data.html',1,'gla::_uniformData'],['../d0/dac/classgla_1_1_program.html#ae5c63d89af9261801036a450608ac05a',1,'gla::Program::_uniformData']]],
+  ['_5funiformdata_13',['_uniformData',['../d0/dac/classgla_1_1_program.html#ae5c63d89af9261801036a450608ac05a',1,'gla::Program']]],
   ['_5funiformindexmap_14',['_uniformIndexMap',['../d0/dac/classgla_1_1_program.html#a4f672450b9dc598c39ec0f35e74dcb1d',1,'gla::Program']]],
   ['_5funiformlocationindexmap_15',['_uniformLocationIndexMap',['../d0/dac/classgla_1_1_program.html#a66e1fa0384a7f4deb81f39acd64fd3b1',1,'gla::Program']]]
 ];

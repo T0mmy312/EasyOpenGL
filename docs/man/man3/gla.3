@@ -21,7 +21,7 @@ gla
 .br
 .RI "Exception thrown when \fBProgram\fP validation fails, mainly used in debug builds\&. "
 .ti -1c
-.RI "struct \fB_uniformData\fP"
+.RI "struct \fBUniformData\fP"
 .br
 .ti -1c
 .RI "class \fBProgram\fP"
@@ -36,19 +36,17 @@ gla
 .br
 .RI "\fBShader\fP class to abstract OpenGL Shaders\&. "
 .ti -1c
-.RI "class \fBVertexBuffer\fP"
+.RI "struct \fBVertexAttribute\fP"
 .br
+.RI "Defines a vertex attribute for the \fBgla::VertexArray\fP\&. "
+.ti -1c
+.RI "class \fBVertexArray\fP"
+.br
+.RI "\fBVertexArray\fP class to abstract the OpenGL vertex array\&. "
 .ti -1c
 .RI "class \fBWindowContext\fP"
 .br
 .RI "An abstract class to contain an window based application\&. "
-.in -1c
-.SS "Typedefs"
-
-.in +1c
-.ti -1c
-.RI "typedef struct \fBgla::_uniformData\fP \fBUniformData\fP"
-.br
 .in -1c
 .SS "Enumerations"
 
@@ -73,6 +71,12 @@ gla
 .RI "enum class \fBShaderType\fP { \fBFragment\fP, \fBVertex\fP, \fBGeometry\fP, \fBTessEvaluation\fP, \fBTessControl\fP, \fBCompute\fP }"
 .br
 .RI "\fBShaderType\fP enum to indicate usage\&. "
+.ti -1c
+.RI "enum class \fBVertexAttribType\fP { \fBByte\fP, \fBUnsignedByte\fP, \fBShort\fP, \fBUnsignedShort\fP, \fBInt\fP, \fBUnsignedInt\fP, \fBHalfFloat\fP, \fBFloat\fP, \fBDouble\fP, \fBFixed\fP }"
+.br
+.ti -1c
+.RI "enum class \fBVertexAttribInterp\fP { \fBFloat\fP, \fBInteger\fP }"
+.br
 .in -1c
 .SS "Functions"
 
@@ -136,6 +140,18 @@ gla
 .br
 .RI "Converts the \fBShaderType\fP enum into an OpenGL enum\&. "
 .ti -1c
+.RI "unsigned int \fBtoGLenum\fP (\fBVertexAttribType\fP type)"
+.br
+.RI "Converts a \fBVertexAttribType\fP into a GLenum\&. "
+.ti -1c
+.RI "bool \fBvalidateTypeInterpretation\fP (\fBVertexAttribType\fP type, \fBVertexAttribInterp\fP interp, std::string &error)"
+.br
+.RI "Checks if the type and interpretation combination is valid\&. "
+.ti -1c
+.RI "int \fBtypeToBytes\fP (\fBVertexAttribType\fP type)"
+.br
+.RI "Gets the size of the given type in bytes\&. "
+.ti -1c
 .RI "bool \fBinitGLFW\fP ()"
 .br
 .RI "Initialize GLFW\&. "
@@ -148,10 +164,6 @@ gla
 .br
 .RI "Polls GLFW events\&. "
 .in -1c
-.SH "Typedef Documentation"
-.PP 
-.SS "typedef struct \fBgla::_uniformData\fP \fBgla::UniformData\fP"
-
 .SH "Enumeration Type Documentation"
 .PP 
 .SS "enum class \fBgla::BufferFlag\fP : uint32_t\fR [strong]\fP"
@@ -356,6 +368,52 @@ A \fBShader\fP that is intended to run on the programmable tessellation processo
 .TP
 \f(BICompute \fP
 A \fBShader\fP intended to run on the programmable compute processor\&. 
+.SS "enum class \fBgla::VertexAttribInterp\fP\fR [strong]\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\f(BIFloat \fP
+Interprets the vertex attribute as a float\&. 
+.TP
+\f(BIInteger \fP
+Interprets the vertex attribute as an interger\&. 
+.SS "enum class \fBgla::VertexAttribType\fP\fR [strong]\fP"
+
+.PP
+\fBEnumerator\fP
+.in +1c
+.TP
+\f(BIByte \fP
+GL_BYTE\&. 
+.TP
+\f(BIUnsignedByte \fP
+GL_UNSIGNED_BYTE\&. 
+.TP
+\f(BIShort \fP
+GL_SHORT\&. 
+.TP
+\f(BIUnsignedShort \fP
+GL_UNSIGNED_SHORT\&. 
+.TP
+\f(BIInt \fP
+GL_INT\&. 
+.TP
+\f(BIUnsignedInt \fP
+GL_UNSIGNED_INT\&. 
+.TP
+\f(BIHalfFloat \fP
+GL_HALF_FLOAT\&. 
+.TP
+\f(BIFloat \fP
+GL_FLOAT\&. 
+.TP
+\f(BIDouble \fP
+GL_DOUBLE\&. 
+.TP
+\f(BIFixed \fP
+GL_FIXED\&. 
 .SH "Function Documentation"
 .PP 
 .SS "void gla::glCheckError (const char * func, const char * file, int line)"
@@ -521,6 +579,28 @@ The resulting OpenGL enum\&.
 .RE
 .PP
 
+.SS "unsigned int gla::toGLenum (\fBVertexAttribType\fP type)"
+
+.PP
+Converts a \fBVertexAttribType\fP into a GLenum\&. 
+.PP
+\fBExceptions\fP
+.RS 4
+\fIstd::invalid_argument\fP If the given \fBVertexAttribType\fP is invalid 
+.RE
+.PP
+
+.SS "int gla::typeToBytes (\fBVertexAttribType\fP type)"
+
+.PP
+Gets the size of the given type in bytes\&. 
+.PP
+\fBExceptions\fP
+.RS 4
+\fIstd::invalid_argument\fP If the given \fBVertexAttribType\fP is invalid 
+.RE
+.PP
+
 .SS "bool gla::validateBufferFlag (\fBBufferFlag\fP flag, std::string & error)"
 
 .PP
@@ -554,6 +634,22 @@ Checks if the given \fBMapUsage\fP flag combination is valid\&.
 \fBReturns\fP
 .RS 4
 true if the \fBMapUsage\fP combination is valid 
+.RE
+.PP
+
+.SS "bool gla::validateTypeInterpretation (\fBVertexAttribType\fP type, \fBVertexAttribInterp\fP interp, std::string & error)"
+
+.PP
+Checks if the type and interpretation combination is valid\&. 
+.PP
+\fBParameters\fP
+.RS 4
+\fIerror\fP The error string output
+.RE
+.PP
+\fBReturns\fP
+.RS 4
+true if it is valid, false otherwise 
 .RE
 .PP
 

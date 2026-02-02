@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['persistent_0',['Persistent',['../d7/df0/namespacegla.html#ae8a5a47275ed0181bb48c170596019b6a5fe7b9358c9cb1b9eaa8d5aec000def4',1,'gla']]],
-  ['pixelpack_1',['PixelPack',['../d7/df0/namespacegla.html#a7442220d0141215247011f052258ecada22702a714692d1c3a1ba2f02cf200c7a',1,'gla']]],
-  ['pixelunpack_2',['PixelUnpack',['../d7/df0/namespacegla.html#a7442220d0141215247011f052258ecada454e29d3537454f75dba31fc3ab1fc0d',1,'gla']]]
+  ['mapcoherent_0',['MapCoherent',['../d7/df0/namespacegla.html#a350bd3821a2aee5521c6872af830144da70a75c211d5cddf35e9b546be29ab1c1',1,'gla']]],
+  ['mappersistent_1',['MapPersistent',['../d7/df0/namespacegla.html#a350bd3821a2aee5521c6872af830144da771e3ed8a1ecc75a7cbe5cae48bcbac0',1,'gla']]],
+  ['mapread_2',['MapRead',['../d7/df0/namespacegla.html#a350bd3821a2aee5521c6872af830144dac16a79d8306dc10ca7b16a409661847f',1,'gla']]],
+  ['mapwrite_3',['MapWrite',['../d7/df0/namespacegla.html#a350bd3821a2aee5521c6872af830144da4a0138ad7aa1d1355c00c3e6fef8157d',1,'gla']]]
 ];

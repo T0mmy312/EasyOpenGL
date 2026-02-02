@@ -19,6 +19,7 @@ add_executable(engine
     src/GLA/program.cpp
     src/GLA/shader.cpp
     src/GLA/windowContext.cpp
+    src/GLA/vertexArray.cpp
 )
 
 add_compile_definitions(DEBUG_BUILD) # define DEBUG_BUILD for GL_CALL error (slows down the program in release)

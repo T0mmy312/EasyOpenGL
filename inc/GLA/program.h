@@ -43,11 +43,11 @@ public:
               "Program validation failed:\n" + infoLog) {}
 };
 
-typedef struct _uniformData {
+struct UniformData {
     int location;
     unsigned int glType;
     int arraySize;
-} UniformData;
+};
 
 /**
  * @brief Program class to abstract OpenGL Shader Programs.

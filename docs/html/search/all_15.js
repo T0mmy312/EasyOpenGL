@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['_7ebuffer_0',['~Buffer',['../d5/ddd/classgla_1_1_buffer.html#aebd78e416c692f9ac2829d8f492f37e5',1,'gla::Buffer']]],
-  ['_7eprogram_1',['~Program',['../d0/dac/classgla_1_1_program.html#ab286f2daa55a3c73fc97cccf409b5293',1,'gla::Program']]],
-  ['_7eshader_2',['~Shader',['../d1/dc3/classgla_1_1_shader.html#a9f9ee93617fb699ba7a1b15e785ab379',1,'gla::Shader']]],
-  ['_7ewindowcontext_3',['~WindowContext',['../d8/d3c/classgla_1_1_window_context.html#a1c0cc2a2d548163d3088d788e7800d85',1,'gla::WindowContext']]]
+  ['window_0',['window',['../d8/d3c/classgla_1_1_window_context.html#a91ef69eb197ce203196779b51c94cb4b',1,'gla::WindowContext']]],
+  ['windowcontext_1',['WindowContext',['../d8/d3c/classgla_1_1_window_context.html',1,'gla::WindowContext'],['../d8/d3c/classgla_1_1_window_context.html#abfd1897736415f3c29033c896648e161',1,'gla::WindowContext::WindowContext(int width, int height, const char *windowName)'],['../d8/d3c/classgla_1_1_window_context.html#aa1655ad08baf94eafc0d202b2f57e1bf',1,'gla::WindowContext::WindowContext(WindowContext &amp;&amp;other)'],['../d8/d3c/classgla_1_1_window_context.html#a9600401e78710cb91fb29ee46e9c258d',1,'gla::WindowContext::WindowContext(const WindowContext &amp;other)=delete']]],
+  ['windowcontext_2eh_2',['windowContext.h',['../d9/dcf/window_context_8h.html',1,'']]],
+  ['write_3',['Write',['../d7/df0/namespacegla.html#ae8a5a47275ed0181bb48c170596019b6a1129c0e4d43f2d121652a7302712cff6',1,'gla']]]
 ];

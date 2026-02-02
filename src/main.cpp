@@ -10,8 +10,13 @@
 #include <GLA/program.h>
 #include <GLA/shader.h>
 #include <GLA/buffer.h>
+#include <GLA/vertexArray.h>
 #include <GLA/debug.h>
 #include <GLA/windowContext.h>
+
+struct Vertex {
+    glm::vec2 pos;
+};
 
 class TestWindow : public gla::WindowContext {
 public:
@@ -20,21 +25,20 @@ public:
     void run() override {
         useContext();
 
-        std::vector<float> positions = {
-            -0.5f, -0.5f,
-             0.0f,  0.5f,
-             0.5f, -0.5f,
+        std::vector<Vertex> positions = {
+            {{-1.0f, -1.0f}},
+            {{-1.0f,  1.0f}},
+            {{ 1.0f, -1.0f}},
 
-             0.5f, -0.5f,
-             0.0f,  0.5f,
-             1.0f,  0.5f
+            {{ 1.0f, -1.0f}},
+            {{ 1.0f,  1.0f}},
+            {{-1.0f,  1.0f}}
         };
 
-        gla::Buffer vbo(gla::BufferType::Array);
+        gla::VertexArray vbo;
         vbo.setData(positions, gla::BufferUsage::StaticDraw);
-        vbo.bind();
-        glEnableVertexAttribArray(0);
-        glVertexAttribPointer(0, 2, GL_FLOAT, GL_FALSE, 2 * sizeof(float), (const void*)0); // define attribute 0 of the vbo
+        vbo.bind(); 
+        vbo.setAttributes({{0, 2, gla::VertexAttribType::Float, gla::VertexAttribInterp::Float, false, offsetof(Vertex, pos)}}, sizeof(Vertex));
 
         gla::Shader vertex(gla::ShaderType::Vertex, std::ifstream("../../res/shaders/basicTriangle/vertex.shader"));
         gla::Shader fragment(gla::ShaderType::Fragment, std::ifstream("../../res/shaders/basicTriangle/fragment.shader"));
@@ -44,8 +48,6 @@ public:
         program.attach(fragment);
 
         program.link();
-
-        program["uColor"] = glm::vec4(0.0f, 0.0f, 1.0f, 1.0f);
 
         program.bind();
 
@@ -59,7 +61,7 @@ public:
             float val = (std::sin(std::chrono::duration_cast<std::chrono::milliseconds>(duration).count() / 1000.0f) + 1) / 2.0f;
             program["uColor"] = glm::vec4(1.0f, val, val, 1.0f);
 
-            GL_CALL(glDrawArrays(GL_TRIANGLES, 0, (int)(positions.size() / 2)));
+            GL_CALL(glDrawArrays(GL_TRIANGLES, 0, (int)positions.size()));
 
             swapBuffers();
 

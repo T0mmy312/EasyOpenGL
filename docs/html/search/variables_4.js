@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['program_0',['Program',['../d1/dc3/classgla_1_1_shader.html#a4f14f86d93b95216f5853b9814c74060',1,'gla::Shader']]]
+  ['location_0',['location',['../d2/d48/structgla_1_1_uniform_data.html#af06804ab78061000502aa619be6fcc34',1,'gla::UniformData']]]
 ];

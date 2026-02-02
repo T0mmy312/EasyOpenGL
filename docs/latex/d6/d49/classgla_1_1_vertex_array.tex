@@ -1,0 +1,189 @@
+\doxysection{gla::\+Vertex\+Array Class Reference}
+\hypertarget{classgla_1_1_vertex_array}{}\label{classgla_1_1_vertex_array}\index{gla::VertexArray@{gla::VertexArray}}
+
+
+\doxylink{classgla_1_1_vertex_array}{Vertex\+Array} class to abstract the Open\+GL vertex array.  
+
+
+
+
+{\ttfamily \+\#include $<$vertex\+Array.\+h$>$}
+
+Inheritance diagram for gla::\+Vertex\+Array:\+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{d6/d49/classgla_1_1_vertex_array}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{classgla_1_1_vertex_array_a1e4c0a15c7b5ecd0c7264076e45cb8e5}{Vertex\+Array}} ()
+\item 
+\doxymbox{\hyperlink{classgla_1_1_vertex_array_a9f08ca7798703a25e70fba6aa4d2674a}{Vertex\+Array}} (Vertex\+Array \&\&other)
+\item 
+\doxymbox{\hyperlink{classgla_1_1_vertex_array_aac73bef5f0ceb178f1885035b075a1e5}{Vertex\+Array}} (const Vertex\+Array \&other)=delete
+\item 
+void \doxymbox{\hyperlink{classgla_1_1_vertex_array_ab379ac7b11bd7bd8917ad21a16c49e25}{set\+Attributes}} (const std::\+vector$<$ \doxymbox{\hyperlink{structgla_1_1_vertex_attribute}{Vertex\+Attribute}} $>$ \&attribs, int stride)
+\begin{DoxyCompactList}\small\item\em Set the Attributes for a vertex array. \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{classgla_1_1_vertex_array_a1e4c0a15c7b5ecd0c7264076e45cb8e5}{Vertex\+Array}} \& \doxymbox{\hyperlink{classgla_1_1_vertex_array_a6782c9ede6dae4e5d41743b17dfcc7cc}{operator=}} (\doxymbox{\hyperlink{classgla_1_1_vertex_array_a1e4c0a15c7b5ecd0c7264076e45cb8e5}{Vertex\+Array}} \&\&other)
+\item 
+\doxymbox{\hyperlink{classgla_1_1_vertex_array_a1e4c0a15c7b5ecd0c7264076e45cb8e5}{Vertex\+Array}} \& \doxymbox{\hyperlink{classgla_1_1_vertex_array_acddb92f8e3f654648d43b95db04621d5}{operator=}} (const \doxymbox{\hyperlink{classgla_1_1_vertex_array_a1e4c0a15c7b5ecd0c7264076e45cb8e5}{Vertex\+Array}} \&other)=delete
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \doxymbox{\hyperlink{classgla_1_1_buffer}{gla::\+\+Buffer}}}
+\begin{DoxyCompactItemize}
+\item 
+\doxymbox{\hyperlink{classgla_1_1_buffer_a2ed17f7bfbe557c7624777585e0cfbe0}{Buffer}} ()=delete
+\item 
+\doxymbox{\hyperlink{classgla_1_1_buffer_a68829de5745ec5a0de0c951d6411f2ed}{Buffer}} (\doxymbox{\hyperlink{namespacegla_a7442220d0141215247011f052258ecad}{Buffer\+Type}} type)
+\begin{DoxyCompactList}\small\item\em Construct a new \doxylink{classgla_1_1_buffer}{Buffer} object of given type. \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{classgla_1_1_buffer_aaf51e73d7f01a657e269980dd73f76ea}{Buffer}} (Buffer \&\&other)
+\item 
+\doxymbox{\hyperlink{classgla_1_1_buffer_aee1fe74d1c803f53f9ab65eb826e8ee6}{Buffer}} (const Buffer \&other)=delete
+\item 
+\doxymbox{\hyperlink{classgla_1_1_buffer_aebd78e416c692f9ac2829d8f492f37e5}{\texorpdfstring{$\sim$}{\string~}\+Buffer}} () noexcept
+\item 
+void \doxymbox{\hyperlink{classgla_1_1_buffer_a38d7676d6b21277a32a31a3221354ab8}{bind}} () const
+\begin{DoxyCompactList}\small\item\em Binds the \doxylink{classgla_1_1_buffer}{Buffer} to the appropriate binding point. \end{DoxyCompactList}\item 
+int64\+\_\+t \doxymbox{\hyperlink{classgla_1_1_buffer_afc25f58178ff8fd42c3e4aff5688447b}{size}} () const
+\begin{DoxyCompactList}\small\item\em Returns the size in bytes of the \doxylink{classgla_1_1_buffer}{Buffer}. \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{namespacegla_a7442220d0141215247011f052258ecad}{Buffer\+Type}} \doxymbox{\hyperlink{classgla_1_1_buffer_afad8fb7b6e447dc205cf56b8667f907b}{get\+Type}} () const
+\begin{DoxyCompactList}\small\item\em Get the Type of the \doxylink{classgla_1_1_buffer}{Buffer}. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{classgla_1_1_buffer_a746b579a3c423cac13dc97654f50533a}{set\+Data}} (int64\+\_\+t \doxymbox{\hyperlink{classgla_1_1_buffer_afc25f58178ff8fd42c3e4aff5688447b}{size}}, const void \texorpdfstring{$\ast$}{*}data, \doxymbox{\hyperlink{namespacegla_ab1275622d3bb4444f2d84c4ddec786d5}{Buffer\+Usage}} usage)
+\begin{DoxyCompactList}\small\item\em Set the data of the \doxylink{classgla_1_1_buffer}{Buffer} with a given usage. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T$>$ }\\void \doxymbox{\hyperlink{classgla_1_1_buffer_a719515fd9a4147ce2afea5066ddcefba}{set\+Data}} (std::\+vector$<$ T $>$ data, \doxymbox{\hyperlink{namespacegla_ab1275622d3bb4444f2d84c4ddec786d5}{Buffer\+Usage}} usage)
+\begin{DoxyCompactList}\small\item\em Set the data of the \doxylink{classgla_1_1_buffer}{Buffer} with a given usage. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{classgla_1_1_buffer_afa948c43bf902ffaa8ec9d02ad5794f7}{set\+Storage}} (int64\+\_\+t \doxymbox{\hyperlink{classgla_1_1_buffer_afc25f58178ff8fd42c3e4aff5688447b}{size}}, const void \texorpdfstring{$\ast$}{*}data, \doxymbox{\hyperlink{namespacegla_a350bd3821a2aee5521c6872af830144d}{Buffer\+Flag}} flags)
+\begin{DoxyCompactList}\small\item\em Set the data of the \doxylink{classgla_1_1_buffer}{Buffer} with given \doxylink{classgla_1_1_buffer}{Buffer} flags. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T$>$ }\\void \doxymbox{\hyperlink{classgla_1_1_buffer_a0b1ae8d7dcc60ef98ce1fb96f8e339ec}{set\+Storage}} (std::\+vector$<$ T $>$ data, \doxymbox{\hyperlink{namespacegla_a350bd3821a2aee5521c6872af830144d}{Buffer\+Flag}} flags)
+\begin{DoxyCompactList}\small\item\em Set the data of the \doxylink{classgla_1_1_buffer}{Buffer} with given \doxylink{classgla_1_1_buffer}{Buffer} flags. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{classgla_1_1_buffer_a16213a1241af774f07b73391b49f04b8}{set\+Sub\+Data}} (int64\+\_\+t offset, int64\+\_\+t \doxymbox{\hyperlink{classgla_1_1_buffer_afc25f58178ff8fd42c3e4aff5688447b}{size}}, const void \texorpdfstring{$\ast$}{*}data)
+\begin{DoxyCompactList}\small\item\em Set a subset of the data in the \doxylink{classgla_1_1_buffer}{Buffer}. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{classgla_1_1_buffer_a712acdeee1724d034fc4330b2b001c27}{get\+Sub\+Data}} (int64\+\_\+t offset, int64\+\_\+t \doxymbox{\hyperlink{classgla_1_1_buffer_afc25f58178ff8fd42c3e4aff5688447b}{size}}, void \texorpdfstring{$\ast$}{*}data)
+\begin{DoxyCompactList}\small\item\em Get a subset of the data in the \doxylink{classgla_1_1_buffer}{Buffer}. \end{DoxyCompactList}\item 
+void \texorpdfstring{$\ast$}{*} \doxymbox{\hyperlink{classgla_1_1_buffer_a3e633b091c59216eebfd7726303d2140}{map}} (int64\+\_\+t offset, int64\+\_\+t length, \doxymbox{\hyperlink{namespacegla_ae8a5a47275ed0181bb48c170596019b6}{Map\+Usage}} access)
+\begin{DoxyCompactList}\small\item\em Map a part of the \doxylink{classgla_1_1_buffer}{Buffer} data to the client\textquotesingle{}s address space. \end{DoxyCompactList}\item 
+void \doxymbox{\hyperlink{classgla_1_1_buffer_a20c9e6fbf590f13b4512b3732934a484}{unmap}} ()
+\begin{DoxyCompactList}\small\item\em Unmaps the \doxylink{classgla_1_1_buffer}{Buffer}. \end{DoxyCompactList}\item 
+\doxymbox{\hyperlink{classgla_1_1_buffer_a2ed17f7bfbe557c7624777585e0cfbe0}{Buffer}} \& \doxymbox{\hyperlink{classgla_1_1_buffer_a074a95f359501da8dab624d69c9a5c4b}{operator=}} (\doxymbox{\hyperlink{classgla_1_1_buffer_a2ed17f7bfbe557c7624777585e0cfbe0}{Buffer}} \&\&other)
+\item 
+\doxymbox{\hyperlink{classgla_1_1_buffer_a2ed17f7bfbe557c7624777585e0cfbe0}{Buffer}} \& \doxymbox{\hyperlink{classgla_1_1_buffer_aca3028600008ae238978727bb495e857}{operator=}} (const \doxymbox{\hyperlink{classgla_1_1_buffer_a2ed17f7bfbe557c7624777585e0cfbe0}{Buffer}} \&other)=delete
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Member Functions inherited from \doxymbox{\hyperlink{classgla_1_1_buffer}{gla::\+\+Buffer}}}
+\begin{DoxyCompactItemize}
+\item 
+void \doxymbox{\hyperlink{classgla_1_1_buffer_ab7cc2bf1c143381c564a2032b6402932}{\+\_\+delete}} ()
+\item 
+void \doxymbox{\hyperlink{classgla_1_1_buffer_afc23ea8b57a6ad8c0d7e6ac855869bf6}{\+\_\+check}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes inherited from \doxymbox{\hyperlink{classgla_1_1_buffer}{gla::\+\+Buffer}}}
+\begin{DoxyCompactItemize}
+\item 
+unsigned int \doxymbox{\hyperlink{classgla_1_1_buffer_adccd83891b7632f2cc3cd318787c840f}{\+\_\+id}} = 0
+\item 
+bool \doxymbox{\hyperlink{classgla_1_1_buffer_a7048d098b5df7a5f61bd47024f35e943}{\+\_\+mapped}} = false
+\item 
+\doxymbox{\hyperlink{namespacegla_ae8a5a47275ed0181bb48c170596019b6}{Map\+Usage}} \doxymbox{\hyperlink{classgla_1_1_buffer_adb760815cff363427258dff2fb53662b}{\+\_\+map\+Usage}} = \doxymbox{\hyperlink{namespacegla_ae8a5a47275ed0181bb48c170596019b6a6adf97f83acf6453d4a6a4b1070f3754}{Map\+Usage::\+\+None}}
+\item 
+\doxymbox{\hyperlink{namespacegla_a350bd3821a2aee5521c6872af830144d}{Buffer\+Flag}} \doxymbox{\hyperlink{classgla_1_1_buffer_a17d674de78544e51b59dd908d59292a2}{\+\_\+flags}} = \doxymbox{\hyperlink{namespacegla_a350bd3821a2aee5521c6872af830144da6adf97f83acf6453d4a6a4b1070f3754}{Buffer\+Flag::\+\+None}}
+\item 
+\doxymbox{\hyperlink{namespacegla_a7442220d0141215247011f052258ecad}{Buffer\+Type}} \doxymbox{\hyperlink{classgla_1_1_buffer_a61ddc1f032f58ea03167b0848f4b40c1}{\+\_\+type}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\doxylink{classgla_1_1_vertex_array}{Vertex\+Array} class to abstract the Open\+GL vertex array. 
+
+\begin{DoxyWarning}{Warning}
+\doxylink{classgla_1_1_program}{Program} must be deconstructed before the Open\+GL context is destroyed. 
+
+This class is not guaranteed to be thread-\/safe.
+\end{DoxyWarning}
+\begin{DoxyNote}{Note}
+Inherits from \doxylink{classgla_1_1_buffer}{gla::\+\+Buffer}. 
+\end{DoxyNote}
+
+
+\label{doc-constructors}
+\Hypertarget{classgla_1_1_vertex_array_doc-constructors}
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classgla_1_1_vertex_array_a1e4c0a15c7b5ecd0c7264076e45cb8e5}\index{gla::VertexArray@{gla::VertexArray}!VertexArray@{VertexArray}}
+\index{VertexArray@{VertexArray}!gla::VertexArray@{gla::VertexArray}}
+\doxysubsubsection{\texorpdfstring{VertexArray()}{VertexArray()}\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily \label{classgla_1_1_vertex_array_a1e4c0a15c7b5ecd0c7264076e45cb8e5} 
+gla::\+\+Vertex\+Array::\+\+Vertex\+Array (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classgla_1_1_vertex_array_a9f08ca7798703a25e70fba6aa4d2674a}\index{gla::VertexArray@{gla::VertexArray}!VertexArray@{VertexArray}}
+\index{VertexArray@{VertexArray}!gla::VertexArray@{gla::VertexArray}}
+\doxysubsubsection{\texorpdfstring{VertexArray()}{VertexArray()}\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily \label{classgla_1_1_vertex_array_a9f08ca7798703a25e70fba6aa4d2674a} 
+gla::\+\+Vertex\+Array::\+\+Vertex\+Array (\begin{DoxyParamCaption}\item[{Vertex\+Array \&\&}]{other}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classgla_1_1_vertex_array_aac73bef5f0ceb178f1885035b075a1e5}\index{gla::VertexArray@{gla::VertexArray}!VertexArray@{VertexArray}}
+\index{VertexArray@{VertexArray}!gla::VertexArray@{gla::VertexArray}}
+\doxysubsubsection{\texorpdfstring{VertexArray()}{VertexArray()}\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily \label{classgla_1_1_vertex_array_aac73bef5f0ceb178f1885035b075a1e5} 
+gla::\+\+Vertex\+Array::\+\+Vertex\+Array (\begin{DoxyParamCaption}\item[{const Vertex\+Array \&}]{other}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [delete]}}
+
+
+
+\label{doc-func-members}
+\Hypertarget{classgla_1_1_vertex_array_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classgla_1_1_vertex_array_acddb92f8e3f654648d43b95db04621d5}\index{gla::VertexArray@{gla::VertexArray}!operator=@{operator=}}
+\index{operator=@{operator=}!gla::VertexArray@{gla::VertexArray}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \label{classgla_1_1_vertex_array_acddb92f8e3f654648d43b95db04621d5} 
+\doxymbox{\hyperlink{classgla_1_1_vertex_array_a1e4c0a15c7b5ecd0c7264076e45cb8e5}{Vertex\+Array}} \& gla::\+\+Vertex\+Array::\+operator= (\begin{DoxyParamCaption}\item[{const \doxymbox{\hyperlink{classgla_1_1_vertex_array_a1e4c0a15c7b5ecd0c7264076e45cb8e5}{Vertex\+Array}} \&}]{other}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [delete]}}
+
+\Hypertarget{classgla_1_1_vertex_array_a6782c9ede6dae4e5d41743b17dfcc7cc}\index{gla::VertexArray@{gla::VertexArray}!operator=@{operator=}}
+\index{operator=@{operator=}!gla::VertexArray@{gla::VertexArray}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \label{classgla_1_1_vertex_array_a6782c9ede6dae4e5d41743b17dfcc7cc} 
+\doxymbox{\hyperlink{classgla_1_1_vertex_array_a1e4c0a15c7b5ecd0c7264076e45cb8e5}{Vertex\+Array}} \& gla::\+\+Vertex\+Array::\+operator= (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{classgla_1_1_vertex_array_a1e4c0a15c7b5ecd0c7264076e45cb8e5}{Vertex\+Array}} \&\&}]{other}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classgla_1_1_vertex_array_ab379ac7b11bd7bd8917ad21a16c49e25}\index{gla::VertexArray@{gla::VertexArray}!setAttributes@{setAttributes}}
+\index{setAttributes@{setAttributes}!gla::VertexArray@{gla::VertexArray}}
+\doxysubsubsection{\texorpdfstring{setAttributes()}{setAttributes()}}
+{\footnotesize\ttfamily \label{classgla_1_1_vertex_array_ab379ac7b11bd7bd8917ad21a16c49e25} 
+void gla::\+\+Vertex\+Array::\+set\+Attributes (\begin{DoxyParamCaption}\item[{const std::\+vector$<$ \doxymbox{\hyperlink{structgla_1_1_vertex_attribute}{Vertex\+Attribute}} $>$ \&}]{attribs}{, }\item[{int}]{stride}{}\end{DoxyParamCaption})}
+
+
+
+Set the Attributes for a vertex array. 
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em std::\+invalid\+\_\+argument} & If stride is less than or equal to 0 \\
+\hline
+{\em std::\+runtime\+\_\+error} & If it could not query GL\+\_\+\+MAX\+\_\+\+VERTEX\+\_\+\+ATTRIBS \\
+\hline
+{\em std::\+runtime\+\_\+error} & If the current GPU doesn\textquotesingle{}t support the given amount of \doxylink{structgla_1_1_vertex_attribute}{Vertex\+Attribute} (at least 16 are guaranteed) \\
+\hline
+{\em std::\+invalid\+\_\+argument} & If the any given index goes above the amount of Vertex\+Attributes supported by the GPU (at least 16 are guaranteed) \\
+\hline
+{\em std::\+invalid\+\_\+argument} & If any \doxylink{structgla_1_1_vertex_attribute}{Vertex\+Attribute} requests less than 1 or more than 4 num\+Components \\
+\hline
+{\em std::\+invalid\+\_\+argument} & If any of the given combinations of type and interpretation is invalid \\
+\hline
+{\em std::\+invalid\+\_\+argument} & If the given \doxylink{namespacegla_a2a352da354cf3e19ca3d50d32811d801}{Vertex\+Attrib\+Type} in any \doxylink{structgla_1_1_vertex_attribute}{Vertex\+Attribute} is invalid\\
+\hline
+{\em std::\+invalid\+\_\+argument} & If the given Vertex\+Attributes extend over the given stride (only when DEBUG\+\_\+\+MODE is defined) \\
+\hline
+{\em std::\+invalid\+\_\+argument} & If the given Vertex\+Attributes overlap (only when DEBUG\+\_\+\+MODE is defined)\\
+\hline
+\end{DoxyExceptions}
+\begin{DoxyNote}{Note}
+Calling this function binds this \doxylink{classgla_1_1_buffer}{Buffer}.
+\end{DoxyNote}
+
+\begin{DoxyParams}{Parameters}
+{\em attribs} & Vector of Attributes to assign to the \doxylink{classgla_1_1_vertex_array}{Vertex\+Array} \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+inc/\+\+GLA/\+\doxymbox{\hyperlink{vertex_array_8h}{vertex\+Array.\+h}}\end{DoxyCompactItemize}

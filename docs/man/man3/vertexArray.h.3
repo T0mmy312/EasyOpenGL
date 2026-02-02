@@ -1,0 +1,65 @@
+.TH "inc/GLA/vertexArray.h" 3 "OpenGL Abstraction" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+inc/GLA/vertexArray.h
+.SH SYNOPSIS
+.br
+.PP
+\fR#include <vector>\fP
+.br
+\fR#include <stdexcept>\fP
+.br
+\fR#include <GLA/buffer\&.h>\fP
+.br
+\fR#include <GLA/debug\&.h>\fP
+.br
+
+.SS "Data Structures"
+
+.in +1c
+.ti -1c
+.RI "struct \fBgla::VertexAttribute\fP"
+.br
+.RI "Defines a vertex attribute for the \fBgla::VertexArray\fP\&. "
+.ti -1c
+.RI "class \fBgla::VertexArray\fP"
+.br
+.RI "\fBVertexArray\fP class to abstract the OpenGL vertex array\&. "
+.in -1c
+.SS "Namespaces"
+
+.in +1c
+.ti -1c
+.RI "namespace \fBgla\fP"
+.br
+.in -1c
+.SS "Enumerations"
+
+.in +1c
+.ti -1c
+.RI "enum class \fBgla::VertexAttribType\fP { \fBgla::Byte\fP, \fBgla::UnsignedByte\fP, \fBgla::Short\fP, \fBgla::UnsignedShort\fP, \fBgla::Int\fP, \fBgla::UnsignedInt\fP, \fBgla::HalfFloat\fP, \fBgla::Float\fP, \fBgla::Double\fP, \fBgla::Fixed\fP }"
+.br
+.ti -1c
+.RI "enum class \fBgla::VertexAttribInterp\fP { \fBgla::Float\fP, \fBgla::Integer\fP }"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "unsigned int \fBgla::toGLenum\fP (\fBVertexAttribType\fP type)"
+.br
+.RI "Converts a \fBVertexAttribType\fP into a GLenum\&. "
+.ti -1c
+.RI "bool \fBgla::validateTypeInterpretation\fP (\fBVertexAttribType\fP type, \fBVertexAttribInterp\fP interp, std::string &error)"
+.br
+.RI "Checks if the type and interpretation combination is valid\&. "
+.ti -1c
+.RI "int \fBgla::typeToBytes\fP (\fBVertexAttribType\fP type)"
+.br
+.RI "Gets the size of the given type in bytes\&. "
+.in -1c
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for OpenGL Abstraction from the source code\&.

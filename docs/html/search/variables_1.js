@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['arraysize_0',['arraySize',['../d6/de4/structgla_1_1__uniform_data.html#aba3fa7cc48d9a66e0d289af5d83e5b67',1,'gla::_uniformData']]]
+  ['arraysize_0',['arraySize',['../d2/d48/structgla_1_1_uniform_data.html#aa3604849512c3df2718f79881cedf492',1,'gla::UniformData']]]
 ];

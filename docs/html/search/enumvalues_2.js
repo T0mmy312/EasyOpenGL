@@ -1,9 +1,8 @@
 var searchData=
 [
-  ['dispatchindirect_0',['DispatchIndirect',['../d7/df0/namespacegla.html#a7442220d0141215247011f052258ecada8b76d6291a8094d1fc459a056780dd54',1,'gla']]],
-  ['drawindirect_1',['DrawIndirect',['../d7/df0/namespacegla.html#a7442220d0141215247011f052258ecada95b0e6b8c7aa6af632295afda7a926bc',1,'gla']]],
-  ['dynamiccopy_2',['DynamicCopy',['../d7/df0/namespacegla.html#ab1275622d3bb4444f2d84c4ddec786d5ac572ac15b4bcbc9e975b79480e253c14',1,'gla']]],
-  ['dynamicdraw_3',['DynamicDraw',['../d7/df0/namespacegla.html#ab1275622d3bb4444f2d84c4ddec786d5a07988dce2d161630856fb73bc06682c0',1,'gla']]],
-  ['dynamicread_4',['DynamicRead',['../d7/df0/namespacegla.html#ab1275622d3bb4444f2d84c4ddec786d5a2ca7cf82bf5d2f11738ae1a371d5ae32',1,'gla']]],
-  ['dynamicstorage_5',['DynamicStorage',['../d7/df0/namespacegla.html#a350bd3821a2aee5521c6872af830144da4a7fd22ec9dd772a4a534f5259e133f2',1,'gla']]]
+  ['clientstorage_0',['ClientStorage',['../d7/df0/namespacegla.html#a350bd3821a2aee5521c6872af830144da82f574c954f5e6699be84b6b1d03a17f',1,'gla']]],
+  ['coherent_1',['Coherent',['../d7/df0/namespacegla.html#ae8a5a47275ed0181bb48c170596019b6a65d2523d959087dc90e3070bf940f94c',1,'gla']]],
+  ['compute_2',['Compute',['../d7/df0/namespacegla.html#a0b120a09cab1e31bc4b42b97e9c3c49eaa623a8d0366bf079411aa30be45b2d10',1,'gla']]],
+  ['copyread_3',['CopyRead',['../d7/df0/namespacegla.html#a7442220d0141215247011f052258ecada3a23dd1e2979213e268b02eca78f1093',1,'gla']]],
+  ['copywrite_4',['CopyWrite',['../d7/df0/namespacegla.html#a7442220d0141215247011f052258ecadaac0d23bb3afb6d4ffb725d00de2b3ffb',1,'gla']]]
 ];

@@ -9,7 +9,7 @@ class \doxymbox{\hyperlink{classgla_1_1_program_link_error}{Program\+Link\+Error
 \begin{DoxyCompactList}\small\item\em Exception thrown when \doxylink{classgla_1_1_program}{Program} linking fails. \end{DoxyCompactList}\item 
 class \doxymbox{\hyperlink{classgla_1_1_program_validate_error}{Program\+Validate\+Error}}
 \begin{DoxyCompactList}\small\item\em Exception thrown when \doxylink{classgla_1_1_program}{Program} validation fails, mainly used in debug builds. \end{DoxyCompactList}\item 
-struct \doxymbox{\hyperlink{structgla_1_1__uniform_data}{\+\_\+uniform\+Data}}
+struct \doxymbox{\hyperlink{structgla_1_1_uniform_data}{Uniform\+Data}}
 \item 
 class \doxymbox{\hyperlink{classgla_1_1_program}{Program}}
 \begin{DoxyCompactList}\small\item\em \doxylink{classgla_1_1_program}{Program} class to abstract Open\+GL \doxylink{classgla_1_1_shader}{Shader} Programs. \end{DoxyCompactList}\item 
@@ -17,15 +17,12 @@ class \doxymbox{\hyperlink{classgla_1_1_shader_compile_error}{Shader\+Compile\+E
 \begin{DoxyCompactList}\small\item\em Exception thrown when \doxylink{classgla_1_1_shader}{Shader} compilation fails. \end{DoxyCompactList}\item 
 class \doxymbox{\hyperlink{classgla_1_1_shader}{Shader}}
 \begin{DoxyCompactList}\small\item\em \doxylink{classgla_1_1_shader}{Shader} class to abstract Open\+GL Shaders. \end{DoxyCompactList}\item 
-class \doxymbox{\hyperlink{classgla_1_1_vertex_buffer}{Vertex\+Buffer}}
-\item 
+struct \doxymbox{\hyperlink{structgla_1_1_vertex_attribute}{Vertex\+Attribute}}
+\begin{DoxyCompactList}\small\item\em Defines a vertex attribute for the \doxylink{classgla_1_1_vertex_array}{gla::\+\+Vertex\+Array}. \end{DoxyCompactList}\item 
+class \doxymbox{\hyperlink{classgla_1_1_vertex_array}{Vertex\+Array}}
+\begin{DoxyCompactList}\small\item\em \doxylink{classgla_1_1_vertex_array}{Vertex\+Array} class to abstract the Open\+GL vertex array. \end{DoxyCompactList}\item 
 class \doxymbox{\hyperlink{classgla_1_1_window_context}{Window\+Context}}
 \begin{DoxyCompactList}\small\item\em An abstract class to contain an window based application. \end{DoxyCompactList}\end{DoxyCompactItemize}
-\doxysubsubsection*{Typedefs}
-\begin{DoxyCompactItemize}
-\item 
-typedef struct \doxymbox{\hyperlink{structgla_1_1__uniform_data}{gla::\+\+\_\+uniform\+Data}} \doxymbox{\hyperlink{namespacegla_acf6bf243ea77f0ae5acbb6fed2f7317e}{Uniform\+Data}}
-\end{DoxyCompactItemize}
 \doxysubsubsection*{Enumerations}
 \begin{DoxyCompactItemize}
 \item 
@@ -97,7 +94,26 @@ enum class \doxymbox{\hyperlink{namespacegla_a0b120a09cab1e31bc4b42b97e9c3c49e}{
 \doxymbox{\hyperlink{namespacegla_a0b120a09cab1e31bc4b42b97e9c3c49ea6c2ab859b54837522f9f738ef3bf846d}{Tess\+Control}}
 , \doxymbox{\hyperlink{namespacegla_a0b120a09cab1e31bc4b42b97e9c3c49eaa623a8d0366bf079411aa30be45b2d10}{Compute}}
  \}
-\begin{DoxyCompactList}\small\item\em \doxylink{namespacegla_a0b120a09cab1e31bc4b42b97e9c3c49e}{Shader\+Type} enum to indicate usage. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em \doxylink{namespacegla_a0b120a09cab1e31bc4b42b97e9c3c49e}{Shader\+Type} enum to indicate usage. \end{DoxyCompactList}\item 
+enum class \doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801}{Vertex\+Attrib\+Type}} \{ \newline
+\doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801aa245c3230debe5c956484ecc6fa93877}{Byte}}
+, \doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801a8f0fb883eb5a52838534191513e365a2}{Unsigned\+Byte}}
+, \doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801a30bb747c98bccdd11b3f89e644c4d0ad}{Short}}
+, \doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801aeb51124277f3ec904a9af74d5de34e7b}{Unsigned\+Short}}
+, \newline
+\doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801a1686a6c336b71b36d77354cea19a8b52}{Int}}
+, \doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801ac93cff91b6b9a57fa32bbe1863150070}{Unsigned\+Int}}
+, \doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801ad35523d81610cee8b87cdac1853ad51f}{Half\+Float}}
+, \doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801a22ae0e2b89e5e3d477f988cc36d3272b}{Float}}
+, \newline
+\doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801ad909d38d705ce75386dd86e611a82f5b}{Double}}
+, \doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801a4457d440870ad6d42bab9082d9bf9b61}{Fixed}}
+ \}
+\item 
+enum class \doxymbox{\hyperlink{namespacegla_a34151dddf27744725eaf153f30a5c7a6}{Vertex\+Attrib\+Interp}} \{ \doxymbox{\hyperlink{namespacegla_a34151dddf27744725eaf153f30a5c7a6a22ae0e2b89e5e3d477f988cc36d3272b}{Float}}
+, \doxymbox{\hyperlink{namespacegla_a34151dddf27744725eaf153f30a5c7a6aa0faef0851b4294c06f2b94bb1cb2044}{Integer}}
+ \}
+\end{DoxyCompactItemize}
 \doxysubsubsection*{Functions}
 \begin{DoxyCompactItemize}
 \item 
@@ -133,23 +149,18 @@ constexpr std::\+string \doxymbox{\hyperlink{namespacegla_a0248dee42aae373cdcff4
 \begin{DoxyCompactList}\small\item\em Converts the \doxylink{namespacegla_a0b120a09cab1e31bc4b42b97e9c3c49e}{Shader\+Type} enum into a std::\+string. \end{DoxyCompactList}\item 
 unsigned int \doxymbox{\hyperlink{namespacegla_a9a20bfdfb244ff5c4c81780624aaf724}{to\+GLenum}} (\doxymbox{\hyperlink{namespacegla_a0b120a09cab1e31bc4b42b97e9c3c49e}{Shader\+Type}} type)
 \begin{DoxyCompactList}\small\item\em Converts the \doxylink{namespacegla_a0b120a09cab1e31bc4b42b97e9c3c49e}{Shader\+Type} enum into an Open\+GL enum. \end{DoxyCompactList}\item 
+unsigned int \doxymbox{\hyperlink{namespacegla_a34872b61a0bfbdab3b2b6d32f1e071fc}{to\+GLenum}} (\doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801}{Vertex\+Attrib\+Type}} type)
+\begin{DoxyCompactList}\small\item\em Converts a \doxylink{namespacegla_a2a352da354cf3e19ca3d50d32811d801}{Vertex\+Attrib\+Type} into a GLenum. \end{DoxyCompactList}\item 
+bool \doxymbox{\hyperlink{namespacegla_a04224fa648564f5d2de7fb96b722c068}{validate\+Type\+Interpretation}} (\doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801}{Vertex\+Attrib\+Type}} type, \doxymbox{\hyperlink{namespacegla_a34151dddf27744725eaf153f30a5c7a6}{Vertex\+Attrib\+Interp}} interp, std::\+string \&error)
+\begin{DoxyCompactList}\small\item\em Checks if the type and interpretation combination is valid. \end{DoxyCompactList}\item 
+int \doxymbox{\hyperlink{namespacegla_a25c53cb145acc908db39bbb79f634dc0}{type\+To\+Bytes}} (\doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801}{Vertex\+Attrib\+Type}} type)
+\begin{DoxyCompactList}\small\item\em Gets the size of the given type in bytes. \end{DoxyCompactList}\item 
 bool \doxymbox{\hyperlink{namespacegla_a3bcbafb907ed85c4d0a347a33d2ef1e3}{init\+GLFW}} ()
 \begin{DoxyCompactList}\small\item\em Initialize GLFW. \end{DoxyCompactList}\item 
 void \doxymbox{\hyperlink{namespacegla_a7170a7e3c268553105f21d787e411004}{terminate\+GLFW}} ()
 \begin{DoxyCompactList}\small\item\em Terminates GLFW. \end{DoxyCompactList}\item 
 void \doxymbox{\hyperlink{namespacegla_adfccd667467a1a415a56f83717b3e760}{poll\+Events}} ()
 \begin{DoxyCompactList}\small\item\em Polls GLFW events. \end{DoxyCompactList}\end{DoxyCompactItemize}
-
-
-\label{doc-typedef-members}
-\Hypertarget{namespacegla_doc-typedef-members}
-\doxysubsection{Typedef Documentation}
-\Hypertarget{namespacegla_acf6bf243ea77f0ae5acbb6fed2f7317e}\index{gla@{gla}!UniformData@{UniformData}}
-\index{UniformData@{UniformData}!gla@{gla}}
-\doxysubsubsection{\texorpdfstring{UniformData}{UniformData}}
-{\footnotesize\ttfamily \label{namespacegla_acf6bf243ea77f0ae5acbb6fed2f7317e} 
-typedef struct \doxymbox{\hyperlink{structgla_1_1__uniform_data}{gla::\+\+\_\+uniform\+Data}} \doxymbox{\hyperlink{namespacegla_acf6bf243ea77f0ae5acbb6fed2f7317e}{gla::\+\+Uniform\+Data}}}
-
 
 
 \label{doc-enum-members}
@@ -519,6 +530,94 @@ Compute&A \doxylink{classgla_1_1_shader}{Shader} intended to run on the programm
 \hline
 
 \end{DoxyEnumFields}
+\Hypertarget{namespacegla_a34151dddf27744725eaf153f30a5c7a6}\index{gla@{gla}!VertexAttribInterp@{VertexAttribInterp}}
+\index{VertexAttribInterp@{VertexAttribInterp}!gla@{gla}}
+\doxysubsubsection{\texorpdfstring{VertexAttribInterp}{VertexAttribInterp}}
+{\footnotesize\ttfamily \label{namespacegla_a34151dddf27744725eaf153f30a5c7a6} 
+enum class \doxymbox{\hyperlink{namespacegla_a34151dddf27744725eaf153f30a5c7a6}{gla::\+\+Vertex\+Attrib\+Interp}}\hspace{0.3cm}{\ttfamily [strong]}}
+
+\begin{DoxyEnumFields}[2]{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Float@{Float}!gla@{gla}}
+\index{gla@{gla}!Float@{Float}}
+}\Hypertarget{namespacegla_a34151dddf27744725eaf153f30a5c7a6a22ae0e2b89e5e3d477f988cc36d3272b}\label{namespacegla_a34151dddf27744725eaf153f30a5c7a6a22ae0e2b89e5e3d477f988cc36d3272b} 
+Float&Interprets the vertex attribute as a float. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Integer@{Integer}!gla@{gla}}
+\index{gla@{gla}!Integer@{Integer}}
+}\Hypertarget{namespacegla_a34151dddf27744725eaf153f30a5c7a6aa0faef0851b4294c06f2b94bb1cb2044}\label{namespacegla_a34151dddf27744725eaf153f30a5c7a6aa0faef0851b4294c06f2b94bb1cb2044} 
+Integer&Interprets the vertex attribute as an interger. \\
+\hline
+
+\end{DoxyEnumFields}
+\Hypertarget{namespacegla_a2a352da354cf3e19ca3d50d32811d801}\index{gla@{gla}!VertexAttribType@{VertexAttribType}}
+\index{VertexAttribType@{VertexAttribType}!gla@{gla}}
+\doxysubsubsection{\texorpdfstring{VertexAttribType}{VertexAttribType}}
+{\footnotesize\ttfamily \label{namespacegla_a2a352da354cf3e19ca3d50d32811d801} 
+enum class \doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801}{gla::\+\+Vertex\+Attrib\+Type}}\hspace{0.3cm}{\ttfamily [strong]}}
+
+\begin{DoxyEnumFields}[2]{Enumerator}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Byte@{Byte}!gla@{gla}}
+\index{gla@{gla}!Byte@{Byte}}
+}\Hypertarget{namespacegla_a2a352da354cf3e19ca3d50d32811d801aa245c3230debe5c956484ecc6fa93877}\label{namespacegla_a2a352da354cf3e19ca3d50d32811d801aa245c3230debe5c956484ecc6fa93877} 
+Byte&GL\+\_\+\+BYTE. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{UnsignedByte@{UnsignedByte}!gla@{gla}}
+\index{gla@{gla}!UnsignedByte@{UnsignedByte}}
+}\Hypertarget{namespacegla_a2a352da354cf3e19ca3d50d32811d801a8f0fb883eb5a52838534191513e365a2}\label{namespacegla_a2a352da354cf3e19ca3d50d32811d801a8f0fb883eb5a52838534191513e365a2} 
+Unsigned\+Byte&GL\+\_\+\+UNSIGNED\+\_\+\+BYTE. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Short@{Short}!gla@{gla}}
+\index{gla@{gla}!Short@{Short}}
+}\Hypertarget{namespacegla_a2a352da354cf3e19ca3d50d32811d801a30bb747c98bccdd11b3f89e644c4d0ad}\label{namespacegla_a2a352da354cf3e19ca3d50d32811d801a30bb747c98bccdd11b3f89e644c4d0ad} 
+Short&GL\+\_\+\+SHORT. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{UnsignedShort@{UnsignedShort}!gla@{gla}}
+\index{gla@{gla}!UnsignedShort@{UnsignedShort}}
+}\Hypertarget{namespacegla_a2a352da354cf3e19ca3d50d32811d801aeb51124277f3ec904a9af74d5de34e7b}\label{namespacegla_a2a352da354cf3e19ca3d50d32811d801aeb51124277f3ec904a9af74d5de34e7b} 
+Unsigned\+Short&GL\+\_\+\+UNSIGNED\+\_\+\+SHORT. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Int@{Int}!gla@{gla}}
+\index{gla@{gla}!Int@{Int}}
+}\Hypertarget{namespacegla_a2a352da354cf3e19ca3d50d32811d801a1686a6c336b71b36d77354cea19a8b52}\label{namespacegla_a2a352da354cf3e19ca3d50d32811d801a1686a6c336b71b36d77354cea19a8b52} 
+Int&GL\+\_\+\+INT. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{UnsignedInt@{UnsignedInt}!gla@{gla}}
+\index{gla@{gla}!UnsignedInt@{UnsignedInt}}
+}\Hypertarget{namespacegla_a2a352da354cf3e19ca3d50d32811d801ac93cff91b6b9a57fa32bbe1863150070}\label{namespacegla_a2a352da354cf3e19ca3d50d32811d801ac93cff91b6b9a57fa32bbe1863150070} 
+Unsigned\+Int&GL\+\_\+\+UNSIGNED\+\_\+\+INT. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{HalfFloat@{HalfFloat}!gla@{gla}}
+\index{gla@{gla}!HalfFloat@{HalfFloat}}
+}\Hypertarget{namespacegla_a2a352da354cf3e19ca3d50d32811d801ad35523d81610cee8b87cdac1853ad51f}\label{namespacegla_a2a352da354cf3e19ca3d50d32811d801ad35523d81610cee8b87cdac1853ad51f} 
+Half\+Float&GL\+\_\+\+HALF\+\_\+\+FLOAT. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Float@{Float}!gla@{gla}}
+\index{gla@{gla}!Float@{Float}}
+}\Hypertarget{namespacegla_a2a352da354cf3e19ca3d50d32811d801a22ae0e2b89e5e3d477f988cc36d3272b}\label{namespacegla_a2a352da354cf3e19ca3d50d32811d801a22ae0e2b89e5e3d477f988cc36d3272b} 
+Float&GL\+\_\+\+FLOAT. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Double@{Double}!gla@{gla}}
+\index{gla@{gla}!Double@{Double}}
+}\Hypertarget{namespacegla_a2a352da354cf3e19ca3d50d32811d801ad909d38d705ce75386dd86e611a82f5b}\label{namespacegla_a2a352da354cf3e19ca3d50d32811d801ad909d38d705ce75386dd86e611a82f5b} 
+Double&GL\+\_\+\+DOUBLE. \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Fixed@{Fixed}!gla@{gla}}
+\index{gla@{gla}!Fixed@{Fixed}}
+}\Hypertarget{namespacegla_a2a352da354cf3e19ca3d50d32811d801a4457d440870ad6d42bab9082d9bf9b61}\label{namespacegla_a2a352da354cf3e19ca3d50d32811d801a4457d440870ad6d42bab9082d9bf9b61} 
+Fixed&GL\+\_\+\+FIXED. \\
+\hline
+
+\end{DoxyEnumFields}
 
 
 \label{doc-func-members}
@@ -671,7 +770,7 @@ Terminates GLFW.
 \end{DoxyNote}
 \Hypertarget{namespacegla_ad8b71108c99800624cd9491771c14f6f}\index{gla@{gla}!toGLenum@{toGLenum}}
 \index{toGLenum@{toGLenum}!gla@{gla}}
-\doxysubsubsection{\texorpdfstring{toGLenum()}{toGLenum()}\hspace{0.1cm}{\footnotesize\ttfamily [1/5]}}
+\doxysubsubsection{\texorpdfstring{toGLenum()}{toGLenum()}\hspace{0.1cm}{\footnotesize\ttfamily [1/6]}}
 {\footnotesize\ttfamily \label{namespacegla_ad8b71108c99800624cd9491771c14f6f} 
 unsigned int gla::\+to\+GLenum (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespacegla_a350bd3821a2aee5521c6872af830144d}{Buffer\+Flag}}}]{flag}{}\end{DoxyParamCaption})}
 
@@ -681,7 +780,7 @@ Converts a \doxylink{namespacegla_a350bd3821a2aee5521c6872af830144d}{Buffer\+Fla
 
 \Hypertarget{namespacegla_acf5a79b8cdeed0b99411c2712fc19983}\index{gla@{gla}!toGLenum@{toGLenum}}
 \index{toGLenum@{toGLenum}!gla@{gla}}
-\doxysubsubsection{\texorpdfstring{toGLenum()}{toGLenum()}\hspace{0.1cm}{\footnotesize\ttfamily [2/5]}}
+\doxysubsubsection{\texorpdfstring{toGLenum()}{toGLenum()}\hspace{0.1cm}{\footnotesize\ttfamily [2/6]}}
 {\footnotesize\ttfamily \label{namespacegla_acf5a79b8cdeed0b99411c2712fc19983} 
 unsigned int gla::\+to\+GLenum (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespacegla_a7442220d0141215247011f052258ecad}{Buffer\+Type}}}]{type}{}\end{DoxyParamCaption})}
 
@@ -696,7 +795,7 @@ Converts a \doxylink{namespacegla_a7442220d0141215247011f052258ecad}{Buffer\+Typ
 \end{DoxyExceptions}
 \Hypertarget{namespacegla_a4b4bacba96f547896387fbba6d5898e3}\index{gla@{gla}!toGLenum@{toGLenum}}
 \index{toGLenum@{toGLenum}!gla@{gla}}
-\doxysubsubsection{\texorpdfstring{toGLenum()}{toGLenum()}\hspace{0.1cm}{\footnotesize\ttfamily [3/5]}}
+\doxysubsubsection{\texorpdfstring{toGLenum()}{toGLenum()}\hspace{0.1cm}{\footnotesize\ttfamily [3/6]}}
 {\footnotesize\ttfamily \label{namespacegla_a4b4bacba96f547896387fbba6d5898e3} 
 unsigned int gla::\+to\+GLenum (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespacegla_ab1275622d3bb4444f2d84c4ddec786d5}{Buffer\+Usage}}}]{usage}{}\end{DoxyParamCaption})}
 
@@ -711,7 +810,7 @@ Converts a \doxylink{namespacegla_ab1275622d3bb4444f2d84c4ddec786d5}{Buffer\+Usa
 \end{DoxyExceptions}
 \Hypertarget{namespacegla_a6c392caaf616a9937dba0c8dd8f9b768}\index{gla@{gla}!toGLenum@{toGLenum}}
 \index{toGLenum@{toGLenum}!gla@{gla}}
-\doxysubsubsection{\texorpdfstring{toGLenum()}{toGLenum()}\hspace{0.1cm}{\footnotesize\ttfamily [4/5]}}
+\doxysubsubsection{\texorpdfstring{toGLenum()}{toGLenum()}\hspace{0.1cm}{\footnotesize\ttfamily [4/6]}}
 {\footnotesize\ttfamily \label{namespacegla_a6c392caaf616a9937dba0c8dd8f9b768} 
 unsigned int gla::\+to\+GLenum (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespacegla_ae8a5a47275ed0181bb48c170596019b6}{Map\+Usage}}}]{usage}{}\end{DoxyParamCaption})}
 
@@ -721,7 +820,7 @@ Converts a \doxylink{namespacegla_ae8a5a47275ed0181bb48c170596019b6}{Map\+Usage}
 
 \Hypertarget{namespacegla_a9a20bfdfb244ff5c4c81780624aaf724}\index{gla@{gla}!toGLenum@{toGLenum}}
 \index{toGLenum@{toGLenum}!gla@{gla}}
-\doxysubsubsection{\texorpdfstring{toGLenum()}{toGLenum()}\hspace{0.1cm}{\footnotesize\ttfamily [5/5]}}
+\doxysubsubsection{\texorpdfstring{toGLenum()}{toGLenum()}\hspace{0.1cm}{\footnotesize\ttfamily [5/6]}}
 {\footnotesize\ttfamily \label{namespacegla_a9a20bfdfb244ff5c4c81780624aaf724} 
 unsigned int gla::\+to\+GLenum (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespacegla_a0b120a09cab1e31bc4b42b97e9c3c49e}{Shader\+Type}}}]{type}{}\end{DoxyParamCaption})}
 
@@ -742,6 +841,36 @@ Converts the \doxylink{namespacegla_a0b120a09cab1e31bc4b42b97e9c3c49e}{Shader\+T
 \begin{DoxyReturn}{Returns}
 The resulting Open\+GL enum. 
 \end{DoxyReturn}
+\Hypertarget{namespacegla_a34872b61a0bfbdab3b2b6d32f1e071fc}\index{gla@{gla}!toGLenum@{toGLenum}}
+\index{toGLenum@{toGLenum}!gla@{gla}}
+\doxysubsubsection{\texorpdfstring{toGLenum()}{toGLenum()}\hspace{0.1cm}{\footnotesize\ttfamily [6/6]}}
+{\footnotesize\ttfamily \label{namespacegla_a34872b61a0bfbdab3b2b6d32f1e071fc} 
+unsigned int gla::\+to\+GLenum (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801}{Vertex\+Attrib\+Type}}}]{type}{}\end{DoxyParamCaption})}
+
+
+
+Converts a \doxylink{namespacegla_a2a352da354cf3e19ca3d50d32811d801}{Vertex\+Attrib\+Type} into a GLenum. 
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em std::\+invalid\+\_\+argument} & If the given \doxylink{namespacegla_a2a352da354cf3e19ca3d50d32811d801}{Vertex\+Attrib\+Type} is invalid \\
+\hline
+\end{DoxyExceptions}
+\Hypertarget{namespacegla_a25c53cb145acc908db39bbb79f634dc0}\index{gla@{gla}!typeToBytes@{typeToBytes}}
+\index{typeToBytes@{typeToBytes}!gla@{gla}}
+\doxysubsubsection{\texorpdfstring{typeToBytes()}{typeToBytes()}}
+{\footnotesize\ttfamily \label{namespacegla_a25c53cb145acc908db39bbb79f634dc0} 
+int gla::\+type\+To\+Bytes (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801}{Vertex\+Attrib\+Type}}}]{type}{}\end{DoxyParamCaption})}
+
+
+
+Gets the size of the given type in bytes. 
+
+
+\begin{DoxyExceptions}{Exceptions}
+{\em std::\+invalid\+\_\+argument} & If the given \doxylink{namespacegla_a2a352da354cf3e19ca3d50d32811d801}{Vertex\+Attrib\+Type} is invalid \\
+\hline
+\end{DoxyExceptions}
 \Hypertarget{namespacegla_af502fa0e70fae632dc81f756820e783e}\index{gla@{gla}!validateBufferFlag@{validateBufferFlag}}
 \index{validateBufferFlag@{validateBufferFlag}!gla@{gla}}
 \doxysubsubsection{\texorpdfstring{validateBufferFlag()}{validateBufferFlag()}}
@@ -781,4 +910,22 @@ Checks if the given \doxylink{namespacegla_ae8a5a47275ed0181bb48c170596019b6}{Ma
 \end{DoxyParams}
 \begin{DoxyReturn}{Returns}
 true if the \doxylink{namespacegla_ae8a5a47275ed0181bb48c170596019b6}{Map\+Usage} combination is valid 
+\end{DoxyReturn}
+\Hypertarget{namespacegla_a04224fa648564f5d2de7fb96b722c068}\index{gla@{gla}!validateTypeInterpretation@{validateTypeInterpretation}}
+\index{validateTypeInterpretation@{validateTypeInterpretation}!gla@{gla}}
+\doxysubsubsection{\texorpdfstring{validateTypeInterpretation()}{validateTypeInterpretation()}}
+{\footnotesize\ttfamily \label{namespacegla_a04224fa648564f5d2de7fb96b722c068} 
+bool gla::\+validate\+Type\+Interpretation (\begin{DoxyParamCaption}\item[{\doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801}{Vertex\+Attrib\+Type}}}]{type}{, }\item[{\doxymbox{\hyperlink{namespacegla_a34151dddf27744725eaf153f30a5c7a6}{Vertex\+Attrib\+Interp}}}]{interp}{, }\item[{std::\+string \&}]{error}{}\end{DoxyParamCaption})}
+
+
+
+Checks if the type and interpretation combination is valid. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em error} & The error string output\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if it is valid, false otherwise 
 \end{DoxyReturn}

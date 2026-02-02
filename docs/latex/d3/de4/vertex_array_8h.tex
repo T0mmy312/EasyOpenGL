@@ -1,0 +1,49 @@
+\doxysection{inc/\+\+GLA/\+vertex\+Array.h File Reference}
+\hypertarget{vertex_array_8h}{}\label{vertex_array_8h}\index{inc/GLA/vertexArray.h@{inc/GLA/vertexArray.h}}
+{\ttfamily \+\#include $<$vector$>$}\newline
+{\ttfamily \+\#include $<$stdexcept$>$}\newline
+{\ttfamily \+\#include $<$GLA/\+buffer.\+h$>$}\newline
+{\ttfamily \+\#include $<$GLA/\+debug.\+h$>$}\newline
+\doxysubsubsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \doxymbox{\hyperlink{structgla_1_1_vertex_attribute}{gla::\+\+Vertex\+Attribute}}
+\begin{DoxyCompactList}\small\item\em Defines a vertex attribute for the \doxylink{classgla_1_1_vertex_array}{gla::\+\+Vertex\+Array}. \end{DoxyCompactList}\item 
+class \doxymbox{\hyperlink{classgla_1_1_vertex_array}{gla::\+\+Vertex\+Array}}
+\begin{DoxyCompactList}\small\item\em \doxylink{classgla_1_1_vertex_array}{Vertex\+Array} class to abstract the Open\+GL vertex array. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Namespaces}
+\begin{DoxyCompactItemize}
+\item 
+namespace \doxymbox{\hyperlink{namespacegla}{gla}}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum class \doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801}{gla::\+\+Vertex\+Attrib\+Type}} \{ \newline
+\doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801aa245c3230debe5c956484ecc6fa93877}{gla::\+\+Byte}}
+, \doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801a8f0fb883eb5a52838534191513e365a2}{gla::\+\+Unsigned\+Byte}}
+, \doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801a30bb747c98bccdd11b3f89e644c4d0ad}{gla::\+\+Short}}
+, \doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801aeb51124277f3ec904a9af74d5de34e7b}{gla::\+\+Unsigned\+Short}}
+, \newline
+\doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801a1686a6c336b71b36d77354cea19a8b52}{gla::\+\+Int}}
+, \doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801ac93cff91b6b9a57fa32bbe1863150070}{gla::\+\+Unsigned\+Int}}
+, \doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801ad35523d81610cee8b87cdac1853ad51f}{gla::\+\+Half\+Float}}
+, \doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801a22ae0e2b89e5e3d477f988cc36d3272b}{gla::\+\+Float}}
+, \newline
+\doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801ad909d38d705ce75386dd86e611a82f5b}{gla::\+\+Double}}
+, \doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801a4457d440870ad6d42bab9082d9bf9b61}{gla::\+\+Fixed}}
+ \}
+\item 
+enum class \doxymbox{\hyperlink{namespacegla_a34151dddf27744725eaf153f30a5c7a6}{gla::\+\+Vertex\+Attrib\+Interp}} \{ \doxymbox{\hyperlink{namespacegla_a34151dddf27744725eaf153f30a5c7a6a22ae0e2b89e5e3d477f988cc36d3272b}{gla::\+\+Float}}
+, \doxymbox{\hyperlink{namespacegla_a34151dddf27744725eaf153f30a5c7a6aa0faef0851b4294c06f2b94bb1cb2044}{gla::\+\+Integer}}
+ \}
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+unsigned int \doxymbox{\hyperlink{namespacegla_a34872b61a0bfbdab3b2b6d32f1e071fc}{gla::\+to\+GLenum}} (\doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801}{Vertex\+Attrib\+Type}} type)
+\begin{DoxyCompactList}\small\item\em Converts a \doxylink{namespacegla_a2a352da354cf3e19ca3d50d32811d801}{Vertex\+Attrib\+Type} into a GLenum. \end{DoxyCompactList}\item 
+bool \doxymbox{\hyperlink{namespacegla_a04224fa648564f5d2de7fb96b722c068}{gla::\+validate\+Type\+Interpretation}} (\doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801}{Vertex\+Attrib\+Type}} type, \doxymbox{\hyperlink{namespacegla_a34151dddf27744725eaf153f30a5c7a6}{Vertex\+Attrib\+Interp}} interp, std::\+string \&error)
+\begin{DoxyCompactList}\small\item\em Checks if the type and interpretation combination is valid. \end{DoxyCompactList}\item 
+int \doxymbox{\hyperlink{namespacegla_a25c53cb145acc908db39bbb79f634dc0}{gla::\+type\+To\+Bytes}} (\doxymbox{\hyperlink{namespacegla_a2a352da354cf3e19ca3d50d32811d801}{Vertex\+Attrib\+Type}} type)
+\begin{DoxyCompactList}\small\item\em Gets the size of the given type in bytes. \end{DoxyCompactList}\end{DoxyCompactItemize}

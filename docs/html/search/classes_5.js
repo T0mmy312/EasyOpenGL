@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['vertexbuffer_0',['VertexBuffer',['../dc/d63/classgla_1_1_vertex_buffer.html',1,'gla']]]
+  ['windowcontext_0',['WindowContext',['../d8/d3c/classgla_1_1_window_context.html',1,'gla']]]
 ];

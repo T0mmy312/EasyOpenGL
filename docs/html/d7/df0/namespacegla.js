@@ -3,13 +3,13 @@ var namespacegla =
     [ "Buffer", "d5/ddd/classgla_1_1_buffer.html", "d5/ddd/classgla_1_1_buffer" ],
     [ "ProgramLinkError", "dc/dff/classgla_1_1_program_link_error.html", "dc/dff/classgla_1_1_program_link_error" ],
     [ "ProgramValidateError", "d5/d11/classgla_1_1_program_validate_error.html", "d5/d11/classgla_1_1_program_validate_error" ],
-    [ "_uniformData", "d6/de4/structgla_1_1__uniform_data.html", "d6/de4/structgla_1_1__uniform_data" ],
+    [ "UniformData", "d2/d48/structgla_1_1_uniform_data.html", "d2/d48/structgla_1_1_uniform_data" ],
     [ "Program", "d0/dac/classgla_1_1_program.html", "d0/dac/classgla_1_1_program" ],
     [ "ShaderCompileError", "d8/d03/classgla_1_1_shader_compile_error.html", "d8/d03/classgla_1_1_shader_compile_error" ],
     [ "Shader", "d1/dc3/classgla_1_1_shader.html", "d1/dc3/classgla_1_1_shader" ],
-    [ "VertexBuffer", "dc/d63/classgla_1_1_vertex_buffer.html", null ],
+    [ "VertexAttribute", "d3/de5/structgla_1_1_vertex_attribute.html", "d3/de5/structgla_1_1_vertex_attribute" ],
+    [ "VertexArray", "d6/d49/classgla_1_1_vertex_array.html", "d6/d49/classgla_1_1_vertex_array" ],
     [ "WindowContext", "d8/d3c/classgla_1_1_window_context.html", "d8/d3c/classgla_1_1_window_context" ],
-    [ "UniformData", "d7/df0/namespacegla.html#acf6bf243ea77f0ae5acbb6fed2f7317e", null ],
     [ "BufferFlag", "d7/df0/namespacegla.html#a350bd3821a2aee5521c6872af830144d", [
       [ "None", "d7/df0/namespacegla.html#a350bd3821a2aee5521c6872af830144da6adf97f83acf6453d4a6a4b1070f3754", null ],
       [ "DynamicStorage", "d7/df0/namespacegla.html#a350bd3821a2aee5521c6872af830144da4a7fd22ec9dd772a4a534f5259e133f2", null ],
@@ -65,6 +65,22 @@ var namespacegla =
       [ "TessControl", "d7/df0/namespacegla.html#a0b120a09cab1e31bc4b42b97e9c3c49ea6c2ab859b54837522f9f738ef3bf846d", null ],
       [ "Compute", "d7/df0/namespacegla.html#a0b120a09cab1e31bc4b42b97e9c3c49eaa623a8d0366bf079411aa30be45b2d10", null ]
     ] ],
+    [ "VertexAttribInterp", "d7/df0/namespacegla.html#a34151dddf27744725eaf153f30a5c7a6", [
+      [ "Float", "d7/df0/namespacegla.html#a34151dddf27744725eaf153f30a5c7a6a22ae0e2b89e5e3d477f988cc36d3272b", null ],
+      [ "Integer", "d7/df0/namespacegla.html#a34151dddf27744725eaf153f30a5c7a6aa0faef0851b4294c06f2b94bb1cb2044", null ]
+    ] ],
+    [ "VertexAttribType", "d7/df0/namespacegla.html#a2a352da354cf3e19ca3d50d32811d801", [
+      [ "Byte", "d7/df0/namespacegla.html#a2a352da354cf3e19ca3d50d32811d801aa245c3230debe5c956484ecc6fa93877", null ],
+      [ "UnsignedByte", "d7/df0/namespacegla.html#a2a352da354cf3e19ca3d50d32811d801a8f0fb883eb5a52838534191513e365a2", null ],
+      [ "Short", "d7/df0/namespacegla.html#a2a352da354cf3e19ca3d50d32811d801a30bb747c98bccdd11b3f89e644c4d0ad", null ],
+      [ "UnsignedShort", "d7/df0/namespacegla.html#a2a352da354cf3e19ca3d50d32811d801aeb51124277f3ec904a9af74d5de34e7b", null ],
+      [ "Int", "d7/df0/namespacegla.html#a2a352da354cf3e19ca3d50d32811d801a1686a6c336b71b36d77354cea19a8b52", null ],
+      [ "UnsignedInt", "d7/df0/namespacegla.html#a2a352da354cf3e19ca3d50d32811d801ac93cff91b6b9a57fa32bbe1863150070", null ],
+      [ "HalfFloat", "d7/df0/namespacegla.html#a2a352da354cf3e19ca3d50d32811d801ad35523d81610cee8b87cdac1853ad51f", null ],
+      [ "Float", "d7/df0/namespacegla.html#a2a352da354cf3e19ca3d50d32811d801a22ae0e2b89e5e3d477f988cc36d3272b", null ],
+      [ "Double", "d7/df0/namespacegla.html#a2a352da354cf3e19ca3d50d32811d801ad909d38d705ce75386dd86e611a82f5b", null ],
+      [ "Fixed", "d7/df0/namespacegla.html#a2a352da354cf3e19ca3d50d32811d801a4457d440870ad6d42bab9082d9bf9b61", null ]
+    ] ],
     [ "glCheckError", "d7/df0/namespacegla.html#a776fa1ca8c6db42ad2ace3c425ae9466", null ],
     [ "glErrorString", "d7/df0/namespacegla.html#abcdac3b947f67c9ed54ceddb2ef9a63a", null ],
     [ "initGLFW", "d7/df0/namespacegla.html#a3bcbafb907ed85c4d0a347a33d2ef1e3", null ],
@@ -82,6 +98,9 @@ var namespacegla =
     [ "toGLenum", "d7/df0/namespacegla.html#a4b4bacba96f547896387fbba6d5898e3", null ],
     [ "toGLenum", "d7/df0/namespacegla.html#a6c392caaf616a9937dba0c8dd8f9b768", null ],
     [ "toGLenum", "d7/df0/namespacegla.html#a9a20bfdfb244ff5c4c81780624aaf724", null ],
+    [ "toGLenum", "d7/df0/namespacegla.html#a34872b61a0bfbdab3b2b6d32f1e071fc", null ],
+    [ "typeToBytes", "d7/df0/namespacegla.html#a25c53cb145acc908db39bbb79f634dc0", null ],
     [ "validateBufferFlag", "d7/df0/namespacegla.html#af502fa0e70fae632dc81f756820e783e", null ],
-    [ "validateMapUsage", "d7/df0/namespacegla.html#a1f8401457b01e0015a39ce292c68e05a", null ]
+    [ "validateMapUsage", "d7/df0/namespacegla.html#a1f8401457b01e0015a39ce292c68e05a", null ],
+    [ "validateTypeInterpretation", "d7/df0/namespacegla.html#a04224fa648564f5d2de7fb96b722c068", null ]
 ];
